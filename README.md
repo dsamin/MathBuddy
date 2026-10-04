@@ -2,7 +2,7 @@
 
 A proposed native iPad math app for children ages four to eight, initially centered on a five-year-old: beautiful pictures, hands-on math, meaningful animations and rewarding creative play.
 
-**Current stage: Phase 1 creative-direction review checkpoint.** Two pending art directions, a motion study and provisional contracts are available in the [sample gallery](assets/production/picnic-v1/review/index.html). Natural voice generation is blocked by unavailable credentials; ten exact audition requests are preserved. Native implementation and bulk pilot asset production remain future separately authorized phases.
+**Current stage: Phase 1 creative-direction review checkpoint.** Direction B has been selected by the user. Preserved samples, a motion study and provisional contracts are available in the [sample gallery](assets/production/picnic-v1/review/index.html). The [next steps and execution prompts](docs/plans/2026-10-03-direction-b-next-steps.md) keep asset production in separately reviewed batches. Natural voice generation is blocked by unavailable credentials; ten exact audition requests are preserved. Native implementation and bulk pilot asset production remain future separately authorized phases.
 
 ## Start with the review checkpoint
 

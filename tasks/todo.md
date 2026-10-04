@@ -1,4 +1,4 @@
-> Active session: authorized local baseline and Phase 1 direction samples only. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
+> Active session: Direction B selected; prepare bounded next-step prompts only. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
 
 # MathBuddy design review — 2026-10-03
 
@@ -130,3 +130,22 @@ The requested comparison is bounded to warm paper illustration versus clean soft
 
 ### Review results
 Two directions × two preserved takes are reviewable; take-02 repairs Finish contrast. Seven provisional motion/layer briefs/storyboard PDFs and normal/Reduced Motion 4.8-second studies were actually decoded and reviewed. Ten voice requests match the catalog; all ten recordings are missing because credentials are unavailable. Technical findings are separate from pending human art/listening/provider decisions. No native edits/builds, bulk pilot generation or Pebble changes occurred. See `docs/reviews/2026-10-03-phase1-checkpoint.md`.
+
+## 2026-10-03 — Direction B selection and next-step prompts
+
+Scope: record the user's selection of B and provide the next steps/prompts. This turn does not execute Phase 2 or generate more media.
+
+### Plan and acceptance checks
+- [x] Record B as selected by the user, with the actual reference hash; preserve all original samples.
+- [x] Keep character identity, individual asset, voice, motion and provider/rights decisions separate and pending.
+- [x] Review phase dependencies with a focused agent and propose bounded next batches.
+- [x] Prepare copy-ready prompts: five Pip poses; remaining world/branding; independent ten-take voice audition.
+- [x] Verify selection metadata, links, source hashes and the changed review gallery; confirm no new media/native changes.
+- [x] Inspect the diff and scan staged changes for secrets; save the documentation checkpoint with its hash reported in the final response.
+- [x] Prepare the recommended first prompt and remaining choices for presentation; stop without starting a new asset batch.
+
+### Pre-execution check-in
+The user's “Lets go b. Provide me the next steps and prompts” selects the rendering direction and asks for planning deliverables. Recommend the five aligned character poses before dependent world/branding. Voice audition remains independent and needs a configured provider. Prompt submission later authorizes only its named batch.
+
+### Review results
+See [Direction B next steps and session prompts](../docs/plans/2026-10-03-direction-b-next-steps.md). The package audit passes with the explicit ten-recording gap: 48 JSON files parsed, source/prompt hashes match and 31 gallery/listening links resolve. All 25 local Markdown links in the touched documents resolve. Gallery selection labels match the decision record. No media or native files changed since the Phase 1 checkpoint. Focused review confirmed requirement counts and stopping points; the voice prompt now explicitly requires pre-run cost/terms review and AI-voice disclosure.

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": "Phase 1",
-  "status": "pending-human-review",
+  "status": "direction-b-selected-other-reviews-pending",
   "production_selected": false,
   "decisions": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "kind": "art-direction",
-      "status": "pending",
-      "reviewer": null,
-      "date": null,
-      "selected_artifact": null,
-      "notes": "Recommend clean soft-shape B for math separation; user selection remains pending."
+      "status": "selected",
+      "reviewer": "user",
+      "date": "2026-10-03",
+      "selected_artifact": "masters/images/DIRECTION-B/take-02/board.png",
+      "notes": "User selected B in the next-step planning turn. This approves the visual direction only; individual assets, identity details and final layers remain pending."
     },
     {
       "kind": "character-identity",

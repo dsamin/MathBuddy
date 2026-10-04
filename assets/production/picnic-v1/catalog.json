@@ -1,6 +1,6 @@
 {
   "schema_version": "phase1-samples-v1",
-  "status": "pending-human-review-voice-takes-missing",
+  "status": "direction-b-selected-production-assets-pending-voice-takes-missing",
   "planning_inventory_is_not_complete": true,
   "working_concept": "Pip’s Picnic",
   "records": [
@@ -88,5 +88,6 @@
   "voice_take_gap": 10,
   "delivery_manifest": null,
   "human_decisions": "metadata/review-decisions.json",
-  "technical_validation": "metadata/validation.json"
+  "technical_validation": "metadata/validation.json",
+  "visual_direction_selection": "metadata/direction-selection.json"
 }

@@ -1,6 +1,6 @@
 {
   "status": "technical-audit-pass-with-explicit-voice-gap",
-  "json_files_parsed": 47,
+  "json_files_parsed": 48,
   "decoded_images": [
     {
       "path": "masters/images/DIRECTION-A/take-01/board.png",
@@ -600,7 +600,7 @@
   "voice_requests_exact": 10,
   "actual_audio_recordings": 0,
   "actual_audio_wording": "not-checkable-no-recordings",
-  "all_human_decisions": "pending",
+  "human_decisions": "Direction B selected; other decisions pending",
   "approved_delivery_exists": false,
   "baseline_native_and_experiments_unchanged": true,
   "visual_quantity_review": "manual inspection recorded separately; not inferred from file existence",

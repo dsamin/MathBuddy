@@ -108,7 +108,21 @@ for p in PACK.rglob('*.html'):
 assert not (PACK / 'delivery').exists()
 decisions = read(PACK / 'metadata/review-decisions.json')
 assert not decisions['production_selected']
-assert all(d['status'] == 'pending' and d['reviewer'] is None for d in decisions['decisions'])
+selection_path = PACK / 'metadata/direction-selection.json'
+if selection_path.exists():
+    selection = read(selection_path)
+    selected = [d for d in decisions['decisions'] if d['status'] == 'selected']
+    assert len(selected) == 1 and selected[0]['kind'] == 'art-direction'
+    assert selection['status'] == 'selected-by-user' and selection['reviewer'] == 'user'
+    assert selection['artifact'] == 'masters/images/DIRECTION-B/take-02/board.png'
+    assert sha(PACK / selection['artifact']) == selection['sha256']
+for decision in decisions['decisions']:
+    if decision['kind'] == 'art-direction' and decision['status'] == 'selected':
+        assert decision['reviewer'] == 'user'
+        assert decision['selected_artifact'] == 'masters/images/DIRECTION-B/take-02/board.png'
+        assert selection_path.exists()
+    else:
+        assert decision['status'] == 'pending' and decision['reviewer'] is None
 boundary = subprocess.run(['git', 'diff', '18b36ed', '--', 'MathBuddy/', 'MathBuddy.xcodeproj/',
                            'project.yml', 'mockups/', 'assets/audio/', 'docs/experiments/'],
                           cwd=ROOT, check=True, capture_output=True, text=True)
@@ -117,7 +131,7 @@ report = {'status': 'technical-audit-pass-with-explicit-voice-gap', 'json_files_
           'decoded_images': images, 'image_sources_and_prompts_hash_match': True,
           'motion_contracts': motion, 'videos': videos, 'html_local_links_resolve': link_count,
           'voice_requests_exact': 10, 'actual_audio_recordings': 0, 'actual_audio_wording': 'not-checkable-no-recordings',
-          'all_human_decisions': 'pending', 'approved_delivery_exists': False,
+          'human_decisions': 'Direction B selected; other decisions pending' if any(d['status'] == 'selected' for d in decisions['decisions']) else 'all pending', 'approved_delivery_exists': False,
           'baseline_native_and_experiments_unchanged': True,
           'visual_quantity_review': 'manual inspection recorded separately; not inferred from file existence',
           'motion_geometry_review': 'see motion/review/technical-measurements.json; native behavior not tested'}

@@ -1,4 +1,4 @@
-# Phase 1 — pending creative-direction samples
+# Phase 1 — Direction B selected; remaining reviews pending
 
 October 3, 2026. Pip’s Picnic remains a working concept. This is the explicitly authorized small direction comparison, with a named voice-generation gap. No production baseline or entire roadmap phase is approved by this checkpoint.
 
@@ -13,7 +13,7 @@ October 3, 2026. Pip’s Picnic remains a working concept. This is the explicitl
 
 Both boards contain attentive/pleased character samples, count-three from five in landscape/portrait, garden pinwheel/free flower/Finish in both orientations, and a matching five-from-six visibility inset. The reference card is separate from working objects and gives a sound-off quantity goal. The stress inset does not expand the native Phase 3 scope.
 
-Working recommendation: B, because its simpler scenery gives clearer separation around the berries. A has more paper warmth. Theme, rabbit identity, ear flexibility, composition and motion remain human decisions. No direction is selected for production.
+The user selected **B — clean soft shapes** for the next asset batches. The [selection record](metadata/direction-selection.json) pins take-02 and its hash. Individual production assets, final identity/ear treatment, naming, composition and motion remain pending. A and every original take are preserved. See [next steps and copy-ready prompts](../../../docs/plans/2026-10-03-direction-b-next-steps.md).
 
 To reopen the local gallery from the repository root:
 
@@ -37,6 +37,6 @@ Technical inspection checks visible quantities, object/reference separation, ima
 
 The comparison sheets use illustrative portrait/landscape reflow, not the content catalog’s final normalized slot geometry. Their portrait 3+2 source grouping is a style sample; the planned 2-column portrait slot recipe remains provisional for later composition review. UI text/controls must be authored natively, rather than carried as baked board pixels. Replay’s circular arrow needs a clearer playback symbol/label in the selected design.
 
-No `delivery/manifest.reviewed.json` exists because nothing is approved. The 196 logical requirements, 24 variants and 101 voice scripts remain planning inventory. Existing experiments are unchanged and unapproved. No native source/project edit, app build, bulk pilot production or Pebble change occurred.
+No `delivery/manifest.reviewed.json` exists because individual production exports are still pending review. B is selected as the rendering direction. The 196 logical requirements, 24 variants and 101 voice scripts remain planning inventory. Existing experiments are unchanged and unapproved. No native source/project edit, app build, bulk pilot production or Pebble change occurred.
 
-Stop here: select/revise the art direction and resolve the natural voice audition capability before separately approving the next asset batch.
+The direction selection is recorded. The next batch and voice capability still need their own explicit execution request; this planning turn does not generate them.

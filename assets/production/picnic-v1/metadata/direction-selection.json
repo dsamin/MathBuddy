@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "decision": "visual-direction",
+  "status": "selected-by-user",
+  "direction": "B — clean soft-shape storybook",
+  "artifact": "masters/images/DIRECTION-B/take-02/board.png",
+  "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+  "reviewer": "user",
+  "recorded_at_utc": "2026-10-04T06:21:19.089245+00:00",
+  "local_decision_date": "2026-10-03",
+  "source": "Direct user message: Lets go b. Provide me the next steps and prompts",
+  "scope": "Select visual rendering direction for future asset batches. This turn prepares next-step prompts only.",
+  "not_approved_by_this_selection": [
+    "final Pip identity and ear geometry",
+    "final app/chapter name",
+    "each future production asset or layered export",
+    "motion/native behavior",
+    "voice/wording/listening/provider rights",
+    "execution of Phase 2 or native implementation"
+  ],
+  "recommended_identity_refinement": "Keep ear geometry consistent across the five aligned poses; propose this in the next character batch, with human identity review pending."
+}

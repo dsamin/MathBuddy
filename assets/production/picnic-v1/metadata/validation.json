@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "status": "review-samples-with-voice-generation-gap",
-  "human_approval": "pending",
+  "human_approval": "Direction B selected by user; all other review categories pending",
   "baseline_commit": "18b36ed4e1ad7264520af349e6a55bb3b3daafe8",
   "scope": "Phase 1 only; no full pilot asset pack or native implementation",
   "technical": {
@@ -61,7 +61,7 @@
     "child comprehension or efficacy",
     "full 196 requirement completion"
   ],
-  "recommended_next_decision": "Review/select Direction B or request a targeted revision, then resolve natural voice audition capability before the next separately authorized asset batch.",
+  "recommended_next_decision": "Review the proposed five-pose Pip identity batch, then separately authorize the remaining Phase 2A world/branding batch; finish voice audition when configured.",
   "gallery_browser_check": {
     "browser": "local in-app browser",
     "viewport": [
@@ -89,5 +89,6 @@
     "largest_file_bytes": 2512077,
     "files_above_20MB": 0,
     "git_lfs_needed_for_current_samples": false
-  }
+  },
+  "visual_direction_selection": "direction-selection.json"
 }
