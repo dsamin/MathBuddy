@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "batch": "Phase 2A character-only PIP-01..05",
+  "status": "technical-review-complete-human-approval-pending",
+  "working_concept": "Pip’s Picnic; provisional",
+  "authorized_scope": "Direct user authorizes bounded five-pose image generation and local Git checkpoint",
+  "identity_refinement": {
+    "status": "proposed-pending-human-review",
+    "proposal": "Use attentive-reference unbent rounded ears across every emotion: viewer-left splayed and viewer-right upright, coral insets",
+    "approved": false
+  },
+  "technical_review": {
+    "decoded_originals": 5,
+    "decoded_aligned_candidates": 5,
+    "canvas_and_alpha": "1536x1536 RGBA with genuine zero/partial/opaque alpha; clean canvas edges",
+    "core_height_px": [
+      1180,
+      1181,
+      1180,
+      1180,
+      1180
+    ],
+    "visible_core_baseline_row": 1382,
+    "anchor_normalized": [
+      0.5,
+      0.9
+    ],
+    "geometric_anchor_px": [
+      768,
+      1382.4
+    ],
+    "max_foot_center_error_px": 0.5,
+    "safe_box_fit_all": true,
+    "measurements": "metadata/pip-alignment-measurements.json",
+    "recipe": "metadata/pip-alignment-recipe.py",
+    "original_sha256_preserved": true,
+    "reproducibility": "All10PNG original/export hashes preserved; recipe --check reproduced exports and all5 review sheets byte-for-byte",
+    "visual_inspection": [
+      "Five poses together",
+      "Decoded light/dark alpha composites",
+      "100percent ear and scarf details",
+      "256/128/64pixel-canvas previews",
+      "Safe box/foot anchor diagnostics"
+    ],
+    "visual_findings": "Consistent cream body, coral face/ear details, green scarf and unbent ears; two forepaws/two feet with no duplicate anatomy; supportive-thinking reads calmly curious; pleased grounded; farewell warm. No asset crop, text, conspicuous matte halo or disconnected significant-alpha island found.",
+    "independent_review": {
+      "reviewer_kind": "focused AI review agent, not human approver",
+      "review_method": "Actual view_image inspection of five pose/alpha/small/detail/registration sheets and recipe/measurements",
+      "mandatory_repairs": [],
+      "recommendation": "Present all five as one coherent identity candidate for human keep/revise decision",
+      "notes": "Common canvas/height/feet do not establish internal landmark pixel matching or clean native crossfades."
+    }
+  },
+  "limitations": [
+    "Provider exposes no model version, seed, generation cost or editable layered source.",
+    "Generated originals are1254x1254, not requested1536x1536; review canvases use about6.3–7.4percent uniform upsampling and padding, adding no source detail.",
+    "Original low-alpha dust retained; derived finishing removes alpha1 plus distant low-alpha pixels under the recorded4-source-pixel rule; maximum removed alpha2–5.",
+    "Alpha>=32 core baseline is1382; nonzero antialias extends to1385–1387. Geometric ground y1382.4 and integer foot-center rounding are explicitly separate.",
+    "Anchor is midpoint of bottom4percent silhouette band, not an anatomical rig joint. Pose silhouettes and internal contours differ slightly; no motion or crossfade test performed.",
+    "128pixel canvas retains rabbit/scarf/gesture but fine expressions are subtle;64pixel canvas does not reliably distinguish welcome/thinking/pleased.",
+    "Pixel previews do not prove physical iPad size, touch, native motion, accessibility or child usability.",
+    "Five flattened transparent whole-character stills only. No articulated rig, sprite sequence, separate editable body/ear/scarf layers or M07 character-shadow layer delivered."
+  ],
+  "human_reviews": {
+    "identity": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null
+    },
+    "art": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null
+    },
+    "content": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null
+    },
+    "provider_rights": {
+      "status": "pending",
+      "reviewer": null,
+      "date": null
+    }
+  },
+  "production_selected": false,
+  "selectedTake": null,
+  "rejected_takes": [],
+  "takes_per_asset": 1,
+  "sheet": "review/contact-sheets/pip-five-poses.png",
+  "small_size_sheet": "review/contact-sheets/pip-small-size.png",
+  "alpha_sheet": "review/contact-sheets/pip-alpha-light-dark.png",
+  "next_human_decision": "Keep or revise this face/body/scarf and fixed attentive-reference ear construction across all five before dependent world/branding work.",
+  "stopping_point": "Character review only; no other media, later phase, native modification/build or Pebble work."
+}

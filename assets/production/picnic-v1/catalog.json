@@ -1,6 +1,6 @@
 {
-  "schema_version": "phase1-samples-v1",
-  "status": "direction-b-selected-production-assets-pending-voice-takes-missing",
+  "schema_version": "phase1-and-character-review-v1",
+  "status": "direction-b-selected-five-character-candidates-pending-human-review-voice-takes-missing",
   "planning_inventory_is_not_complete": true,
   "working_concept": "Pip’s Picnic",
   "records": [
@@ -81,6 +81,516 @@
       "brief": "motion/M07/brief.json",
       "storyboard": "motion/M07/storyboard.pdf",
       "production_selected": false
+    },
+    {
+      "id": "PIP-01",
+      "version": 1,
+      "kind": "transparent-character-still-review-candidate",
+      "status": "pending-human-review",
+      "selectedTake": null,
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "featureIDs": [
+        "F01",
+        "F05",
+        "F08"
+      ],
+      "sceneIDs": [
+        "home",
+        "activity",
+        "help",
+        "success",
+        "goodbye"
+      ],
+      "role": "decorative-supporting-character",
+      "dependencies": [
+        "PHASE1-DIRECTION-B",
+        "M04",
+        "M05",
+        "M07"
+      ],
+      "sourcePaths": [
+        "masters/images/PIP-01/take-01/original.png",
+        "masters/images/PIP-01/take-01/provenance.json"
+      ],
+      "exportPaths": [
+        "masters/images/PIP-01/take-01/aligned-review.png"
+      ],
+      "layerAnchors": {
+        "whole-pose": {
+          "coordinate_system": "1536x1536 top-left pixels; normalized top-left",
+          "anchor_px": [
+            768,
+            1382.4
+          ],
+          "anchor_normalized": [
+            0.5,
+            0.9
+          ],
+          "visible_core_baseline_row": 1382,
+          "safe_box_exclusive_px": [
+            154,
+            154,
+            1382,
+            1414
+          ],
+          "is_articulated_joint": false
+        }
+      },
+      "exactPromptOrTranscript": {
+        "path": "prompts/pip-01-take-01.txt",
+        "sha256": "0beb05b33852504e4514e468c78521324cacc7653ed08ce34ca72240841b2892"
+      },
+      "exactRequest": {
+        "path": "prompts/pip-01-take-01.request.json",
+        "sha256": "368257d58c0e376f79d3088666457d65a246ca07a3639647a358d5b3deab646e"
+      },
+      "providerModelVoiceOrSource": {
+        "provider": "OpenAI built-in image_gen.imagegen",
+        "model": "not exposed by tool",
+        "seed": "not exposed by tool",
+        "source": "masters/images/PIP-01/take-01/original.png"
+      },
+      "rightsDecision": "pending",
+      "technicalReview": {
+        "status": "pass-with-disclosed-limitations",
+        "evidence": "metadata/pip-character-review.json",
+        "measurements": "metadata/pip-alignment-measurements.json"
+      },
+      "humanArtReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanIdentityReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanContentReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanListeningReview": {
+        "status": "not-applicable",
+        "reviewer": null,
+        "date": null
+      },
+      "replacementOf": null,
+      "decisionNotes": [
+        "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
+        "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
+      ]
+    },
+    {
+      "id": "PIP-02",
+      "version": 1,
+      "kind": "transparent-character-still-review-candidate",
+      "status": "pending-human-review",
+      "selectedTake": null,
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "featureIDs": [
+        "F01",
+        "F05",
+        "F08"
+      ],
+      "sceneIDs": [
+        "home",
+        "activity",
+        "help",
+        "success",
+        "goodbye"
+      ],
+      "role": "decorative-supporting-character",
+      "dependencies": [
+        "PHASE1-DIRECTION-B",
+        "M04",
+        "M05",
+        "M07"
+      ],
+      "sourcePaths": [
+        "masters/images/PIP-02/take-01/original.png",
+        "masters/images/PIP-02/take-01/provenance.json"
+      ],
+      "exportPaths": [
+        "masters/images/PIP-02/take-01/aligned-review.png"
+      ],
+      "layerAnchors": {
+        "whole-pose": {
+          "coordinate_system": "1536x1536 top-left pixels; normalized top-left",
+          "anchor_px": [
+            768,
+            1382.4
+          ],
+          "anchor_normalized": [
+            0.5,
+            0.9
+          ],
+          "visible_core_baseline_row": 1382,
+          "safe_box_exclusive_px": [
+            154,
+            154,
+            1382,
+            1414
+          ],
+          "is_articulated_joint": false
+        }
+      },
+      "exactPromptOrTranscript": {
+        "path": "prompts/pip-02-take-01.txt",
+        "sha256": "6a045898990bb400c7fcf0f8d15d09d3127191785b8f5226ffb5a64277e149ec"
+      },
+      "exactRequest": {
+        "path": "prompts/pip-02-take-01.request.json",
+        "sha256": "1061467b7cf3fd19ac560584fa1c1cdf085b98f1a05d52e9f29e13a7d9cee07f"
+      },
+      "providerModelVoiceOrSource": {
+        "provider": "OpenAI built-in image_gen.imagegen",
+        "model": "not exposed by tool",
+        "seed": "not exposed by tool",
+        "source": "masters/images/PIP-02/take-01/original.png"
+      },
+      "rightsDecision": "pending",
+      "technicalReview": {
+        "status": "pass-with-disclosed-limitations",
+        "evidence": "metadata/pip-character-review.json",
+        "measurements": "metadata/pip-alignment-measurements.json"
+      },
+      "humanArtReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanIdentityReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanContentReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanListeningReview": {
+        "status": "not-applicable",
+        "reviewer": null,
+        "date": null
+      },
+      "replacementOf": null,
+      "decisionNotes": [
+        "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
+        "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
+      ]
+    },
+    {
+      "id": "PIP-03",
+      "version": 1,
+      "kind": "transparent-character-still-review-candidate",
+      "status": "pending-human-review",
+      "selectedTake": null,
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "featureIDs": [
+        "F01",
+        "F05",
+        "F08"
+      ],
+      "sceneIDs": [
+        "home",
+        "activity",
+        "help",
+        "success",
+        "goodbye"
+      ],
+      "role": "decorative-supporting-character",
+      "dependencies": [
+        "PHASE1-DIRECTION-B",
+        "M04",
+        "M05",
+        "M07"
+      ],
+      "sourcePaths": [
+        "masters/images/PIP-03/take-01/original.png",
+        "masters/images/PIP-03/take-01/provenance.json"
+      ],
+      "exportPaths": [
+        "masters/images/PIP-03/take-01/aligned-review.png"
+      ],
+      "layerAnchors": {
+        "whole-pose": {
+          "coordinate_system": "1536x1536 top-left pixels; normalized top-left",
+          "anchor_px": [
+            768,
+            1382.4
+          ],
+          "anchor_normalized": [
+            0.5,
+            0.9
+          ],
+          "visible_core_baseline_row": 1382,
+          "safe_box_exclusive_px": [
+            154,
+            154,
+            1382,
+            1414
+          ],
+          "is_articulated_joint": false
+        }
+      },
+      "exactPromptOrTranscript": {
+        "path": "prompts/pip-03-take-01.txt",
+        "sha256": "0e6f8c0bb91954aa8132ada92983814bf2ca74f477a8e6c557b5ed2009bd02a8"
+      },
+      "exactRequest": {
+        "path": "prompts/pip-03-take-01.request.json",
+        "sha256": "86de32a24545aac3fed54278cb32d97ab011cfb83e44a72f7e0a03e63fb9d558"
+      },
+      "providerModelVoiceOrSource": {
+        "provider": "OpenAI built-in image_gen.imagegen",
+        "model": "not exposed by tool",
+        "seed": "not exposed by tool",
+        "source": "masters/images/PIP-03/take-01/original.png"
+      },
+      "rightsDecision": "pending",
+      "technicalReview": {
+        "status": "pass-with-disclosed-limitations",
+        "evidence": "metadata/pip-character-review.json",
+        "measurements": "metadata/pip-alignment-measurements.json"
+      },
+      "humanArtReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanIdentityReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanContentReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanListeningReview": {
+        "status": "not-applicable",
+        "reviewer": null,
+        "date": null
+      },
+      "replacementOf": null,
+      "decisionNotes": [
+        "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
+        "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
+      ]
+    },
+    {
+      "id": "PIP-04",
+      "version": 1,
+      "kind": "transparent-character-still-review-candidate",
+      "status": "pending-human-review",
+      "selectedTake": null,
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "featureIDs": [
+        "F01",
+        "F05",
+        "F08"
+      ],
+      "sceneIDs": [
+        "home",
+        "activity",
+        "help",
+        "success",
+        "goodbye"
+      ],
+      "role": "decorative-supporting-character",
+      "dependencies": [
+        "PHASE1-DIRECTION-B",
+        "M04",
+        "M05",
+        "M07"
+      ],
+      "sourcePaths": [
+        "masters/images/PIP-04/take-01/original.png",
+        "masters/images/PIP-04/take-01/provenance.json"
+      ],
+      "exportPaths": [
+        "masters/images/PIP-04/take-01/aligned-review.png"
+      ],
+      "layerAnchors": {
+        "whole-pose": {
+          "coordinate_system": "1536x1536 top-left pixels; normalized top-left",
+          "anchor_px": [
+            768,
+            1382.4
+          ],
+          "anchor_normalized": [
+            0.5,
+            0.9
+          ],
+          "visible_core_baseline_row": 1382,
+          "safe_box_exclusive_px": [
+            154,
+            154,
+            1382,
+            1414
+          ],
+          "is_articulated_joint": false
+        }
+      },
+      "exactPromptOrTranscript": {
+        "path": "prompts/pip-04-take-01.txt",
+        "sha256": "a1e8bc55cbff9035866c328a00293e66299bcf0edaadd0c1cf00a28bc8ad0412"
+      },
+      "exactRequest": {
+        "path": "prompts/pip-04-take-01.request.json",
+        "sha256": "66a7bb9da64548ce4a769c18e9ef1de0cc4a730482daba1ece8d70ece8144b68"
+      },
+      "providerModelVoiceOrSource": {
+        "provider": "OpenAI built-in image_gen.imagegen",
+        "model": "not exposed by tool",
+        "seed": "not exposed by tool",
+        "source": "masters/images/PIP-04/take-01/original.png"
+      },
+      "rightsDecision": "pending",
+      "technicalReview": {
+        "status": "pass-with-disclosed-limitations",
+        "evidence": "metadata/pip-character-review.json",
+        "measurements": "metadata/pip-alignment-measurements.json"
+      },
+      "humanArtReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanIdentityReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanContentReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanListeningReview": {
+        "status": "not-applicable",
+        "reviewer": null,
+        "date": null
+      },
+      "replacementOf": null,
+      "decisionNotes": [
+        "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
+        "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
+      ]
+    },
+    {
+      "id": "PIP-05",
+      "version": 1,
+      "kind": "transparent-character-still-review-candidate",
+      "status": "pending-human-review",
+      "selectedTake": null,
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "featureIDs": [
+        "F01",
+        "F05",
+        "F08"
+      ],
+      "sceneIDs": [
+        "home",
+        "activity",
+        "help",
+        "success",
+        "goodbye"
+      ],
+      "role": "decorative-supporting-character",
+      "dependencies": [
+        "PHASE1-DIRECTION-B",
+        "M04",
+        "M05",
+        "M07"
+      ],
+      "sourcePaths": [
+        "masters/images/PIP-05/take-01/original.png",
+        "masters/images/PIP-05/take-01/provenance.json"
+      ],
+      "exportPaths": [
+        "masters/images/PIP-05/take-01/aligned-review.png"
+      ],
+      "layerAnchors": {
+        "whole-pose": {
+          "coordinate_system": "1536x1536 top-left pixels; normalized top-left",
+          "anchor_px": [
+            768,
+            1382.4
+          ],
+          "anchor_normalized": [
+            0.5,
+            0.9
+          ],
+          "visible_core_baseline_row": 1382,
+          "safe_box_exclusive_px": [
+            154,
+            154,
+            1382,
+            1414
+          ],
+          "is_articulated_joint": false
+        }
+      },
+      "exactPromptOrTranscript": {
+        "path": "prompts/pip-05-take-01.txt",
+        "sha256": "da58b266a8fc51c122cd01ab37c85e5db451bd257f2fb30a0e065db6ec7c471e"
+      },
+      "exactRequest": {
+        "path": "prompts/pip-05-take-01.request.json",
+        "sha256": "f25dc82ea8a6d43ec8ec24ee260f300353f66f61777fd14091363814c2c584d2"
+      },
+      "providerModelVoiceOrSource": {
+        "provider": "OpenAI built-in image_gen.imagegen",
+        "model": "not exposed by tool",
+        "seed": "not exposed by tool",
+        "source": "masters/images/PIP-05/take-01/original.png"
+      },
+      "rightsDecision": "pending",
+      "technicalReview": {
+        "status": "pass-with-disclosed-limitations",
+        "evidence": "metadata/pip-character-review.json",
+        "measurements": "metadata/pip-alignment-measurements.json"
+      },
+      "humanArtReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanIdentityReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanContentReview": {
+        "status": "pending",
+        "reviewer": null,
+        "date": null
+      },
+      "humanListeningReview": {
+        "status": "not-applicable",
+        "reviewer": null,
+        "date": null
+      },
+      "replacementOf": null,
+      "decisionNotes": [
+        "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
+        "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
+      ]
     }
   ],
   "voice_requests": "requests/voice/request-manifest.json",
@@ -89,5 +599,7 @@
   "delivery_manifest": null,
   "human_decisions": "metadata/review-decisions.json",
   "technical_validation": "metadata/validation.json",
-  "visual_direction_selection": "metadata/direction-selection.json"
+  "visual_direction_selection": "metadata/direction-selection.json",
+  "character_review": "metadata/pip-character-review.json",
+  "character_alignment": "metadata/pip-alignment-measurements.json"
 }

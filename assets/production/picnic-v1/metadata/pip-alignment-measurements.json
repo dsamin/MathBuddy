@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "scope": "PIP-01..05 review batch only",
+  "recipe": "metadata/pip-alignment-recipe.py",
+  "recipe_sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c",
+  "dependencies": {
+    "python": "3.11.7",
+    "pillow": "12.1.1",
+    "numpy": "1.24.3",
+    "scipy": "1.11.1"
+  },
+  "coordinates": "top-left origin; pixel rows integer; bounds right/bottom exclusive",
+  "common_canvas_px": [
+    1536,
+    1536
+  ],
+  "common_mode": "RGBA",
+  "common_core_character_height_px": 1180,
+  "core_height_rounding_tolerance_px": 1,
+  "core_definition": "alpha >=32; excludes only low-opacity edge fringe",
+  "common_safe_box_exclusive_px": [
+    154,
+    154,
+    1382,
+    1414
+  ],
+  "common_anchor_normalized": [
+    0.5,
+    0.9
+  ],
+  "common_geometric_anchor_px": [
+    768,
+    1382.4
+  ],
+  "common_raster_foot_baseline_row": 1382,
+  "max_foot_center_rounding_error_px": 0.5,
+  "alpha_finishing": "Preserve original; export zeroes alpha=1 and low-alpha pixels more than four source pixels from main alpha>=32 silhouette. RGB only zeroed when alpha zero. No repaint, matte extraction, artistic warp or color adjustment.",
+  "resampling": "Pillow LANCZOS in premultiplied RGBa; uniform scale then integer translation into transparent canvas",
+  "reproduction_command": "python3 assets/production/picnic-v1/metadata/pip-alignment-recipe.py --check",
+  "status": "technical-registration-pass-human-approval-pending",
+  "human_approval": false,
+  "records": [
+    {
+      "id": "PIP-01",
+      "pose": "Idle welcome",
+      "take": "take-01",
+      "source": "masters/images/PIP-01/take-01/original.png",
+      "source_sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3",
+      "source_mode": "RGBA",
+      "source_canvas_px": [
+        1254,
+        1254
+      ],
+      "source_alpha_bounds_nonzero_exclusive": [
+        91,
+        21,
+        1210,
+        1222
+      ],
+      "source_core_bounds_alpha_ge_32_exclusive": [
+        340,
+        86,
+        899,
+        1190
+      ],
+      "source_quantization_dust_alpha_1_pixels": 5725,
+      "source_low_alpha_pixels_removed": 5774,
+      "source_max_alpha_removed": 2,
+      "export": "masters/images/PIP-01/take-01/aligned-review.png",
+      "export_sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198",
+      "export_canvas_px": [
+        1536,
+        1536
+      ],
+      "export_mode": "RGBA",
+      "uniform_scale_nominal": 1.068840579710145,
+      "resampled_size_px": [
+        1340,
+        1340
+      ],
+      "rounded_scale_xy": [
+        1.0685805422647527,
+        1.0685805422647527
+      ],
+      "translation_px": [
+        54,
+        111
+      ],
+      "rotation_deg": 0,
+      "alpha_bounds_nonzero_exclusive": [
+        415,
+        200,
+        1017,
+        1386
+      ],
+      "core_bounds_alpha_ge_32_exclusive": [
+        417,
+        203,
+        1015,
+        1383
+      ],
+      "core_height_px": 1180,
+      "foot_band_bounds_alpha_ge_32_exclusive": [
+        568,
+        1336,
+        967,
+        1383
+      ],
+      "foot_center_x_px": 767.5,
+      "foot_anchor_x_error_px": -0.5,
+      "visible_core_foot_baseline_row": 1382,
+      "outer_antialias_last_row": 1385,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1924641,
+      "partial_alpha_pixels": 432892,
+      "opaque_pixels": 1763,
+      "significant_alpha_components": 1,
+      "safe_box_fit": true,
+      "canvas_edge_alpha_pixels": 0,
+      "technical_registration": "pass",
+      "human_art_identity_review": "pending"
+    },
+    {
+      "id": "PIP-02",
+      "pose": "Attentive pointing",
+      "take": "take-01",
+      "source": "masters/images/PIP-02/take-01/original.png",
+      "source_sha256": "74b4fa05191c19937cdee9a37b4988ae7625fbfa85c14223d99307485e496e0f",
+      "source_mode": "RGBA",
+      "source_canvas_px": [
+        1254,
+        1254
+      ],
+      "source_alpha_bounds_nonzero_exclusive": [
+        65,
+        21,
+        1216,
+        1254
+      ],
+      "source_core_bounds_alpha_ge_32_exclusive": [
+        319,
+        88,
+        991,
+        1189
+      ],
+      "source_quantization_dust_alpha_1_pixels": 9017,
+      "source_low_alpha_pixels_removed": 9202,
+      "source_max_alpha_removed": 5,
+      "export": "masters/images/PIP-02/take-01/aligned-review.png",
+      "export_sha256": "7ca4113046ee9fa453e9567ca2e724b9f92e95cb0655890a25861a01f83cf918",
+      "export_canvas_px": [
+        1536,
+        1536
+      ],
+      "export_mode": "RGBA",
+      "uniform_scale_nominal": 1.0717529518619437,
+      "resampled_size_px": [
+        1344,
+        1344
+      ],
+      "rounded_scale_xy": [
+        1.0717703349282297,
+        1.0717703349282297
+      ],
+      "translation_px": [
+        61,
+        108
+      ],
+      "rotation_deg": 0,
+      "alpha_bounds_nonzero_exclusive": [
+        400,
+        199,
+        1126,
+        1386
+      ],
+      "core_bounds_alpha_ge_32_exclusive": [
+        403,
+        202,
+        1123,
+        1383
+      ],
+      "core_height_px": 1181,
+      "foot_band_bounds_alpha_ge_32_exclusive": [
+        568,
+        1336,
+        968,
+        1383
+      ],
+      "foot_center_x_px": 768.0,
+      "foot_anchor_x_error_px": 0.0,
+      "visible_core_foot_baseline_row": 1382,
+      "outer_antialias_last_row": 1385,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1906895,
+      "partial_alpha_pixels": 450530,
+      "opaque_pixels": 1871,
+      "significant_alpha_components": 1,
+      "safe_box_fit": true,
+      "canvas_edge_alpha_pixels": 0,
+      "technical_registration": "pass",
+      "human_art_identity_review": "pending"
+    },
+    {
+      "id": "PIP-03",
+      "pose": "Supportive thinking",
+      "take": "take-01",
+      "source": "masters/images/PIP-03/take-01/original.png",
+      "source_sha256": "605f3abb758db2da16bc71909ad8c4874c85d092405d84ead94f5fd8bebe624f",
+      "source_mode": "RGBA",
+      "source_canvas_px": [
+        1254,
+        1254
+      ],
+      "source_alpha_bounds_nonzero_exclusive": [
+        89,
+        21,
+        1210,
+        1254
+      ],
+      "source_core_bounds_alpha_ge_32_exclusive": [
+        331,
+        81,
+        909,
+        1191
+      ],
+      "source_quantization_dust_alpha_1_pixels": 8078,
+      "source_low_alpha_pixels_removed": 8196,
+      "source_max_alpha_removed": 3,
+      "export": "masters/images/PIP-03/take-01/aligned-review.png",
+      "export_sha256": "a3b65be9970721c7c6619580ded6b4ec24cb15016d22bdabef21b13d96b92e63",
+      "export_canvas_px": [
+        1536,
+        1536
+      ],
+      "export_mode": "RGBA",
+      "uniform_scale_nominal": 1.063063063063063,
+      "resampled_size_px": [
+        1333,
+        1333
+      ],
+      "rounded_scale_xy": [
+        1.0629984051036683,
+        1.0629984051036683
+      ],
+      "translation_px": [
+        58,
+        117
+      ],
+      "rotation_deg": 0,
+      "alpha_bounds_nonzero_exclusive": [
+        407,
+        201,
+        1028,
+        1387
+      ],
+      "core_bounds_alpha_ge_32_exclusive": [
+        410,
+        203,
+        1024,
+        1383
+      ],
+      "core_height_px": 1180,
+      "foot_band_bounds_alpha_ge_32_exclusive": [
+        567,
+        1336,
+        970,
+        1383
+      ],
+      "foot_center_x_px": 768.5,
+      "foot_anchor_x_error_px": 0.5,
+      "visible_core_foot_baseline_row": 1382,
+      "outer_antialias_last_row": 1386,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1907665,
+      "partial_alpha_pixels": 450309,
+      "opaque_pixels": 1322,
+      "significant_alpha_components": 1,
+      "safe_box_fit": true,
+      "canvas_edge_alpha_pixels": 0,
+      "technical_registration": "pass",
+      "human_art_identity_review": "pending"
+    },
+    {
+      "id": "PIP-04",
+      "pose": "Pleased",
+      "take": "take-01",
+      "source": "masters/images/PIP-04/take-01/original.png",
+      "source_sha256": "69177aa4f8808d4b95b5890cd675b7690e38278608c187da62fdf87712b223d6",
+      "source_mode": "RGBA",
+      "source_canvas_px": [
+        1254,
+        1254
+      ],
+      "source_alpha_bounds_nonzero_exclusive": [
+        57,
+        21,
+        1230,
+        1222
+      ],
+      "source_core_bounds_alpha_ge_32_exclusive": [
+        330,
+        86,
+        906,
+        1185
+      ],
+      "source_quantization_dust_alpha_1_pixels": 9400,
+      "source_low_alpha_pixels_removed": 9587,
+      "source_max_alpha_removed": 4,
+      "export": "masters/images/PIP-04/take-01/aligned-review.png",
+      "export_sha256": "e198db9c58ed496ce575796eb38d5baa506e3607074143de78fcd4495d45301b",
+      "export_canvas_px": [
+        1536,
+        1536
+      ],
+      "export_mode": "RGBA",
+      "uniform_scale_nominal": 1.0737033666969973,
+      "resampled_size_px": [
+        1346,
+        1346
+      ],
+      "rounded_scale_xy": [
+        1.0733652312599682,
+        1.0733652312599682
+      ],
+      "translation_px": [
+        47,
+        111
+      ],
+      "rotation_deg": 0,
+      "alpha_bounds_nonzero_exclusive": [
+        398,
+        200,
+        1023,
+        1388
+      ],
+      "core_bounds_alpha_ge_32_exclusive": [
+        401,
+        203,
+        1020,
+        1383
+      ],
+      "core_height_px": 1180,
+      "foot_band_bounds_alpha_ge_32_exclusive": [
+        566,
+        1336,
+        970,
+        1383
+      ],
+      "foot_center_x_px": 768.0,
+      "foot_anchor_x_error_px": 0.0,
+      "visible_core_foot_baseline_row": 1382,
+      "outer_antialias_last_row": 1387,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1920875,
+      "partial_alpha_pixels": 437007,
+      "opaque_pixels": 1414,
+      "significant_alpha_components": 1,
+      "safe_box_fit": true,
+      "canvas_edge_alpha_pixels": 0,
+      "technical_registration": "pass",
+      "human_art_identity_review": "pending"
+    },
+    {
+      "id": "PIP-05",
+      "pose": "Farewell",
+      "take": "take-01",
+      "source": "masters/images/PIP-05/take-01/original.png",
+      "source_sha256": "30a6c561c31097b0a531e8a958fd647a8b5e98eaa1e361ca6761ebb5d9547f51",
+      "source_mode": "RGBA",
+      "source_canvas_px": [
+        1254,
+        1254
+      ],
+      "source_alpha_bounds_nonzero_exclusive": [
+        65,
+        21,
+        1210,
+        1254
+      ],
+      "source_core_bounds_alpha_ge_32_exclusive": [
+        334,
+        82,
+        985,
+        1192
+      ],
+      "source_quantization_dust_alpha_1_pixels": 6878,
+      "source_low_alpha_pixels_removed": 6975,
+      "source_max_alpha_removed": 3,
+      "export": "masters/images/PIP-05/take-01/aligned-review.png",
+      "export_sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31",
+      "export_canvas_px": [
+        1536,
+        1536
+      ],
+      "export_mode": "RGBA",
+      "uniform_scale_nominal": 1.063063063063063,
+      "resampled_size_px": [
+        1333,
+        1333
+      ],
+      "rounded_scale_xy": [
+        1.0629984051036683,
+        1.0629984051036683
+      ],
+      "translation_px": [
+        57,
+        116
+      ],
+      "rotation_deg": 0,
+      "alpha_bounds_nonzero_exclusive": [
+        409,
+        201,
+        1107,
+        1386
+      ],
+      "core_bounds_alpha_ge_32_exclusive": [
+        412,
+        203,
+        1104,
+        1383
+      ],
+      "core_height_px": 1180,
+      "foot_band_bounds_alpha_ge_32_exclusive": [
+        569,
+        1336,
+        967,
+        1383
+      ],
+      "foot_center_x_px": 768.0,
+      "foot_anchor_x_error_px": 0.0,
+      "visible_core_foot_baseline_row": 1382,
+      "outer_antialias_last_row": 1385,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 1903488,
+      "partial_alpha_pixels": 453879,
+      "opaque_pixels": 1929,
+      "significant_alpha_components": 1,
+      "safe_box_fit": true,
+      "canvas_edge_alpha_pixels": 0,
+      "technical_registration": "pass",
+      "human_art_identity_review": "pending"
+    }
+  ]
+}

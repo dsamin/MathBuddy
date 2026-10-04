@@ -1,6 +1,12 @@
 # MathBuddy — independent review and planning checkpoint
 
-**October 3, 2026 · Review and planning only · Not approval to generate or implement**
+**October 4, 2026 · Authorized character batch complete for review · Human identity/art approval pending**
+
+The [five Pip poses](../assets/production/picnic-v1/review/contact-sheets/pip-five-poses.png) are ready together, with [small-size previews](../assets/production/picnic-v1/review/contact-sheets/pip-small-size.png) and a [technical review / limitations](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md). Only `PIP-01…05` were generated. The attentive-reference unbent ears are proposed consistently across the set. All five aligned candidates are 1536×1536 RGBA with a shared foot baseline and anchor; provider originals, exact requests and reproducible export recipes are preserved. Human identity, art, content and rights decisions remain pending. No other media or native/Pebble work began.
+
+**Preserved October 3 planning checkpoint — earlier scope and evidence below.**
+
+**Recorded October 3 planning status:** Direction B, take-02 is selected for the rendering direction. The [bounded next-step prompts](plans/2026-10-03-direction-b-next-steps.md) are the current execution handoff; submitting that planning document does not start any batch. At that checkpoint, the recommended next batch was five aligned Pip poses (`PIP-01…05`), followed by human character review. Ten voice requests exist and all ten recordings remain missing. Character identity, final name, individual assets, motion, voice and provider/rights decisions remain pending. The specification-review evidence below is preserved from the earlier checkpoint.
 
 The user requested independent agent review of the specifications, a complete account of the assets needed, and a detailed implementation plan following the Pebble workflow. Three agents handled product review, asset/content planning, and native implementation planning. Their outputs were reconciled into the current proposal. Existing app code and experimental assets remain unapproved and unchanged.
 
@@ -57,8 +63,8 @@ A second integration review identified two further requirements: explicit eligib
 
 | Decision | Working recommendation | Needed before |
 |---|---|---|
-| Theme and guide | Pip's Picnic, one friendly rabbit, a calm garden | Selecting final art direction |
-| Visual relationship to Pebble | Shared clarity and production discipline, a distinct math world | Direction sample selection |
+| Theme, guide and final name | Pip's Picnic, one friendly rabbit, a calm garden remain provisional; review five aligned poses next | Dependent world/branding production and final naming approval |
+| Visual relationship to Pebble | Direction B rendering is selected; use the reviewed sample's clarity and a distinct math world | Individual character/world approval; selection does not approve experimental assets |
 | Starting ability / response modes | Count-three first; picture-supported/action-only when unsure; numeral questions only when comfortable | Final content selection and child-facing build configuration |
 | Voice | Audition warm prerecorded delivery using the same short scripts across candidates | Batch recording; no inherited voice approval |
 | Reward collection | Pinwheel plus five permanent decorations, free flower play; honest end-of-collection behavior | Reward art production |
@@ -71,7 +77,7 @@ These open choices do not block writing or reviewing the plan. They do block tre
 | Evidence class | What it establishes | Current status |
 |---|---|---|
 | Document review and dependency audit | Scope consistency, mathematical catalog integrity and planned coverage | 23 planning checks passed; [audit record](planning/validation-report.json) |
-| Art approval | Character identity, composition, object clarity and states | Not granted |
+| Art approval | Character identity, composition, object clarity and states | Direction B rendering selected; character identity and individual assets remain pending |
 | Voice/content approval | Correct scripts, understandable numbers, delivery and suitability | Not granted |
 | Native engineering checks | State, interaction, persistence, offline behavior and rendering | Future phase work; old experiment checks do not close this row |
 | Physical-device / assistive-use checks | Actual touch, orientation, sound, VoiceOver and Reduce Motion behavior | Future phase work |
@@ -81,6 +87,6 @@ The audit checked exact IDs and script uniqueness, arithmetic and answer options
 
 ## Recommended next step
 
-Review this packet, then select **Phase 1: the small creative-direction sample**. That phase should produce character/style options, one counting composition, one garden/reward composition, a short motion study and a five-line voice audition. Stop at that review checkpoint. Bulk assets and native implementation remain separate later work.
+**Review the five aligned character candidates now.** Direction B take-02 remains selected. Decide whether to keep or revise the face, body, scarf and consistent attentive-reference unbent ears across `PIP-01…05`. The [pose review](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md) separates measured technical checks from pending human approval. Dependent world/branding remains a later separately requested batch. See the [copy-ready prompts and acceptance criteria](plans/2026-10-03-direction-b-next-steps.md).
 
-The next agent should receive the selected phase, approved decisions and exact deliverables. Do not turn approval of this review or of one illustration into permission to execute the entire roadmap.
+Prompt 2 follows a recorded human character decision. Prompt 3 independently completes the ten missing audition recordings only when the user chooses OpenAI for that audition and credentials are configured locally. Each batch stops at its own human review checkpoint. The first native phase remains `CNT-01` and requires a separate request after essential asset review.

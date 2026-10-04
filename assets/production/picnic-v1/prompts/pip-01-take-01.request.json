@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "asset_id": "PIP-01",
+  "take_id": "take-01",
+  "tool": "image_gen.imagegen",
+  "exact_arguments": {
+    "prompt": "Use case: identity-preserve, illustration-story.\nAsset: PIP-01 idle-welcome, one transparent full-body still character for a pending review batch.\nReference Image 1 is the selected Direction B board. Use ONLY the rabbit at the LEFT of its upper-left Identity panel, labeled Attentive, as the detailed character identity and ear reference. The board defines clean soft-shape storybook rendering, not a scene to reproduce.\nCreate precisely that same small cream rabbit, with round slightly broad head, oval plump body, short forepaws and hind feet, tiny cream tail behind viewer-left hip, black small oval eyes, tiny warm coral triangular nose, delicate curved smiling mouth and peach-pink round cheeks. Preserve the cream coloring, gentle simple tonal shading and green triangular neck scarf, with tied scarf tails extending behind the viewer-left shoulder. No heavy outline, plush fur, photorealism or extra costume.\nPending identity refinement: consistently use the attentive rabbit's TWO long unbent soft oval ears with rounded tips and coral inner insets. Viewer-left ear splays toward upper-left; viewer-right ear is more upright. Keep their proportions and roots as in Attentive. Do not adopt the folded ear of the board's Pleased rabbit. This proposed same ear construction must be reusable across all expressions.\nPose: idle-welcome, calm open attentive eyes, small warm smile, head looking slightly toward viewer-right, both forepaws resting loosely near the sides/belly, no wave or pointing yet. Two clearly readable short hind feet rest on a single level ground baseline. Same body proportions as Attentive.\nComposition: ONE isolated full-body rabbit only, square provisional 1536x1536 RGBA canvas. Foot-center body anchor x=768 and ground baseline y=1382 (90 percent canvas height); ears near y=200; body/head centered on anchor and character about 1180 pixels tall. Safe box x=154..1382 and y=154..1413. Leave generous transparent margins on every side, include entire ears, feet and scarf tails. No crop.\nBackground: genuine transparent alpha, not a painted checkerboard, opaque white or off-white. NO cast ground shadow; keep any gentle form shading inside the rabbit. No separate layers or articulated rig.\nNo text, labels, numbers, watermark, scene, grass, flowers, props, extra rabbit, diagram or sprite sequence. Produce only this single still pose.",
+    "referenced_image_paths": [
+      "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+    ],
+    "transparent_background": true
+  },
+  "reference_roles": [
+    "Selected Direction B attentive identity/ear/rendering reference"
+  ],
+  "status": "prepared"
+}

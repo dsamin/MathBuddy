@@ -1,0 +1,47 @@
+{
+  "asset_id": "PIP-05",
+  "take_id": "take-01",
+  "recorded_at_utc": "2026-10-04T07:23:50.244265+00:00",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "model_version": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "cost": "not exposed by tool",
+  "tool_generated_source": "/Users/devan/.codex/generated_images/01a105c4-a1c8-7983-a0e7-caf35654474d/exec-63e57129-2859-4d4d-8a92-589576c0de72.png",
+  "original_file": "masters/images/PIP-05/take-01/original.png",
+  "original_sha256": "30a6c561c31097b0a531e8a958fd647a8b5e98eaa1e361ca6761ebb5d9547f51",
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "actual_mode": "RGBA",
+  "exact_prompt_file": "prompts/pip-05-take-01.txt",
+  "exact_prompt_sha256": "da58b266a8fc51c122cd01ab37c85e5db451bd257f2fb30a0e065db6ec7c471e",
+  "exact_request_file": "prompts/pip-05-take-01.request.json",
+  "exact_request_sha256": "f25dc82ea8a6d43ec8ec24ee260f300353f66f61777fd14091363814c2c584d2",
+  "tool_response_record": "metadata/pip-tool-responses.json",
+  "references": [
+    {
+      "path": "masters/images/PIP-01/take-01/original.png",
+      "sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3",
+      "tool_argument_path": "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/PIP-01/take-01/original.png"
+    },
+    {
+      "path": "masters/images/DIRECTION-B/take-02/board.png",
+      "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+      "tool_argument_path": "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+    }
+  ],
+  "processing": "Provider original copied byte-for-byte; derived review alignment tracked separately",
+  "technical_status": "registration-pass-visual-review-complete-with-limitations",
+  "human_art_review": "pending",
+  "human_identity_review": "pending",
+  "human_content_review": "pending",
+  "provider_rights_review": "pending",
+  "production_selected": false,
+  "aligned_review_file": "masters/images/PIP-05/take-01/aligned-review.png",
+  "aligned_review_sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31",
+  "alignment_recipe": "metadata/pip-alignment-recipe.py",
+  "alignment_recipe_sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c",
+  "alignment_measurements": "metadata/pip-alignment-measurements.json",
+  "review_is_not_approved_delivery": true
+}

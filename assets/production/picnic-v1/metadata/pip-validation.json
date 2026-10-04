@@ -1,0 +1,39 @@
+{
+  "status": "pass-with-explicit-technical-limitations-human-approval-pending",
+  "decoded_pose_files": [
+    "masters/images/PIP-01/take-01/original.png",
+    "masters/images/PIP-01/take-01/aligned-review.png",
+    "masters/images/PIP-02/take-01/original.png",
+    "masters/images/PIP-02/take-01/aligned-review.png",
+    "masters/images/PIP-03/take-01/original.png",
+    "masters/images/PIP-03/take-01/aligned-review.png",
+    "masters/images/PIP-04/take-01/original.png",
+    "masters/images/PIP-04/take-01/aligned-review.png",
+    "masters/images/PIP-05/take-01/original.png",
+    "masters/images/PIP-05/take-01/aligned-review.png"
+  ],
+  "logical_character_records": 5,
+  "asset_register_rows": 196,
+  "protected_preexisting_files_unchanged": 330,
+  "allowed_modified_preexisting_files": [
+    "assets/production/picnic-v1/README.md",
+    "assets/production/picnic-v1/catalog.json",
+    "assets/production/picnic-v1/metadata/provider-rights.json",
+    "assets/production/picnic-v1/metadata/review-decisions.json",
+    "docs/planning/asset-register.csv",
+    "docs/review-checkpoint.md",
+    "tasks/todo.md"
+  ],
+  "preexisting_dirty_documentation_preserved": [
+    "docs/review-checkpoint.md",
+    "tasks/todo.md"
+  ],
+  "markdown_links_resolved": 51,
+  "human_approvals_granted": 0,
+  "production_delivery_created": false,
+  "voice_recordings_generated": 0,
+  "unrelated_media_or_native_changes": false,
+  "reference_sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+  "recipe_sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c",
+  "audit_script_sha256": "9b6cda17aae0cf32ecc578a0c1614f52ee2ab6b3369d3554428cb61b69cf912e"
+}

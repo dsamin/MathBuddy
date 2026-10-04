@@ -1,0 +1,206 @@
+{
+  "scope": "PIP character review artifacts, exact requests, recipes, provenance and results",
+  "status": "pending-human-approval",
+  "files": [
+    {
+      "path": "masters/images/PIP-01/take-01/aligned-review.png",
+      "bytes": 573824,
+      "sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198"
+    },
+    {
+      "path": "masters/images/PIP-01/take-01/original.png",
+      "bytes": 534451,
+      "sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3"
+    },
+    {
+      "path": "masters/images/PIP-01/take-01/provenance.json",
+      "bytes": 2134,
+      "sha256": "3611ca6c7d3b541bd302c9d5f689bb19ea87cffd7a7634d26977aea143059ee8"
+    },
+    {
+      "path": "masters/images/PIP-02/take-01/aligned-review.png",
+      "bytes": 582557,
+      "sha256": "7ca4113046ee9fa453e9567ca2e724b9f92e95cb0655890a25861a01f83cf918"
+    },
+    {
+      "path": "masters/images/PIP-02/take-01/original.png",
+      "bytes": 544852,
+      "sha256": "74b4fa05191c19937cdee9a37b4988ae7625fbfa85c14223d99307485e496e0f"
+    },
+    {
+      "path": "masters/images/PIP-02/take-01/provenance.json",
+      "bytes": 2424,
+      "sha256": "620c5f7f0df0b9663761c25d079fd54c7f3852a8851d470554a396519ce4b79d"
+    },
+    {
+      "path": "masters/images/PIP-03/take-01/aligned-review.png",
+      "bytes": 578013,
+      "sha256": "a3b65be9970721c7c6619580ded6b4ec24cb15016d22bdabef21b13d96b92e63"
+    },
+    {
+      "path": "masters/images/PIP-03/take-01/original.png",
+      "bytes": 546200,
+      "sha256": "605f3abb758db2da16bc71909ad8c4874c85d092405d84ead94f5fd8bebe624f"
+    },
+    {
+      "path": "masters/images/PIP-03/take-01/provenance.json",
+      "bytes": 2424,
+      "sha256": "b89a11d270c65ce935e02d5a766e20faf22151a562f0f9ffe0f9e9e2b5932da5"
+    },
+    {
+      "path": "masters/images/PIP-04/take-01/aligned-review.png",
+      "bytes": 585476,
+      "sha256": "e198db9c58ed496ce575796eb38d5baa506e3607074143de78fcd4495d45301b"
+    },
+    {
+      "path": "masters/images/PIP-04/take-01/original.png",
+      "bytes": 544102,
+      "sha256": "69177aa4f8808d4b95b5890cd675b7690e38278608c187da62fdf87712b223d6"
+    },
+    {
+      "path": "masters/images/PIP-04/take-01/provenance.json",
+      "bytes": 2424,
+      "sha256": "de2b340e53f96f424b13d99fd8415728d81c055fd5176e73f867f3a7c636b1eb"
+    },
+    {
+      "path": "masters/images/PIP-05/take-01/aligned-review.png",
+      "bytes": 586154,
+      "sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31"
+    },
+    {
+      "path": "masters/images/PIP-05/take-01/original.png",
+      "bytes": 553665,
+      "sha256": "30a6c561c31097b0a531e8a958fd647a8b5e98eaa1e361ca6761ebb5d9547f51"
+    },
+    {
+      "path": "masters/images/PIP-05/take-01/provenance.json",
+      "bytes": 2424,
+      "sha256": "14ca79d808d5331ad1ea197b724c78e934e6ad654e82be78fcd80b682dd72b6a"
+    },
+    {
+      "path": "metadata/pip-alignment-measurements.json",
+      "bytes": 12009,
+      "sha256": "d593cda986269d6b051822474314d32673f6fe3425cd2b44d9f7db879a5b0173"
+    },
+    {
+      "path": "metadata/pip-alignment-recipe.py",
+      "bytes": 12757,
+      "sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c"
+    },
+    {
+      "path": "metadata/pip-character-preflight.json",
+      "bytes": 42149,
+      "sha256": "21249888314c04652521093c5be939648baa22293cea9ab514ba3f999f07473a"
+    },
+    {
+      "path": "metadata/pip-character-review.json",
+      "bytes": 4615,
+      "sha256": "72693797f073f8235c42198be2bf22321c2d3d057d479da8d48ea66a7e79c7b9"
+    },
+    {
+      "path": "metadata/pip-secret-scan.json",
+      "bytes": 3603,
+      "sha256": "fe0590c80236d1b956405f012fa16b8e99f8407e580932ebd4154e60c2ecdafe"
+    },
+    {
+      "path": "metadata/pip-tool-responses.json",
+      "bytes": 3920,
+      "sha256": "34646af4d5ef83cc5ba878e1b47a29c5ee6dc1792fd983a48acb85b500264010"
+    },
+    {
+      "path": "metadata/pip-validation.json",
+      "bytes": 1681,
+      "sha256": "2853fa0609a8f166d0e8aa5766db48af25cf16e13a73e1820d18e0522c5eb0a6"
+    },
+    {
+      "path": "metadata/pip-verify.py",
+      "bytes": 6692,
+      "sha256": "9b6cda17aae0cf32ecc578a0c1614f52ee2ab6b3369d3554428cb61b69cf912e"
+    },
+    {
+      "path": "prompts/pip-01-take-01.request.json",
+      "bytes": 2836,
+      "sha256": "368257d58c0e376f79d3088666457d65a246ca07a3639647a358d5b3deab646e"
+    },
+    {
+      "path": "prompts/pip-01-take-01.txt",
+      "bytes": 2368,
+      "sha256": "0beb05b33852504e4514e468c78521324cacc7653ed08ce34ca72240841b2892"
+    },
+    {
+      "path": "prompts/pip-02-take-01.request.json",
+      "bytes": 3216,
+      "sha256": "1061467b7cf3fd19ac560584fa1c1cdf085b98f1a05d52e9f29e13a7d9cee07f"
+    },
+    {
+      "path": "prompts/pip-02-take-01.txt",
+      "bytes": 2571,
+      "sha256": "6a045898990bb400c7fcf0f8d15d09d3127191785b8f5226ffb5a64277e149ec"
+    },
+    {
+      "path": "prompts/pip-03-take-01.request.json",
+      "bytes": 3239,
+      "sha256": "86de32a24545aac3fed54278cb32d97ab011cfb83e44a72f7e0a03e63fb9d558"
+    },
+    {
+      "path": "prompts/pip-03-take-01.txt",
+      "bytes": 2593,
+      "sha256": "0e6f8c0bb91954aa8132ada92983814bf2ca74f477a8e6c557b5ed2009bd02a8"
+    },
+    {
+      "path": "prompts/pip-04-take-01.request.json",
+      "bytes": 3208,
+      "sha256": "66a7bb9da64548ce4a769c18e9ef1de0cc4a730482daba1ece8d70ece8144b68"
+    },
+    {
+      "path": "prompts/pip-04-take-01.txt",
+      "bytes": 2574,
+      "sha256": "a1e8bc55cbff9035866c328a00293e66299bcf0edaadd0c1cf00a28bc8ad0412"
+    },
+    {
+      "path": "prompts/pip-05-take-01.request.json",
+      "bytes": 3220,
+      "sha256": "f25dc82ea8a6d43ec8ec24ee260f300353f66f61777fd14091363814c2c584d2"
+    },
+    {
+      "path": "prompts/pip-05-take-01.txt",
+      "bytes": 2585,
+      "sha256": "da58b266a8fc51c122cd01ab37c85e5db451bd257f2fb30a0e065db6ec7c471e"
+    },
+    {
+      "path": "review/contact-sheets/pip-01-take-01-alpha-inspection.png",
+      "bytes": 136717,
+      "sha256": "bf35437b35a26ef9ce6bf680f3d920f63a35b1e9840a0b28bffbcc846630a608"
+    },
+    {
+      "path": "review/contact-sheets/pip-alpha-light-dark.png",
+      "bytes": 377173,
+      "sha256": "1245b4d87e79665c85c10836b8b60d263093c0527f8e3f4869eb0918a14997cc"
+    },
+    {
+      "path": "review/contact-sheets/pip-character-review.md",
+      "bytes": 5517,
+      "sha256": "b6d4a55f398bdaf69a9c57461aeaa71484d4cc86781f1f1aa8b5b1d968cb3232"
+    },
+    {
+      "path": "review/contact-sheets/pip-edge-details.png",
+      "bytes": 801433,
+      "sha256": "444d59d577c5318ef320b7a8eb45bfedc96eb6d36c75a01b76e9e2e7cc4f6da3"
+    },
+    {
+      "path": "review/contact-sheets/pip-five-poses.png",
+      "bytes": 227642,
+      "sha256": "3b4026d7cb16761640ea7767b0a1ce5c4d153e4f70a1a5aaaaf80c65f4b2dff5"
+    },
+    {
+      "path": "review/contact-sheets/pip-registration.png",
+      "bytes": 183836,
+      "sha256": "74ed3e8b53ba8a085bfc766d8c6449250a488d42306b93f6922745b8b40ea269"
+    },
+    {
+      "path": "review/contact-sheets/pip-small-size.png",
+      "bytes": 179513,
+      "sha256": "ace0708dadb606746bc341fb932613bb07dd83773cda14d516242af63dd711b3"
+    }
+  ]
+}

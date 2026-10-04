@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "asset_id": "PIP-03",
+  "take_id": "take-01",
+  "pose": "supportive-thinking",
+  "tool": "image_gen.imagegen",
+  "exact_arguments": {
+    "prompt": "Use case: identity-preserve.\nAsset: one isolated transparent full-body character still, pending human identity/art review.\nImage 1 is the new idle Pip candidate: use it as the exact identity and body/ear/feet registration reference. Image 2 is the selected Direction B board: the Attentive rabbit in its upper-left Identity panel defines the approved clean soft-shape storybook rendering. Do not reproduce the board.\nPreserve Image 1's round slightly broad cream head, plump oval cream body, short hind feet and tiny tail behind viewer-left hip; small black oval eyes, coral triangle nose, small curved smiling mouth, round peach-pink cheeks, green triangular neck scarf and two tied scarf tails behind viewer-left shoulder. Same colors, simple soft form shading, proportions, body orientation and gaze slightly toward viewer-right.\nEAR INVARIANT: exactly two long rounded unbent ears with coral insets, viewer-left splayed toward upper-left and viewer-right more upright. Same roots, lengths, widths and tip contours as Image 1, based on Attentive. No folded/floppy ear, no new ear shape for an emotion; this consistent construction is a proposed refinement pending human review.\nChange only the requested forepaw pose and subtle facial expression. Keep body, head, feet and ears as registered as possible. Two forepaws only, bunny paws without human fingers, two grounded hind feet on one level baseline. No jump, bow, turn, body bob or lifted foot.\nComposition: ONE complete rabbit, square provisional 1536x1536 RGBA canvas. Common body foot-center x=768; foot ground baseline y=1382 (90 percent height); ear tips near y=200; character about 1180 pixels tall. Safe box x=154..1382, y=154..1413. Entire ears, paws, scarf, feet and tail visible with transparent margins. No crop.\nBackground must be genuine transparent alpha, clean antialiased edges with no white matte/halo, pale background dust or stray opaque/low-alpha pixels away from the character. NO cast ground shadow. No text/labels/numbers, watermark, scenery, grass, objects, symbols, decorative emotion marks, extra characters, rig, layers, animation or sprite sequence.\nPOSE REQUEST:\nSupportive-thinking: one short forepaw lightly touches the lower cheek/chin, the other rests by the belly. Relaxed upright posture, calm OPEN eyes and a subtle gentle reassuring smile. It must look patiently curious and supportive, never disappointed, sad, anxious, stern, tired, worried or judgmental. No downturned mouth, lowered/sad eyebrows, facepalm, shrug or drooping/folded ears. No big head tilt; keep the same silhouette registration.",
+    "referenced_image_paths": [
+      "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/PIP-01/take-01/original.png",
+      "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+    ],
+    "transparent_background": true
+  },
+  "reference_roles": [
+    "New pending idle identity/registration",
+    "Selected Direction B rendering/attentive identity"
+  ],
+  "status": "prepared"
+}

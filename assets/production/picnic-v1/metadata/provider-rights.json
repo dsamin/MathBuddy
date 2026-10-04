@@ -5,8 +5,25 @@
     "originals_retained": true,
     "model_version_and_seed": "not exposed by tool",
     "third_party_reference_images": [],
-    "composition_reference": "Direction B derives from this session\u2019s Direction A pending sample, not Pebble",
-    "terms_and_output_use_review": "pending"
+    "composition_reference": "Direction B derives from this session’s Direction A pending sample, not Pebble",
+    "terms_and_output_use_review": "pending",
+    "character_batch": {
+      "asset_ids": [
+        "PIP-01",
+        "PIP-02",
+        "PIP-03",
+        "PIP-04",
+        "PIP-05"
+      ],
+      "reference": "masters/images/DIRECTION-B/take-02/board.png",
+      "provenance": "metadata/pip-tool-responses.json",
+      "tool_generated_source_paths_preserved": true,
+      "provider_originals_retained": true,
+      "exact_prompts_and_requests_preserved": true,
+      "model_seed_cost": "not exposed by tool",
+      "terms_and_output_use_review": "pending",
+      "no_experiment_or_pebble_references_used": true
+    }
   },
   "voice": {
     "candidate_provider": "OpenAI",

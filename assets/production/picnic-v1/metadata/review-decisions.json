@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "phase": "Phase 1",
-  "status": "direction-b-selected-other-reviews-pending",
+  "phase": "Phase 1 and authorized Phase 2A character review",
+  "status": "direction-b-selected-five-character-candidates-other-reviews-pending",
   "production_selected": false,
   "decisions": [
     {
@@ -26,7 +26,7 @@
       "reviewer": null,
       "date": null,
       "selected_artifact": null,
-      "notes": "Face/body/scarf consistent in samples; approve or revise the pleased pose’s bent ear."
+      "notes": "Five aligned PIP-01..05 candidates propose consistent unbent attentive-reference ears. Human face/body/scarf/ear and expression keep/revise decision pending; technical checks confer no approval."
     },
     {
       "kind": "object-clarity",
@@ -76,5 +76,6 @@
       "selected_artifact": null,
       "notes": "Review image source/provider and selected voice provider separately before production."
     }
-  ]
+  ],
+  "character_review_evidence": "metadata/pip-character-review.json"
 }

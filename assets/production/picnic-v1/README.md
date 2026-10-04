@@ -1,8 +1,12 @@
-# Phase 1 — Direction B selected; remaining reviews pending
+# Direction B — five character candidates ready for review
 
-October 3, 2026. Pip’s Picnic remains a working concept. This is the explicitly authorized small direction comparison, with a named voice-generation gap. No production baseline or entire roadmap phase is approved by this checkpoint.
+October 4, 2026. Pip’s Picnic remains a working concept. The authorized character portion of Phase 2A produced five aligned transparent still candidates, with human identity/art/content/rights approval pending. The earlier direction comparison and ten-recording voice gap remain preserved. No production baseline or entire roadmap phase is approved.
 
 ## Open the samples
+
+- [Five character poses together](review/contact-sheets/pip-five-poses.png)
+- [Character review, originals, technical findings and next identity decision](review/contact-sheets/pip-character-review.md)
+- [Small-size readability](review/contact-sheets/pip-small-size.png) and [light/dark alpha](review/contact-sheets/pip-alpha-light-dark.png)
 
 - [Side-by-side adult review gallery](review/index.html)
 - [A — warm paper, current review take](masters/images/DIRECTION-A/take-02/board.png)
@@ -25,7 +29,7 @@ Then visit `http://127.0.0.1:8873/review/index.html`. The HTML also opens direct
 
 ## Preserved sources
 
-`prompts/` holds every exact image prompt/request. `masters/images/DIRECTION-*/take-*/` retains original generated PNGs and provenance. Take-01 is preserved; take-02 repairs weak white Finish lettering with dark ink. It is the current review candidate, not an approved production selection. No manual pixel edits were made. Underlying model version/seed were not exposed by the built-in image tool.
+`prompts/` holds every exact image prompt/request. `masters/images/DIRECTION-*/take-*/` retains original generated PNGs and provenance. Take-01 is preserved; take-02 repairs weak white Finish lettering with dark ink. It is the current review candidate, not an approved production selection. No manual pixel edits were made to the Phase 1 boards. The separate character candidates preserve provider originals and disclose their deterministic alpha finishing/alignment recipe. Underlying model version/seed were not exposed by the built-in image tool.
 
 `motion/M01…M07/` holds provisional named-layer/pivot/timing/interrupt/Reduced Motion contracts and storyboards. The rendered study is a schematic outside the app. Flattened boards and schematic layers are not the final aligned pose/environment/prop/toy layer pack.
 
@@ -39,4 +43,4 @@ The comparison sheets use illustrative portrait/landscape reflow, not the conten
 
 No `delivery/manifest.reviewed.json` exists because individual production exports are still pending review. B is selected as the rendering direction. The 196 logical requirements, 24 variants and 101 voice scripts remain planning inventory. Existing experiments are unchanged and unapproved. No native source/project edit, app build, bulk pilot production or Pebble change occurred.
 
-The direction selection is recorded. The next batch and voice capability still need their own explicit execution request; this planning turn does not generate them.
+The five-pose batch stops at human character review. The next identity decision is whether to keep or revise the face/body/scarf and attentive-reference ears across all five. Dependent world/branding and voice capability require their own bounded execution requests; no later media or native work began.

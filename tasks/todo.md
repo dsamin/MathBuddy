@@ -1,4 +1,4 @@
-> Active session: Direction B selected; prepare bounded next-step prompts only. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
+> Active session: authorized Direction B character review only, PIP-01 through PIP-05. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
 
 # MathBuddy design review — 2026-10-03
 
@@ -162,3 +162,42 @@ Scope: review the four findings in the adult Phase 1 gallery only; preserve sele
 
 ### Review
 [Triage report](../docs/reviews/2026-10-03-gallery-hook-triage.md): two fixes, two narrow exceptions, no standing findings. Browser confirmation passes at 1280×720; the detector’s single post-edit pass found only the waived typography/palette findings. Original sample media and native files are unchanged. The local checkpoint hash is reported in the final response.
+
+## 2026-10-03 — Reconcile the supplied Direction B planning checkpoint
+
+Scope: planning documents only. The three quoted execution prompts describe future separately submitted batches; their embedded authorization does not start generation in this turn. No provider requests, media generation, app edits/builds, commits or Pebble changes.
+
+### Plan and acceptance checks
+- [x] Inspect Git, applicable instructions and lessons; compare the supplied next-step plan with the saved planning checkpoint.
+- [x] Verify the selected reference hash, ten immutable voice requests and missing production pose/audio outputs.
+- [x] Obtain a focused independent review of dependencies, acceptance checks and approval boundaries.
+- [x] Reconcile the primary review entry point with the recorded Direction B selection and recommended five-pose batch.
+- [x] Verify local links, diff scope, unchanged production/experiment files and absence of sensitive values; record the review results.
+
+### Pre-execution check-in
+The saved next-step prompts already cover the requested bounded batches. Update the primary reading entry so it recommends the five-pose review after Direction B selection. Keep the original specification-review evidence identifiable as history and leave character identity, name, device, motion, voice and rights decisions pending.
+
+### Review results
+The independent review found no material mismatch between the supplied prompts and the saved plan. The selected Direction B reference and all ten voice request hashes match their records; production pose folders and WAV recordings remain absent. The primary checkpoint now recommends the separately requested five-pose batch and distinguishes rendering selection from pending identity/art decisions. Fifteen local Markdown links resolve, whitespace checks pass and the diff scan found no sensitive-value patterns. Only this task record and the primary checkpoint changed; the prompt document, media, app and experiments remain unchanged. No generation, provider requests, builds, commits or Pebble changes occurred.
+
+
+## 2026-10-04 — Authorized Phase 2A character review batch
+
+Scope: only PIP-01 idle-welcome, PIP-02 attentive-pointing, PIP-03 supportive-thinking, PIP-04 pleased and PIP-05 farewell. Direction B take-02 defines rendering; Pip’s Picnic and the attentive-reference ear refinement remain provisional. The user explicitly authorizes five-pose generation and a local Git checkpoint. Preserve existing dirty documentation and all experiments.
+
+### Plan and acceptance checks
+- [x] Inspect Git/instructions and lessons; read the selection/reference and M04/M05/M07. Save preflight hashes and obtain a focused review agent’s constraints.
+- [x] Record this bounded plan and check in before any provider request.
+- [x] Generate five transparent full-body stills with the same attentive-reference face/body/scarf/ears; preserve every original take and exact tool request.
+- [x] Produce reproducible aligned RGBA review candidates on 1536 × 1536, fixed scale, safe box and foot anchor (0.5,0.90). No painted text, rig or sprite sequence.
+- [x] Decode and measure actual alpha/bounds/baseline/anchor; inspect light/dark composites, anatomy, ears, scarf, crops, halos and identity.
+- [x] Show all five in a labeled pose sheet and 256/128/64-pixel canvas readability previews; obtain focused independent review.
+- [x] Register source/prompt/request/reference/recipe/output hashes and provenance; record technical results separately from pending human identity/art/content/rights.
+- [x] Verify changed-file scope, prior file hashes, links and reproducibility; secret-scan the staged checkpoint, then commit locally.
+- [x] Stop for character review without environments/branding/math/rewards/audio/motion/app/build/Pebble work.
+
+### Pre-execution check-in
+Five built-in image_gen calls, one pose per call, using only selected Direction B take-02 and the new pending idle pose as identity reference. Propose two rounded unbent ears, viewer-left splayed and viewer-right upright, based on the attentive sample; do not repeat the pleased sample’s folded ear. Shared provisional canvas/anchor matches M04/M05/M07. Technical alignment and preview composites may use deterministic Pillow export recipes; preserve provider originals and alpha, never repaint identity or fabricate separate character/shadow layers. A measured technical pass does not approve art or physical iPad usability.
+
+### Review results
+Five built-in provider takes and five aligned 1536² RGBA candidates exist with full requests/provenance. Actual light/dark, edge/detail, baseline/anchor and 256/128/64-pixel previews were inspected. The focused independent reviewer found no mandatory repair; thinking is calm and ears/scarf/identity coherent. Recipe --check reproduced all exports and sheets byte-for-byte. Canvas/core foot baseline/anchor/safe-box checks pass with disclosed one-pixel scale and 0.5-pixel center rounding. Generated originals are 1254², larger exports add no detail; tiny alpha finishing, subtle small-size expression and untested crossfades/device/child usability are explicit. Human identity/art/content/rights remain pending. See [character review](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md). Final scope audit confirms 330 protected prior files unchanged, all 51 document links resolve, whitespace checks pass and the staged gitleaks scan finds zero leaks. All batch work stops at human character review. The local checkpoint hash is reported in the final response.

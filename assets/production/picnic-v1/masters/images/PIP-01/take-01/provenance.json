@@ -1,0 +1,42 @@
+{
+  "asset_id": "PIP-01",
+  "take_id": "take-01",
+  "recorded_at_utc": "2026-10-04T07:23:50.203329+00:00",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "model_version": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "cost": "not exposed by tool",
+  "tool_generated_source": "/Users/devan/.codex/generated_images/01a105c4-a1c8-7983-a0e7-caf35654474d/exec-145f3e5e-9b00-49e3-9668-da291d0c3ee7.png",
+  "original_file": "masters/images/PIP-01/take-01/original.png",
+  "original_sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3",
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "actual_mode": "RGBA",
+  "exact_prompt_file": "prompts/pip-01-take-01.txt",
+  "exact_prompt_sha256": "0beb05b33852504e4514e468c78521324cacc7653ed08ce34ca72240841b2892",
+  "exact_request_file": "prompts/pip-01-take-01.request.json",
+  "exact_request_sha256": "368257d58c0e376f79d3088666457d65a246ca07a3639647a358d5b3deab646e",
+  "tool_response_record": "metadata/pip-tool-responses.json",
+  "references": [
+    {
+      "path": "masters/images/DIRECTION-B/take-02/board.png",
+      "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+      "tool_argument_path": "/Users/devan/Projects/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+    }
+  ],
+  "processing": "Provider original copied byte-for-byte; derived review alignment tracked separately",
+  "technical_status": "registration-pass-visual-review-complete-with-limitations",
+  "human_art_review": "pending",
+  "human_identity_review": "pending",
+  "human_content_review": "pending",
+  "provider_rights_review": "pending",
+  "production_selected": false,
+  "aligned_review_file": "masters/images/PIP-01/take-01/aligned-review.png",
+  "aligned_review_sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198",
+  "alignment_recipe": "metadata/pip-alignment-recipe.py",
+  "alignment_recipe_sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c",
+  "alignment_measurements": "metadata/pip-alignment-measurements.json",
+  "review_is_not_approved_delivery": true
+}
