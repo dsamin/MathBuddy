@@ -20,20 +20,20 @@
       "model": "gpt-6.1-sol",
       "thread_id": "01a10777-964b-7380-ad50-122d3de368d8",
       "worktree": "/Users/devan/.codex/worktrees/8899/MathBuddy",
-      "branch": "detached at base; worker records checkpoint branch",
+      "branch": "codex/phase-2a-world-wip",
       "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
-      "commit": null,
+      "commit": "35c121edb6515fb486b7cb72eceed7c71d08fb47",
       "integration_commit": null,
-      "technical_status": "in-progress-app-approval-pending",
+      "technical_status": "interrupted-source-backup",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": "Optional worker-to-master progress message is pending under new-task on-request permissions. Master requested cancellation/dismissal; continues direct polling. No production acceptance requested.",
+      "notes": "Three completed generated originals recovered byte-for-byte; 7 prompts and saved icon request preserved. Remaining layers, composition, wordmark and complete review packet are incomplete. Backup commit is not integrated or accepted.",
       "title": "MathBuddy Phase 2A World and Branding",
-      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint",
+      "session_verified_by": "read_thread 2026-10-04: idle; latest turn interrupted. Master checkpointed preserved work.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -45,11 +45,11 @@
       "model": "gpt-6.1-sol",
       "thread_id": "01a10778-c025-7b13-99a6-a1886b801260",
       "worktree": "/Users/devan/.codex/worktrees/4c83/MathBuddy",
-      "branch": "detached at base; worker records checkpoint branch",
+      "branch": "codex/phase-1-voice-audition-wip",
       "base_commit": "9ae9b6370a52e0c5dbac0d17e84911bce7213c33",
-      "commit": null,
+      "commit": "63ff8475458ff8666dba26769c14eee9f8a6337e",
       "integration_commit": null,
-      "technical_status": "preflight-written-checkpoint-app-approval-pending",
+      "technical_status": "preflight-verified-awaiting-decisions",
       "human_status": "pending",
       "acceptance_criteria": "Five exact lines x two chosen voices; all ten decoded and individually reviewed",
       "human_gate": "provider/rights then voice/wording/take reuse",
@@ -58,9 +58,9 @@
         "docs/orchestration/phases/1-voice-audition/decision-packet.md",
         "docs/orchestration/phases/1-voice-audition/request-audit.json"
       ],
-      "notes": "Master verified ten request hashes/exact inputs and absent outputs; packet written in worker worktree. Git add permission pending because shared Git index is outside worker sandbox. No provider selected or live requests.",
+      "notes": "Offline verifier passes ten exact request hashes/settings and ten absent masters. Decision packet and handoff checkpointed. Zero provider calls or recordings; provider/model/voice/rights and take reuse remain undecided. Backup commit is not integrated or accepted.",
       "title": "MathBuddy Independent Voice Audition",
-      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint",
+      "session_verified_by": "read_thread 2026-10-04: idle; latest turn interrupted. Master checkpointed preserved work.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -390,5 +390,12 @@
     }
   ],
   "startup_review": "docs/orchestration/2026-10-04-startup-review.md",
-  "narration_partition": "docs/orchestration/narration-groups.json"
+  "narration_partition": "docs/orchestration/narration-groups.json",
+  "engineering_readiness": "docs/orchestration/2026-10-04-engineering-readiness.md",
+  "github_sync": {
+    "repository": "https://github.com/dsamin/MathBuddy",
+    "authorization": "User explicitly requested pushing all current work on 2026-10-04; earlier no-push restriction superseded for this synchronization.",
+    "main_policy": "Current master coordination baseline; interrupted phase work preserved on separate branches without implying acceptance.",
+    "status": "prepared-for-push"
+  }
 }
