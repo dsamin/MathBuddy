@@ -1,0 +1,83 @@
+{
+  "schema_version": "phase1-motion-provenance-v1",
+  "date": "2026-10-03",
+  "status": "pending-human-review",
+  "selected_take": null,
+  "concept": "Pip's Picnic, working comparison only",
+  "method": "Original deterministic Python/Pillow authoring; no AI provider, imported experiment, native app code or JavaScript app",
+  "source_script": "scripts/phase1-motion-study.py",
+  "source_script_sha256": "09dbb47220bba1829785bc03226db4175967d096715373f4561337df06a7be6e",
+  "tools": {
+    "python": "3.11.7",
+    "Pillow": "12.1.1",
+    "numpy": "1.24.3",
+    "scipy": "1.11.1",
+    "ffmpeg": "ffmpeg version 8.0.1 Copyright (c) 2000-2025 the FFmpeg developers"
+  },
+  "rights": "Original schematic drawing source; OS Arial rasterized only for adult review labels, not redistributed as a font or selected app typography. Final art identity/layers remain pending.",
+  "outputs": [
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.gif",
+      "sha256": "c495e703390b4b75e6adb20d4fbeea9a859599b46f9cbfcaadccd20fb46d71c3",
+      "bytes": 247527
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.mp4",
+      "sha256": "51d9aeb93014e0b128264babe5fe897a6bb19574f3a2bf99180dcc4acb521495",
+      "bytes": 116439
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.gif",
+      "sha256": "7a867649b0b1b61f98a24a6434baf167271032c818ab75d52c8fe8287fb9c322",
+      "bytes": 291305
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.mp4",
+      "sha256": "629f0eafadb100450914e7cf41f4c610d31d0001f77b1ce10423b7aa396b0cce",
+      "bytes": 99228
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/scene-layers.svg",
+      "sha256": "773db355e4ec6a33dc88b3eca40bfe9d22521c4916bdaf156b6081c09a8b6e61",
+      "bytes": 2107
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard.pdf",
+      "sha256": "cda38c43c21da80774cf28bf231fbcac2190f7e82f3b236860e493fcd932d85f",
+      "bytes": 274849
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard.pdf",
+      "sha256": "93be076562c93970898cb5954f69fe76d6ee19b4d566add405e1105b41042d30",
+      "bytes": 256732
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard.pdf",
+      "sha256": "90fe3a74fc79b5cd86f87477ac72c25e85a30fbe3efac96b87f5861ba49d1eb1",
+      "bytes": 273518
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard.pdf",
+      "sha256": "32439abb44384f2dbd523e966028bab126e5e5c94bd13d80a89981ad8d953929",
+      "bytes": 281811
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard.pdf",
+      "sha256": "70ff74d6714fc26943f3419c1d7b1ef96725f565e21c564e698e93f6bbf8d7bc",
+      "bytes": 277886
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard.pdf",
+      "sha256": "be372ba4356420f33210f66133646d121bc3331c028be9a83079cbcd22e4315c",
+      "bytes": 275530
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard.pdf",
+      "sha256": "def94403057d4631183b4c17497c6af226611add49a4ea4c56f3341e90da18cb",
+      "bytes": 251079
+    }
+  ],
+  "review_measurements": "assets/production/picnic-v1/motion/review/technical-measurements.json",
+  "human_decisions": "assets/production/picnic-v1/motion/review/human-review.json",
+  "contract_review_correction": "Per-motion orientation policies corrected after independent packet review; encoded video/PDF pixels unchanged."
+}

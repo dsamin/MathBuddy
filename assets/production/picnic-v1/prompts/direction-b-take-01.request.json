@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "prompt_file": "prompts/direction-b-take-01.txt",
+  "transparent_background": false,
+  "status": "generated-pending-human-review",
+  "review_status": "pending-human-review",
+  "source_references": [
+    "masters/images/DIRECTION-A/take-01/board.png"
+  ],
+  "reference_role": "composition and identity, not approved art"
+}

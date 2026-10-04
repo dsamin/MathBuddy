@@ -1,0 +1,14 @@
+{
+  "canvas_px": [
+    2400,
+    1800
+  ],
+  "render_script": "scripts/phase1-motion-study.py",
+  "asset_id": "M01",
+  "frames": [
+    "Before pickup",
+    "Moved and settled",
+    "Returned and settled"
+  ],
+  "review_status": "pending-human-review"
+}

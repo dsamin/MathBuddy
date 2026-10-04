@@ -1,0 +1,50 @@
+{
+  "schema_version": "phase1-motion-human-review-v1",
+  "date_prepared": "2026-10-03",
+  "status": "pending-human-review",
+  "artifact_version": 1,
+  "selected_take": null,
+  "approval_implied_by_technical_checks": false,
+  "decisions": [
+    {
+      "kind": "motion-character-and-comfort",
+      "artifacts": ["M01", "M02", "M03", "M04", "M05", "M06", "M07"],
+      "reviewer": null,
+      "date": null,
+      "decision": null,
+      "question": "Does the restrained travel/settle feel friendly and understandable? Should it be slower, simpler or less springy?"
+    },
+    {
+      "kind": "silent-quantity-comprehension",
+      "artifacts": ["M01"],
+      "reviewer": null,
+      "date": null,
+      "decision": null,
+      "question": "With sound off, can the child distinguish the target model from the five movable berries and understand where berries go?"
+    },
+    {
+      "kind": "reduced-motion-equivalence",
+      "artifacts": ["M01"],
+      "reviewer": null,
+      "date": null,
+      "decision": null,
+      "question": "Is immediate repositioning clear and comfortable, with the brief static outline sufficient to identify the moved berry?"
+    },
+    {
+      "kind": "layer-contract-and-final-art",
+      "artifacts": ["M01", "M02", "M03", "M04", "M05", "M06", "M07"],
+      "reviewer": null,
+      "date": null,
+      "decision": null,
+      "question": "After choosing an art direction, can final layers keep all six fruit silhouettes visible, share pivots/anchors, and reserve controls in both orientations?",
+      "blocked_until": "Chosen direction, final art/layer pack and supported family iPad"
+    }
+  ],
+  "scope_exclusions": [
+    "No final character identity approval",
+    "No production layer pack",
+    "No native app implementation or build",
+    "No audio or listening approval",
+    "No entire roadmap execution"
+  ]
+}

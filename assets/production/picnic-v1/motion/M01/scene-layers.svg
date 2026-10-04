@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080">
+<title>Provisional M01 editable schematic — pending human review</title>
+<desc>Original vector layer map for the motion study. Five working occurrences plus a separate three-piece target model. Not selected app art.</desc>
+<g id="environment-ground"><rect width="1440" height="1080" fill="#FFF9ED"/></g>
+<g id="target-reference" data-interactive="false"><rect x="505" y="180" width="430" height="140" rx="30" fill="#FFF0C9" stroke="#DDA34A" stroke-width="4"/><circle cx="620" cy="251" r="25" fill="#DD6673"/><circle cx="720" cy="251" r="25" fill="#DD6673"/><circle cx="820" cy="251" r="25" fill="#DD6673"/></g>
+<g id="source-tray"><rect x="135" y="400" width="515" height="392" rx="45" fill="#E6D8BB"/></g>
+<g id="basket-back"><rect x="790" y="400" width="540" height="405" rx="48" fill="#FAE8BF" stroke="#B7935C" stroke-width="5"/></g>
+<g id="stationary-occurrences"><g id="CNT-01-piece-01" data-origin-slot="slot-01"><circle cx="210" cy="505" r="39" fill="#DD6673"/><path d="M 200 472 l -14 -20 l 27 5 Z" fill="#50795A"/></g><g id="CNT-01-piece-02" data-origin-slot="slot-02"><circle cx="380" cy="505" r="39" fill="#DD6673"/><path d="M 370 472 l -14 -20 l 27 5 Z" fill="#50795A"/></g><g id="CNT-01-piece-03" data-origin-slot="slot-03"><circle cx="550" cy="505" r="39" fill="#DD6673"/><path d="M 540 472 l -14 -20 l 27 5 Z" fill="#50795A"/></g><g id="CNT-01-piece-04" data-origin-slot="slot-04"><circle cx="210" cy="680" r="39" fill="#DD6673"/><path d="M 200 647 l -14 -20 l 27 5 Z" fill="#50795A"/></g><g id="CNT-01-piece-05" data-origin-slot="slot-05"><circle cx="380" cy="680" r="39" fill="#DD6673"/><path d="M 370 647 l -14 -20 l 27 5 Z" fill="#50795A"/></g></g>
+<g id="basket-front"><rect x="786" y="770" width="548" height="35" rx="16" fill="#CCA76B"/></g>
+<g id="moving-occurrence" data-instance-policy="move existing group here; never duplicate"/>
+<g id="review-label"><text x="60" y="1000" fill="#23433D" font-size="24">PHASE 1 — PENDING HUMAN REVIEW — EDITABLE SCHEMATIC LAYER MAP</text></g>
+</svg>

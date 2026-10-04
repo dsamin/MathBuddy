@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-03",
+  "phase": "Phase 1",
+  "status": "blocked-live-voice-generation-independent-requests-complete",
+  "scope": "Two candidate auditions only; no production voice library.",
+  "observed_capability": {
+    "OPENAI_API_KEY_present": false,
+    "openai_python_package_available": true,
+    "GOOGLE_APPLICATION_CREDENTIALS_present": false,
+    "project_env_local_present": false,
+    "google_genai_sdk_available": false,
+    "credential_values_read_or_saved": false,
+    "other_project_credentials_inspected": false
+  },
+  "candidate_provider": "OpenAI",
+  "candidate_model": "gpt-4o-mini-tts-2025-12-15",
+  "candidate_voices": [
+    "cedar",
+    "marin"
+  ],
+  "generated_recording_count": 0,
+  "planned_take_count": 10,
+  "gap": "Natural cloud voice audition could not run because OPENAI_API_KEY is unavailable. Alternate Google credentials and SDK are also unavailable; no provider was substituted.",
+  "user_choice_remedy": "If the user chooses OpenAI for the audition, they can create/set OPENAI_API_KEY locally (never paste it into chat). Then run the preserved ten requests through the bundled speech CLI. Provider/cost/rights and adult listening decisions remain separate. Alternatively select an available authorized voice provider and prepare equivalent exact requests.",
+  "request_manifest_path": "assets/production/picnic-v1/requests/voice/request-manifest.json",
+  "script_snapshot_path": "assets/production/picnic-v1/requests/voice/catalog-audition-snapshot.json",
+  "script_snapshot_sha256": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef",
+  "technical_checks": {
+    "five_scripts_match_catalog": "pass-exact-complete-record-equality",
+    "ten_requests_exact_input": "pass-verbatim-unicode-equality",
+    "identical_delivery_controls": "pass-model-instructions-speed-format-equal",
+    "bundled_cli_dry_run": "pass-ten-jobs-zero-provider-calls",
+    "actual_audio_wording": "not-checkable-no-recordings",
+    "audio_file_measurements": "not-checkable-no-recordings",
+    "request_hashes": "pass-ten-request-hashes-and-script-snapshot",
+    "missing_recordings": "confirmed-all-ten-expected-paths-absent",
+    "listening_index_links": "pass-local-targets-resolve",
+    "playlist_and_worksheet": "pass-ten-missing-unscored-rows"
+  },
+  "human_decisions": {
+    "wording": "pending",
+    "voice_candidate": "pending",
+    "listening": "pending-recordings-missing",
+    "provider_rights": "pending",
+    "production_voice_selection": "pending"
+  },
+  "not_performed": [
+    "live provider call",
+    "local say or other synthetic stand-in",
+    "audio transcript/wording verification",
+    "human listening approval",
+    "production library generation",
+    "native app change"
+  ],
+  "verification_evidence": {
+    "source_catalog_sha256": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee",
+    "script_snapshot_sha256": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef",
+    "bundled_cli_dry_run_log": "assets/production/picnic-v1/requests/voice/cli-dry-run.txt",
+    "bundled_cli_dry_run_return_code": 0,
+    "bundled_cli_dry_run_jobs": 10,
+    "comparison_method": "Parse JSON; compare complete selected source records and exact input Unicode strings; verify every saved request hash; compare shared settings; validate bundled CLI dry-run; verify no expected audio file exists.",
+    "audio_inspection_status": "not-performed-no-audio-exists",
+    "human_listening_status": "pending-recording-missing"
+  }
+}

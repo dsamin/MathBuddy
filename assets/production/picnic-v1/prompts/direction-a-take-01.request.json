@@ -1,0 +1,8 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "prompt_file": "prompts/direction-a-take-01.txt",
+  "transparent_background": false,
+  "status": "generated-pending-human-review",
+  "review_status": "pending-human-review",
+  "source_references": []
+}

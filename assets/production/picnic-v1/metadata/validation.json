@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "status": "review-samples-with-voice-generation-gap",
+  "human_approval": "pending",
+  "baseline_commit": "18b36ed4e1ad7264520af349e6a55bb3b3daafe8",
+  "scope": "Phase 1 only; no full pilot asset pack or native implementation",
+  "technical": {
+    "visual_decode_and_hashes": "file-audit.json",
+    "visual_quantity_identity_and_contrast": "../review/contact-sheets/independent-visual-review.md",
+    "motion_encoded_media_and_geometry": "../motion/review/technical-measurements.json",
+    "voice_exact_requests_and_capability": "voice-capability.json",
+    "all_seven_storyboards": "../motion/review/all-storyboards-pdf-preview.png"
+  },
+  "observed_visual_findings": {
+    "both_count_orientations_each_direction": {
+      "working_set": 5,
+      "reference_target": 3,
+      "basket": "empty and separate",
+      "working_pieces": "fully visible"
+    },
+    "stress_each_direction": {
+      "working_set": 6,
+      "reference_target": 5,
+      "scope": "static later-content visibility comparison"
+    },
+    "garden_each_orientation": {
+      "pinwheel": 1,
+      "free_large_flower": 1,
+      "finish": "visible; contrast-repaired take02"
+    },
+    "sampled_finish_contrast_take02": "approximately 6.3–6.5:1, glyph-core raster sample; not native accessibility certification",
+    "identity": "Face/body/cream fur/sage scarf consistent; pleased ear bends and needs approval or revision",
+    "portrait": "Illustrative vertical reflow, not exact device/safe-area/slot measurement"
+  },
+  "layers": {
+    "flattened_review_boards": true,
+    "production_alpha_and_layer_exports": "not produced; Phase 2 after direction review",
+    "basket_front_back_and_toy_pivots": "specified in provisional motion contracts, final export compatibility untested"
+  },
+  "voice": {
+    "requests_checked": 10,
+    "recordings_produced": 0,
+    "actual_audio_wording": "unverified-no-recordings",
+    "human_listening": "pending-recordings-missing",
+    "generation_gap": "No OPENAI_API_KEY; alternate Google credentials/SDK unavailable"
+  },
+  "unresolved_human_decisions": [
+    "theme/rabbit appeal",
+    "A/B/revision selection",
+    "ear flexibility and identity lock",
+    "composition/object clarity at actual iPad viewing size",
+    "motion comfort",
+    "voice wording/provider/listening",
+    "image/provider rights"
+  ],
+  "evidence_not_claimed": [
+    "native build/touch/persistence",
+    "offline native playback or audio cancellation",
+    "VoiceOver/Switch Control",
+    "physical iPad sizing/performance",
+    "child comprehension or efficacy",
+    "full 196 requirement completion"
+  ],
+  "recommended_next_decision": "Review/select Direction B or request a targeted revision, then resolve natural voice audition capability before the next separately authorized asset batch.",
+  "gallery_browser_check": {
+    "browser": "local in-app browser",
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontal_overflow": false,
+    "board_image_top_pixels": [
+      516,
+      516
+    ],
+    "both_images_loaded_dimensions": [
+      1536,
+      1024
+    ],
+    "both_video_duration_seconds": 4.8,
+    "both_video_ready_state": 4,
+    "local_link_count": 31,
+    "interpretation": "Adult review gallery only; not native iPad verification"
+  },
+  "independent_motion_review": "Per-role orientation correction rechecked in source and all seven briefs; provisional motion package technically accepted, human/native decisions pending",
+  "sample_inventory": {
+    "files": 130,
+    "total_bytes_at_check": 21778341,
+    "largest_file_bytes": 2512077,
+    "files_above_20MB": 0,
+    "git_lfs_needed_for_current_samples": false
+  }
+}

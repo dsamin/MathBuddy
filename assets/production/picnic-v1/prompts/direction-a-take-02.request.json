@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "prompt_file": "prompts/direction-a-take-02.txt",
+  "transparent_background": false,
+  "source_references": [
+    "masters/images/DIRECTION-A/take-01/board.png"
+  ],
+  "intent": "Finish text contrast repair only",
+  "status": "generated-pending-human-review",
+  "review_status": "pending-human-review"
+}

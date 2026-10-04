@@ -1,0 +1,14 @@
+{
+  "canvas_px": [
+    2400,
+    1800
+  ],
+  "render_script": "scripts/phase1-motion-study.py",
+  "asset_id": "M06",
+  "frames": [
+    "Stable toy placement / bud",
+    "Bounded rotor / open flower",
+    "Settled placements; no loop"
+  ],
+  "review_status": "pending-human-review"
+}

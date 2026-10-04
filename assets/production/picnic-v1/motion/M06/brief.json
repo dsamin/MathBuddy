@@ -1,0 +1,174 @@
+{
+  "schema_version": "phase1-motion-brief-v1",
+  "version": 1,
+  "status": "provisional-pending-human-review",
+  "selected_take": null,
+  "working_concept": "Pip's Picnic; comparison concept, not approved final identity",
+  "implementation": "Authoring specification and off-app schematic only. Future behavior is native SwiftUI; no native implementation is present here.",
+  "coordinate_system": {
+    "production_proposal": "Normalized layer coordinates, origin top-left, x/y in [0,1]. Local pivot maps named per layer.",
+    "study_canvas_px": [
+      1440,
+      1080
+    ],
+    "orientation_policy": "Use orientation-specific garden placement and reserved Finish bounds, not an activity layout. Reproject each persisted toy's normalized placement anchor within its safe garden region; retain its instance ID, owned state and allowed bounds. Keep rotor clearance and decoration bounds away from Finish and other toys. Preserve all applicable occurrence/toy/guide identities and committed region/slot/anchor state; reproject anchors rather than repopulate. Cancel ephemeral visual interpolation on rotation and render the latest committed semantic state. Rotation never records a move, response, support event, completion or reward."
+  },
+  "semantic_state_ownership": {
+    "owner": "Future native activity/reward model, never the animation renderer.",
+    "commit_rule": "An accepted tap/drag/Undo changes persistent region/slot/history or reward ownership exactly once before presentation. Invalid/cancelled input commits nothing.",
+    "excluded_from_animation_completion": [
+      "quantity mutation",
+      "new occurrence creation",
+      "response correctness",
+      "missCount",
+      "help attribution",
+      "checkpoint completion",
+      "reward grant",
+      "session completion",
+      "history writes"
+    ],
+    "completion_callbacks": "May clear ephemeral visual transforms only. Must not create mathematical evidence or grant a reward.",
+    "identity": "Namespace authored occurrence templates by round ID. Same occurrence ID, object family and origin anchor survive move, return, Undo, pause, rotation and resume.",
+    "audio_invalidation": "Accepted object movement cancels stale prompt/help/count speech. When enabled, latest basket or friend's-plate count replaces earlier counts. Never speak an assessed joining total or source remainder automatically.",
+    "rendering": "A moving occurrence is rendered once on the travel layer, never duplicated at source and destination. Target-reference copies are explicitly noninteractive and excluded from the working set."
+  },
+  "global_interrupts": {
+    "navigation_background_system_interruption": "Stop narration/effects and presentation. Persist committed semantic state. Resume silently at exact current anchors; no replay or delayed completion event.",
+    "rapid_input": "Input never waits for travel/celebration. Replace the affected occurrence's visual trajectory from its sampled visible position toward the latest committed anchor; do not run a FIFO animation or speech backlog.",
+    "gesture_cancellation": "Cancel transient drag without a semantic move; return to the committed anchor. Do not record a mathematical miss.",
+    "reduced_motion_toggle": "Cancel travel/scale/rotation and snap to the latest committed semantic state. Preserve goal, object visibility and live controls."
+  },
+  "sound_contract": {
+    "required_for_meaning": false,
+    "music": "excluded",
+    "settings": "Narration, spoken-count and effects controls are separate.",
+    "cues": "Optional effects only on accepted actions; no source SFX generated for this Phase 1 study. System/accessibility announcements must not overlap the prerecorded lane."
+  },
+  "human_review": {
+    "art": "pending",
+    "content": "pending",
+    "motion_comfort": "pending",
+    "child_usability": "pending",
+    "native_layer_pack": "not-produced"
+  },
+  "provenance": {
+    "method": "Original direction-neutral Pillow vector schematic, deterministic timeline; no generative provider or experiment assets imported.",
+    "source_script": "scripts/phase1-motion-study.py",
+    "rights": "Original schematic recipe. Arial is used from the local OS only for adult review rasterization, not redistributed or selected as app typography.",
+    "source_references": [
+      "docs/planning/asset-register.csv",
+      "docs/planning/content-catalog.json",
+      "docs/planning/asset-production-plan.md"
+    ],
+    "human_approval": false
+  },
+  "asset_id": "M06",
+  "name": "garden-placement-spin-bloom",
+  "dependencies": [
+    "ENV-02",
+    "REWARD-PINWHEEL",
+    "REWARD-FLOWER",
+    "DECOR-01",
+    "DECOR-02",
+    "DECOR-03",
+    "DECOR-04",
+    "DECOR-05",
+    "UI-FINISH"
+  ],
+  "triggers": [
+    "Accepted toy placement",
+    "Tap placed pinwheel",
+    "Tap free flower",
+    "Explicit Finish"
+  ],
+  "layers": [
+    {
+      "id": "environment-distant",
+      "z": 0,
+      "pivot": "canvas origin",
+      "contract": "Decorative only; no labels or countable fruit."
+    },
+    {
+      "id": "environment-ground",
+      "z": 10,
+      "pivot": "canvas origin",
+      "contract": "Aligned with distant and foreground; semantic safe regions remain clear."
+    },
+    {
+      "id": "environment-edge-foreground",
+      "z": 60,
+      "pivot": "canvas origin",
+      "contract": "Never crosses the working-region or target safe masks."
+    },
+    {
+      "id": "controls-and-reference",
+      "z": 100,
+      "pivot": "native bounds center",
+      "contract": "Given count/transfer only. Native UI outside background art; persistent input stays live."
+    },
+    {
+      "id": "toy-placement-shadow",
+      "z": 20,
+      "pivot": "toy base anchor",
+      "contract": "Decorative only; does not create a second toy."
+    },
+    {
+      "id": "pinwheel-base",
+      "z": 30,
+      "pivot": "normalized ground (0.5,0.98)",
+      "contract": "Stable placement bounds shared with stem."
+    },
+    {
+      "id": "pinwheel-stem",
+      "z": 31,
+      "pivot": "normalized base (0.5,1.0)",
+      "contract": "Stationary while rotor turns; do not spin the full toy."
+    },
+    {
+      "id": "pinwheel-rotor",
+      "z": 32,
+      "pivot": "normalized hub (0.5,0.5)",
+      "contract": "Exact co-registered hub pivot; rotor clear of controls/other toys."
+    },
+    {
+      "id": "flower-bud",
+      "z": 30,
+      "pivot": "normalized base (0.5,0.98)",
+      "contract": "Same canvas/anchor as open state; single flower instance."
+    },
+    {
+      "id": "flower-open",
+      "z": 30,
+      "pivot": "same base (0.5,0.98)",
+      "contract": "Crossfade alternative state; semantic toy count stays one."
+    },
+    {
+      "id": "decorations-01…05",
+      "z": 30,
+      "pivot": "named ground base per item",
+      "contract": "Persist placement bounds/instance IDs; stable anchor and non-overlap safe masks."
+    }
+  ],
+  "start_state": "Free flower available immediately; earned toys/placements come from persisted finite reward ownership. No fabricated seventh reward.",
+  "middle_state": "One accepted placement commits anchor before 220 ms settle. Pinwheel rotor turns once around its hub; flower bud changes to open without a second instance.",
+  "end_state": "Stable persistent placements; rotor angle resets modulo one turn. Flower may return to bud on an explicit next tap; Finish remains immediate.",
+  "duration_ms": {
+    "placement_settle": 220,
+    "rotor_turn": 900,
+    "flower_crossfade": 280,
+    "max_rotation_degrees": 360
+  },
+  "repeat_policy": "One bounded turn per tap. A tap during spin retargets one turn from current visible angle; no FIFO queue or infinite rotor. Flower tap selects latest bud/open state.",
+  "motion_recipe": "Rotor-only ease-out; at most one turn. Placement small settle, no toy drop from sky. Flower aligned state crossfade, not growth that changes bounds.",
+  "reduced_motion": "Immediate placement; static hub highlight instead of spin; immediate bud/open switch. No rotational, scaling or falling movement.",
+  "occlusion_contract": "Garden toy bounds and hub clearance cannot cover Finish or each other. Front scenery mask excludes placement regions. Layer sources/pivot are still provisional and unproduced.",
+  "sound_cues": [
+    "Optional SFX-PINWHEEL/SFX-FLOWER on accepted toy interaction",
+    "Named earned-item line only after model owns the reward; no effect is required to identify it"
+  ],
+  "storyboard_beats": [
+    "Stable toy placement / bud",
+    "Bounded rotor / open flower",
+    "Settled placements; no loop"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "artifact_id": "PHASE1-DIRECTION-A",
+  "take_id": "take-01",
+  "status": "pending-human-review",
+  "kind": "flattened-direction-board",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "model_version": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "tool_generated_source": "/Users/devan/.codex/generated_images/01a10571-33c6-7530-b6d1-08bc8ada1e37/exec-dc2465f2-a7c1-47af-bbdf-aa2544911d7b.png",
+  "recorded_at_utc": "2026-10-04T05:52:28.849015+00:00",
+  "prompt": "prompts/direction-a-take-01.txt",
+  "prompt_sha256": "2f3c00ddf0881b81420351b358daaea206b3ccb6b64d3a77b8bf813b7b238c98",
+  "file": "masters/images/DIRECTION-A/take-01/board.png",
+  "sha256": "cf8f383903bde690277a19fcf403537079ad4c21059314f3e8d6b1c9e27e66d0",
+  "requested_dimensions": "2400x1600 if supported; prompt only, no size argument",
+  "actual_dimensions": [
+    1536,
+    1024
+  ],
+  "alpha_requirement": "none for review board; final character/layers are deferred",
+  "reference": [],
+  "processing": "Original tool PNG copied unchanged; embedded source provenance retained",
+  "scope": "Comparison only, not selected art or final production layers",
+  "human_art_review": "pending",
+  "human_content_review": "pending",
+  "provider_rights_review": "pending"
+}

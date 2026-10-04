@@ -1,0 +1,5 @@
+Use case: text-localization
+Asset type: narrow contrast repair to a PENDING HUMAN REVIEW art-direction board.
+Input image: the existing Direction A take-01 board is the edit target.
+Primary request: Change ONLY the color of the word "Finish" in the two coral garden buttons (Garden landscape and Garden portrait) from white to very dark forest ink #253C30. The exact word remains "Finish". This is a contrast repair; make those two labels strongly readable.
+Constraints: Preserve all other content, layout, characters, style, texture, panel shapes, labels, controls and quantities. Keep EXACTLY five source berries and three target berries in EACH counting scene, six source and five target berries in the stress inset, all baskets empty, all fruit fully visible. Keep original opaque review-board background and pending-review heading. Do not add objects, change poses, crop, change orientation or alter the other button labels. Produce a sibling revision, do not overwrite the source.

@@ -1,0 +1,608 @@
+{
+  "status": "technical-audit-pass-with-explicit-voice-gap",
+  "json_files_parsed": 47,
+  "decoded_images": [
+    {
+      "path": "masters/images/DIRECTION-A/take-01/board.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "masters/images/DIRECTION-A/take-02/board.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "masters/images/DIRECTION-B/take-01/board.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "masters/images/DIRECTION-B/take-02/board.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/pickup-return-settle.gif",
+      "dimensions": [
+        960,
+        720
+      ],
+      "format": "GIF",
+      "frames": 72
+    },
+    {
+      "path": "motion/M01/poster.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/reduced-motion-contact-sheet.png",
+      "dimensions": [
+        2160,
+        540
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/reduced-motion.gif",
+      "dimensions": [
+        960,
+        720
+      ],
+      "format": "GIF",
+      "frames": 72
+    },
+    {
+      "path": "motion/M01/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M01/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M02/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M02/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M02/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M02/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M03/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M03/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M03/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M03/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M04/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M04/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M04/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M04/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M05/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M05/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M05/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M05/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M06/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M06/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M06/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M06/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M07/storyboard-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M07/storyboard-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M07/storyboard-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/M07/storyboard-contact-sheet.png",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/all-storyboards-pdf-preview.png",
+      "dimensions": [
+        1800,
+        2880
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-04.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-05.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-06.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/pickup-return-settle/frame-07.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-01.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-02.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-03.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-04.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-05.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-06.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-frames/reduced-motion/frame-07.png",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/decoded-key-frames.png",
+      "dimensions": [
+        2240,
+        710
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M01.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M02.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M03.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M04.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M05.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M06.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    },
+    {
+      "path": "motion/review/pdf-pages/M07.png",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "format": "PNG",
+      "frames": 1
+    }
+  ],
+  "image_sources_and_prompts_hash_match": true,
+  "motion_contracts": [
+    {
+      "id": "M01",
+      "layer_count": 8,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M02",
+      "layer_count": 9,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M03",
+      "layer_count": 9,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M04",
+      "layer_count": 8,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M05",
+      "layer_count": 9,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M06",
+      "layer_count": 11,
+      "pdf_decoded": true
+    },
+    {
+      "id": "M07",
+      "layer_count": 8,
+      "pdf_decoded": true
+    }
+  ],
+  "videos": [
+    {
+      "path": "motion/M01/pickup-return-settle.mp4",
+      "sha256": "51d9aeb93014e0b128264babe5fe897a6bb19574f3a2bf99180dcc4acb521495",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "decoded_frames": 144,
+      "duration_seconds": 4.8,
+      "audio_streams": 0
+    },
+    {
+      "path": "motion/M01/reduced-motion.mp4",
+      "sha256": "629f0eafadb100450914e7cf41f4c610d31d0001f77b1ce10423b7aa396b0cce",
+      "dimensions": [
+        1440,
+        1080
+      ],
+      "decoded_frames": 144,
+      "duration_seconds": 4.8,
+      "audio_streams": 0
+    }
+  ],
+  "html_local_links_resolve": 31,
+  "voice_requests_exact": 10,
+  "actual_audio_recordings": 0,
+  "actual_audio_wording": "not-checkable-no-recordings",
+  "all_human_decisions": "pending",
+  "approved_delivery_exists": false,
+  "baseline_native_and_experiments_unchanged": true,
+  "visual_quantity_review": "manual inspection recorded separately; not inferred from file existence",
+  "motion_geometry_review": "see motion/review/technical-measurements.json; native behavior not tested"
+}

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "PHASE1-DIRECTION-B",
+  "take_id": "take-02",
+  "status": "pending-human-review",
+  "kind": "flattened-direction-board",
+  "provider": "OpenAI built-in image_gen.imagegen",
+  "model_version": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "tool_generated_source": "/Users/devan/.codex/generated_images/01a10571-33c6-7530-b6d1-08bc8ada1e37/exec-69b9d9a7-2290-4678-a70e-faa09240a413.png",
+  "recorded_at_utc": "2026-10-04T05:56:14.513724+00:00",
+  "prompt": "prompts/direction-b-take-02.txt",
+  "prompt_sha256": "0c574d43ad6c62a99aa84cd150072e757b887604dc6db0f7fe91440564165a16",
+  "file": "masters/images/DIRECTION-B/take-02/board.png",
+  "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+  "actual_dimensions": [
+    1536,
+    1024
+  ],
+  "reference": [
+    "masters/images/DIRECTION-B/take-01/board.png"
+  ],
+  "processing": "Original tool PNG copied unchanged; contrast revision performed by image_gen, no manual pixel edit",
+  "scope": "Comparison only; no selected production layer exports",
+  "replacement_of": "masters/images/DIRECTION-B/take-01/board.png",
+  "replacement_reason": "Improve Finish text contrast; original take retained",
+  "human_art_review": "pending",
+  "human_content_review": "pending",
+  "provider_rights_review": "pending"
+}

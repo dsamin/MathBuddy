@@ -1,0 +1,92 @@
+{
+  "schema_version": "phase1-samples-v1",
+  "status": "pending-human-review-voice-takes-missing",
+  "planning_inventory_is_not_complete": true,
+  "working_concept": "Pip’s Picnic",
+  "records": [
+    {
+      "id": "PHASE1-DIRECTION-A",
+      "kind": "flattened-visual-comparison",
+      "status": "pending-human-review",
+      "current_review_take": "take-02",
+      "production_selected": false,
+      "takes": [
+        "masters/images/DIRECTION-A/take-01/board.png",
+        "masters/images/DIRECTION-A/take-02/board.png"
+      ]
+    },
+    {
+      "id": "PHASE1-DIRECTION-B",
+      "kind": "flattened-visual-comparison",
+      "status": "pending-human-review",
+      "current_review_take": "take-02",
+      "production_selected": false,
+      "takes": [
+        "masters/images/DIRECTION-B/take-01/board.png",
+        "masters/images/DIRECTION-B/take-02/board.png"
+      ]
+    },
+    {
+      "id": "M01",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M01/brief.json",
+      "storyboard": "motion/M01/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M02",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M02/brief.json",
+      "storyboard": "motion/M02/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M03",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M03/brief.json",
+      "storyboard": "motion/M03/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M04",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M04/brief.json",
+      "storyboard": "motion/M04/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M05",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M05/brief.json",
+      "storyboard": "motion/M05/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M06",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M06/brief.json",
+      "storyboard": "motion/M06/storyboard.pdf",
+      "production_selected": false
+    },
+    {
+      "id": "M07",
+      "kind": "provisional-motion-contract-and-storyboard",
+      "status": "pending-human-review",
+      "brief": "motion/M07/brief.json",
+      "storyboard": "motion/M07/storyboard.pdf",
+      "production_selected": false
+    }
+  ],
+  "voice_requests": "requests/voice/request-manifest.json",
+  "voice_recording_count": 0,
+  "voice_take_gap": 10,
+  "delivery_manifest": null,
+  "human_decisions": "metadata/review-decisions.json",
+  "technical_validation": "metadata/validation.json"
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": "phase1-motion-brief-v1",
+  "version": 1,
+  "status": "provisional-pending-human-review",
+  "selected_take": null,
+  "working_concept": "Pip's Picnic; comparison concept, not approved final identity",
+  "implementation": "Authoring specification and off-app schematic only. Future behavior is native SwiftUI; no native implementation is present here.",
+  "coordinate_system": {
+    "production_proposal": "Normalized layer coordinates, origin top-left, x/y in [0,1]. Local pivot maps named per layer.",
+    "study_canvas_px": [
+      1440,
+      1080
+    ],
+    "orientation_policy": "Inherit the active LAYOUT-COUNT, LAYOUT-JOIN or LAYOUT-TAKE. Reproject requested cue/model focus to that layout's reference, working region or stable occurrence. Do not rearrange semantic pieces for help. Preserve all applicable occurrence/toy/guide identities and committed region/slot/anchor state; reproject anchors rather than repopulate. Cancel ephemeral visual interpolation on rotation and render the latest committed semantic state. Rotation never records a move, response, support event, completion or reward."
+  },
+  "semantic_state_ownership": {
+    "owner": "Future native activity/reward model, never the animation renderer.",
+    "commit_rule": "An accepted tap/drag/Undo changes persistent region/slot/history or reward ownership exactly once before presentation. Invalid/cancelled input commits nothing.",
+    "excluded_from_animation_completion": [
+      "quantity mutation",
+      "new occurrence creation",
+      "response correctness",
+      "missCount",
+      "help attribution",
+      "checkpoint completion",
+      "reward grant",
+      "session completion",
+      "history writes"
+    ],
+    "completion_callbacks": "May clear ephemeral visual transforms only. Must not create mathematical evidence or grant a reward.",
+    "identity": "Namespace authored occurrence templates by round ID. Same occurrence ID, object family and origin anchor survive move, return, Undo, pause, rotation and resume.",
+    "audio_invalidation": "Accepted object movement cancels stale prompt/help/count speech. When enabled, latest basket or friend's-plate count replaces earlier counts. Never speak an assessed joining total or source remainder automatically.",
+    "rendering": "A moving occurrence is rendered once on the travel layer, never duplicated at source and destination. Target-reference copies are explicitly noninteractive and excluded from the working set."
+  },
+  "global_interrupts": {
+    "navigation_background_system_interruption": "Stop narration/effects and presentation. Persist committed semantic state. Resume silently at exact current anchors; no replay or delayed completion event.",
+    "rapid_input": "Input never waits for travel/celebration. Replace the affected occurrence's visual trajectory from its sampled visible position toward the latest committed anchor; do not run a FIFO animation or speech backlog.",
+    "gesture_cancellation": "Cancel transient drag without a semantic move; return to the committed anchor. Do not record a mathematical miss.",
+    "reduced_motion_toggle": "Cancel travel/scale/rotation and snap to the latest committed semantic state. Preserve goal, object visibility and live controls."
+  },
+  "sound_contract": {
+    "required_for_meaning": false,
+    "music": "excluded",
+    "settings": "Narration, spoken-count and effects controls are separate.",
+    "cues": "Optional effects only on accepted actions; no source SFX generated for this Phase 1 study. System/accessibility announcements must not overlap the prerecorded lane."
+  },
+  "human_review": {
+    "art": "pending",
+    "content": "pending",
+    "motion_comfort": "pending",
+    "child_usability": "pending",
+    "native_layer_pack": "not-produced"
+  },
+  "provenance": {
+    "method": "Original direction-neutral Pillow vector schematic, deterministic timeline; no generative provider or experiment assets imported.",
+    "source_script": "scripts/phase1-motion-study.py",
+    "rights": "Original schematic recipe. Arial is used from the local OS only for adult review rasterization, not redistributed or selected as app typography.",
+    "source_references": [
+      "docs/planning/asset-register.csv",
+      "docs/planning/content-catalog.json",
+      "docs/planning/asset-production-plan.md"
+    ],
+    "human_approval": false
+  },
+  "asset_id": "M04",
+  "name": "help-and-demonstration",
+  "dependencies": [
+    "PIP-02",
+    "PIP-03",
+    "CUE-DEMO",
+    "REF-00",
+    "REF-01",
+    "REF-02",
+    "REF-03",
+    "REF-04",
+    "REF-05",
+    "LAYOUT-COUNT",
+    "LAYOUT-JOIN",
+    "LAYOUT-TAKE"
+  ],
+  "triggers": [
+    "Explicitly selected current-checkpoint focus cue",
+    "Explicitly requested modeled counting",
+    "Explicit help replay"
+  ],
+  "layers": [
+    {
+      "id": "environment-distant",
+      "z": 0,
+      "pivot": "canvas origin",
+      "contract": "Decorative only; no labels or countable fruit."
+    },
+    {
+      "id": "environment-ground",
+      "z": 10,
+      "pivot": "canvas origin",
+      "contract": "Aligned with distant and foreground; semantic safe regions remain clear."
+    },
+    {
+      "id": "environment-edge-foreground",
+      "z": 60,
+      "pivot": "canvas origin",
+      "contract": "Never crosses the working-region or target safe masks."
+    },
+    {
+      "id": "controls-and-reference",
+      "z": 100,
+      "pivot": "native bounds center",
+      "contract": "Given count/transfer only. Native UI outside background art; persistent input stays live."
+    },
+    {
+      "id": "pip-aligned-pose",
+      "z": 25,
+      "pivot": "1536 canvas foot anchor (0.5,0.90)",
+      "contract": "Aligned still pose crossfade only; warm attentive expression, never disappointed."
+    },
+    {
+      "id": "occurrences",
+      "z": 30,
+      "pivot": "fruit center",
+      "contract": "Do not auto-place, duplicate, hide or renumber an occurrence."
+    },
+    {
+      "id": "focus-border",
+      "z": 70,
+      "pivot": "reference/region bounds",
+      "contract": "Non-color cue around given reference then destination; no answer leak."
+    },
+    {
+      "id": "cue-demo",
+      "z": 80,
+      "pivot": "normalized tip (0.5,0.92)",
+      "contract": "Separate cursor/outline—not another fruit; at most one highlighted occurrence per modeled count."
+    }
+  ],
+  "start_state": "Committed arrangement and checkpoint evidence unchanged. User requests current-checkpoint cue/model.",
+  "middle_state": "Cue focuses the given reference/destination without moving fruit. Requested model highlights actual stable occurrences in order; zero uses an empty-region focus.",
+  "end_state": "Remove transient cue on finish/cancel. Arrangement unchanged; record delivered cue/model support at the relevant checkpoint when shown, not as a late callback.",
+  "duration_ms": {
+    "focus_border": 180,
+    "model_highlight_per_occurrence": 550,
+    "max_six_piece_model": 3300,
+    "pose_crossfade": 160
+  },
+  "repeat_policy": "One pass per explicit request; no automatic looping or escalation. Explicit replay replaces prior help; it does not queue.",
+  "motion_recipe": "Static outline then one gentle highlight per stable occurrence. No cursor teleport count ambiguity; deliberate model only may use exact number clips.",
+  "reduced_motion": "Static focus border and immediate highlight steps at the same support timing. Aligned pose switch without travel, pulse or scaling.",
+  "occlusion_contract": "Cue ring stays outside silhouette; finger proxy never covers the full fruit. Given reference and response choices remain discoverable.",
+  "sound_cues": [
+    "Exact current-checkpoint help line optionally",
+    "Number clips in requested model carry model support; ordinary replay/Undo/current count do not automatically mean extra help"
+  ],
+  "storyboard_beats": [
+    "Requested cue",
+    "Requested model highlight",
+    "Cancelled; arrangement preserved"
+  ]
+}

@@ -1,3 +1,5 @@
+> Active session: authorized local baseline and Phase 1 direction samples only. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
+
 # MathBuddy design review — 2026-10-03
 
 ## Current work — independent review and detailed implementation planning
@@ -111,19 +113,20 @@ Scope: establish a local checkpoint, then execute only the small creative-direct
 
 ### Plan and acceptance checks
 - [x] Inspect applicable instructions and all meaningful project files; audit ignore rules, binary sizes and staged secrets.
-- [ ] Initialize local Git and commit preserved meaningful work as a baseline; report remote status accurately.
-- [ ] Read the planning packet and reconcile the focused review agent’s material dependencies.
-- [ ] Produce two comparable directions: identity/attentive/pleased poses, count-three from five with count-five consideration, garden with pinwheel/free flower/Finish, portrait and landscape, explicit sound-off target.
-- [ ] Preserve exact prompts, source takes, request/provenance and pending-human-review labels under the asset plan’s folders.
-- [ ] Produce a short pickup/return/settle motion study plus all seven provisional layer/motion contracts, with Reduced Motion alternatives.
-- [ ] Produce two candidates × the same five catalog audition lines if a generation capability is available; otherwise record the specific gap and preserve ready-to-run requests.
-- [ ] Inspect actual images and motion; audit quantity, identity, visibility and layer feasibility. Measure audio and verify actual wording where capability permits.
-- [ ] Record technical results separately from human art, listening, wording and provider/rights decisions.
-- [ ] Review and secret-scan the final diff, commit Phase 1 separately, and present sample links, hashes, limitations and recommendation.
-- [ ] Stop at Phase 1 review; no bulk pilot asset production, native edits/builds or Pebble changes.
+- [x] Initialize local Git and commit preserved meaningful work as a baseline; report remote status accurately. Baseline: `18b36ed`; no remote.
+- [x] Read the planning packet and reconcile the focused review agent’s material dependencies. See `docs/reviews/2026-10-03-phase1-dependencies.md`.
+- [x] Produce two comparable directions: identity/attentive/pleased poses, count-three from five with count-five consideration, garden with pinwheel/free flower/Finish, portrait and landscape, explicit sound-off target.
+- [x] Preserve exact prompts, source takes, request/provenance and pending-human-review labels under the asset plan’s folders.
+- [x] Produce a short pickup/return/settle motion study plus all seven provisional layer/motion contracts, with Reduced Motion alternatives.
+- [x] Record unavailable natural voice generation and preserve ten ready-to-run requests, exact source snapshot and listening sheet.
+- [ ] Outstanding: produce and inspect the ten actual voice audition takes after an authorized provider becomes available.
+- [x] Inspect actual images and motion; audit quantity, identity, visibility and layer feasibility. Measure audio and verify actual wording where capability permits.
+- [x] Record technical results separately from human art, listening, wording and provider/rights decisions.
+- [x] Review and secret-scan the final diff, commit Phase 1 separately, and present sample links, hashes, limitations and recommendation. The separate checkpoint commit is reported in the final response.
+- [x] Stop at Phase 1 review; no bulk pilot asset production, native edits/builds or Pebble changes.
 
 ### Pre-execution check-in
 The requested comparison is bounded to warm paper illustration versus clean soft-shape storybook, using the same rabbit, count-three task and garden objects. The user has explicitly authorized these samples and both Git checkpoints. Full source/layer delivery belongs to a later reviewed phase; the sample boards will not be marked native-ready.
 
 ### Review results
-Pending execution and technical inspection. Human selections remain pending.
+Two directions × two preserved takes are reviewable; take-02 repairs Finish contrast. Seven provisional motion/layer briefs/storyboard PDFs and normal/Reduced Motion 4.8-second studies were actually decoded and reviewed. Ten voice requests match the catalog; all ten recordings are missing because credentials are unavailable. Technical findings are separate from pending human art/listening/provider decisions. No native edits/builds, bulk pilot generation or Pebble changes occurred. See `docs/reviews/2026-10-03-phase1-checkpoint.md`.

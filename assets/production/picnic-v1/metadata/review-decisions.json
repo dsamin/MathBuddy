@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "phase": "Phase 1",
+  "status": "pending-human-review",
+  "production_selected": false,
+  "decisions": [
+    {
+      "kind": "theme",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Pip’s Picnic/rabbit is a working concept for comparison only."
+    },
+    {
+      "kind": "art-direction",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Recommend clean soft-shape B for math separation; user selection remains pending."
+    },
+    {
+      "kind": "character-identity",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Face/body/scarf consistent in samples; approve or revise the pleased pose’s bent ear."
+    },
+    {
+      "kind": "object-clarity",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Review visible working set versus framed noninteractive reference at real iPad size."
+    },
+    {
+      "kind": "composition",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Review both orientations; native geometry and touch bounds are future evidence."
+    },
+    {
+      "kind": "motion",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Seven briefs and normal/Reduced Motion schematic are provisional, not native implementation."
+    },
+    {
+      "kind": "voice-wording",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Five exact catalog lines preserved; user wording decision pending."
+    },
+    {
+      "kind": "voice-listening",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "All ten audition recordings missing; no listening decision can be made."
+    },
+    {
+      "kind": "provider-rights",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "notes": "Review image source/provider and selected voice provider separately before production."
+    }
+  ]
+}

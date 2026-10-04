@@ -1,0 +1,8664 @@
+{
+  "status": "provisional-pending-human-review",
+  "fps": 30,
+  "frame_count": 144,
+  "duration_seconds": 4.8,
+  "silent": true,
+  "reduced_motion": false,
+  "semantic_inputs": [
+    {
+      "time_seconds": 0.72,
+      "event": "accepted-move",
+      "id": "CNT-01-piece-03",
+      "to": "basket/slot-01"
+    },
+    {
+      "time_seconds": 2.88,
+      "event": "accepted-return",
+      "id": "CNT-01-piece-03",
+      "to": "tray/slot-03"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "time_seconds": 0.0,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 1,
+      "time_seconds": 0.03333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 2,
+      "time_seconds": 0.06667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 3,
+      "time_seconds": 0.1,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 4,
+      "time_seconds": 0.13333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 5,
+      "time_seconds": 0.16667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 6,
+      "time_seconds": 0.2,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 7,
+      "time_seconds": 0.23333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 8,
+      "time_seconds": 0.26667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 9,
+      "time_seconds": 0.3,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 10,
+      "time_seconds": 0.33333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 11,
+      "time_seconds": 0.36667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 12,
+      "time_seconds": 0.4,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 13,
+      "time_seconds": 0.43333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 14,
+      "time_seconds": 0.46667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 15,
+      "time_seconds": 0.5,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 16,
+      "time_seconds": 0.53333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 17,
+      "time_seconds": 0.56667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 18,
+      "time_seconds": 0.6,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 19,
+      "time_seconds": 0.63333,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 20,
+      "time_seconds": 0.66667,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 21,
+      "time_seconds": 0.7,
+      "phase": "Ready: five pieces; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 22,
+      "time_seconds": 0.73333,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            551.405,
+            503.487
+          ],
+          "scale": 1.00697
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 23,
+      "time_seconds": 0.76667,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            566.119,
+            487.698
+          ],
+          "scale": 1.02376
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 24,
+      "time_seconds": 0.8,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            594.17,
+            458.66
+          ],
+          "scale": 1.03857
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 25,
+      "time_seconds": 0.83333,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            632.223,
+            424.26
+          ],
+          "scale": 1.05013
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 26,
+      "time_seconds": 0.86667,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            676.945,
+            395.991
+          ],
+          "scale": 1.05748
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 27,
+      "time_seconds": 0.9,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            725.0,
+            385.0
+          ],
+          "scale": 1.06
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 28,
+      "time_seconds": 0.93333,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            773.055,
+            395.991
+          ],
+          "scale": 1.05748
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 29,
+      "time_seconds": 0.96667,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            817.777,
+            424.26
+          ],
+          "scale": 1.05013
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 30,
+      "time_seconds": 1.0,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            855.83,
+            458.66
+          ],
+          "scale": 1.03857
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 31,
+      "time_seconds": 1.03333,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            883.881,
+            487.698
+          ],
+          "scale": 1.02376
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 32,
+      "time_seconds": 1.06667,
+      "phase": "Pickup: one stable occurrence moves",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            898.595,
+            503.487
+          ],
+          "scale": 1.00697
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 33,
+      "time_seconds": 1.1,
+      "phase": "Settle: position held; no new math event",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.01519
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 34,
+      "time_seconds": 1.13333,
+      "phase": "Settle: position held; no new math event",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.03258
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 35,
+      "time_seconds": 1.16667,
+      "phase": "Settle: position held; no new math event",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.03258
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 36,
+      "time_seconds": 1.2,
+      "phase": "Settle: position held; no new math event",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.01519
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 37,
+      "time_seconds": 1.23333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 38,
+      "time_seconds": 1.26667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 39,
+      "time_seconds": 1.3,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 40,
+      "time_seconds": 1.33333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 41,
+      "time_seconds": 1.36667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 42,
+      "time_seconds": 1.4,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 43,
+      "time_seconds": 1.43333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 44,
+      "time_seconds": 1.46667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 45,
+      "time_seconds": 1.5,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 46,
+      "time_seconds": 1.53333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 47,
+      "time_seconds": 1.56667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 48,
+      "time_seconds": 1.6,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 49,
+      "time_seconds": 1.63333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 50,
+      "time_seconds": 1.66667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 51,
+      "time_seconds": 1.7,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 52,
+      "time_seconds": 1.73333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 53,
+      "time_seconds": 1.76667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 54,
+      "time_seconds": 1.8,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 55,
+      "time_seconds": 1.83333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 56,
+      "time_seconds": 1.86667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 57,
+      "time_seconds": 1.9,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 58,
+      "time_seconds": 1.93333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 59,
+      "time_seconds": 1.96667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 60,
+      "time_seconds": 2.0,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 61,
+      "time_seconds": 2.03333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 62,
+      "time_seconds": 2.06667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 63,
+      "time_seconds": 2.1,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 64,
+      "time_seconds": 2.13333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 65,
+      "time_seconds": 2.16667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 66,
+      "time_seconds": 2.2,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 67,
+      "time_seconds": 2.23333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 68,
+      "time_seconds": 2.26667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 69,
+      "time_seconds": 2.3,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 70,
+      "time_seconds": 2.33333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 71,
+      "time_seconds": 2.36667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 72,
+      "time_seconds": 2.4,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 73,
+      "time_seconds": 2.43333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 74,
+      "time_seconds": 2.46667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 75,
+      "time_seconds": 2.5,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 76,
+      "time_seconds": 2.53333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 77,
+      "time_seconds": 2.56667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 78,
+      "time_seconds": 2.6,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 79,
+      "time_seconds": 2.63333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 80,
+      "time_seconds": 2.66667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 81,
+      "time_seconds": 2.7,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 82,
+      "time_seconds": 2.73333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 83,
+      "time_seconds": 2.76667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 84,
+      "time_seconds": 2.8,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 85,
+      "time_seconds": 2.83333,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 86,
+      "time_seconds": 2.86667,
+      "phase": "Placed: all five working pieces remain visible",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "basket",
+          "slot": "slot-01",
+          "center_px": [
+            900,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 1
+    },
+    {
+      "frame": 87,
+      "time_seconds": 2.9,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            896.879,
+            501.639
+          ],
+          "scale": 1.01042
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 88,
+      "time_seconds": 2.93333,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            879.231,
+            482.758
+          ],
+          "scale": 1.02693
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 89,
+      "time_seconds": 2.96667,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            848.913,
+            451.881
+          ],
+          "scale": 1.04117
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 90,
+      "time_seconds": 3.0,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            809.259,
+            417.715
+          ],
+          "scale": 1.05196
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 91,
+      "time_seconds": 3.03333,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            763.604,
+            392.132
+          ],
+          "scale": 1.05838
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 92,
+      "time_seconds": 3.06667,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            715.282,
+            385.456
+          ],
+          "scale": 1.0599
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 93,
+      "time_seconds": 3.1,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            667.627,
+            400.564
+          ],
+          "scale": 1.05638
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 94,
+      "time_seconds": 3.13333,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            623.972,
+            431.05
+          ],
+          "scale": 1.04813
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 95,
+      "time_seconds": 3.16667,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            587.653,
+            465.211
+          ],
+          "scale": 1.03583
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 96,
+      "time_seconds": 3.2,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            562.003,
+            492.097
+          ],
+          "scale": 1.02052
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 97,
+      "time_seconds": 3.23333,
+      "phase": "Return: same occurrence; original source anchor",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550.356,
+            504.617
+          ],
+          "scale": 1.00349
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 98,
+      "time_seconds": 3.26667,
+      "phase": "Return settle: stable anchor restored",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.01972
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 99,
+      "time_seconds": 3.3,
+      "phase": "Return settle: stable anchor restored",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.03412
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 100,
+      "time_seconds": 3.33333,
+      "phase": "Return settle: stable anchor restored",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.03031
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 101,
+      "time_seconds": 3.36667,
+      "phase": "Return settle: stable anchor restored",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.01032
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 102,
+      "time_seconds": 3.4,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 103,
+      "time_seconds": 3.43333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 104,
+      "time_seconds": 3.46667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 105,
+      "time_seconds": 3.5,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 106,
+      "time_seconds": 3.53333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 107,
+      "time_seconds": 3.56667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 108,
+      "time_seconds": 3.6,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 109,
+      "time_seconds": 3.63333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 110,
+      "time_seconds": 3.66667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 111,
+      "time_seconds": 3.7,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 112,
+      "time_seconds": 3.73333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 113,
+      "time_seconds": 3.76667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 114,
+      "time_seconds": 3.8,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 115,
+      "time_seconds": 3.83333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 116,
+      "time_seconds": 3.86667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 117,
+      "time_seconds": 3.9,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 118,
+      "time_seconds": 3.93333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 119,
+      "time_seconds": 3.96667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 120,
+      "time_seconds": 4.0,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 121,
+      "time_seconds": 4.03333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 122,
+      "time_seconds": 4.06667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 123,
+      "time_seconds": 4.1,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 124,
+      "time_seconds": 4.13333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 125,
+      "time_seconds": 4.16667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 126,
+      "time_seconds": 4.2,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 127,
+      "time_seconds": 4.23333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 128,
+      "time_seconds": 4.26667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 129,
+      "time_seconds": 4.3,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 130,
+      "time_seconds": 4.33333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 131,
+      "time_seconds": 4.36667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 132,
+      "time_seconds": 4.4,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 133,
+      "time_seconds": 4.43333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 134,
+      "time_seconds": 4.46667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 135,
+      "time_seconds": 4.5,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 136,
+      "time_seconds": 4.53333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 137,
+      "time_seconds": 4.56667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 138,
+      "time_seconds": 4.6,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 139,
+      "time_seconds": 4.63333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 140,
+      "time_seconds": 4.66667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 141,
+      "time_seconds": 4.7,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 142,
+      "time_seconds": 4.73333,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    },
+    {
+      "frame": 143,
+      "time_seconds": 4.76667,
+      "phase": "Returned: target unchanged; basket empty",
+      "pieces": [
+        {
+          "id": "CNT-01-piece-01",
+          "region": "tray",
+          "slot": "slot-01",
+          "center_px": [
+            210,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-02",
+          "region": "tray",
+          "slot": "slot-02",
+          "center_px": [
+            380,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-03",
+          "region": "tray",
+          "slot": "slot-03",
+          "center_px": [
+            550,
+            505
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-04",
+          "region": "tray",
+          "slot": "slot-04",
+          "center_px": [
+            210,
+            680
+          ],
+          "scale": 1.0
+        },
+        {
+          "id": "CNT-01-piece-05",
+          "region": "tray",
+          "slot": "slot-05",
+          "center_px": [
+            380,
+            680
+          ],
+          "scale": 1.0
+        }
+      ],
+      "target_reference_count": 3,
+      "working_count": 5,
+      "basket_count": 0
+    }
+  ]
+}

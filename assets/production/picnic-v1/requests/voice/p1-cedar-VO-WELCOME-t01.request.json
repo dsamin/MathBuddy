@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "take_id": "p1-cedar-VO-WELCOME-t01",
+  "phase": "phase-1-creative-direction-audition-only",
+  "status": "request-ready-recording-not-produced",
+  "script_id": "VO-WELCOME",
+  "language": "en-US",
+  "exact_script": "Hello! Let’s get our picnic ready.",
+  "candidate_voice": "cedar",
+  "provider": "OpenAI",
+  "provider_model": "gpt-4o-mini-tts-2025-12-15",
+  "provider_voice_type": "built-in",
+  "provider_request": {
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voice": "cedar",
+    "input": "Hello! Let’s get our picnic ready.",
+    "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+    "response_format": "wav",
+    "speed": 1.0
+  },
+  "cli_job": {
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voice": "cedar",
+    "input": "Hello! Let’s get our picnic ready.",
+    "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+    "response_format": "wav",
+    "speed": 1.0,
+    "out": "VO-WELCOME/p1-cedar-VO-WELCOME-t01.wav"
+  },
+  "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-WELCOME/p1-cedar-VO-WELCOME-t01.wav",
+  "actual_master_path": null,
+  "actual_recording_sha256": null,
+  "generation_attempts": [],
+  "generated_at": null,
+  "provenance": {
+    "script_source": "docs/planning/voice-script-catalog.json",
+    "script_snapshot_path": "assets/production/picnic-v1/requests/voice/catalog-audition-snapshot.json",
+    "script_snapshot_sha256": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef",
+    "script_text_sha256": "c7bdbd99c2d6b0615d0dd934937747206b77e78816732860c016a35bb8da242d",
+    "delivery_source": "Catalog natural-adult-guide direction; identical instructions across both candidates.",
+    "generation_workflow": "Bundled speech skill text_to_speech.py; no live call made.",
+    "comparison_controls": [
+      "same five exact lines",
+      "same model",
+      "same en-US language direction",
+      "same delivery instructions",
+      "same speed",
+      "same WAV output request"
+    ]
+  },
+  "reviews": {
+    "human_script_wording": "pending",
+    "human_listening": "pending-recording-missing",
+    "candidate_selection": "pending",
+    "provider_rights": "pending",
+    "cost_estimate": "pending-at-user-selected-generation-boundary",
+    "audio_exact_wording": "not-checkable-recording-missing",
+    "audio_quality": "not-checkable-recording-missing"
+  },
+  "ai_voice_disclosure": "If generated, this voice will be AI-generated. No voice audio exists in this package."
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "status": "phase-1-draft-scripts-pending-human-wording-review",
+  "source_catalog_path": "docs/planning/voice-script-catalog.json",
+  "source_catalog_id": "mathbuddy-picnic-en-US-scripts-v1",
+  "source_catalog_sha256": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee",
+  "audition_script_ids": [
+    "VO-WELCOME",
+    "VO-COUNT-BERRY-03",
+    "VO-COUNT-TOO-MANY",
+    "VO-JOIN-TOTAL",
+    "VO-BYE"
+  ],
+  "scripts": [
+    {
+      "id": "VO-WELCOME",
+      "locale": "en-US",
+      "exact_script": "Hello! Let’s get our picnic ready.",
+      "role": "home",
+      "feature_ids": [
+        "F01",
+        "F09"
+      ],
+      "math_parameters": {},
+      "used_by": [
+        "shared:welcome"
+      ],
+      "delivery": "Natural adult guide; warm and matter-of-fact; clear number words; no singsong counting; no added speech. Audition before choosing voice.",
+      "review_status": "draft-needs-human-script-review",
+      "listening_status": "not-produced",
+      "selected_export": null,
+      "candidate_path": null,
+      "candidate_policy": null,
+      "support_class": "none",
+      "support_policy": "Apply only to the checkpoint where support is delivered before its explicit response. Post-success explanations do not retroactively change completed evidence.",
+      "support_by_context": {
+        "default": "none"
+      },
+      "content_review": "pending",
+      "provider_rights_review": "not-selected"
+    },
+    {
+      "id": "VO-COUNT-BERRY-03",
+      "locale": "en-US",
+      "exact_script": "Put three berries in the basket.",
+      "role": "count-instruction",
+      "feature_ids": [
+        "F02"
+      ],
+      "math_parameters": {
+        "target": 3,
+        "object_family": "BERRY"
+      },
+      "used_by": [
+        "CNT-01",
+        "CNT-07"
+      ],
+      "delivery": "Natural adult guide; warm and matter-of-fact; clear number words; no singsong counting; no added speech. Audition before choosing voice.",
+      "review_status": "draft-needs-human-script-review",
+      "listening_status": "not-produced",
+      "selected_export": null,
+      "candidate_path": null,
+      "candidate_policy": null,
+      "support_class": "none",
+      "support_policy": "Apply only to the checkpoint where support is delivered before its explicit response. Post-success explanations do not retroactively change completed evidence.",
+      "support_by_context": {
+        "default": "none"
+      },
+      "content_review": "pending",
+      "provider_rights_review": "not-selected"
+    },
+    {
+      "id": "VO-COUNT-TOO-MANY",
+      "locale": "en-US",
+      "exact_script": "There are too many. Tap a piece in the basket to give it back.",
+      "role": "retry",
+      "feature_ids": [
+        "F02",
+        "F05"
+      ],
+      "math_parameters": {},
+      "used_by": [
+        "CNT-01",
+        "CNT-02",
+        "CNT-03",
+        "CNT-04",
+        "CNT-05",
+        "CNT-06",
+        "CNT-07",
+        "CNT-08"
+      ],
+      "delivery": "Natural adult guide; warm and matter-of-fact; clear number words; no singsong counting; no added speech. Audition before choosing voice.",
+      "review_status": "draft-needs-human-script-review",
+      "listening_status": "not-produced",
+      "selected_export": null,
+      "candidate_path": null,
+      "candidate_policy": null,
+      "support_class": "cue",
+      "support_policy": "Apply only to the checkpoint where support is delivered before its explicit response. Post-success explanations do not retroactively change completed evidence.",
+      "support_by_context": {
+        "default": "cue"
+      },
+      "content_review": "pending",
+      "provider_rights_review": "not-selected"
+    },
+    {
+      "id": "VO-JOIN-TOTAL",
+      "locale": "en-US",
+      "exact_script": "How many are on the shared mat? Choose a number.",
+      "role": "joining-question",
+      "feature_ids": [
+        "F03"
+      ],
+      "math_parameters": {},
+      "used_by": [
+        "JOIN-03",
+        "JOIN-04",
+        "JOIN-05",
+        "JOIN-07"
+      ],
+      "delivery": "Natural adult guide; warm and matter-of-fact; clear number words; no singsong counting; no added speech. Audition before choosing voice.",
+      "review_status": "draft-needs-human-script-review",
+      "listening_status": "not-produced",
+      "selected_export": null,
+      "candidate_path": null,
+      "candidate_policy": null,
+      "support_class": "none",
+      "support_policy": "Apply only to the checkpoint where support is delivered before its explicit response. Post-success explanations do not retroactively change completed evidence.",
+      "support_by_context": {
+        "default": "none"
+      },
+      "content_review": "pending",
+      "provider_rights_review": "not-selected"
+    },
+    {
+      "id": "VO-BYE",
+      "locale": "en-US",
+      "exact_script": "Bye for now. Your garden will be here.",
+      "role": "goodbye",
+      "feature_ids": [
+        "F01",
+        "F07"
+      ],
+      "math_parameters": {},
+      "used_by": [
+        "shared:goodbye"
+      ],
+      "delivery": "Natural adult guide; warm and matter-of-fact; clear number words; no singsong counting; no added speech. Audition before choosing voice.",
+      "review_status": "draft-needs-human-script-review",
+      "listening_status": "not-produced",
+      "selected_export": null,
+      "candidate_path": null,
+      "candidate_policy": null,
+      "support_class": "none",
+      "support_policy": "Apply only to the checkpoint where support is delivered before its explicit response. Post-success explanations do not retroactively change completed evidence.",
+      "support_by_context": {
+        "default": "none"
+      },
+      "content_review": "pending",
+      "provider_rights_review": "not-selected"
+    }
+  ]
+}

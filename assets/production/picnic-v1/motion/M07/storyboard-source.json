@@ -1,0 +1,14 @@
+{
+  "canvas_px": [
+    2400,
+    1800
+  ],
+  "render_script": "scripts/phase1-motion-study.py",
+  "asset_id": "M07",
+  "frames": [
+    "Aligned ready",
+    "Single friendly pose",
+    "Calm return / immediate exit"
+  ],
+  "review_status": "pending-human-review"
+}

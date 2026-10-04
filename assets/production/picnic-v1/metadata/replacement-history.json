@@ -1,0 +1,21 @@
+{
+  "status": "pending-human-review",
+  "records": [
+    {
+      "artifact_id": "PHASE1-DIRECTION-A",
+      "from_take": "take-01",
+      "to_take": "take-02",
+      "reason": "White Finish text had weak contrast; revised dark text for review",
+      "source_retained": true,
+      "production_selected": false
+    },
+    {
+      "artifact_id": "PHASE1-DIRECTION-B",
+      "from_take": "take-01",
+      "to_take": "take-02",
+      "reason": "White Finish text had weak contrast; revised dark text for review",
+      "source_retained": true,
+      "production_selected": false
+    }
+  ]
+}

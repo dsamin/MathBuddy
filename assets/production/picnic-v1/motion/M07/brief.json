@@ -1,0 +1,153 @@
+{
+  "schema_version": "phase1-motion-brief-v1",
+  "version": 1,
+  "status": "provisional-pending-human-review",
+  "selected_take": null,
+  "working_concept": "Pip's Picnic; comparison concept, not approved final identity",
+  "implementation": "Authoring specification and off-app schematic only. Future behavior is native SwiftUI; no native implementation is present here.",
+  "coordinate_system": {
+    "production_proposal": "Normalized layer coordinates, origin top-left, x/y in [0,1]. Local pivot maps named per layer.",
+    "study_canvas_px": [
+      1440,
+      1080
+    ],
+    "orientation_policy": "Use the orientation-specific reserved guide-character region and persistent control safe regions on home/garden/farewell. Reproject the aligned Pip canvas/foot anchor within its reserved region; keep the same guide identity, pose, scale relationship and gaze, clear of quantities and controls. Preserve all applicable occurrence/toy/guide identities and committed region/slot/anchor state; reproject anchors rather than repopulate. Cancel ephemeral visual interpolation on rotation and render the latest committed semantic state. Rotation never records a move, response, support event, completion or reward."
+  },
+  "semantic_state_ownership": {
+    "owner": "Future native activity/reward model, never the animation renderer.",
+    "commit_rule": "An accepted tap/drag/Undo changes persistent region/slot/history or reward ownership exactly once before presentation. Invalid/cancelled input commits nothing.",
+    "excluded_from_animation_completion": [
+      "quantity mutation",
+      "new occurrence creation",
+      "response correctness",
+      "missCount",
+      "help attribution",
+      "checkpoint completion",
+      "reward grant",
+      "session completion",
+      "history writes"
+    ],
+    "completion_callbacks": "May clear ephemeral visual transforms only. Must not create mathematical evidence or grant a reward.",
+    "identity": "Namespace authored occurrence templates by round ID. Same occurrence ID, object family and origin anchor survive move, return, Undo, pause, rotation and resume.",
+    "audio_invalidation": "Accepted object movement cancels stale prompt/help/count speech. When enabled, latest basket or friend's-plate count replaces earlier counts. Never speak an assessed joining total or source remainder automatically.",
+    "rendering": "A moving occurrence is rendered once on the travel layer, never duplicated at source and destination. Target-reference copies are explicitly noninteractive and excluded from the working set."
+  },
+  "global_interrupts": {
+    "navigation_background_system_interruption": "Stop narration/effects and presentation. Persist committed semantic state. Resume silently at exact current anchors; no replay or delayed completion event.",
+    "rapid_input": "Input never waits for travel/celebration. Replace the affected occurrence's visual trajectory from its sampled visible position toward the latest committed anchor; do not run a FIFO animation or speech backlog.",
+    "gesture_cancellation": "Cancel transient drag without a semantic move; return to the committed anchor. Do not record a mathematical miss.",
+    "reduced_motion_toggle": "Cancel travel/scale/rotation and snap to the latest committed semantic state. Preserve goal, object visibility and live controls."
+  },
+  "sound_contract": {
+    "required_for_meaning": false,
+    "music": "excluded",
+    "settings": "Narration, spoken-count and effects controls are separate.",
+    "cues": "Optional effects only on accepted actions; no source SFX generated for this Phase 1 study. System/accessibility announcements must not overlap the prerecorded lane."
+  },
+  "human_review": {
+    "art": "pending",
+    "content": "pending",
+    "motion_comfort": "pending",
+    "child_usability": "pending",
+    "native_layer_pack": "not-produced"
+  },
+  "provenance": {
+    "method": "Original direction-neutral Pillow vector schematic, deterministic timeline; no generative provider or experiment assets imported.",
+    "source_script": "scripts/phase1-motion-study.py",
+    "rights": "Original schematic recipe. Arial is used from the local OS only for adult review rasterization, not redistributed or selected as app typography.",
+    "source_references": [
+      "docs/planning/asset-register.csv",
+      "docs/planning/content-catalog.json",
+      "docs/planning/asset-production-plan.md"
+    ],
+    "human_approval": false
+  },
+  "asset_id": "M07",
+  "name": "greeting-and-farewell",
+  "dependencies": [
+    "PIP-01",
+    "PIP-05",
+    "ENV-01",
+    "ENV-02",
+    "UI-HOME",
+    "UI-FINISH"
+  ],
+  "triggers": [
+    "Fresh home entry",
+    "Explicit Finish/farewell",
+    "Resume shows calm pose silently"
+  ],
+  "layers": [
+    {
+      "id": "environment-distant",
+      "z": 0,
+      "pivot": "canvas origin",
+      "contract": "Decorative only; no labels or countable fruit."
+    },
+    {
+      "id": "environment-ground",
+      "z": 10,
+      "pivot": "canvas origin",
+      "contract": "Aligned with distant and foreground; semantic safe regions remain clear."
+    },
+    {
+      "id": "environment-edge-foreground",
+      "z": 60,
+      "pivot": "canvas origin",
+      "contract": "Never crosses the working-region or target safe masks."
+    },
+    {
+      "id": "controls-and-reference",
+      "z": 100,
+      "pivot": "native bounds center",
+      "contract": "Given count/transfer only. Native UI outside background art; persistent input stays live."
+    },
+    {
+      "id": "pip-ready-pose",
+      "z": 25,
+      "pivot": "1536 canvas foot anchor (0.5,0.90)",
+      "contract": "Transparent aligned still master; stable scale/gaze/feet."
+    },
+    {
+      "id": "pip-greeting-pose",
+      "z": 25,
+      "pivot": "same foot anchor (0.5,0.90)",
+      "contract": "Whole-pose crossfade, not an unplanned articulated arm rig."
+    },
+    {
+      "id": "pip-farewell-pose",
+      "z": 25,
+      "pivot": "same foot anchor (0.5,0.90)",
+      "contract": "Warm calm farewell; never implies data lost."
+    },
+    {
+      "id": "character-shadow",
+      "z": 20,
+      "pivot": "ground anchor",
+      "contract": "Small fixed shadow shared across poses; no jumping scale illusion."
+    }
+  ],
+  "start_state": "Stable aligned ready pose, current scene/navigation state already established.",
+  "middle_state": "One friendly pose transition; greeting/farewell language optional. Controls can navigate immediately.",
+  "end_state": "Return to ready or immediate requested exit. Resume is silent. Farewell neither writes progress nor deletes state; persistence belongs to native model.",
+  "duration_ms": {
+    "pose_crossfade": 180,
+    "hold": 450,
+    "return_crossfade": 180,
+    "max_total": 810
+  },
+  "repeat_policy": "One greeting per fresh home entry, one farewell per explicit Finish. No idle wave loop; no replay on background resume.",
+  "motion_recipe": "Aligned still-pose crossfade with fixed foot baseline. No body bob, scene travel, lip-sync rig or arbitrary pose warping.",
+  "reduced_motion": "Immediate calm greeting/farewell pose; fixed anchor and no crossfade needed. Navigation never waits.",
+  "occlusion_contract": "Pip's reserved region never overlaps target, fruit, choices or persistent controls in either orientation.",
+  "sound_cues": [
+    "VO-WELCOME optionally on fresh entry",
+    "VO-BYE optionally on explicit Finish",
+    "No narration on resume; navigation cancels current speech"
+  ],
+  "storyboard_beats": [
+    "Aligned ready",
+    "Single friendly pose",
+    "Calm return / immediate exit"
+  ]
+}

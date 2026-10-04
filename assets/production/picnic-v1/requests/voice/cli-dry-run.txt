@@ -1,0 +1,91 @@
+REQUEST VALIDATION ONLY — dry-run, zero provider calls, zero audio files.
+{
+  "input": "Hello! Let\u2019s get our picnic ready.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "cedar"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-WELCOME/p1-cedar-VO-WELCOME-t01.wav
+{
+  "input": "Hello! Let\u2019s get our picnic ready.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "marin"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-WELCOME/p1-marin-VO-WELCOME-t01.wav
+{
+  "input": "Put three berries in the basket.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "cedar"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-BERRY-03/p1-cedar-VO-COUNT-BERRY-03-t01.wav
+{
+  "input": "Put three berries in the basket.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "marin"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-BERRY-03/p1-marin-VO-COUNT-BERRY-03-t01.wav
+{
+  "input": "There are too many. Tap a piece in the basket to give it back.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "cedar"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-TOO-MANY/p1-cedar-VO-COUNT-TOO-MANY-t01.wav
+{
+  "input": "There are too many. Tap a piece in the basket to give it back.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "marin"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-TOO-MANY/p1-marin-VO-COUNT-TOO-MANY-t01.wav
+{
+  "input": "How many are on the shared mat? Choose a number.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "cedar"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-JOIN-TOTAL/p1-cedar-VO-JOIN-TOTAL-t01.wav
+{
+  "input": "How many are on the shared mat? Choose a number.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "marin"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-JOIN-TOTAL/p1-marin-VO-JOIN-TOTAL-t01.wav
+{
+  "input": "Bye for now. Your garden will be here.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "cedar"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-BYE/p1-cedar-VO-BYE-t01.wav
+{
+  "input": "Bye for now. Your garden will be here.",
+  "instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "response_format": "wav",
+  "speed": 1.0,
+  "voice": "marin"
+}
+Would write assets/production/picnic-v1/masters/audio/en-US/VO-BYE/p1-marin-VO-BYE-t01.wav

@@ -1,0 +1,195 @@
+{
+  "status": "technical-measurements-complete-human-review-pending",
+  "scope": "Seven provisional contracts; M01 encoded study only; no final layer pack or native behavior verified",
+  "videos": [
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.mp4",
+      "width": 1440,
+      "height": 1080,
+      "duration_seconds": 4.8,
+      "decoded_frame_count": 144,
+      "frame_rate": "30/1",
+      "audio_stream_count": 0,
+      "sha256": "51d9aeb93014e0b128264babe5fe897a6bb19574f3a2bf99180dcc4acb521495"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.mp4",
+      "width": 1440,
+      "height": 1080,
+      "duration_seconds": 4.8,
+      "decoded_frame_count": 144,
+      "frame_rate": "30/1",
+      "audio_stream_count": 0,
+      "sha256": "629f0eafadb100450914e7cf41f4c610d31d0001f77b1ce10423b7aa396b0cce"
+    }
+  ],
+  "geometry": [
+    {
+      "reduced_motion": false,
+      "all_144_frames_have_exactly_five_unique_working_ids": true,
+      "minimum_conservative_full_silhouette_gap_px": 70.04,
+      "maximum_working_fruit_bottom_px": 719.0,
+      "basket_front_top_px": 770,
+      "minimum_rim_clearance_px": 51.0,
+      "minimum_given_card_clearance_px": 12.91,
+      "target_reference_count_all_frames": 3,
+      "target_reference_not_in_working_ids": true
+    },
+    {
+      "reduced_motion": true,
+      "all_144_frames_have_exactly_five_unique_working_ids": true,
+      "minimum_conservative_full_silhouette_gap_px": 71.72,
+      "maximum_working_fruit_bottom_px": 719.0,
+      "basket_front_top_px": 770,
+      "minimum_rim_clearance_px": 51.0,
+      "minimum_given_card_clearance_px": 135.86,
+      "target_reference_count_all_frames": 3,
+      "target_reference_not_in_working_ids": true
+    }
+  ],
+  "pdfs": [
+    {
+      "asset_id": "M01",
+      "path": "assets/production/picnic-v1/motion/M01/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M01.png"
+    },
+    {
+      "asset_id": "M02",
+      "path": "assets/production/picnic-v1/motion/M02/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M02.png"
+    },
+    {
+      "asset_id": "M03",
+      "path": "assets/production/picnic-v1/motion/M03/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M03.png"
+    },
+    {
+      "asset_id": "M04",
+      "path": "assets/production/picnic-v1/motion/M04/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M04.png"
+    },
+    {
+      "asset_id": "M05",
+      "path": "assets/production/picnic-v1/motion/M05/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M05.png"
+    },
+    {
+      "asset_id": "M06",
+      "path": "assets/production/picnic-v1/motion/M06/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M06.png"
+    },
+    {
+      "asset_id": "M07",
+      "path": "assets/production/picnic-v1/motion/M07/storyboard.pdf",
+      "actual_page_count": 1,
+      "actual_pdf_raster_preview_px": [
+        1200,
+        900
+      ],
+      "preview": "assets/production/picnic-v1/motion/review/pdf-pages/M07.png"
+    }
+  ],
+  "actual_decoded_key_frame_review": "assets/production/picnic-v1/motion/review/decoded-key-frames.png",
+  "human_decisions": {
+    "art": "pending",
+    "motion_comfort": "pending",
+    "child_target_comprehension": "pending",
+    "final_character_identity": "pending",
+    "six_slot_final_layer_visibility": "pending",
+    "supported_family_iPad_actual_size_review": "pending"
+  },
+  "actual_encoded_quantity_checks": [
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.mp4",
+      "actual_decoded_frames_examined": 144,
+      "method": "Red-berry connected components >500 px from actual decoded RGB frames; target centers above y=320, working centers below.",
+      "target_berry_count_min": 3,
+      "target_berry_count_max": 3,
+      "working_berry_count_min": 5,
+      "working_berry_count_max": 5,
+      "all_frames_have_reference_three_and_working_five": true,
+      "limit": "Controlled schematic color-component measurement only; occurrence identity is checked separately against timeline data, and child understanding needs human review."
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.mp4",
+      "actual_decoded_frames_examined": 144,
+      "method": "Red-berry connected components >500 px from actual decoded RGB frames; target centers above y=320, working centers below.",
+      "target_berry_count_min": 3,
+      "target_berry_count_max": 3,
+      "working_berry_count_min": 5,
+      "working_berry_count_max": 5,
+      "all_frames_have_reference_three_and_working_five": true,
+      "limit": "Controlled schematic color-component measurement only; occurrence identity is checked separately against timeline data, and child understanding needs human review."
+    }
+  ],
+  "gif_measurements": [
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.gif",
+      "size_px": [
+        960,
+        720
+      ],
+      "actual_frame_count": 72,
+      "duration_ms": 4800,
+      "review_preview_loop": 0,
+      "sha256": "c495e703390b4b75e6adb20d4fbeea9a859599b46f9cbfcaadccd20fb46d71c3"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.gif",
+      "size_px": [
+        960,
+        720
+      ],
+      "actual_frame_count": 72,
+      "duration_ms": 4800,
+      "review_preview_loop": 0,
+      "sha256": "7a867649b0b1b61f98a24a6434baf167271032c818ab75d52c8fe8287fb9c322"
+    }
+  ],
+  "contract_validation": {
+    "seven_exact_register_ids_and_names": true,
+    "all_dependency_ids_resolve": true,
+    "per_motion_orientation_policies_corrected_after_independent_review": true,
+    "orientation_roles": {
+      "M01": "LAYOUT-COUNT",
+      "M02": "LAYOUT-JOIN",
+      "M03": "LAYOUT-TAKE",
+      "M04": "active activity layout",
+      "M05": "active activity layout",
+      "M06": "garden placement and Finish safe bounds",
+      "M07": "reserved guide and control regions"
+    },
+    "rotation_preserves_identities_reprojects_anchors_snaps_latest_committed_state": true,
+    "native_runtime_behavior_verified": false
+  }
+}

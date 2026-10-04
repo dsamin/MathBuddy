@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "phase": "Phase 1",
+  "status": "request-package-only-pending-human-review",
+  "provider": "OpenAI",
+  "model": "gpt-4o-mini-tts-2025-12-15",
+  "language": "en-US",
+  "voice_candidates": [
+    "cedar",
+    "marin"
+  ],
+  "script_count": 5,
+  "planned_take_count": 10,
+  "recordings_generated": 0,
+  "same_instructions": "Voice Affect: Natural adult guide; warm and composed.\nTone: Matter-of-fact, patient and friendly.\nPacing: Unhurried and clear; no singsong counting.\nPronunciation: Enunciate number words clearly in natural US English.\nDelivery: Speak only the exact input text; add no speech, laughter or sound effects.",
+  "source_catalog_path": "docs/planning/voice-script-catalog.json",
+  "source_catalog_sha256": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee",
+  "snapshot_path": "assets/production/picnic-v1/requests/voice/catalog-audition-snapshot.json",
+  "snapshot_sha256": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef",
+  "requests": [
+    {
+      "take_id": "p1-cedar-VO-WELCOME-t01",
+      "script_id": "VO-WELCOME",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-WELCOME-t01.request.json",
+      "request_sha256": "bf09e0a3b5178d4bf5f9a7b45363d69239a83970450bc008a4149ee076de4407"
+    },
+    {
+      "take_id": "p1-marin-VO-WELCOME-t01",
+      "script_id": "VO-WELCOME",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-WELCOME-t01.request.json",
+      "request_sha256": "27adec2bdd612d8a33fd8b849731fe9964f86f2f9b07688553d27366b2f6452e"
+    },
+    {
+      "take_id": "p1-cedar-VO-COUNT-BERRY-03-t01",
+      "script_id": "VO-COUNT-BERRY-03",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-BERRY-03-t01.request.json",
+      "request_sha256": "2d145744b05ad2224d94ddb72973e0b8f7f6cacd13da9ab04a0f61af52fe3e1a"
+    },
+    {
+      "take_id": "p1-marin-VO-COUNT-BERRY-03-t01",
+      "script_id": "VO-COUNT-BERRY-03",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-BERRY-03-t01.request.json",
+      "request_sha256": "972597070ebba86e1a82743591c2a918e0d196c6867206ff37930dafa20da34d"
+    },
+    {
+      "take_id": "p1-cedar-VO-COUNT-TOO-MANY-t01",
+      "script_id": "VO-COUNT-TOO-MANY",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-TOO-MANY-t01.request.json",
+      "request_sha256": "178c598a35bd5fabfd539b1401bf4a12c2b7acc16db07254a5bfd9625b6b7cb3"
+    },
+    {
+      "take_id": "p1-marin-VO-COUNT-TOO-MANY-t01",
+      "script_id": "VO-COUNT-TOO-MANY",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-TOO-MANY-t01.request.json",
+      "request_sha256": "0e4a50c61bf69debb9c1f46ecc3da485845b1ba9e6cc541e66f60b3932c55d40"
+    },
+    {
+      "take_id": "p1-cedar-VO-JOIN-TOTAL-t01",
+      "script_id": "VO-JOIN-TOTAL",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-JOIN-TOTAL-t01.request.json",
+      "request_sha256": "de4c98a582d606a3220dfb7be2b744c8679e36fff464a4b431714bcf0497104c"
+    },
+    {
+      "take_id": "p1-marin-VO-JOIN-TOTAL-t01",
+      "script_id": "VO-JOIN-TOTAL",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-JOIN-TOTAL-t01.request.json",
+      "request_sha256": "43da20798781edee47e64fd9fb803f52503f6d2649b8164145de0672858dcf3a"
+    },
+    {
+      "take_id": "p1-cedar-VO-BYE-t01",
+      "script_id": "VO-BYE",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-BYE-t01.request.json",
+      "request_sha256": "48e25c592466e52f0987b34ede7958289845f223c1ae64162a04ced42b6f5b4e"
+    },
+    {
+      "take_id": "p1-marin-VO-BYE-t01",
+      "script_id": "VO-BYE",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-BYE-t01.request.json",
+      "request_sha256": "c36229796e579aaf0440c8546780c4151b517e39b4b399b6647665f98b2ca123"
+    }
+  ],
+  "provider_rights_status": "pending",
+  "candidate_selection": null
+}

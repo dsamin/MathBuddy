@@ -1,0 +1,164 @@
+{
+  "schema_version": "phase1-motion-brief-v1",
+  "version": 1,
+  "status": "provisional-pending-human-review",
+  "selected_take": null,
+  "working_concept": "Pip's Picnic; comparison concept, not approved final identity",
+  "implementation": "Authoring specification and off-app schematic only. Future behavior is native SwiftUI; no native implementation is present here.",
+  "coordinate_system": {
+    "production_proposal": "Normalized layer coordinates, origin top-left, x/y in [0,1]. Local pivot maps named per layer.",
+    "study_canvas_px": [
+      1440,
+      1080
+    ],
+    "orientation_policy": "Use LAYOUT-TAKE. Landscape: source mat left of friend's plate. Portrait: source mat above friend's plate. The given transfer reference remains separate from both working regions. Preserve all applicable occurrence/toy/guide identities and committed region/slot/anchor state; reproject anchors rather than repopulate. Cancel ephemeral visual interpolation on rotation and render the latest committed semantic state. Rotation never records a move, response, support event, completion or reward."
+  },
+  "semantic_state_ownership": {
+    "owner": "Future native activity/reward model, never the animation renderer.",
+    "commit_rule": "An accepted tap/drag/Undo changes persistent region/slot/history or reward ownership exactly once before presentation. Invalid/cancelled input commits nothing.",
+    "excluded_from_animation_completion": [
+      "quantity mutation",
+      "new occurrence creation",
+      "response correctness",
+      "missCount",
+      "help attribution",
+      "checkpoint completion",
+      "reward grant",
+      "session completion",
+      "history writes"
+    ],
+    "completion_callbacks": "May clear ephemeral visual transforms only. Must not create mathematical evidence or grant a reward.",
+    "identity": "Namespace authored occurrence templates by round ID. Same occurrence ID, object family and origin anchor survive move, return, Undo, pause, rotation and resume.",
+    "audio_invalidation": "Accepted object movement cancels stale prompt/help/count speech. When enabled, latest basket or friend's-plate count replaces earlier counts. Never speak an assessed joining total or source remainder automatically.",
+    "rendering": "A moving occurrence is rendered once on the travel layer, never duplicated at source and destination. Target-reference copies are explicitly noninteractive and excluded from the working set."
+  },
+  "global_interrupts": {
+    "navigation_background_system_interruption": "Stop narration/effects and presentation. Persist committed semantic state. Resume silently at exact current anchors; no replay or delayed completion event.",
+    "rapid_input": "Input never waits for travel/celebration. Replace the affected occurrence's visual trajectory from its sampled visible position toward the latest committed anchor; do not run a FIFO animation or speech backlog.",
+    "gesture_cancellation": "Cancel transient drag without a semantic move; return to the committed anchor. Do not record a mathematical miss.",
+    "reduced_motion_toggle": "Cancel travel/scale/rotation and snap to the latest committed semantic state. Preserve goal, object visibility and live controls."
+  },
+  "sound_contract": {
+    "required_for_meaning": false,
+    "music": "excluded",
+    "settings": "Narration, spoken-count and effects controls are separate.",
+    "cues": "Optional effects only on accepted actions; no source SFX generated for this Phase 1 study. System/accessibility announcements must not overlap the prerecorded lane."
+  },
+  "human_review": {
+    "art": "pending",
+    "content": "pending",
+    "motion_comfort": "pending",
+    "child_usability": "pending",
+    "native_layer_pack": "not-produced"
+  },
+  "provenance": {
+    "method": "Original direction-neutral Pillow vector schematic, deterministic timeline; no generative provider or experiment assets imported.",
+    "source_script": "scripts/phase1-motion-study.py",
+    "rights": "Original schematic recipe. Arial is used from the local OS only for adult review rasterization, not redistributed or selected as app typography.",
+    "source_references": [
+      "docs/planning/asset-register.csv",
+      "docs/planning/content-catalog.json",
+      "docs/planning/asset-production-plan.md"
+    ],
+    "human_approval": false
+  },
+  "asset_id": "M03",
+  "name": "share-and-remainder",
+  "dependencies": [
+    "OBJ-BERRY",
+    "OBJ-APPLE",
+    "PROP-MAT-A",
+    "PROP-PLATE",
+    "LAYOUT-TAKE",
+    "REF-00",
+    "REF-01",
+    "REF-02",
+    "REF-03",
+    "REF-04",
+    "REF-05"
+  ],
+  "triggers": [
+    "Accepted transfer to friend's plate",
+    "Accepted return/Undo",
+    "Explicit checkpoint transition to remainder question"
+  ],
+  "layers": [
+    {
+      "id": "environment-distant",
+      "z": 0,
+      "pivot": "canvas origin",
+      "contract": "Decorative only; no labels or countable fruit."
+    },
+    {
+      "id": "environment-ground",
+      "z": 10,
+      "pivot": "canvas origin",
+      "contract": "Aligned with distant and foreground; semantic safe regions remain clear."
+    },
+    {
+      "id": "environment-edge-foreground",
+      "z": 60,
+      "pivot": "canvas origin",
+      "contract": "Never crosses the working-region or target safe masks."
+    },
+    {
+      "id": "controls-and-reference",
+      "z": 100,
+      "pivot": "native bounds center",
+      "contract": "Given count/transfer only. Native UI outside background art; persistent input stays live."
+    },
+    {
+      "id": "source-mat",
+      "z": 20,
+      "pivot": "bounds center",
+      "contract": "Remainder pieces remain fixed and visible; no total label before assessment."
+    },
+    {
+      "id": "friend-plate",
+      "z": 20,
+      "pivot": "bounds center",
+      "contract": "Distinct target destination; no rim covers fruit."
+    },
+    {
+      "id": "stationary-occurrences",
+      "z": 30,
+      "pivot": "fruit center",
+      "contract": "Identity and source return anchors persisted."
+    },
+    {
+      "id": "moving-occurrence",
+      "z": 50,
+      "pivot": "fruit center",
+      "contract": "One instance; no clone/fading countable residue."
+    },
+    {
+      "id": "checkpoint-focus",
+      "z": 80,
+      "pivot": "region bounds",
+      "contract": "Transfer target is given; remainder focus contains no answer numeral/equation."
+    }
+  ],
+  "start_state": "Example TAKE-01: five source berries; separate given reference requests two transfers.",
+  "middle_state": "Two stable identities are on the friend's plate. Three source identities remain visible; the assessed remainder is unlabelled and unspoken.",
+  "end_state": "Undo restores exact original source slots. A remainder response is separate from transfer completion/help; no motion callback records either response.",
+  "duration_ms": {
+    "travel": 360,
+    "settle": 100,
+    "checkpoint_focus": 180,
+    "per_move_total": 460
+  },
+  "repeat_policy": "Once per accepted transfer; focus once on explicit checkpoint entry. Zero transfer makes no fake motion or synthetic response.",
+  "motion_recipe": "Shallow single-piece route to a visible plate slot. Subtle static focus border at remainder checkpoint; never march/count the source unrequested.",
+  "reduced_motion": "Immediate positions; static source focus border on remainder question. Zero stays intentionally empty, without a flourish implying a piece.",
+  "occlusion_contract": "Destination plate edge stays below fruit silhouettes. Source and destination do not overlap; given reference stays outside both.",
+  "sound_cues": [
+    "Optional effects on accepted move",
+    "Latest plate count only when configured",
+    "No automatic source-remainder count; requested source model is recorded as help"
+  ],
+  "storyboard_beats": [
+    "Given transfer model",
+    "Transfer; remainder withheld",
+    "Undo preserves all identities"
+  ]
+}

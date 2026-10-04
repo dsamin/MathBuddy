@@ -1,0 +1,23 @@
+{
+  "status": "pending-human-review",
+  "images": {
+    "source": "OpenAI built-in image_gen.imagegen",
+    "originals_retained": true,
+    "model_version_and_seed": "not exposed by tool",
+    "third_party_reference_images": [],
+    "composition_reference": "Direction B derives from this session\u2019s Direction A pending sample, not Pebble",
+    "terms_and_output_use_review": "pending"
+  },
+  "voice": {
+    "candidate_provider": "OpenAI",
+    "candidate_voices": [
+      "cedar",
+      "marin"
+    ],
+    "provider_selected": false,
+    "recordings_produced": 0,
+    "terms_cost_rights_review": "pending"
+  },
+  "experiment_reuse": "none in new sample outputs",
+  "rights_approval_recorded": false
+}
