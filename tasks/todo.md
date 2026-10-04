@@ -149,3 +149,16 @@ The user's “Lets go b. Provide me the next steps and prompts” selects the re
 
 ### Review results
 See [Direction B next steps and session prompts](../docs/plans/2026-10-03-direction-b-next-steps.md). The package audit passes with the explicit ten-recording gap: 48 JSON files parsed, source/prompt hashes match and 31 gallery/listening links resolve. All 25 local Markdown links in the touched documents resolve. Gallery selection labels match the decision record. No media or native files changed since the Phase 1 checkpoint. Focused review confirmed requirement counts and stopping points; the voice prompt now explicitly requires pre-run cost/terms review and AI-voice disclosure.
+
+
+## 2026-10-03 — Focused gallery hook triage
+
+Scope: review the four findings in the adult Phase 1 gallery only; preserve selected B, all sample media and future phase boundaries. Attribution was unknown; these are not classified as session regressions.
+
+- [x] Inspect actual styles and browser hierarchy before editing.
+- [x] Remove the unnecessary callout stripe; change status to sentence case and move uppercase header metadata to the footer.
+- [x] Persist narrow file-scoped exceptions for the measured hierarchy false positive and intentional picnic paper background.
+- [x] Confirm rendered changes, detector results and unchanged sample/native files; record triage and prepare the secret-scanned checkpoint.
+
+### Review
+[Triage report](../docs/reviews/2026-10-03-gallery-hook-triage.md): two fixes, two narrow exceptions, no standing findings. Browser confirmation passes at 1280×720; the detector’s single post-edit pass found only the waived typography/palette findings. Original sample media and native files are unchanged. The local checkpoint hash is reported in the final response.

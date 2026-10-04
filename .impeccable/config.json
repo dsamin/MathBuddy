@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "assets/production/picnic-v1/review/index.html"
+        ],
+        "createdAt": "2026-10-04T06:31:21.836Z",
+        "reason": "Reviewer: detector omits the clamp-based h1. Browser measurements are h1 51.2px, h2 27px, h3 19px, body 16px; mobile h1 is at least 30px above h2 23px."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "assets/production/picnic-v1/review/index.html"
+        ],
+        "createdAt": "2026-10-04T06:31:21.971Z",
+        "reason": "Reviewer: retain the deliberate warm paper frame of this adult picnic-art comparison gallery. Existing --paper #fffaf0 accompanies the preserved warm storybook samples; this exception does not apply to other surfaces."
+      }
+    ]
+  }
+}

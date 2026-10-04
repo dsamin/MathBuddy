@@ -11,3 +11,10 @@
 ## Earlier interpretation — superseded
 
 The earlier rule to generate and run an Xcode target whenever the user says native iPad was too broad. Native architecture and iPad-specific mockups can be specified without building an app. Preserve explicit asset provenance and honest testing limits, but do not use them to justify work outside the requested stage.
+
+
+## 2026-10-03 — Design hook findings need contextual triage
+
+- Findings with unknown attribution are not automatically new regressions. Keep review and repairs within the named surface.
+- Check computed browser typography before accepting a flat-hierarchy finding; responsive `clamp()` headings can be omitted by a mechanical scan.
+- Fix unnecessary accent stripes and lengthy uppercase status copy. Preserve intentional palette choices with narrowly scoped, evidence-backed exceptions; never disable whole files or rules on our own.
