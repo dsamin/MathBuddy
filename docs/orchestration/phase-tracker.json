@@ -5,7 +5,9 @@
     "requested_model": "gpt-6-astra",
     "branch": "orchestration/mathbuddy-pilot",
     "worktree": "/Users/devan/Projects/MathBuddy",
-    "owner": "master coordinator"
+    "owner": "master coordinator",
+    "verified_model": "gpt-6-astra",
+    "model_evidence": "Local session turn_context metadata inspected 2026-10-04; no settings changed."
   },
   "approved_input_checkpoint": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
   "phase_model": "gpt-6.1-sol",
@@ -22,16 +24,18 @@
       "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
       "commit": null,
       "integration_commit": null,
-      "technical_status": "in-progress",
+      "technical_status": "in-progress-app-approval-pending",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": "",
+      "notes": "Optional worker-to-master progress message is pending under new-task on-request permissions. Master requested cancellation/dismissal; continues direct polling. No production acceptance requested.",
       "title": "MathBuddy Phase 2A World and Branding",
-      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint"
+      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint",
+      "verified_model": "gpt-6.1-sol",
+      "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
     {
       "id": "1-voice-audition",
@@ -45,16 +49,20 @@
       "base_commit": "9ae9b6370a52e0c5dbac0d17e84911bce7213c33",
       "commit": null,
       "integration_commit": null,
-      "technical_status": "preflight-in-progress",
+      "technical_status": "preflight-written-checkpoint-app-approval-pending",
       "human_status": "pending",
       "acceptance_criteria": "Five exact lines x two chosen voices; all ten decoded and individually reviewed",
       "human_gate": "provider/rights then voice/wording/take reuse",
       "evidence_paths": [
-        "docs/orchestration/phases/1-voice-audition/"
+        "docs/orchestration/phases/1-voice-audition/",
+        "docs/orchestration/phases/1-voice-audition/decision-packet.md",
+        "docs/orchestration/phases/1-voice-audition/request-audit.json"
       ],
-      "notes": "Preflight only until provider selection; no live voice requests.",
+      "notes": "Master verified ten request hashes/exact inputs and absent outputs; packet written in worker worktree. Git add permission pending because shared Git index is outside worker sandbox. No provider selected or live requests.",
       "title": "MathBuddy Independent Voice Audition",
-      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint"
+      "session_verified_by": "read_thread: active inProgress turn, assigned worktree, correct base checkpoint",
+      "verified_model": "gpt-6.1-sol",
+      "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
     {
       "id": "2b-learning",
@@ -380,5 +388,7 @@
       ],
       "notes": ""
     }
-  ]
+  ],
+  "startup_review": "docs/orchestration/2026-10-04-startup-review.md",
+  "narration_partition": "docs/orchestration/narration-groups.json"
 }

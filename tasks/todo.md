@@ -239,4 +239,4 @@ The [character selection record](../assets/production/picnic-v1/metadata/pip-cha
 The user's submitted master prompt authorizes sessions/worktrees, local checkpoints, integration and verification. Execute the saved scope without repeated routine permission. Four world/branding requirements are the first bounded production phase. Provider/voice/name/device/rights decisions remain open; native Phase 3 is not authorized yet.
 
 ### Review
-In progress. The master tracker records actual session identities and evidence separately from human acceptance.
+Startup verified; see [startup review](../docs/orchestration/2026-10-04-startup-review.md). Exact Astra/Sol models and both active isolated sessions are confirmed. 12 selected image hashes match; 373 protected files remain unchanged. Voice preflight has ten matching requests and no recordings. App-level worker permissions currently pause the optional world back-message and audition Git staging; user action requested with exact reasons. Neither phase is accepted and native execution remains gated.
