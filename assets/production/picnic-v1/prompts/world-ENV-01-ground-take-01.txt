@@ -1,0 +1,5 @@
+Use case: illustration-story
+Asset type: independently authored environmental production source layer, not a complete scene or contact sheet.
+Reference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.
+Constraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.
+Primary request: Picnic ground plane: wide horizontal softly painted olive-lime grass meadow surface, entirely opaque and uninterrupted, subtle smooth color modulation only, no blades or dots or patches or path or objects. Flat even soft-shape storybook ground material. Full bleed ground layer, no sky, no horizon, no foreground.
