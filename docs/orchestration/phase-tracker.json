@@ -7,7 +7,7 @@
     "worktree": "/Users/devan/Projects/MathBuddy",
     "owner": "master coordinator"
   },
-  "approved_input_checkpoint": null,
+  "approved_input_checkpoint": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
   "phase_model": "gpt-6.1-sol",
   "phases": [
     {
@@ -17,19 +17,20 @@
       "owner": "separate bounded phase session",
       "model": "gpt-6.1-sol",
       "thread_id": null,
-      "worktree": null,
-      "branch": null,
-      "base_commit": null,
+      "worktree": "/Users/devan/.codex/worktrees/8899/MathBuddy",
+      "branch": "detached (provisioned; session not yet confirmed)",
+      "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
       "commit": null,
       "integration_commit": null,
-      "technical_status": "ready-to-launch",
+      "technical_status": "session-creation-pending",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": ""
+      "notes": "",
+      "client_thread_id": "client-new-thread:69ec207d-8803-4802-be82-76c6e19799d6"
     },
     {
       "id": "1-voice-audition",

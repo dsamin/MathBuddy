@@ -226,7 +226,7 @@ The [character selection record](../assets/production/picnic-v1/metadata/pip-cha
 - [x] Verify all 12 pinned direction/character image hashes and preserve original media.
 - [x] Reconcile current catalog identity/art status against the human selection, preserving generation-time evidence.
 - [x] Write master plan, ownership, phase tracker and bounded Phase 2A brief.
-- [ ] Secret-scan and commit approved inputs before dependent worktree creation.
+- [x] Secret-scan and commit approved inputs before dependent worktree creation (`e48eb49`; zero gitleaks findings).
 - [ ] Create the separate GPT-6.1 Sol Phase 2A world/branding task from that checkpoint; record session/worktree.
 - [ ] Prepare independent voice-audition provider/cost/rights/capability decision packet in its own Sol task.
 - [ ] Verify returned Phase 2A artifacts, scope, hashes and source reproducibility; integrate a local candidate checkpoint.
