@@ -1,0 +1,14 @@
+{
+  "bundle": "Release-iphonesimulator/MathBuddy.app",
+  "iPadOnly": true,
+  "minimumOS": "18.0",
+  "narrationClips": 19,
+  "soundEffects": 3,
+  "narrationHashesMatch": true,
+  "webOrCredentialFiles": false,
+  "webFrameworksLinked": false,
+  "debugReviewEntryInRelease": false,
+  "nativeAssetsCompiled": true,
+  "privacyManifestPresent": true,
+  "bundleBytes": 11794132
+}

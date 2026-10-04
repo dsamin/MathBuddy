@@ -1,0 +1,34 @@
+{
+  "automaticPaidRetries": false,
+  "sequential": true,
+  "clips": [
+    {
+      "id": "garden",
+      "status": "generated-master"
+    },
+    {
+      "id": "goodbye",
+      "status": "generated-master"
+    },
+    {
+      "id": "number-1",
+      "status": "generated-master"
+    },
+    {
+      "id": "number-3",
+      "status": "generated-master"
+    },
+    {
+      "id": "number-4",
+      "status": "generated-master"
+    },
+    {
+      "id": "number-5",
+      "status": "generated-master"
+    },
+    {
+      "id": "number-6",
+      "status": "generated-master"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "scene": "count-partial",
+    "image": "count-partial-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "count-success",
+    "image": "count-success-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "addition-before",
+    "image": "addition-before-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "addition-after",
+    "image": "addition-after-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "subtraction-before",
+    "image": "subtraction-before-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "subtraction-after",
+    "image": "subtraction-after-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "garden-unplaced",
+    "image": "garden-unplaced-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "garden-placed",
+    "image": "garden-placed-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  },
+  {
+    "scene": "goodbye",
+    "image": "goodbye-portrait.png",
+    "evidence": "Native Simulator render of store-generated saved-state fixture; not a touch interaction test"
+  }
+]

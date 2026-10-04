@@ -1,0 +1,25 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "endpoint": "texttospeech.googleapis.com",
+  "sdkVersion": "2.37.0",
+  "generatedAt": "2026-10-04T03:14:19.084680+00:00",
+  "request": {
+    "assetID": "garden",
+    "text": "A new pinwheel for your garden! Plant it, then tap it to spin.",
+    "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+    "model": "gemini-2.5-pro-tts",
+    "voice": "Fenrir",
+    "language": "en-US"
+  },
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 5.531,
+  "sha256": "bdae7404654ad099cd494d151f83613e88ac65b3cc12b50a8b4f6da8bd4751f5",
+  "processing": "Original Google WAV; no silence trimming, tempo change or upsampling",
+  "reviewStatus": "unreviewed",
+  "listeningReview": null,
+  "phonicsReview": null,
+  "licenseReview": null,
+  "disclosure": "AI-generated narration using Google Text-to-Speech"
+}

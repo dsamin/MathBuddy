@@ -1,0 +1,25 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "endpoint": "texttospeech.googleapis.com",
+  "sdkVersion": "2.37.0",
+  "generatedAt": "2026-10-04T03:09:56.249553+00:00",
+  "request": {
+    "assetID": "help-count",
+    "text": "Let's count each berry, one at a time. You can change your answer.",
+    "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+    "model": "gemini-2.5-pro-tts",
+    "voice": "Fenrir",
+    "language": "en-US"
+  },
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 5.731,
+  "sha256": "5af4569fad7a364698f2e08afc7f0eee440975d671d830f272cc87928d9b5a53",
+  "processing": "Original Google WAV; no silence trimming, tempo change or upsampling",
+  "reviewStatus": "unreviewed",
+  "listeningReview": null,
+  "phonicsReview": null,
+  "licenseReview": null,
+  "disclosure": "AI-generated narration using Google Text-to-Speech"
+}

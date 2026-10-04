@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFF9EC">
+  <title>MathBuddy — a little world of numbers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="review-shell">
+    <header class="review-header">
+      <div><span class="review-label">MATHBUDDY / DESIGN STUDY 01</span><p>A little world of numbers.</p></div>
+      <span class="review-tag">iPad concept · ages 4–8</span>
+    </header>
+    <nav class="review-nav" aria-label="Preview a design scene">
+      <button data-preview="home" aria-current="page"><span>01</span> Home</button>
+      <button data-preview="count"><span>02</span> Count</button>
+      <button data-preview="add"><span>03</span> Add</button>
+      <button data-preview="subtract"><span>04</span> Take away</button>
+      <button data-preview="garden"><span>05</span> Garden reward</button>
+      <button data-preview="parents"><span>06</span> Grown-ups</button>
+      <button data-reset-demo class="reset-demo">Reset demo</button>
+    </nav>
+    <main class="device" id="app" aria-label="MathBuddy interactive design study"></main>
+    <section class="scene-note" aria-label="Design rationale">
+      <span class="note-number" id="note-number">01 / HOME</span>
+      <div><h2 id="note-title">A friend, a place, one clear invitation.</h2><p id="note-text">Pip welcomes your child into a small, familiar world. Play starts three short activities; the garden is always open.</p></div>
+      <span class="interaction-hint" id="interaction-hint">Try “Play with Pip”</span>
+    </section>
+    <footer class="review-footer"><span>Interactive design study · sample progress · not a native iPad build</span><span>Original vector illustrations · no external assets</span></footer>
+    <p class="audio-note">Sound is opt-in: the listen button uses a synthetic browser voice, and the music switch plays a soft synthesized demo. The native app would use bundled, approved prerecorded narration. Nothing is recorded.</p>
+  </div>
+  <dialog id="parent-gate" aria-labelledby="gate-heading">
+    <span class="eyebrow">FOR THE DESIGN REVIEW</span>
+    <h2 id="gate-heading">Hello, grown-up.</h2>
+    <p>Review prototype: parent gate not implemented. The finished app will use a tested, accessible grown-up gate.</p>
+    <div class="gate-actions"><button class="button secondary" id="gate-cancel">Back to play</button><button class="button primary" id="gate-continue">Continue to preview</button></div>
+  </dialog>
+  <script src="app.js"></script>
+</body>
+</html>

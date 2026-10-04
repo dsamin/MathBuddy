@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "audit_type": "planning-data-and-file-boundary-only",
+  "created_at": "2026-10-04T05:29:10.374364+00:00",
+  "counts": {
+    "logical_requirements": 196,
+    "artwork": 22,
+    "native_design_definitions": 36,
+    "motion_briefs": 7,
+    "sound_effects": 6,
+    "content_variants": 24,
+    "voice_scripts": 101,
+    "authored_occurrences": 97,
+    "local_links_checked": 77
+  },
+  "checks": [
+    {
+      "check": "196 unique logical requirements",
+      "passed": true
+    },
+    {
+      "check": "inventory category totals",
+      "passed": true
+    },
+    {
+      "check": "24 unique variants, eight per activity",
+      "passed": true
+    },
+    {
+      "check": "101 unique exact draft scripts",
+      "passed": true
+    },
+    {
+      "check": "only CNT-01 is in Phase 3",
+      "passed": true
+    },
+    {
+      "check": "first task is three berries from five",
+      "passed": true
+    },
+    {
+      "check": "content dependency IDs resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "voice references resolve",
+      "passed": true
+    },
+    {
+      "check": "voice catalog exactly matches register",
+      "passed": true
+    },
+    {
+      "check": "shared zero-through-six clips exist",
+      "passed": true
+    },
+    {
+      "check": "neutral first-miss script and no easier-next promise",
+      "passed": true
+    },
+    {
+      "check": "all script production and approval fields remain pending",
+      "passed": true
+    },
+    {
+      "check": "all register selections remain unapproved",
+      "passed": true
+    },
+    {
+      "check": "arithmetic, zero, options and quantity-reference bounds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "instruction/result parameter and object-family coverage",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "three layouts, stable unique occurrences and legal slots in both orientations",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "per-checkpoint draft evidence and first-miss contracts",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "layout anchors in range",
+      "passed": true
+    },
+    {
+      "check": "six unique finite earned rewards and free flower",
+      "passed": true
+    },
+    {
+      "check": "mapped experimental candidates exist",
+      "passed": true
+    },
+    {
+      "check": "local links in active planning packet resolve",
+      "passed": true,
+      "detail": {
+        "checked": 77,
+        "broken": []
+      }
+    },
+    {
+      "check": "all 149 preserved app/project/asset/script/mockup files unchanged",
+      "passed": true,
+      "detail": {
+        "baseline_count": 149,
+        "current_count": 149,
+        "changed": [],
+        "deleted": [],
+        "added": []
+      }
+    },
+    {
+      "check": "planned native region raw values match authored layouts",
+      "passed": true,
+      "detail": [
+        "basket",
+        "friend-plate",
+        "left-group",
+        "right-group",
+        "shared-mat",
+        "source-mat",
+        "tray"
+      ]
+    }
+  ],
+  "input_sha256": {
+    "docs/planning/asset-register.csv": "014c72be43021f1b7f68f3eb17f47ff59ce1958340c673cffd926772809772c7",
+    "docs/planning/content-catalog.json": "8ccbc3db6f6d7b389db8f5d1f244a3134267b656817519c7ecc67f5b9d67f884",
+    "docs/planning/voice-script-catalog.json": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee",
+    "docs/planning/asset-production-plan.md": "1a00e44b9c8b3ac6bd630d4fa2881434af69b6bbf8a45067b7dc2fcd1e5a68c3",
+    "docs/feature-spec.md": "01da52a43b795071b918a7075f7f7547bc1ecce800a77241ba196b2974b6e903",
+    "docs/plans/2026-10-03-native-pilot-implementation-plan.md": "39af2a59898455cb2d445be48f6f6a426b39184dbca79d5feb9a52a9546556d2"
+  },
+  "limits": [
+    "No art, voice or content approval is implied.",
+    "No asset generation, app builds or native runtime tests were run in this task.",
+    "Physical-device, assistive-use and child observation checks remain future work."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "model": "gemini-2.5-pro-tts",
+  "voice": "Fenrir",
+  "source": "Authored MathBuddy scripts only; shared local provider authentication; no child data",
+  "reviewStatus": "Generated draft for native review, not approved for learning release",
+  "clips": [
+    {
+      "id": "welcome",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 3.891,
+      "sha256": "e733ca57106137eeb15f4543b0df788e6ac61f89d9a1cd845a18099bd357f418",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "count-3",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 7.331,
+      "sha256": "627edfad17e99cddebe557fcf7e847e8a05d00514d5fd2303270ce75d20f8574",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "count-4",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 5.931,
+      "sha256": "f36902e14dcd4f98a68bf83c522523f88472b3d60cf87945c0d80cd90ff6b5bd",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "count-5",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 6.331,
+      "sha256": "8c8619e68c12045bf6fec7e690951f821cd724a9ff2800dc84dba27a5a256667",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "add-2-1",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 7.571,
+      "sha256": "c08972ec719ed2945bac225ad625c76c5d30dc143cc41727d6bb1c8e24520195",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "add-1-2",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 6.571,
+      "sha256": "a4c425a3c43d84c570147b0950b5897bdb7baf35489f95832a8799e8957885b4",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "subtract-5-2",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 5.091,
+      "sha256": "1b0be53284854760297575f89241a6ca186a81bfa6f3caed655036158a31c952",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "choose-total",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 3.211,
+      "sha256": "94ec7020415c087e156c37f96d8daa986543c7c5abf3e2e544db6513d9c84b9a",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "choose-remaining",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 3.051,
+      "sha256": "cc8ed8cfd2aa4efe887411ac1ca03395d8c5ee7c3ff10abd1fd74c59b329a28f",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "help-count",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 5.731,
+      "sha256": "5af4569fad7a364698f2e08afc7f0eee440975d671d830f272cc87928d9b5a53",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "success",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 2.651,
+      "sha256": "0001d9cf1410c99b057ef8013f6026b3c748e527a0bcb73f374ce932d51e158c",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "garden",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 5.531,
+      "sha256": "bdae7404654ad099cd494d151f83613e88ac65b3cc12b50a8b4f6da8bd4751f5",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "goodbye",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 4.531,
+      "sha256": "e70cac589e38a2bf321615793574b35729d2cad23ff5a948ccf67a5b8f3f075e",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-1",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 1.171,
+      "sha256": "20e7e6ee024859e76347eae803fabc264fde0be8a4eed63acd552c0564941625",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-2",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 0.971,
+      "sha256": "d5253b3a7ac0fbd1ef0f5fc2098bd6f6499b361d4ef7817354f2eca1492d861e",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-3",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 1.171,
+      "sha256": "3499ba69596493baee610df287fa77f47d14e38fc0900b47a8be0b40573f2090",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-4",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 1.171,
+      "sha256": "c2f28f2f163cb000fd6cb4db9b844b93ae2991ed8be0aa9eeefbe423305dc550",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-5",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 1.011,
+      "sha256": "ad332bcbfc0d8f26aeebb13984ee387731483e34b8d6c8b14c831318b5456e74",
+      "reviewStatus": "awaiting-human-listening"
+    },
+    {
+      "id": "number-6",
+      "status": "generated-bundled-draft",
+      "durationSeconds": 1.051,
+      "sha256": "c503d34ad95dfc62739e1189309b8865e1104c4e0971ece648e32fe12cafaad5",
+      "reviewStatus": "awaiting-human-listening"
+    }
+  ],
+  "effects": "Three original synthesized PCM chimes, no third-party samples",
+  "automaticPaidRetries": false
+}

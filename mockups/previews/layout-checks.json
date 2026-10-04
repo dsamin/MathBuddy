@@ -1,0 +1,242 @@
+[
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "01 Home",
+    "clippedControls": [],
+    "scroll": 834,
+    "viewport": 834
+  },
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "02 Count",
+    "clippedControls": [],
+    "scroll": 834,
+    "viewport": 834
+  },
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "03 Add",
+    "clippedControls": [],
+    "scroll": 834,
+    "viewport": 834
+  },
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "04 Take away",
+    "clippedControls": [],
+    "scroll": 834,
+    "viewport": 834
+  },
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "05 Garden reward",
+    "clippedControls": [],
+    "scroll": 834,
+    "viewport": 834
+  },
+  {
+    "size": {
+      "width": 834,
+      "height": 1194
+    },
+    "scene": "06 Grown-ups",
+    "clippedControls": [],
+    "scroll": 819,
+    "viewport": 819
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "01 Home",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "02 Count",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "03 Add",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "04 Take away",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "05 Garden reward",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1024,
+      "height": 768
+    },
+    "scene": "06 Grown-ups",
+    "clippedControls": [],
+    "scroll": 1009,
+    "viewport": 1009
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "01 Home",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "02 Count",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "03 Add",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "04 Take away",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "05 Garden reward",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 1194,
+      "height": 834
+    },
+    "scene": "06 Grown-ups",
+    "clippedControls": [],
+    "scroll": 1179,
+    "viewport": 1179
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Home",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Count",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Add",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Take away",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Garden reward",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  },
+  {
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "scene": "Grown-ups",
+    "clippedControls": [],
+    "scroll": 729,
+    "viewport": 729
+  }
+]

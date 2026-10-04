@@ -1,0 +1,25 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "endpoint": "texttospeech.googleapis.com",
+  "sdkVersion": "2.37.0",
+  "generatedAt": "2026-10-04T03:14:33.787273+00:00",
+  "request": {
+    "assetID": "number-4",
+    "text": "4.",
+    "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+    "model": "gemini-2.5-pro-tts",
+    "voice": "Fenrir",
+    "language": "en-US"
+  },
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 1.171,
+  "sha256": "c2f28f2f163cb000fd6cb4db9b844b93ae2991ed8be0aa9eeefbe423305dc550",
+  "processing": "Original Google WAV; no silence trimming, tempo change or upsampling",
+  "reviewStatus": "unreviewed",
+  "listeningReview": null,
+  "phonicsReview": null,
+  "licenseReview": null,
+  "disclosure": "AI-generated narration using Google Text-to-Speech"
+}

@@ -1,0 +1,8 @@
+{
+  "assetID": "subtract-5-2",
+  "text": "We have five berries. Give two berries to Pip.",
+  "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+  "model": "gemini-2.5-pro-tts",
+  "voice": "Fenrir",
+  "language": "en-US"
+}

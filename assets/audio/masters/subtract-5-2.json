@@ -1,0 +1,25 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "endpoint": "texttospeech.googleapis.com",
+  "sdkVersion": "2.37.0",
+  "generatedAt": "2026-10-04T03:09:48.730762+00:00",
+  "request": {
+    "assetID": "subtract-5-2",
+    "text": "We have five berries. Give two berries to Pip.",
+    "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+    "model": "gemini-2.5-pro-tts",
+    "voice": "Fenrir",
+    "language": "en-US"
+  },
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 5.091,
+  "sha256": "1b0be53284854760297575f89241a6ca186a81bfa6f3caed655036158a31c952",
+  "processing": "Original Google WAV; no silence trimming, tempo change or upsampling",
+  "reviewStatus": "unreviewed",
+  "listeningReview": null,
+  "phonicsReview": null,
+  "licenseReview": null,
+  "disclosure": "AI-generated narration using Google Text-to-Speech"
+}

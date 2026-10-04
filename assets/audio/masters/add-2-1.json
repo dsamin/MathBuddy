@@ -1,0 +1,25 @@
+{
+  "provider": "Google Cloud Text-to-Speech",
+  "endpoint": "texttospeech.googleapis.com",
+  "sdkVersion": "2.37.0",
+  "generatedAt": "2026-10-04T03:09:43.230026+00:00",
+  "request": {
+    "assetID": "add-2-1",
+    "text": "Here are two berries. One more joins. Put them together.",
+    "prompt": "Speak as a warm, calm adult companion for a child aged five. Natural conversational US English, clear number words, gentle curiosity, moderate slightly slow pace, short natural pauses. No music, no character voices, no sing-song delivery, no added words. Say only the supplied text.",
+    "model": "gemini-2.5-pro-tts",
+    "voice": "Fenrir",
+    "language": "en-US"
+  },
+  "sampleRate": 24000,
+  "channels": 1,
+  "bitsPerSample": 16,
+  "durationSeconds": 7.571,
+  "sha256": "c08972ec719ed2945bac225ad625c76c5d30dc143cc41727d6bb1c8e24520195",
+  "processing": "Original Google WAV; no silence trimming, tempo change or upsampling",
+  "reviewStatus": "unreviewed",
+  "listeningReview": null,
+  "phonicsReview": null,
+  "licenseReview": null,
+  "disclosure": "AI-generated narration using Google Text-to-Speech"
+}

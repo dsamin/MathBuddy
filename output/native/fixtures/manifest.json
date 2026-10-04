@@ -1,0 +1,121 @@
+{
+  "evidence" : "Saved-state fixture inputs for native Simulator render checks; not touch UI testing",
+  "fixtureCount" : 10,
+  "fixtures" : [
+    {
+      "completedSessions" : 0,
+      "file" : "home.json",
+      "pinwheelPlaced" : false,
+      "route" : "home"
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "count-partial.json",
+      "kind" : "counting",
+      "phase" : "interacting",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+        0,
+        2
+      ]
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "count-success.json",
+      "kind" : "counting",
+      "phase" : "success",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "addition-before.json",
+      "kind" : "addition",
+      "phase" : "interacting",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+
+      ]
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "addition-after.json",
+      "kind" : "addition",
+      "phase" : "answering",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+
+      ]
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "subtraction-before.json",
+      "kind" : "subtraction",
+      "phase" : "interacting",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+
+      ]
+    },
+    {
+      "completedSessions" : 0,
+      "file" : "subtraction-after.json",
+      "kind" : "subtraction",
+      "phase" : "answering",
+      "pinwheelPlaced" : false,
+      "route" : "activity",
+      "selectedObjectIDs" : [
+        0,
+        4
+      ]
+    },
+    {
+      "completedSessions" : 1,
+      "file" : "garden-unplaced.json",
+      "kind" : "subtraction",
+      "phase" : "success",
+      "pinwheelPlaced" : false,
+      "route" : "garden",
+      "selectedObjectIDs" : [
+        0,
+        4
+      ]
+    },
+    {
+      "completedSessions" : 1,
+      "file" : "garden-placed.json",
+      "kind" : "subtraction",
+      "phase" : "success",
+      "pinwheelPlaced" : true,
+      "route" : "garden",
+      "selectedObjectIDs" : [
+        0,
+        4
+      ]
+    },
+    {
+      "completedSessions" : 1,
+      "file" : "goodbye.json",
+      "kind" : "subtraction",
+      "phase" : "success",
+      "pinwheelPlaced" : true,
+      "route" : "goodbye",
+      "selectedObjectIDs" : [
+        0,
+        4
+      ]
+    }
+  ],
+  "source" : "Real MathBuddyStore actions in temporary isolated storage; no user data"
+}
