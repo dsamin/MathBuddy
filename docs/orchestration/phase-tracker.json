@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "master": {
+    "thread_id": "01a10773-ee35-7f13-ab61-6585fd764a0b",
+    "requested_model": "gpt-6-astra",
+    "branch": "orchestration/mathbuddy-pilot",
+    "worktree": "/Users/devan/Projects/MathBuddy",
+    "owner": "master coordinator"
+  },
+  "approved_input_checkpoint": null,
+  "phase_model": "gpt-6.1-sol",
+  "phases": [
+    {
+      "id": "2a-world",
+      "name": "World and branding",
+      "dependencies": [],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "ready-to-launch",
+      "human_status": "pending",
+      "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
+      "human_gate": "world/composition/icon/name",
+      "evidence_paths": [
+        "docs/orchestration/phases/2a-world/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "1-voice-audition",
+      "name": "Independent voice audition",
+      "dependencies": [],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Five exact lines x two chosen voices; all ten decoded and individually reviewed",
+      "human_gate": "provider/rights then voice/wording/take reuse",
+      "evidence_paths": [
+        "docs/orchestration/phases/1-voice-audition/"
+      ],
+      "notes": "Preflight only until provider selection; no live voice requests."
+    },
+    {
+      "id": "2b-learning",
+      "name": "Learning pieces and interface",
+      "dependencies": [
+        "2a-world"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "42 requirements; set clarity, native design recipes, controls, silent goals",
+      "human_gate": "counting clarity/content/controls/layout",
+      "evidence_paths": [
+        "docs/orchestration/phases/2b-learning/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2c-garden",
+      "name": "Garden",
+      "dependencies": [
+        "2b-learning"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Seven requirements; real layers/pivots, finite spin/bloom and six-grant progression",
+      "human_gate": "reward/progression",
+      "evidence_paths": [
+        "docs/orchestration/phases/2c-garden/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2d-motion-effects",
+      "name": "Motion and effects",
+      "dependencies": [
+        "2c-garden"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "M01..07 and six effects; actual layer/interrupt/reduced-motion evidence",
+      "human_gate": "motion/effects",
+      "evidence_paths": [
+        "docs/orchestration/phases/2d-motion-effects/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2d-voice-1",
+      "name": "Navigation/counting/numbers",
+      "dependencies": [
+        "1-voice-audition"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "35 script mappings; 31 new only if four audition takes accepted for reuse",
+      "human_gate": "exact scripts/cost/rights before requests; listening after",
+      "evidence_paths": [
+        "docs/orchestration/phases/2d-voice-1/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2d-voice-2",
+      "name": "Joining narration",
+      "dependencies": [
+        "2d-voice-1"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "23 mappings; 22 new only if one audition take accepted for reuse",
+      "human_gate": "group listening",
+      "evidence_paths": [
+        "docs/orchestration/phases/2d-voice-2/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2d-voice-3",
+      "name": "Taking-away narration",
+      "dependencies": [
+        "2d-voice-2"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "24 mappings",
+      "human_gate": "group listening",
+      "evidence_paths": [
+        "docs/orchestration/phases/2d-voice-3/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2d-voice-4",
+      "name": "Garden narration",
+      "dependencies": [
+        "2d-voice-3",
+        "2c-garden"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "19 mappings",
+      "human_gate": "group listening",
+      "evidence_paths": [
+        "docs/orchestration/phases/2d-voice-4/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "2e-package",
+      "name": "Content and package audit",
+      "dependencies": [
+        "2d-motion-effects",
+        "2d-voice-4"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "24 reviewed records, all dependencies, 101 voice mappings and complete offline pack",
+      "human_gate": "full pack acceptance AND explicit Phase 3 authorization",
+      "evidence_paths": [
+        "docs/orchestration/phases/2e-package/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "3-counting",
+      "name": "Native CNT-01",
+      "dependencies": [
+        "2e-package"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Make three berries from five; home/recovery/undo/help/silence/resume/offline audio",
+      "human_gate": "demonstration then approval to continue 4A; device/OS/adult gate before start",
+      "evidence_paths": [
+        "docs/orchestration/phases/3-counting/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "4a-joining",
+      "name": "Native joining",
+      "dependencies": [
+        "3-counting"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Reversible reviewed joining and separate action-only/numeral evidence",
+      "human_gate": "demonstration then approval to continue 4B",
+      "evidence_paths": [
+        "docs/orchestration/phases/4a-joining/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "4b-taking-away",
+      "name": "Native taking away",
+      "dependencies": [
+        "4a-joining"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Transfer/remainder checkpoints, zero/undo/recovery",
+      "human_gate": "demonstration then approval to continue 4C",
+      "evidence_paths": [
+        "docs/orchestration/phases/4b-taking-away/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "4c-sessions-garden",
+      "name": "Native sessions and garden",
+      "dependencies": [
+        "4b-taking-away"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Reviewed counting variants, 3/5 rounds, grant-once, free play, finite rewards",
+      "human_gate": "demonstration then approval to continue 4D",
+      "evidence_paths": [
+        "docs/orchestration/phases/4c-sessions-garden/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "4d-grownups",
+      "name": "Native grown-ups and continuity",
+      "dependencies": [
+        "4c-sessions-garden"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Preferences, independent sound/motion, accessible gate, reset/resume, honest summaries",
+      "human_gate": "demonstration then approval to continue 5",
+      "evidence_paths": [
+        "docs/orchestration/phases/4d-grownups/"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "5-family",
+      "name": "Device and family validation",
+      "dependencies": [
+        "4d-grownups"
+      ],
+      "owner": "separate bounded phase session",
+      "model": "gpt-6.1-sol",
+      "thread_id": null,
+      "worktree": null,
+      "branch": null,
+      "base_commit": null,
+      "commit": null,
+      "integration_commit": null,
+      "technical_status": "not-started",
+      "human_status": "pending",
+      "acceptance_criteria": "Actual device, offline, orientations, VoiceOver, Switch Control, Reduce Motion, listening and willing child evidence",
+      "human_gate": "human observations and pilot readiness; no Phase 6",
+      "evidence_paths": [
+        "docs/orchestration/phases/5-family/"
+      ],
+      "notes": ""
+    }
+  ]
+}

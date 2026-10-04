@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "decision": "character-identity-and-art",
+  "status": "approved-by-user",
+  "reviewer": "user",
+  "local_decision_date": "2026-10-04",
+  "recorded_at_utc": "2026-10-04T08:15:09.655247+00:00",
+  "source": "Direct user message: Yes keep all 5. Give me prompt so all of the rest can be orchestated by a master astra With separate sol6.1 session for each phases",
+  "scope": "Keep the five current take-01 poses, including the reviewed face, body proportions, cream coloring, green scarf and consistent attentive-reference unbent ears. Approved as the character reference for dependent artwork.",
+  "approved_assets": [
+    {
+      "asset_id": "PIP-01",
+      "take_id": "take-01",
+      "selected_review_path": "masters/images/PIP-01/take-01/aligned-review.png",
+      "sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198",
+      "original_path": "masters/images/PIP-01/take-01/original.png",
+      "original_sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3"
+    },
+    {
+      "asset_id": "PIP-02",
+      "take_id": "take-01",
+      "selected_review_path": "masters/images/PIP-02/take-01/aligned-review.png",
+      "sha256": "7ca4113046ee9fa453e9567ca2e724b9f92e95cb0655890a25861a01f83cf918",
+      "original_path": "masters/images/PIP-02/take-01/original.png",
+      "original_sha256": "74b4fa05191c19937cdee9a37b4988ae7625fbfa85c14223d99307485e496e0f"
+    },
+    {
+      "asset_id": "PIP-03",
+      "take_id": "take-01",
+      "selected_review_path": "masters/images/PIP-03/take-01/aligned-review.png",
+      "sha256": "a3b65be9970721c7c6619580ded6b4ec24cb15016d22bdabef21b13d96b92e63",
+      "original_path": "masters/images/PIP-03/take-01/original.png",
+      "original_sha256": "605f3abb758db2da16bc71909ad8c4874c85d092405d84ead94f5fd8bebe624f"
+    },
+    {
+      "asset_id": "PIP-04",
+      "take_id": "take-01",
+      "selected_review_path": "masters/images/PIP-04/take-01/aligned-review.png",
+      "sha256": "e198db9c58ed496ce575796eb38d5baa506e3607074143de78fcd4495d45301b",
+      "original_path": "masters/images/PIP-04/take-01/original.png",
+      "original_sha256": "69177aa4f8808d4b95b5890cd675b7690e38278608c187da62fdf87712b223d6"
+    },
+    {
+      "asset_id": "PIP-05",
+      "take_id": "take-01",
+      "selected_review_path": "masters/images/PIP-05/take-01/aligned-review.png",
+      "sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31",
+      "original_path": "masters/images/PIP-05/take-01/original.png",
+      "original_sha256": "30a6c561c31097b0a531e8a958fd647a8b5e98eaa1e361ca6761ebb5d9547f51"
+    }
+  ],
+  "review_sheet": "review/contact-sheets/pip-five-poses.png",
+  "review_sheet_sha256": "3b4026d7cb16761640ea7767b0a1ce5c4d153e4f70a1a5aaaaf80c65f4b2dff5",
+  "technical_evidence": "metadata/pip-character-review.json",
+  "technical_limitations_unchanged": true,
+  "final_delivery_ready": false,
+  "not_approved_by_this_decision": [
+    "final app name",
+    "world/composition/icon or other future assets",
+    "mathematical content and narration wording",
+    "voice/provider/rights",
+    "rig, separate character layers/shadow or native motion",
+    "physical iPad, assistive use or child usability",
+    "native implementation in this prompt-preparation turn"
+  ],
+  "record_note": "This later human decision supersedes pending art/identity labels in generation-time provenance, catalog candidates and technical review snapshots. Preserve those historical records; reconcile live selection records when the future coordinator integrates the reviewed pack."
+}

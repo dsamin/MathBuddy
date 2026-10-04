@@ -1,8 +1,10 @@
+> **Active October 4 coordination:** see [master plan and tracker](orchestration/README.md). The user has now submitted the orchestration authorization. The prompt-preparation status below is preserved history; native execution still requires the asset-pack gate and explicit Phase 3 authorization.
+
 # MathBuddy — independent review and planning checkpoint
 
-**October 4, 2026 · Authorized character batch complete for review · Human identity/art approval pending**
+**October 4, 2026 · All five character poses kept by the user · Full-pilot orchestration prompt requested**
 
-The [five Pip poses](../assets/production/picnic-v1/review/contact-sheets/pip-five-poses.png) are ready together, with [small-size previews](../assets/production/picnic-v1/review/contact-sheets/pip-small-size.png) and a [technical review / limitations](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md). Only `PIP-01…05` were generated. The attentive-reference unbent ears are proposed consistently across the set. All five aligned candidates are 1536×1536 RGBA with a shared foot baseline and anchor; provider originals, exact requests and reproducible export recipes are preserved. Human identity, art, content and rights decisions remain pending. No other media or native/Pebble work began.
+The user kept the [five Pip poses](../assets/production/picnic-v1/review/contact-sheets/pip-five-poses.png), including their consistent attentive-reference unbent ears. The [human selection record](../assets/production/picnic-v1/metadata/pip-character-selection.json) pins every approved take and hash; the [technical review / limitations](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md) remains separate. All five aligned candidates are 1536×1536 RGBA with a shared foot baseline and anchor; provider originals, requests and reproducible recipes are preserved. Name, content, world/composition, voice and rights decisions remain pending. The requested [Astra master prompt](plans/2026-10-04-astra-master-prompt.md) covers the full pilot with separate GPT-6.1 Sol phase sessions and human review checkpoints. Preparing that prompt does not launch sessions or production.
 
 **Preserved October 3 planning checkpoint — earlier scope and evidence below.**
 
@@ -77,7 +79,7 @@ These open choices do not block writing or reviewing the plan. They do block tre
 | Evidence class | What it establishes | Current status |
 |---|---|---|
 | Document review and dependency audit | Scope consistency, mathematical catalog integrity and planned coverage | 23 planning checks passed; [audit record](planning/validation-report.json) |
-| Art approval | Character identity, composition, object clarity and states | Direction B rendering selected; character identity and individual assets remain pending |
+| Art approval | Character identity, composition, object clarity and states | Direction B and five character poses kept; other individual assets/composition remain pending |
 | Voice/content approval | Correct scripts, understandable numbers, delivery and suitability | Not granted |
 | Native engineering checks | State, interaction, persistence, offline behavior and rendering | Future phase work; old experiment checks do not close this row |
 | Physical-device / assistive-use checks | Actual touch, orientation, sound, VoiceOver and Reduce Motion behavior | Future phase work |
@@ -87,6 +89,6 @@ The audit checked exact IDs and script uniqueness, arithmetic and answer options
 
 ## Recommended next step
 
-**Review the five aligned character candidates now.** Direction B take-02 remains selected. Decide whether to keep or revise the face, body, scarf and consistent attentive-reference unbent ears across `PIP-01…05`. The [pose review](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md) separates measured technical checks from pending human approval. Dependent world/branding remains a later separately requested batch. See the [copy-ready prompts and acceptance criteria](plans/2026-10-03-direction-b-next-steps.md).
+**Start a GPT-6 Astra master session with the [full-pilot orchestration prompt](plans/2026-10-04-astra-master-prompt.md) when ready.** Character identity/art review is now closed for the five pinned take-01 poses. The master first coordinates the remaining Phase 2A world/branding work, then the remaining asset and native phases in separate GPT-6.1 Sol sessions, accepting human decisions at the specified checkpoints.
 
-Prompt 2 follows a recorded human character decision. Prompt 3 independently completes the ten missing audition recordings only when the user chooses OpenAI for that audition and credentials are configured locally. Each batch stops at its own human review checkpoint. The first native phase remains `CNT-01` and requires a separate request after essential asset review.
+Voice provider/voice, final name, family device and other open choices remain separate. Native work begins only after the full asset pack review and an explicit human decision to begin Phase 3; that phase remains `CNT-01` only. Subsequent native phases advance after their own human review. Phase 6 expansion is excluded. No phase session, additional media, app edit/build or Pebble work starts during this prompt-preparation turn.

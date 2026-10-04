@@ -1,6 +1,6 @@
 # Five Pip poses — character review
 
-October 4, 2026. Direction B is the selected rendering direction. These are five concrete review candidates; identity, art, content and provider/rights approval remain pending. Pip’s Picnic remains provisional.
+October 4, 2026. Direction B is the selected rendering direction. **Later human decision: keep all five current poses**, including their consistent ears. The [selection record](../../metadata/pip-character-selection.json) pins the exact takes/hashes and approves character identity/art for dependent artwork. Content, provider/rights and final delivery remain separate; Pip’s Picnic remains provisional. The technical findings and generation-time pending labels below are preserved as historical evidence.
 
 Review the [five poses together](pip-five-poses.png), [light/dark alpha composites](pip-alpha-light-dark.png), [small-size previews](pip-small-size.png), [registration diagnostic](pip-registration.png) and [ear/scarf/face details](pip-edge-details.png).
 
@@ -33,4 +33,4 @@ The pivot is a silhouette registration reference, not an anatomical joint. Commo
 
 Technical results and human decisions are recorded separately in the [character review record](../../metadata/pip-character-review.json). No candidate is selected into `delivery/`. Every previous take and experiment remains preserved. No environment, branding, math piece, reward, audio, later phase, native modification/build or Pebble change began.
 
-The next decision is to **keep or revise this face, proportions, scarf and consistent attentive-reference ears across all five**. Record that human decision before dependent world/branding production.
+The character keep/revise decision is now recorded: **keep all five**. The next artwork batch is the remaining Phase 2A world/branding work, using these exact reviewed character references. The current request prepares an Astra orchestration prompt; it starts no generation or implementation.

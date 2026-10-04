@@ -1,4 +1,4 @@
-> Active session: authorized Direction B character review only, PIP-01 through PIP-05. See the current checklist at the end. Earlier sections are preserved historical records; they do not approve experiments or authorize later phases.
+> Active session: full pilot coordination under docs/orchestration/README.md. Five Pip poses approved; remaining Phase 2A starts in a separate Sol session. Native work remains gated. Earlier sections below are historical.
 
 # MathBuddy design review — 2026-10-03
 
@@ -201,3 +201,42 @@ Five built-in image_gen calls, one pose per call, using only selected Direction 
 
 ### Review results
 Five built-in provider takes and five aligned 1536² RGBA candidates exist with full requests/provenance. Actual light/dark, edge/detail, baseline/anchor and 256/128/64-pixel previews were inspected. The focused independent reviewer found no mandatory repair; thinking is calm and ears/scarf/identity coherent. Recipe --check reproduced all exports and sheets byte-for-byte. Canvas/core foot baseline/anchor/safe-box checks pass with disclosed one-pixel scale and 0.5-pixel center rounding. Generated originals are 1254², larger exports add no detail; tiny alpha finishing, subtle small-size expression and untested crossfades/device/child usability are explicit. Human identity/art/content/rights remain pending. See [character review](../assets/production/picnic-v1/review/contact-sheets/pip-character-review.md). Final scope audit confirms 330 protected prior files unchanged, all 51 document links resolve, whitespace checks pass and the staged gitleaks scan finds zero leaks. All batch work stops at human character review. The local checkpoint hash is reported in the final response.
+
+## 2026-10-04 — Keep five poses and prepare Astra orchestration handoff
+
+Scope: record the user's keep decision for all five current poses and prepare a copy-ready master prompt for the full pilot with human review checkpoints. This turn creates no phase sessions, media, native changes, builds or Git commits.
+
+### Plan and acceptance checks
+- [x] Read current phase requirements, review records, lessons and applicable handoff skill.
+- [x] Confirm the requested orchestration scope: full pilot, with human review checkpoints.
+- [x] Record human identity/art approval against the exact five take-01 files and hashes; preserve technical limitations and pending content/rights decisions.
+- [x] Obtain focused sequence/dependency review and prepare one Astra master prompt with a separate GPT-6.1 Sol session per bounded phase.
+- [x] Include actual Codex session creation, model identities, file ownership, durable handoffs, verification, review gates and native/family boundaries.
+- [x] Verify approval hashes, links and planning-only diff; document results and present the prompt without starting orchestration.
+
+### Pre-execution check-in
+The user's “Yes keep all 5” accepts the five reviewed character poses and their shared ear construction. The follow-up scope choice is “Full pilot, with human review checkpoints.” Record that decision separately from immutable generation-time reviews. The future master may coordinate Phase 2A world/branding through Phase 5, using distinct phase sessions and recorded human approvals; Phase 6 expansion is excluded. Human review of the complete asset pack precedes authorization of the first native CNT-01 slice.
+
+### Review results
+The [character selection record](../assets/production/picnic-v1/metadata/pip-character-selection.json) pins all five take-01 original/aligned hashes; the live decision ledger records user identity/art approval while rights/content/delivery remain separate. The [Astra master prompt](../docs/plans/2026-10-04-astra-master-prompt.md) defines actual Codex sessions, phase worktrees, ownership, durable handoffs, integration and the full pilot review sequence. Focused review confirmed models, counts and native gates; refinements ensure approved inputs are committed before creating worktrees and include Switch Control in family validation. All 41 local Markdown links resolve, whitespace checks pass and the diff scan found no sensitive-value patterns. Only planning/decision/review records changed; source media and app files remain intact. This turn launched no phase sessions, provider requests, media generation, app edits/builds, commits or Pebble work.
+
+## 2026-10-04 — Active full-pilot orchestration
+
+- [x] Read the submitted master instructions, applicable instructions and lessons; inspect Git and recorded approval.
+- [x] Verify all 12 pinned direction/character image hashes and preserve original media.
+- [x] Reconcile current catalog identity/art status against the human selection, preserving generation-time evidence.
+- [x] Write master plan, ownership, phase tracker and bounded Phase 2A brief.
+- [ ] Secret-scan and commit approved inputs before dependent worktree creation.
+- [ ] Create the separate GPT-6.1 Sol Phase 2A world/branding task from that checkpoint; record session/worktree.
+- [ ] Prepare independent voice-audition provider/cost/rights/capability decision packet in its own Sol task.
+- [ ] Verify returned Phase 2A artifacts, scope, hashes and source reproducibility; integrate a local candidate checkpoint.
+- [ ] Present complete world/branding review packet for human acceptance, with precise open decisions.
+- [ ] Advance remaining asset phases only as dependencies and named human gates permit.
+- [ ] Present complete 2E pack; obtain explicit acceptance and CNT-01 Phase 3 authorization.
+- [ ] Coordinate individually demonstrated native phases and physical-device/family evidence through Phase 5.
+
+### Pre-execution check-in
+The user's submitted master prompt authorizes sessions/worktrees, local checkpoints, integration and verification. Execute the saved scope without repeated routine permission. Four world/branding requirements are the first bounded production phase. Provider/voice/name/device/rights decisions remain open; native Phase 3 is not authorized yet.
+
+### Review
+In progress. The master tracker records actual session identities and evidence separately from human acceptance.

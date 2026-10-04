@@ -1,6 +1,6 @@
 {
   "schema_version": "phase1-and-character-review-v1",
-  "status": "direction-b-selected-five-character-candidates-pending-human-review-voice-takes-missing",
+  "status": "direction-b-and-five-character-poses-approved-other-assets-and-rights-pending",
   "planning_inventory_is_not_complete": true,
   "working_concept": "Pip’s Picnic",
   "records": [
@@ -18,13 +18,14 @@
     {
       "id": "PHASE1-DIRECTION-B",
       "kind": "flattened-visual-comparison",
-      "status": "pending-human-review",
+      "status": "visual-direction-selected",
       "current_review_take": "take-02",
       "production_selected": false,
       "takes": [
         "masters/images/DIRECTION-B/take-01/board.png",
         "masters/images/DIRECTION-B/take-02/board.png"
-      ]
+      ],
+      "selection_record": "metadata/direction-selection.json"
     },
     {
       "id": "M01",
@@ -86,8 +87,8 @@
       "id": "PIP-01",
       "version": 1,
       "kind": "transparent-character-still-review-candidate",
-      "status": "pending-human-review",
-      "selectedTake": null,
+      "status": "character-identity-and-art-approved-final-delivery-pending",
+      "selectedTake": "take-01",
       "current_review_take": "take-01",
       "production_selected": false,
       "featureIDs": [
@@ -158,14 +159,16 @@
         "measurements": "metadata/pip-alignment-measurements.json"
       },
       "humanArtReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanIdentityReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanContentReview": {
         "status": "pending",
@@ -181,15 +184,19 @@
       "decisionNotes": [
         "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
         "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
-        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
-      ]
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified.",
+        "2026-10-04 user keeps all five take-01 poses including shared ears; supersedes historical pending identity/art notes only. All technical limitations and separate rights/content/delivery gates remain."
+      ],
+      "selection_scope": "Character identity/art reference only; not final delivery or rights.",
+      "selection_record": "metadata/pip-character-selection.json",
+      "selected_review_sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198"
     },
     {
       "id": "PIP-02",
       "version": 1,
       "kind": "transparent-character-still-review-candidate",
-      "status": "pending-human-review",
-      "selectedTake": null,
+      "status": "character-identity-and-art-approved-final-delivery-pending",
+      "selectedTake": "take-01",
       "current_review_take": "take-01",
       "production_selected": false,
       "featureIDs": [
@@ -260,14 +267,16 @@
         "measurements": "metadata/pip-alignment-measurements.json"
       },
       "humanArtReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanIdentityReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanContentReview": {
         "status": "pending",
@@ -283,15 +292,19 @@
       "decisionNotes": [
         "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
         "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
-        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
-      ]
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified.",
+        "2026-10-04 user keeps all five take-01 poses including shared ears; supersedes historical pending identity/art notes only. All technical limitations and separate rights/content/delivery gates remain."
+      ],
+      "selection_scope": "Character identity/art reference only; not final delivery or rights.",
+      "selection_record": "metadata/pip-character-selection.json",
+      "selected_review_sha256": "7ca4113046ee9fa453e9567ca2e724b9f92e95cb0655890a25861a01f83cf918"
     },
     {
       "id": "PIP-03",
       "version": 1,
       "kind": "transparent-character-still-review-candidate",
-      "status": "pending-human-review",
-      "selectedTake": null,
+      "status": "character-identity-and-art-approved-final-delivery-pending",
+      "selectedTake": "take-01",
       "current_review_take": "take-01",
       "production_selected": false,
       "featureIDs": [
@@ -362,14 +375,16 @@
         "measurements": "metadata/pip-alignment-measurements.json"
       },
       "humanArtReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanIdentityReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanContentReview": {
         "status": "pending",
@@ -385,15 +400,19 @@
       "decisionNotes": [
         "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
         "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
-        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
-      ]
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified.",
+        "2026-10-04 user keeps all five take-01 poses including shared ears; supersedes historical pending identity/art notes only. All technical limitations and separate rights/content/delivery gates remain."
+      ],
+      "selection_scope": "Character identity/art reference only; not final delivery or rights.",
+      "selection_record": "metadata/pip-character-selection.json",
+      "selected_review_sha256": "a3b65be9970721c7c6619580ded6b4ec24cb15016d22bdabef21b13d96b92e63"
     },
     {
       "id": "PIP-04",
       "version": 1,
       "kind": "transparent-character-still-review-candidate",
-      "status": "pending-human-review",
-      "selectedTake": null,
+      "status": "character-identity-and-art-approved-final-delivery-pending",
+      "selectedTake": "take-01",
       "current_review_take": "take-01",
       "production_selected": false,
       "featureIDs": [
@@ -464,14 +483,16 @@
         "measurements": "metadata/pip-alignment-measurements.json"
       },
       "humanArtReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanIdentityReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanContentReview": {
         "status": "pending",
@@ -487,15 +508,19 @@
       "decisionNotes": [
         "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
         "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
-        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
-      ]
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified.",
+        "2026-10-04 user keeps all five take-01 poses including shared ears; supersedes historical pending identity/art notes only. All technical limitations and separate rights/content/delivery gates remain."
+      ],
+      "selection_scope": "Character identity/art reference only; not final delivery or rights.",
+      "selection_record": "metadata/pip-character-selection.json",
+      "selected_review_sha256": "e198db9c58ed496ce575796eb38d5baa506e3607074143de78fcd4495d45301b"
     },
     {
       "id": "PIP-05",
       "version": 1,
       "kind": "transparent-character-still-review-candidate",
-      "status": "pending-human-review",
-      "selectedTake": null,
+      "status": "character-identity-and-art-approved-final-delivery-pending",
+      "selectedTake": "take-01",
       "current_review_take": "take-01",
       "production_selected": false,
       "featureIDs": [
@@ -566,14 +591,16 @@
         "measurements": "metadata/pip-alignment-measurements.json"
       },
       "humanArtReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanIdentityReview": {
-        "status": "pending",
-        "reviewer": null,
-        "date": null
+        "status": "approved",
+        "reviewer": "user",
+        "date": "2026-10-04",
+        "evidence": "metadata/pip-character-selection.json"
       },
       "humanContentReview": {
         "status": "pending",
@@ -589,8 +616,12 @@
       "decisionNotes": [
         "Review candidate only; attentive-reference unbent ears proposed consistently across five poses.",
         "Original1254x1254 retained. Derived1536x1536 uses disclosed alpha dust finishing, uniform resampling and padding.",
-        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified."
-      ]
+        "Physical iPad, native crossfade, internal-landmark pixel registration and child usability remain unverified.",
+        "2026-10-04 user keeps all five take-01 poses including shared ears; supersedes historical pending identity/art notes only. All technical limitations and separate rights/content/delivery gates remain."
+      ],
+      "selection_scope": "Character identity/art reference only; not final delivery or rights.",
+      "selection_record": "metadata/pip-character-selection.json",
+      "selected_review_sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31"
     }
   ],
   "voice_requests": "requests/voice/request-manifest.json",
@@ -601,5 +632,6 @@
   "technical_validation": "metadata/validation.json",
   "visual_direction_selection": "metadata/direction-selection.json",
   "character_review": "metadata/pip-character-review.json",
-  "character_alignment": "metadata/pip-alignment-measurements.json"
+  "character_alignment": "metadata/pip-alignment-measurements.json",
+  "character_selection": "metadata/pip-character-selection.json"
 }

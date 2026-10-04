@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "phase": "Phase 1 and authorized Phase 2A character review",
-  "status": "direction-b-selected-five-character-candidates-other-reviews-pending",
+  "status": "direction-b-and-five-character-poses-approved-other-reviews-pending",
   "production_selected": false,
   "decisions": [
     {
@@ -22,11 +22,12 @@
     },
     {
       "kind": "character-identity",
-      "status": "pending",
-      "reviewer": null,
-      "date": null,
-      "selected_artifact": null,
-      "notes": "Five aligned PIP-01..05 candidates propose consistent unbent attentive-reference ears. Human face/body/scarf/ear and expression keep/revise decision pending; technical checks confer no approval."
+      "status": "approved",
+      "reviewer": "user",
+      "date": "2026-10-04",
+      "selected_artifact": "review/contact-sheets/pip-five-poses.png",
+      "notes": "User keeps all five current take-01 poses, including face/body/scarf and consistent attentive-reference unbent ears. Approval is specific to character identity/art, not future assets, rights or implementation.",
+      "decision_record": "metadata/pip-character-selection.json"
     },
     {
       "kind": "object-clarity",
@@ -75,7 +76,17 @@
       "date": null,
       "selected_artifact": null,
       "notes": "Review image source/provider and selected voice provider separately before production."
+    },
+    {
+      "kind": "character-art",
+      "status": "approved",
+      "reviewer": "user",
+      "date": "2026-10-04",
+      "selected_artifact": "review/contact-sheets/pip-five-poses.png",
+      "decision_record": "metadata/pip-character-selection.json",
+      "notes": "Five take-01 pose files are pinned by hash in the selection record. Technical limitations remain; final delivery, content and rights are separate."
     }
   ],
-  "character_review_evidence": "metadata/pip-character-review.json"
+  "character_review_evidence": "metadata/pip-character-review.json",
+  "character_selection_record": "metadata/pip-character-selection.json"
 }

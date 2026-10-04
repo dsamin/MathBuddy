@@ -1,0 +1,1500 @@
+{
+  "starting_head": "608e5b9205000eaf9a3fc73f004da607266f45dc",
+  "pinned_image_hashes_verified": 12,
+  "preserved_historical_review": "assets/production/picnic-v1/metadata/pip-character-review.json",
+  "voice_recordings": 0,
+  "protected_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "84b161bb68984d3c7a843ac55647c6c0147b17b0380b8c712f181dffb9f7d51d"
+    },
+    {
+      "path": ".impeccable/config.json",
+      "sha256": "69662b8741f7a824bcab9103b6ccdb3bb41122248434531794708f3d4614ddab"
+    },
+    {
+      "path": "MathBuddy.xcodeproj/project.pbxproj",
+      "sha256": "bc0e2696fa7e17ef3ec9119b67f49dd04fca0f581cdf42b2b288a4dfc892b8ea"
+    },
+    {
+      "path": "MathBuddy.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+    },
+    {
+      "path": "MathBuddy.xcodeproj/xcshareddata/xcschemes/MathBuddy.xcscheme",
+      "sha256": "ca027f4227db57799b1e2021d2a74ec22b6a98b75db8086a96c1ca7f8054a891"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "sha256": "6963e8e1fbc6dd165fdfbed8cf9c6cd0f6f59009e862be8bba066f8758e7cbbd"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "852920cb36e95beb53771138a4b8195a16fcce1cc31250632f246081cc638f9a"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/Contents.json",
+      "sha256": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/GardenBackground.imageset/Contents.json",
+      "sha256": "00380de02c7bf251de6dd05e93474d6631d0950ee28615005bfdc0772675e954"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/GardenBackground.imageset/GardenBackground.png",
+      "sha256": "c167b073584c1d5732202b31b6b3af7f8800576d1b14165aa88fdcc9c4ac2017"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipHappy.imageset/Contents.json",
+      "sha256": "d392bddaa35c55df8f479a5efe3f68f3776e6118438de7e0d113d28013554d6c"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipHappy.imageset/PipHappy.png",
+      "sha256": "6365fd17dc551c0c08a75ac82a9169ffa784dedb5b7fd061472496eb988dae1c"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipIconArtwork.imageset/Contents.json",
+      "sha256": "f48a6886aec94b3881f4d653dff9592ec17831696a9dfadc9d6ae9ba5a7e34ff"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipIconArtwork.imageset/PipIconArtwork.png",
+      "sha256": "df9e2db2eee5db3d79c833e0c93d60f518e4f18a772dca06e1b1dfe9590b04b6"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipWelcome.imageset/Contents.json",
+      "sha256": "a72e77ef4b8ec769adfd292a5be5cef7bf7d55a7c7a77ba647e94c34a19e60fc"
+    },
+    {
+      "path": "MathBuddy/Assets.xcassets/PipWelcome.imageset/PipWelcome.png",
+      "sha256": "809a0ad83e7d9a2f8117009a85eb91c44935edc34729deec3f1e55fa5d5b26d5"
+    },
+    {
+      "path": "MathBuddy/Audio/MathBuddyAudio.swift",
+      "sha256": "b3e67f2b1cb119c3f14e0f0d6736347ae265b652991c23bb927e40257204c942"
+    },
+    {
+      "path": "MathBuddy/Design/NativeIllustrations.swift",
+      "sha256": "693d12c4774cb0eed31a88ee3b379e9c2c5254dc286501bfb34ea579448bf563"
+    },
+    {
+      "path": "MathBuddy/Design/StorybookTheme.swift",
+      "sha256": "439a9b897dc9a65b2930440d4d9ff55969c79a1bb26145baa1ce4dbeabc1be60"
+    },
+    {
+      "path": "MathBuddy/Info.plist",
+      "sha256": "b58ec886b6d02008da2940d59e6fa5f9ffb43a6d302572653c1615531ee5a3ad"
+    },
+    {
+      "path": "MathBuddy/MathBuddyApp.swift",
+      "sha256": "0aed287d3ecd222dc8cc3cab00c63176da49c5c77150e6fdecfca3d7549b66c3"
+    },
+    {
+      "path": "MathBuddy/Model/MathBuddyModels.swift",
+      "sha256": "e40bbb5c03318133b3e64899a8c42fe12b1f867dc1af2fb041f014249bb2e13f"
+    },
+    {
+      "path": "MathBuddy/Model/MathBuddyStore.swift",
+      "sha256": "639dc0a6a120c5c0f5fa1f561f39c665c4079d65bf20dd2099d09e32ca143a5d"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/add-1-2.wav",
+      "sha256": "a4c425a3c43d84c570147b0950b5897bdb7baf35489f95832a8799e8957885b4"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/add-2-1.wav",
+      "sha256": "c08972ec719ed2945bac225ad625c76c5d30dc143cc41727d6bb1c8e24520195"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/choose-remaining.wav",
+      "sha256": "cc8ed8cfd2aa4efe887411ac1ca03395d8c5ee7c3ff10abd1fd74c59b329a28f"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/choose-total.wav",
+      "sha256": "94ec7020415c087e156c37f96d8daa986543c7c5abf3e2e544db6513d9c84b9a"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/count-3.wav",
+      "sha256": "627edfad17e99cddebe557fcf7e847e8a05d00514d5fd2303270ce75d20f8574"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/count-4.wav",
+      "sha256": "f36902e14dcd4f98a68bf83c522523f88472b3d60cf87945c0d80cd90ff6b5bd"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/count-5.wav",
+      "sha256": "8c8619e68c12045bf6fec7e690951f821cd724a9ff2800dc84dba27a5a256667"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/effect-pickup.wav",
+      "sha256": "ae94156f765ca04caf3d1a792e161095d487882e80cd2af4874e50649b99f848"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/effect-reward.wav",
+      "sha256": "0a57c3d4fd1f7fb3a00661717c1d81ec3ccbb8998ee59c96b422702cdc067b9a"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/effect-success.wav",
+      "sha256": "29aabee63de5a988884cf598d36e8287bd75a84d19c8f8a39aff92f58b3d3aad"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/garden.wav",
+      "sha256": "bdae7404654ad099cd494d151f83613e88ac65b3cc12b50a8b4f6da8bd4751f5"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/goodbye.wav",
+      "sha256": "e70cac589e38a2bf321615793574b35729d2cad23ff5a948ccf67a5b8f3f075e"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/help-count.wav",
+      "sha256": "5af4569fad7a364698f2e08afc7f0eee440975d671d830f272cc87928d9b5a53"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-1.wav",
+      "sha256": "20e7e6ee024859e76347eae803fabc264fde0be8a4eed63acd552c0564941625"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-2.wav",
+      "sha256": "d5253b3a7ac0fbd1ef0f5fc2098bd6f6499b361d4ef7817354f2eca1492d861e"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-3.wav",
+      "sha256": "3499ba69596493baee610df287fa77f47d14e38fc0900b47a8be0b40573f2090"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-4.wav",
+      "sha256": "c2f28f2f163cb000fd6cb4db9b844b93ae2991ed8be0aa9eeefbe423305dc550"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-5.wav",
+      "sha256": "ad332bcbfc0d8f26aeebb13984ee387731483e34b8d6c8b14c831318b5456e74"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/number-6.wav",
+      "sha256": "c503d34ad95dfc62739e1189309b8865e1104c4e0971ece648e32fe12cafaad5"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/subtract-5-2.wav",
+      "sha256": "1b0be53284854760297575f89241a6ca186a81bfa6f3caed655036158a31c952"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/success.wav",
+      "sha256": "0001d9cf1410c99b057ef8013f6026b3c748e527a0bcb73f374ce932d51e158c"
+    },
+    {
+      "path": "MathBuddy/Resources/Audio/welcome.wav",
+      "sha256": "e733ca57106137eeb15f4543b0df788e6ac61f89d9a1cd845a18099bd357f418"
+    },
+    {
+      "path": "MathBuddy/Resources/PrivacyInfo.xcprivacy",
+      "sha256": "80786716c3d3883870940efc2559177240bc5ce812f5ea63801f0a12d9159c91"
+    },
+    {
+      "path": "MathBuddy/Views/ActivityView.swift",
+      "sha256": "7a551b5ea826062456c0fa012dfc7e88ce9e61706b118b5a9feeb0ad2b132181"
+    },
+    {
+      "path": "MathBuddy/Views/GardenView.swift",
+      "sha256": "0db4fde0b49cc31186cd5ded8dd81cec8d72b654fed5dfab001bcc8abcb49e1b"
+    },
+    {
+      "path": "MathBuddy/Views/GrownUpsSheet.swift",
+      "sha256": "e06bbd305fdc754e28274d5b30b2e9a79ca3caad260486e9391ddf42f4050251"
+    },
+    {
+      "path": "MathBuddy/Views/MathBuddyRootView.swift",
+      "sha256": "528090f62af1991dd046806907721fd62ce2e67fc9622665d93fbc17fbdbc9d3"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5a62a6fe085738486d728e1d5b5eabcbf0120823701922080981994f5a9cdf11"
+    },
+    {
+      "path": "assets/audio/manifest.json",
+      "sha256": "d9585a25e12cbfa85b24091256c74c6db04e1840d83db80ebbce0454aee980dc"
+    },
+    {
+      "path": "assets/audio/masters/add-1-2.attempt.json",
+      "sha256": "191ad61881ee2ee9f741155663cf57cdfd1e9da03356d8c88c23df41935d0a9f"
+    },
+    {
+      "path": "assets/audio/masters/add-1-2.json",
+      "sha256": "cee8e49d38321cdd8f90dbbdfb5a83845d5b7c7a79b7c5b600a010c562635953"
+    },
+    {
+      "path": "assets/audio/masters/add-1-2.wav",
+      "sha256": "a4c425a3c43d84c570147b0950b5897bdb7baf35489f95832a8799e8957885b4"
+    },
+    {
+      "path": "assets/audio/masters/add-2-1.attempt.json",
+      "sha256": "e55b685b9450a2aa1f3cd97947e017be69633425aae8dae3027c2b447b78f43a"
+    },
+    {
+      "path": "assets/audio/masters/add-2-1.json",
+      "sha256": "681526da76c6f5153590153ecd5debd1a95e7dc1a16ab53252d0294e3790680e"
+    },
+    {
+      "path": "assets/audio/masters/add-2-1.wav",
+      "sha256": "c08972ec719ed2945bac225ad625c76c5d30dc143cc41727d6bb1c8e24520195"
+    },
+    {
+      "path": "assets/audio/masters/choose-remaining.attempt.json",
+      "sha256": "0719d33464291e27012c8877a1def7ac47b914aa7ff9cdd431cba9004bdf320a"
+    },
+    {
+      "path": "assets/audio/masters/choose-remaining.json",
+      "sha256": "988addf624c0cc1c4e7d5186a12f0ebe6c9413dff6c091ce770932000ab04571"
+    },
+    {
+      "path": "assets/audio/masters/choose-remaining.wav",
+      "sha256": "cc8ed8cfd2aa4efe887411ac1ca03395d8c5ee7c3ff10abd1fd74c59b329a28f"
+    },
+    {
+      "path": "assets/audio/masters/choose-total.attempt.json",
+      "sha256": "1aaa872db0984caf795a6e373690d63ddb502d3560dfcfe6dab62565c0582562"
+    },
+    {
+      "path": "assets/audio/masters/choose-total.json",
+      "sha256": "8c9abca8cad37221e90c663206266eed415c4e2cbcca3bca3789c4dab135318a"
+    },
+    {
+      "path": "assets/audio/masters/choose-total.wav",
+      "sha256": "94ec7020415c087e156c37f96d8daa986543c7c5abf3e2e544db6513d9c84b9a"
+    },
+    {
+      "path": "assets/audio/masters/count-3.attempt.json",
+      "sha256": "41aaad65a68e6a76675330a13c57a54020699087e2d4410869ec58e6758c686b"
+    },
+    {
+      "path": "assets/audio/masters/count-3.json",
+      "sha256": "91e97d641a42685b5bb62488310d8ec684c9b01b9e32dc6a09047aa46e7e5106"
+    },
+    {
+      "path": "assets/audio/masters/count-3.wav",
+      "sha256": "627edfad17e99cddebe557fcf7e847e8a05d00514d5fd2303270ce75d20f8574"
+    },
+    {
+      "path": "assets/audio/masters/count-4.attempt.json",
+      "sha256": "a01a4189e7a851d3e8c4da5f4e68458a5bc8aed001d5efc168b39f7feba20658"
+    },
+    {
+      "path": "assets/audio/masters/count-4.json",
+      "sha256": "d6fbcb8c6bbcd392ec00fb2e7ccb00c294675794eae8b60059582b22dc3aa59c"
+    },
+    {
+      "path": "assets/audio/masters/count-4.wav",
+      "sha256": "f36902e14dcd4f98a68bf83c522523f88472b3d60cf87945c0d80cd90ff6b5bd"
+    },
+    {
+      "path": "assets/audio/masters/count-5.attempt.json",
+      "sha256": "205e4837d08469603ef38157d72ab7db0e2bd034af9550423f1f90bf56d641b6"
+    },
+    {
+      "path": "assets/audio/masters/count-5.json",
+      "sha256": "62cc74e8a07c3ad2b73ad6ba023a67ffb771d59cdd8cb5802645f2d453a10c21"
+    },
+    {
+      "path": "assets/audio/masters/count-5.wav",
+      "sha256": "8c8619e68c12045bf6fec7e690951f821cd724a9ff2800dc84dba27a5a256667"
+    },
+    {
+      "path": "assets/audio/masters/garden.attempt.json",
+      "sha256": "768dd8a5491f5a9fcf47a6f83010b43d8b1e0bcdeaf3ffa7fffbc20466f3c432"
+    },
+    {
+      "path": "assets/audio/masters/garden.json",
+      "sha256": "fd6260a3025649035d21e462a5a358097e021ea57597179ad56c6a4183b48939"
+    },
+    {
+      "path": "assets/audio/masters/garden.recovery-attempt.json",
+      "sha256": "1b8b8abe6a4f4a552051ade44cfb6c7b6366749eabbe8c0889b4b1c3270ac412"
+    },
+    {
+      "path": "assets/audio/masters/garden.wav",
+      "sha256": "bdae7404654ad099cd494d151f83613e88ac65b3cc12b50a8b4f6da8bd4751f5"
+    },
+    {
+      "path": "assets/audio/masters/goodbye.attempt.json",
+      "sha256": "49971059a7b49536ad22515ccb5872835e7f7acf4e42128a822369151a1a8290"
+    },
+    {
+      "path": "assets/audio/masters/goodbye.json",
+      "sha256": "b6a1f0c6550d369791bbad5bb0c64b2cba32bec07ee58dcd1bababd7a401fb2e"
+    },
+    {
+      "path": "assets/audio/masters/goodbye.recovery-attempt.json",
+      "sha256": "ef1f2a0e97fc71fa0c9af3b2b51b77375b19a6f1cb9218c2d3074ce3b858e2be"
+    },
+    {
+      "path": "assets/audio/masters/goodbye.wav",
+      "sha256": "e70cac589e38a2bf321615793574b35729d2cad23ff5a948ccf67a5b8f3f075e"
+    },
+    {
+      "path": "assets/audio/masters/help-count.attempt.json",
+      "sha256": "782cc51b76febe87172fa79f1f04ff26236c0da4ebe126a2a70678b173eaf7a9"
+    },
+    {
+      "path": "assets/audio/masters/help-count.json",
+      "sha256": "d89cac92b812b6a87d887d42ae1b1069407ff3049aad92c2ad7a27af06e01dea"
+    },
+    {
+      "path": "assets/audio/masters/help-count.wav",
+      "sha256": "5af4569fad7a364698f2e08afc7f0eee440975d671d830f272cc87928d9b5a53"
+    },
+    {
+      "path": "assets/audio/masters/number-1.attempt.json",
+      "sha256": "f14c65823a44d51c0a469fcf2ec67e5ffec57beb11eb727bc16aa74637b2ec51"
+    },
+    {
+      "path": "assets/audio/masters/number-1.json",
+      "sha256": "a95d72acca2caad1cff0809bcd3860cae828034fff18518ec3d331fadc90fa7c"
+    },
+    {
+      "path": "assets/audio/masters/number-1.recovery-attempt.json",
+      "sha256": "38f8888cc65407f39c1900d2b0923a36c2e8858d73538cb9925db0b26287dec8"
+    },
+    {
+      "path": "assets/audio/masters/number-1.wav",
+      "sha256": "20e7e6ee024859e76347eae803fabc264fde0be8a4eed63acd552c0564941625"
+    },
+    {
+      "path": "assets/audio/masters/number-2.attempt.json",
+      "sha256": "6d494624212586fceb273a6396cf7fc197d5230f0e1a47485150256dfa48ae5f"
+    },
+    {
+      "path": "assets/audio/masters/number-2.json",
+      "sha256": "bf5f25b73125505ff2c35b448264234987188156eb48633c16db60f4144fd7b3"
+    },
+    {
+      "path": "assets/audio/masters/number-2.wav",
+      "sha256": "d5253b3a7ac0fbd1ef0f5fc2098bd6f6499b361d4ef7817354f2eca1492d861e"
+    },
+    {
+      "path": "assets/audio/masters/number-3.attempt.json",
+      "sha256": "b43eb5f93ccce09c1a61b9b0694fe855d9553e29950766c4371f76ee0b793021"
+    },
+    {
+      "path": "assets/audio/masters/number-3.json",
+      "sha256": "5cbd958a991af8289f6541e23a69ba97699f5617dd10a87bf222a2f5d60959e8"
+    },
+    {
+      "path": "assets/audio/masters/number-3.recovery-attempt.json",
+      "sha256": "b01deaf676518ff5cb82aa1d8fc7349a68b6be3d429d5f6aaeae8cd2adf45685"
+    },
+    {
+      "path": "assets/audio/masters/number-3.wav",
+      "sha256": "3499ba69596493baee610df287fa77f47d14e38fc0900b47a8be0b40573f2090"
+    },
+    {
+      "path": "assets/audio/masters/number-4.attempt.json",
+      "sha256": "45284671917c225b8798783a22304dd69654eb797e415fbf101f9f54e17e0f99"
+    },
+    {
+      "path": "assets/audio/masters/number-4.json",
+      "sha256": "12863e3c20992aa1d0ad58bebd4deac2cc491589249dea361e893de6997489a8"
+    },
+    {
+      "path": "assets/audio/masters/number-4.recovery-attempt.json",
+      "sha256": "0e099d460baf0434347cbb3a09e5814ee5057cccfce164d91628808b2f827846"
+    },
+    {
+      "path": "assets/audio/masters/number-4.wav",
+      "sha256": "c2f28f2f163cb000fd6cb4db9b844b93ae2991ed8be0aa9eeefbe423305dc550"
+    },
+    {
+      "path": "assets/audio/masters/number-5.attempt.json",
+      "sha256": "2c70c03a7fe8750dc58ef07133e51a4c769387ec19f358f47f556d30d73c4dd8"
+    },
+    {
+      "path": "assets/audio/masters/number-5.json",
+      "sha256": "640d44ce6a123d86ac963eea7bd893e9cfb5eb072af6b8d8694eee3e90e5c02d"
+    },
+    {
+      "path": "assets/audio/masters/number-5.recovery-attempt.json",
+      "sha256": "dd1a31aec9964a25838fb3066af3117cd6464abb391e5361a6f132625ac1c1a9"
+    },
+    {
+      "path": "assets/audio/masters/number-5.wav",
+      "sha256": "ad332bcbfc0d8f26aeebb13984ee387731483e34b8d6c8b14c831318b5456e74"
+    },
+    {
+      "path": "assets/audio/masters/number-6.attempt.json",
+      "sha256": "4b8a5b5ea0a23fda9fa4e613371d9dbb6b8d6bbc0d6809aa7ba8e9e161953799"
+    },
+    {
+      "path": "assets/audio/masters/number-6.json",
+      "sha256": "bd272d5e724307b41c82a004b01052d04f66a5b2533e2c8ea1dcbf6f02eb18e0"
+    },
+    {
+      "path": "assets/audio/masters/number-6.recovery-attempt.json",
+      "sha256": "32a32a752fd27603f32006dc2fc2d4bb467016c1c5a4ef4600a3a68e4e3a59c5"
+    },
+    {
+      "path": "assets/audio/masters/number-6.wav",
+      "sha256": "c503d34ad95dfc62739e1189309b8865e1104c4e0971ece648e32fe12cafaad5"
+    },
+    {
+      "path": "assets/audio/masters/subtract-5-2.attempt.json",
+      "sha256": "778a9f2fb16558b05ae5827889c0c2b195f6884c8e8606ff93a59f49078526c3"
+    },
+    {
+      "path": "assets/audio/masters/subtract-5-2.json",
+      "sha256": "8de2182b9ed24a450d44b3fbc9342bef0d7613e6bbdc6c72db600db40bd47f7f"
+    },
+    {
+      "path": "assets/audio/masters/subtract-5-2.wav",
+      "sha256": "1b0be53284854760297575f89241a6ca186a81bfa6f3caed655036158a31c952"
+    },
+    {
+      "path": "assets/audio/masters/success.attempt.json",
+      "sha256": "0447a4c1f961af965a33b955ff8a961f842f0877d02b103dff9e26c8e8c95643"
+    },
+    {
+      "path": "assets/audio/masters/success.json",
+      "sha256": "5db31779a6892c4046b538658b0faa1e5ecd8ed7957a6dbfc406df48fdbd8c64"
+    },
+    {
+      "path": "assets/audio/masters/success.wav",
+      "sha256": "0001d9cf1410c99b057ef8013f6026b3c748e527a0bcb73f374ce932d51e158c"
+    },
+    {
+      "path": "assets/audio/masters/welcome.attempt.json",
+      "sha256": "4ddbe82cbf75988c0b3473441a4ec80c03e4c43a0576f6889c42538daabdd763"
+    },
+    {
+      "path": "assets/audio/masters/welcome.json",
+      "sha256": "7858910fa9628ba89706b8fac304d8f472d9937085196d8f4ad1a9b2b4ba0edf"
+    },
+    {
+      "path": "assets/audio/masters/welcome.wav",
+      "sha256": "e733ca57106137eeb15f4543b0df788e6ac61f89d9a1cd845a18099bd357f418"
+    },
+    {
+      "path": "assets/audio/recovery-pass.json",
+      "sha256": "72df1c8dab48394a0a4ac9e2614f50982c78e319d4145cdcde9e41f522636e5a"
+    },
+    {
+      "path": "assets/audio/requests/add-1-2.json",
+      "sha256": "7a3efd096b33d806bd823f1ec62775c39dde68a8d7b34a607a0e29a610dd04fa"
+    },
+    {
+      "path": "assets/audio/requests/add-2-1.json",
+      "sha256": "f575f4ccf552c3337df1a1dd3bbb748ebcf7fadc619488083f94d19f12af171b"
+    },
+    {
+      "path": "assets/audio/requests/choose-remaining.json",
+      "sha256": "e75e0813ea0ab1e77210c378fc942df4146540355d99d41cc8b2387196202cbd"
+    },
+    {
+      "path": "assets/audio/requests/choose-total.json",
+      "sha256": "7f03029b41b138326be1557f960c3e00f95b4d112c75d02423610700a1da6fbe"
+    },
+    {
+      "path": "assets/audio/requests/count-3.json",
+      "sha256": "fce517db748fe872c1152228bb207a1289b7d1e2a9baaea76d9d578f4a3b3b1f"
+    },
+    {
+      "path": "assets/audio/requests/count-4.json",
+      "sha256": "ba20b0c350c2ec41ade4052baf8f0599f029a3ef851b6efe442484fa803c888f"
+    },
+    {
+      "path": "assets/audio/requests/count-5.json",
+      "sha256": "41f17aa36fd875ad424b72a24a32540f710ae5790b9694a0d17f1ccd67264023"
+    },
+    {
+      "path": "assets/audio/requests/garden.json",
+      "sha256": "29b7b181333d789d80928df80a778c0f2bc59e67e7aed9b53e122a51539bec1a"
+    },
+    {
+      "path": "assets/audio/requests/goodbye.json",
+      "sha256": "89a95a07050f0734cf80dc11979394e6a4583d72062408e42c1e751c7e283b03"
+    },
+    {
+      "path": "assets/audio/requests/help-count.json",
+      "sha256": "f1c79349569844559fbc344e68ebdcf649db0de301d1b40c2cd7e670fac1a14a"
+    },
+    {
+      "path": "assets/audio/requests/number-1.json",
+      "sha256": "3dc9b0ad773ed0826006527c3d1d5a72f27f6f5cb02f3d922c97bea21a8e4f31"
+    },
+    {
+      "path": "assets/audio/requests/number-2.json",
+      "sha256": "99e84892e09eeb80e817cc5abe666f97cd2bfd6346dfa8fa15940115e59450ae"
+    },
+    {
+      "path": "assets/audio/requests/number-3.json",
+      "sha256": "95d9536b91f9390580d1876deece77f76b62bdf93482ad2e620566acd2d325af"
+    },
+    {
+      "path": "assets/audio/requests/number-4.json",
+      "sha256": "0bcfef00d6e9589f9c8d03c97d0460fafc4efa82b8f4729c6399cb2062e1f43a"
+    },
+    {
+      "path": "assets/audio/requests/number-5.json",
+      "sha256": "54bd25932b08025ca670b8a3259b70248f7938b542d1b2a7b479b8f4ceef3192"
+    },
+    {
+      "path": "assets/audio/requests/number-6.json",
+      "sha256": "c50b453a22e0e4ae9e9f7ecbf28ceea628ecce7a77b94c07fc8cee7475169175"
+    },
+    {
+      "path": "assets/audio/requests/subtract-5-2.json",
+      "sha256": "04bc2bdd9f24ceb0a8aa108473872380a4c9b9e9d8e4621619dc19bd4f31cf0f"
+    },
+    {
+      "path": "assets/audio/requests/success.json",
+      "sha256": "32ded1f67d96b0396b999287f7ee898c2c3f55480044b73239fd4aa4dbbd1278"
+    },
+    {
+      "path": "assets/audio/requests/welcome.json",
+      "sha256": "1980fb6ad37de9b6f8a8ec8e4fd4154f9b7e536f209e0a53ebc2d53349748bf5"
+    },
+    {
+      "path": "assets/production/picnic-v1/README.md",
+      "sha256": "df10bc0de4fd26afb4e39adc55f12d510093dcb6a666d71c6bb2512dff0428f7"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-A/take-01/board.png",
+      "sha256": "cf8f383903bde690277a19fcf403537079ad4c21059314f3e8d6b1c9e27e66d0"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-A/take-01/provenance.json",
+      "sha256": "79cbf9e935e5c19c896f2a7b9982f924d018c4dea13036aff5ae04ee33e5d0e8"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-A/take-02/board.png",
+      "sha256": "6381f5d05841191beac82899f0c739de27ddc46efea3d0f369a737b53f229855"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-A/take-02/provenance.json",
+      "sha256": "9078be61e7634119f28764828b5958fe8e3db988b9271ad57ecabcfe91f39787"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-01/board.png",
+      "sha256": "3592d6362ff46bcfed8b39b8ac69e5a0d65171196e25cf14023af597df85d22e"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-01/provenance.json",
+      "sha256": "8bd8f9bbcf58c15a6de05095a7eb31905fc082c51e2d4986f34889a5280b1c7b"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+      "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/provenance.json",
+      "sha256": "6c272e6997ffa9715514884fcb6efd5c8e5cdb337f03a49b26f4baddabe3a942"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-01/take-01/aligned-review.png",
+      "sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-01/take-01/original.png",
+      "sha256": "dd1a307aff46dbf1437e32a2d560a9deb0ecb7a67a60db4b8258dce45d1a75d3"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-01/take-01/provenance.json",
+      "sha256": "3611ca6c7d3b541bd302c9d5f689bb19ea87cffd7a7634d26977aea143059ee8"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-02/take-01/aligned-review.png",
+      "sha256": "7ca4113046ee9fa453e9567ca2e724b9f92e95cb0655890a25861a01f83cf918"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-02/take-01/original.png",
+      "sha256": "74b4fa05191c19937cdee9a37b4988ae7625fbfa85c14223d99307485e496e0f"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-02/take-01/provenance.json",
+      "sha256": "620c5f7f0df0b9663761c25d079fd54c7f3852a8851d470554a396519ce4b79d"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-03/take-01/aligned-review.png",
+      "sha256": "a3b65be9970721c7c6619580ded6b4ec24cb15016d22bdabef21b13d96b92e63"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-03/take-01/original.png",
+      "sha256": "605f3abb758db2da16bc71909ad8c4874c85d092405d84ead94f5fd8bebe624f"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-03/take-01/provenance.json",
+      "sha256": "b89a11d270c65ce935e02d5a766e20faf22151a562f0f9ffe0f9e9e2b5932da5"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-04/take-01/aligned-review.png",
+      "sha256": "e198db9c58ed496ce575796eb38d5baa506e3607074143de78fcd4495d45301b"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-04/take-01/original.png",
+      "sha256": "69177aa4f8808d4b95b5890cd675b7690e38278608c187da62fdf87712b223d6"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-04/take-01/provenance.json",
+      "sha256": "de2b340e53f96f424b13d99fd8415728d81c055fd5176e73f867f3a7c636b1eb"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-05/take-01/aligned-review.png",
+      "sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-05/take-01/original.png",
+      "sha256": "30a6c561c31097b0a531e8a958fd647a8b5e98eaa1e361ca6761ebb5d9547f51"
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/PIP-05/take-01/provenance.json",
+      "sha256": "14ca79d808d5331ad1ea197b724c78e934e6ad654e82be78fcd80b682dd72b6a"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/direction-selection.json",
+      "sha256": "84427e0675b90170a5e4762aa1302a602af0b5eca43489cf7658be9bd64ca3c2"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/file-audit.json",
+      "sha256": "b19c9fa6185ea93b5aab66342692558fb94cd10891d217daa1bc42ab2e3b75c0"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-alignment-measurements.json",
+      "sha256": "d593cda986269d6b051822474314d32673f6fe3425cd2b44d9f7db879a5b0173"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-alignment-recipe.py",
+      "sha256": "c52e8c6cad81a7a24c535cad13d1a9508c8ede4212ad7e4ecd30c77e14bd154c"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-character-preflight.json",
+      "sha256": "21249888314c04652521093c5be939648baa22293cea9ab514ba3f999f07473a"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-character-review.json",
+      "sha256": "72693797f073f8235c42198be2bf22321c2d3d057d479da8d48ea66a7e79c7b9"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-file-audit.json",
+      "sha256": "a097211af8c0e369c7069eb1a822b016b315bcbe3e1c3c9f1f41377e553abc0d"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-secret-scan.json",
+      "sha256": "fe0590c80236d1b956405f012fa16b8e99f8407e580932ebd4154e60c2ecdafe"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-tool-responses.json",
+      "sha256": "34646af4d5ef83cc5ba878e1b47a29c5ee6dc1792fd983a48acb85b500264010"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-validation.json",
+      "sha256": "2853fa0609a8f166d0e8aa5766db48af25cf16e13a73e1820d18e0522c5eb0a6"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/pip-verify.py",
+      "sha256": "9b6cda17aae0cf32ecc578a0c1614f52ee2ab6b3369d3554428cb61b69cf912e"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/provider-rights.json",
+      "sha256": "4e44972f4c4003a9dbbfe9aaafc6cf38b347d45f4eb52d30c0ca4cdd441f0f46"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/replacement-history.json",
+      "sha256": "7f1c5cbade1f581fa7a9d2c3c626c2527cc11e0d86d15694e44bdad952125ee0"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/validation.json",
+      "sha256": "c52ef7ec3c3571c5fd6d842b7b00a9124eab4e43a13ac3d99962356225b6d2f1"
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/voice-capability.json",
+      "sha256": "427894c9a58beadb872667ca3c60497a3656f8f3925cc57f3c67d65234dd6ea5"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/README.md",
+      "sha256": "eee7f4afdf08f7754a75209abaa0f14cad7acae04ebebcbeb4702f73ed5e60cd"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/brief.json",
+      "sha256": "24d8c3422d01afef840ddb078506a75f21e5394028b337998de6fb858563d1de"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle-timeline.json",
+      "sha256": "9f9fb899325054248e7893e1803f51f187d753dd052a7d8a6ddd3aa4d59dd0b4"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.gif",
+      "sha256": "c495e703390b4b75e6adb20d4fbeea9a859599b46f9cbfcaadccd20fb46d71c3"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/pickup-return-settle.mp4",
+      "sha256": "51d9aeb93014e0b128264babe5fe897a6bb19574f3a2bf99180dcc4acb521495"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/poster.png",
+      "sha256": "8a6e2f70e6431ff4dd5935e2ee54244d819ce0f774dd45fbc499ecc1a074468c"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion-contact-sheet.png",
+      "sha256": "8cc9c529981ef8fb51256891561cbce600f7dde91a3342f1705f9604d734e40f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion-timeline.json",
+      "sha256": "17449fd1aba40d67e3e9812e990f001ee6e82415d3b9308ba996b2023c5814f5"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.gif",
+      "sha256": "7a867649b0b1b61f98a24a6434baf167271032c818ab75d52c8fe8287fb9c322"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/reduced-motion.mp4",
+      "sha256": "629f0eafadb100450914e7cf41f4c610d31d0001f77b1ce10423b7aa396b0cce"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/scene-layers.svg",
+      "sha256": "773db355e4ec6a33dc88b3eca40bfe9d22521c4916bdaf156b6081c09a8b6e61"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard-01.png",
+      "sha256": "be9e247ca8f2209b353521351ef10a346a48f3c9f3261d815e41a7b788177bf2"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard-02.png",
+      "sha256": "8a6e2f70e6431ff4dd5935e2ee54244d819ce0f774dd45fbc499ecc1a074468c"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard-03.png",
+      "sha256": "2a825c358b01cad74e282ec28b8b5e335d8a55d7ce07d03325cc19b45d17186a"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard-contact-sheet.png",
+      "sha256": "d71c2b741fbb6c281fdaf869d28e90768056bb6a01626f7841afe4ad2f746f20"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard-source.json",
+      "sha256": "961e3e347620a2c48ffa493d3486f39c5839463505c51cba2930686ab4b3abb1"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M01/storyboard.pdf",
+      "sha256": "cda38c43c21da80774cf28bf231fbcac2190f7e82f3b236860e493fcd932d85f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/brief.json",
+      "sha256": "4e4eedf4d05aa4d463358b322287e6f58f94be4b10a21c8744a8f4f7fda4cc0d"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard-01.png",
+      "sha256": "53ca3fbe55e3d938403da7cf25099afdd845020bbf205fa618bd07304385ab89"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard-02.png",
+      "sha256": "def9696e28976cf568ce00009d76da03086c68d19000cb2ac091473222771d3a"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard-03.png",
+      "sha256": "f072c65a8b04bbeadc18b3be6acf8c5cfa93981535f1e9ed8183a29a6cf4a1e1"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard-contact-sheet.png",
+      "sha256": "9a693d6d864e62246c89c5e17444ac6e1ecb98ac59aae31ef5c96631fc384eec"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard-source.json",
+      "sha256": "615fc1e6028dedd3b3e1500a4828632ed581e6809dd3c44435819bca074f992a"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M02/storyboard.pdf",
+      "sha256": "93be076562c93970898cb5954f69fe76d6ee19b4d566add405e1105b41042d30"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/brief.json",
+      "sha256": "f5314809206310db67436f8eda06cf4d6796834ae40003c7169ce2fbaf47302c"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard-01.png",
+      "sha256": "a60b70e3d3edb8676579663668b16d32f716fd9155b7b0f90d70d006bac389fa"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard-02.png",
+      "sha256": "f6232991cddfbb3e18b5aa9a6ecffa56e7bd0dce1aed9adeb80c2629f05b4142"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard-03.png",
+      "sha256": "14d6b1820d9e39f1c9af54439362932cdaaa8a411e91ed20afc33d3a91dd7f27"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard-contact-sheet.png",
+      "sha256": "bfcf16b88c372f75f6f5d7eaef852c7bfeee33f1eef8037bc4c71216bbcfd79d"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard-source.json",
+      "sha256": "6cb1fe195aae6bff2171ccf8b68a58eb242e14166d8966ea28ddaa15d71892d4"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M03/storyboard.pdf",
+      "sha256": "90fe3a74fc79b5cd86f87477ac72c25e85a30fbe3efac96b87f5861ba49d1eb1"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/brief.json",
+      "sha256": "109d533616181858e40aa2acc9d13d3698bef1321ba5d19d4835a1969ede6bb2"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard-01.png",
+      "sha256": "10a3ec40d46a9905336926e1b70be819024b9d3326800b9ca53942d8782a2131"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard-02.png",
+      "sha256": "dd43a4499196e27048fceaace7e302647da4de1b7d5d6013e5e5445a34c5274b"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard-03.png",
+      "sha256": "f28bce2c6f0553ca0d83b823aa757e54fe2a16dc15392339fb16e9cf6d00b56d"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard-contact-sheet.png",
+      "sha256": "efb02770008cb1a3c49c2bf6b42009f909dc4214d4d5cf88fb3ac28b4e6a8866"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard-source.json",
+      "sha256": "03a4c321f8588d4f68f6cd5d9053a2a87dc65feff23af391a3030ad0e84af67d"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M04/storyboard.pdf",
+      "sha256": "32439abb44384f2dbd523e966028bab126e5e5c94bd13d80a89981ad8d953929"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/brief.json",
+      "sha256": "414dd925618ce2cced1d17346e066586893249b9ca2fa5f5e2eeaf8e98bd2391"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard-01.png",
+      "sha256": "fb89494a44c0a79ad6deaa5340583fd153b9afaa0b1dabf00b3c2348687cabd0"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard-02.png",
+      "sha256": "a7b35145298517f840196067f3105c40fc5903a63b8e89ef94d5f13c5eec6c2b"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard-03.png",
+      "sha256": "ec11b06152198aa0dcab7d066d8c622356542ee3516937dd9cd476d54117d145"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard-contact-sheet.png",
+      "sha256": "44035b9c329ec4bc6a228e3fd3f398f41d3915a46c09b9ae98ddc74f53871a45"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard-source.json",
+      "sha256": "42c1500e02d5cc4685d012c24d083c83625396c5cbb15f39d7cdf7e8aff60c32"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M05/storyboard.pdf",
+      "sha256": "70ff74d6714fc26943f3419c1d7b1ef96725f565e21c564e698e93f6bbf8d7bc"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/brief.json",
+      "sha256": "09f36872ced2eff616c14ab443c22421c9cc784ee9445dea7a2c0b9d8e5d6c81"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard-01.png",
+      "sha256": "ff60b0897b1a63388425a9dd84afe900cdd9bdee1b76b6361ad2f97e78f5cfcb"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard-02.png",
+      "sha256": "5157f47a69077142d1f6a8cc2b1979db3a70507f7c5125feff4d9a3806b590a2"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard-03.png",
+      "sha256": "ce768d3ea2b0f1aa6e4353a8097f905899eccdfa5aa567627d7fdf644e0fab0c"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard-contact-sheet.png",
+      "sha256": "91973a4f7791a049e7191c841f129fbf542794133661ad6f52a3aa77ead720c0"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard-source.json",
+      "sha256": "afa3e1b455ce978eb53f12b9562367da97011d586c8d09f6f40784d71c1410ef"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M06/storyboard.pdf",
+      "sha256": "be372ba4356420f33210f66133646d121bc3331c028be9a83079cbcd22e4315c"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/brief.json",
+      "sha256": "cf19a08bc93b1c4f5f39853fe388cf3e5b0011e1f37babdbb6fdbde4089ecbfc"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard-01.png",
+      "sha256": "29619c653b42d600fb1471bf32812c452cd5db624f07f0aa46382f6dbf881909"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard-02.png",
+      "sha256": "0eb22c67f56e28bce92dcca0e9593b694c3acedfdea58d643a58980039fa1d2b"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard-03.png",
+      "sha256": "77668ccad76c64f3dfb77aaf029f0c1a66656e0800a0f51153734ebbf14b9d3b"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard-contact-sheet.png",
+      "sha256": "87c551a56a8a0c301140b864e66aedbb6137e50717be754ad0ca6247f42f8537"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard-source.json",
+      "sha256": "f1625ea1979d0c30674a4d719e9e25bc623345503ae3a0135ac34a844b1bda7b"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/M07/storyboard.pdf",
+      "sha256": "def94403057d4631183b4c17497c6af226611add49a4ea4c56f3341e90da18cb"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/all-storyboards-pdf-preview.png",
+      "sha256": "d2d3847a40ea985cc8c82b88d823f1fdddc2464ea4193621c0f1fd9729025ac1"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-01.png",
+      "sha256": "4636896d16100b6a267d6c880dc4ef984239153a68d7d4574d0ba24ebe733558"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-02.png",
+      "sha256": "6f2a4a133c75285a8bf22108fc6004a4341697a81e65126afffe8eeeab2a695f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-03.png",
+      "sha256": "97474858955ee6069d258825e50fd0f8ee0ee54a4a302a15a474c161c866fb7f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-04.png",
+      "sha256": "5df071f0e15edc1048ec3f406c50fb245b065d1b7fa7d04f6cd1ea8c273f24a0"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-05.png",
+      "sha256": "09055d3cc91dc40e81e2a6ca0d4cd4ae11b623389a0fa4cb389e46e64c99e74e"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-06.png",
+      "sha256": "f47d1673a31499ab0930a4ccaf782dca9f2ea1a7b8d50b34651c80e1b3be4d09"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/pickup-return-settle/frame-07.png",
+      "sha256": "a26c8b54f203082f07a7921fcdf3ebffdf29cd589e8618d155e526baec4ec3af"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-01.png",
+      "sha256": "9f7a31a4f2e6461af5bbbd749931795a27481f8e93ba66f0422fd7332184d081"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-02.png",
+      "sha256": "e4d5c079d3e1e549fc2018da9cf56bc10c8ded043acdb8f795fc7564712e7fc0"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-03.png",
+      "sha256": "5d2bfe2329eccefd35f762f24889b9a8a439433b4c8b36d31893fdb850d7309a"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-04.png",
+      "sha256": "21df6d0f43f15b273124cd54fa40e3abd807892653a514f08de800384fdf7c72"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-05.png",
+      "sha256": "7bece19f02144fba2ce5bc14c4aaae36d58f4404c8b015ca47754b426668aca5"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-06.png",
+      "sha256": "e220291985a7918650e6b5099c85ee764dc4d54bef2e81ac7f7431707da20d20"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-frames/reduced-motion/frame-07.png",
+      "sha256": "dc18839c76a6683f2585622860c13622e7de2fea514fe92e782e0b3da7642962"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/decoded-key-frames.png",
+      "sha256": "ca5dedbc0d40d4acf68bb0d96f2b5251c1af5ff62702a6e72f4e571fe2a2e1c8"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/human-review.json",
+      "sha256": "9e8f0d418b3e395eb5cc42dccb1ca5b02cc593f9937812260090e7f83b78771f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M01.png",
+      "sha256": "419f04b8301b6a9bdfc4570e05132144cb5433be3ec9fb5ba687c0edfd034a15"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M02.png",
+      "sha256": "bfea7c106585e2704b375201971acff287e08bf2e541f33967a9313cb5b4802f"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M03.png",
+      "sha256": "e202d4d76b1422e7468d83106210a51012623c3e8b61188c90df5b1339bc7084"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M04.png",
+      "sha256": "e56c3ed6b2520ec2bd654dbdf941a519cfa560c991ad50370aea71020621226a"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M05.png",
+      "sha256": "227747139b8ecc36c73a79d0f0a00cd622df09e0a5484b0ea973039f4b861466"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M06.png",
+      "sha256": "1b01f349cb8ebc21863915cc576f5e5a48b570fc31a20af5379938518378d1d7"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/pdf-pages/M07.png",
+      "sha256": "7e4037327025f8dd61444d5a09ed8b3797f17cec786f0a3b61b15506bea7dced"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/provenance.json",
+      "sha256": "85ae718e2571a08b8001bd68fee70854dc0f8f530685acbb149aa91068789ed3"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/technical-measurements.json",
+      "sha256": "b3af3f41fbd6e2bcdf38735884f11d3648016e8ef1d332bb55117199dddc2b70"
+    },
+    {
+      "path": "assets/production/picnic-v1/motion/review/technical-review.md",
+      "sha256": "ff278396c0fe4123299b0c94460bc290f8ea3376dd45c0b03c5243835fa6ac03"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-a-take-01.request.json",
+      "sha256": "6a63cc531fdfeeee10e2b687a0b63191d2054059043d0146cfdd6f9178e6d4d7"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-a-take-01.txt",
+      "sha256": "2f3c00ddf0881b81420351b358daaea206b3ccb6b64d3a77b8bf813b7b238c98"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-a-take-02.request.json",
+      "sha256": "00fb959f09fb5280309445165ca87317331cdb0871104f244352b51a435caa22"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-a-take-02.txt",
+      "sha256": "b25ee8fed43a29b5191cdcd4272802a0a565a1bb9c5cf65b37eb99452c398268"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-b-take-01.request.json",
+      "sha256": "9229e44ff1762e059c3a8bcb51f53860a9000794ebcbc9a5aba704dcc0496fff"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-b-take-01.txt",
+      "sha256": "a66ecb8f93831ba2c29ceab2454271ea7398f5e703dd4907edbc1765893d9687"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-b-take-02.request.json",
+      "sha256": "e8f46cca8aa2b646767a35e42ec79fab8e740e8df792da00e44a6f9716b9b2e3"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/direction-b-take-02.txt",
+      "sha256": "0c574d43ad6c62a99aa84cd150072e757b887604dc6db0f7fe91440564165a16"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-01-take-01.request.json",
+      "sha256": "368257d58c0e376f79d3088666457d65a246ca07a3639647a358d5b3deab646e"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-01-take-01.txt",
+      "sha256": "0beb05b33852504e4514e468c78521324cacc7653ed08ce34ca72240841b2892"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-02-take-01.request.json",
+      "sha256": "1061467b7cf3fd19ac560584fa1c1cdf085b98f1a05d52e9f29e13a7d9cee07f"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-02-take-01.txt",
+      "sha256": "6a045898990bb400c7fcf0f8d15d09d3127191785b8f5226ffb5a64277e149ec"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-03-take-01.request.json",
+      "sha256": "86de32a24545aac3fed54278cb32d97ab011cfb83e44a72f7e0a03e63fb9d558"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-03-take-01.txt",
+      "sha256": "0e6f8c0bb91954aa8132ada92983814bf2ca74f477a8e6c557b5ed2009bd02a8"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-04-take-01.request.json",
+      "sha256": "66a7bb9da64548ce4a769c18e9ef1de0cc4a730482daba1ece8d70ece8144b68"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-04-take-01.txt",
+      "sha256": "a1e8bc55cbff9035866c328a00293e66299bcf0edaadd0c1cf00a28bc8ad0412"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-05-take-01.request.json",
+      "sha256": "f25dc82ea8a6d43ec8ec24ee260f300353f66f61777fd14091363814c2c584d2"
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/pip-05-take-01.txt",
+      "sha256": "da58b266a8fc51c122cd01ab37c85e5db451bd257f2fb30a0e065db6ec7c471e"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/README.md",
+      "sha256": "cc768bcd163df9964ad17e835101b21232e93dfd5be393929d340ac010052e3e"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/catalog-audition-snapshot.json",
+      "sha256": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/cli-dry-run.txt",
+      "sha256": "0546b1aba90b959bd43e6f5d6cfb1341d390993c82b06b43fd71f56bd5213563"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-BYE-t01.request.json",
+      "sha256": "48e25c592466e52f0987b34ede7958289845f223c1ae64162a04ced42b6f5b4e"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-BERRY-03-t01.request.json",
+      "sha256": "2d145744b05ad2224d94ddb72973e0b8f7f6cacd13da9ab04a0f61af52fe3e1a"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-TOO-MANY-t01.request.json",
+      "sha256": "178c598a35bd5fabfd539b1401bf4a12c2b7acc16db07254a5bfd9625b6b7cb3"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-JOIN-TOTAL-t01.request.json",
+      "sha256": "de4c98a582d606a3220dfb7be2b744c8679e36fff464a4b431714bcf0497104c"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-WELCOME-t01.request.json",
+      "sha256": "bf09e0a3b5178d4bf5f9a7b45363d69239a83970450bc008a4149ee076de4407"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-BYE-t01.request.json",
+      "sha256": "c36229796e579aaf0440c8546780c4151b517e39b4b399b6647665f98b2ca123"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-BERRY-03-t01.request.json",
+      "sha256": "972597070ebba86e1a82743591c2a918e0d196c6867206ff37930dafa20da34d"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-TOO-MANY-t01.request.json",
+      "sha256": "0e4a50c61bf69debb9c1f46ecc3da485845b1ba9e6cc541e66f60b3932c55d40"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-JOIN-TOTAL-t01.request.json",
+      "sha256": "43da20798781edee47e64fd9fb803f52503f6d2649b8164145de0672858dcf3a"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-WELCOME-t01.request.json",
+      "sha256": "27adec2bdd612d8a33fd8b849731fe9964f86f2f9b07688553d27366b2f6452e"
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/voice/request-manifest.json",
+      "sha256": "53c93d751ae263b3f00caf3cbb17b35917a5c83d857d28776c449f4f8453ae5a"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/independent-visual-review.md",
+      "sha256": "0e1a61300ab4c2730449af4b9cdf02db687b5ddb63df78758bad5d67b6a2b696"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-01-take-01-alpha-inspection.png",
+      "sha256": "bf35437b35a26ef9ce6bf680f3d920f63a35b1e9840a0b28bffbcc846630a608"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-alpha-light-dark.png",
+      "sha256": "1245b4d87e79665c85c10836b8b60d263093c0527f8e3f4869eb0918a14997cc"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-edge-details.png",
+      "sha256": "444d59d577c5318ef320b7a8eb45bfedc96eb6d36c75a01b76e9e2e7cc4f6da3"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-five-poses.png",
+      "sha256": "3b4026d7cb16761640ea7767b0a1ce5c4d153e4f70a1a5aaaaf80c65f4b2dff5"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-registration.png",
+      "sha256": "74ed3e8b53ba8a085bfc766d8c6449250a488d42306b93f6922745b8b40ea269"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/pip-small-size.png",
+      "sha256": "ace0708dadb606746bc341fb932613bb07dd83773cda14d516242af63dd711b3"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/index.html",
+      "sha256": "572833b24370af17e505fc29e1b3eefcde780623583ee229c0589f128e73e7a0"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/listening/README.md",
+      "sha256": "70e1bd6a2997d36b646a1a7dff26712a2c52f055fccea6406cb0aba15aeb0b67"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/listening/adult-listening-worksheet.csv",
+      "sha256": "5b5a14e879d3d8d2ef68869598da00c45ca030f1858c57713ab414382ec411bb"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/listening/index.html",
+      "sha256": "2adb600f8cb4470b926533530f88adbae3df0a3e4fe0b0292d38d4a76ea96c89"
+    },
+    {
+      "path": "assets/production/picnic-v1/review/listening/playlist.json",
+      "sha256": "09f10dcff4b53798d5025db545f1a4e6796cad2b458727a1f925ef2c8dc91e83"
+    },
+    {
+      "path": "docs/asset-plan.md",
+      "sha256": "ec326a54254be0415b7f2c42cbfe60d440ba20786da7ffec63b3712769ac87d4"
+    },
+    {
+      "path": "docs/asset-production.md",
+      "sha256": "05b4096d9b60a441de318705dd28260319f412304d31256065a0b773d596101f"
+    },
+    {
+      "path": "docs/audio-production.md",
+      "sha256": "c4b438f9157da03ab48d2f4e4b4722385a630b2508e6f9538887371c7bd63cc6"
+    },
+    {
+      "path": "docs/experiments/README.md",
+      "sha256": "e68773dec417d7c88517b9d6b272a4f7f695bc4f75b73db5391faf8b3486d1b7"
+    },
+    {
+      "path": "docs/feature-spec.md",
+      "sha256": "01da52a43b795071b918a7075f7f7547bc1ecce800a77241ba196b2974b6e903"
+    },
+    {
+      "path": "docs/native-build-plan.md",
+      "sha256": "3574361dfd3a7b07c0f3a06dc5cbb1c4704db8d7d50656548dff898318787e23"
+    },
+    {
+      "path": "docs/native-engine-notes.md",
+      "sha256": "cb0e57de5fc2096c218f46befdc6d5dd0f2f72b60e5e4fdb1faa40576796c216"
+    },
+    {
+      "path": "docs/planning/asset-production-plan.md",
+      "sha256": "1a00e44b9c8b3ac6bd630d4fa2881434af69b6bbf8a45067b7dc2fcd1e5a68c3"
+    },
+    {
+      "path": "docs/planning/asset-register.csv",
+      "sha256": "03d77c2ee3965f9f66b1cf49a9ce5700cce902e3eb7f4bfe3662388948b3ff8b"
+    },
+    {
+      "path": "docs/planning/content-catalog.json",
+      "sha256": "8ccbc3db6f6d7b389db8f5d1f244a3134267b656817519c7ecc67f5b9d67f884"
+    },
+    {
+      "path": "docs/planning/validation-report.json",
+      "sha256": "5593c72fa0657c5c8f1a54254bc6c4e494acf6b23b17d976a46f235d796771cb"
+    },
+    {
+      "path": "docs/planning/voice-script-catalog.json",
+      "sha256": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee"
+    },
+    {
+      "path": "docs/plans/2026-10-03-direction-b-next-steps.md",
+      "sha256": "56415207579450725873eccb19c9ac8b2d07ca60172be029ae60bad79f418139"
+    },
+    {
+      "path": "docs/plans/2026-10-03-native-pilot-implementation-plan.md",
+      "sha256": "39af2a59898455cb2d445be48f6f6a426b39184dbca79d5feb9a52a9546556d2"
+    },
+    {
+      "path": "docs/research/brightpebble-lessons.md",
+      "sha256": "4bbe42175965eb958987a30ad3a4d9664c7d9eb747fb10b700b8c3f3ece37c3b"
+    },
+    {
+      "path": "docs/research/source-review.md",
+      "sha256": "f8c8198017013deb0042eff9b51f14af16f35b7f24f8956e630c3f2fe0f011ea"
+    },
+    {
+      "path": "docs/reviews/2026-10-03-gallery-hook-triage.md",
+      "sha256": "87de4b97a10ed0ca55b7b23eb1d08fdbf27de206ca96f102de06e82a4d1020d6"
+    },
+    {
+      "path": "docs/reviews/2026-10-03-git-baseline.md",
+      "sha256": "26655cdb604359ec627f8b4c8e2ea2b7c839372ca2673bdf4ea0ce3d3456be0b"
+    },
+    {
+      "path": "docs/reviews/2026-10-03-phase1-checkpoint.md",
+      "sha256": "acf2f898c10b2f01b367796556eb0d4f4cc7340f431a0d8dad56ec9017efe95f"
+    },
+    {
+      "path": "docs/reviews/2026-10-03-phase1-dependencies.md",
+      "sha256": "0ae04364cfa3a7327a315cc764f8629e676a7432def59fdae6d591a0fd977099"
+    },
+    {
+      "path": "docs/reviews/2026-10-03-spec-review.md",
+      "sha256": "013930ae3e38a7dc46673e9f655a7d4bf99e6384a3d0683b9bffcf2bec901f81"
+    },
+    {
+      "path": "docs/reviews/evidence/gallery-hook-review.jpg",
+      "sha256": "a1cf9f56b396337be8a328df457658c2796c6e0db4f6410ce079a3cddd015320"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "sha256": "c97648dc75a807e14e7783ff0b50f813afc13eb0bdfa39154555bca10e9da33d"
+    },
+    {
+      "path": "docs/verification/native/01-home-portrait.png",
+      "sha256": "981412eae8e994ae796b61d5af5f5b51fd3ab1b32a384cd38c1c8e4a867c0d56"
+    },
+    {
+      "path": "docs/verification/native/README.md",
+      "sha256": "c1914fb7e686096eb5db0dae9e151077e3305a06020054a0a5fe80f4032e5a21"
+    },
+    {
+      "path": "docs/verification/native/addition-after-portrait.png",
+      "sha256": "3303a8bbd19a2de3baba5b411c015b8ed587d8190780bf186fcab212d07d59bc"
+    },
+    {
+      "path": "docs/verification/native/addition-before-portrait.png",
+      "sha256": "b4acdfa6eb03ba5145c95985a5ce65858b4c1e53534e7e436770c93af6201dde"
+    },
+    {
+      "path": "docs/verification/native/bundle-audit.json",
+      "sha256": "9e7b55e27b5f303915736379fca5d098d1dd6a8294c51dd12f9412447eaf1ca2"
+    },
+    {
+      "path": "docs/verification/native/count-partial-portrait.png",
+      "sha256": "ce2b55a0db81f49ea1f242e41287ddd7850a10547bfb4199c91c07aeaef943ac"
+    },
+    {
+      "path": "docs/verification/native/count-success-portrait.png",
+      "sha256": "110098a0c14cb37ed103eb7d7379dee233320e0cbbcf36b8d9416c9b2e5f0274"
+    },
+    {
+      "path": "docs/verification/native/garden-placed-portrait.png",
+      "sha256": "09377128d9f657263277a99e7ddcd4f838b5ccd0c6905febf0d92f455cb32719"
+    },
+    {
+      "path": "docs/verification/native/garden-unplaced-portrait.png",
+      "sha256": "67b65c916609862789d9fa2806e432511b30a882d0ada031253598969f210db7"
+    },
+    {
+      "path": "docs/verification/native/goodbye-portrait.png",
+      "sha256": "bddf848454290c2c918088adcaf809527314865d8ad845cce1c3c34bfb64cc57"
+    },
+    {
+      "path": "docs/verification/native/render-checks.json",
+      "sha256": "d25b03b4d0c97dfcb5fea4ce922af06826d1fef60ef473e8d7ea151e6e46b976"
+    },
+    {
+      "path": "docs/verification/native/subtraction-after-portrait.png",
+      "sha256": "79760522bccbe8c2a27e0e8656efb242e17fe6381a0e9afa1bf4da0a52ecd426"
+    },
+    {
+      "path": "docs/verification/native/subtraction-before-portrait.png",
+      "sha256": "a79df8cc686019ffe3db767ccc50d72c565df113ac53d2bf68bcc98ff11961a7"
+    },
+    {
+      "path": "mockups/app.js",
+      "sha256": "70f4d9e832771c8b6f99adcdd3d950472dc4b8b45351e2c5acb6a744d66bfbf2"
+    },
+    {
+      "path": "mockups/index.html",
+      "sha256": "66ba1914d0949fb576d13b6c3dafc8566063acb984edcea9e0243b2b8d4b63bc"
+    },
+    {
+      "path": "mockups/previews/01-home.jpg",
+      "sha256": "c555d06b1bec3f67ef7ba14ce5ba11082d2ae3c2f480c70fe0d22cedc3e373b8"
+    },
+    {
+      "path": "mockups/previews/02-count.jpg",
+      "sha256": "0a8bc76deff7de6cb28c934dde981400efa1d1484d08f172c69cd162a3bc3733"
+    },
+    {
+      "path": "mockups/previews/03-add.jpg",
+      "sha256": "ce041fb01a45fbc467e6b04b45bbbfaa03a82174cbb7102f5a0a3e23fe24ccab"
+    },
+    {
+      "path": "mockups/previews/04-take-away.jpg",
+      "sha256": "f0ff3ec508b0f67c8ad5546ea22a3180938db6b6cbe8dfa9b93a797296972d74"
+    },
+    {
+      "path": "mockups/previews/05-garden.jpg",
+      "sha256": "1ecb2fe12e7f5f5790aaf163a4e2aa20e625642b7221ccf8d054320192b3bb4b"
+    },
+    {
+      "path": "mockups/previews/06-grown-ups.jpg",
+      "sha256": "ec2b6fb95550ab9554b6df486aef4b13f56e8525a6a138418f2792adca494cf2"
+    },
+    {
+      "path": "mockups/previews/layout-checks.json",
+      "sha256": "74519c56c8094316268def922ca2cb828624111a1cfc6c7ebc0b6f3c0fa58d44"
+    },
+    {
+      "path": "mockups/styles.css",
+      "sha256": "9ce48e0af4c39137f0b55c1391533609cd18a252ecf866a0f407b492e710461b"
+    },
+    {
+      "path": "output/native/fixtures/README.md",
+      "sha256": "5e1f9f06285133a3f05ce61ad636906dcdb10905cedad601441df47259d951eb"
+    },
+    {
+      "path": "output/native/fixtures/addition-after.json",
+      "sha256": "b1eeb48cf13a82079ee107890335e82c7f3c7a1c2b5ab3fb109638d16e677573"
+    },
+    {
+      "path": "output/native/fixtures/addition-before.json",
+      "sha256": "4342e19b11ffeb06007207e5ce98e94dd9cfd55a85dc485865eca1f439850f65"
+    },
+    {
+      "path": "output/native/fixtures/count-partial.json",
+      "sha256": "6343b0f93e8dd746cfd43a9f45a87ed803b40db0c1c372ed813b08646fc2fcef"
+    },
+    {
+      "path": "output/native/fixtures/count-success.json",
+      "sha256": "4ab75897473a556ebcc558115cea312cab77e1897056f472ed152f931a738864"
+    },
+    {
+      "path": "output/native/fixtures/garden-placed.json",
+      "sha256": "3d22cf75175d3f098a1f2832b06f8597592dd6ce12320a9dd2ed7d79fd59f564"
+    },
+    {
+      "path": "output/native/fixtures/garden-unplaced.json",
+      "sha256": "842418421659590c6eb0c221b2218a6134e86effad9ec9dd3d2d248885ede5d9"
+    },
+    {
+      "path": "output/native/fixtures/goodbye.json",
+      "sha256": "954ffde0ee1ccc55ec7d12a530dac233ecc6de1258a5f2e7d9ae4e6335b38179"
+    },
+    {
+      "path": "output/native/fixtures/home.json",
+      "sha256": "efb5edea3740079876e9c6179d6bba36df3b176454b1d0005cdd31334440cc22"
+    },
+    {
+      "path": "output/native/fixtures/manifest.json",
+      "sha256": "86c89feeef0e31f8aa5447c96e2bb65af93f3bcc36eaf935161fc09784870750"
+    },
+    {
+      "path": "output/native/fixtures/subtraction-after.json",
+      "sha256": "d51b933741d9c2e79ba3d3f66816829d320cfe80fa55883c2433ca76f7fd2808"
+    },
+    {
+      "path": "output/native/fixtures/subtraction-before.json",
+      "sha256": "612716cffa967583ad605b7befe73569a62e99ebd455f2db0cefeceb1939abff"
+    },
+    {
+      "path": "output/planning-baseline.json",
+      "sha256": "aab3afae5b8b2858277de773b1ae52ebd5d463309a7297b293ae5f253e957cc5"
+    },
+    {
+      "path": "project.yml",
+      "sha256": "19ba30106ca8d036c8360b4d627a62cae6ebcb0c035f8fa094a7dc4d2a2f5b2c"
+    },
+    {
+      "path": "scripts/check-native-rules.swift",
+      "sha256": "414df824078b650815a18d44467bb091c9cf548b5c39c4901b5598e9d12bc43f"
+    },
+    {
+      "path": "scripts/generate_voice_clip.py",
+      "sha256": "16982ea96a0e869fd3d35a575432bd49e753978fa0a1861b8a4d9a8e166a32e2"
+    },
+    {
+      "path": "scripts/make-review-fixtures.swift",
+      "sha256": "f50190ab7a6f34a057aece39df25f2b0e0ed4f9b8ba6fc2875152da9e348c613"
+    },
+    {
+      "path": "scripts/phase1-motion-study.py",
+      "sha256": "09dbb47220bba1829785bc03226db4175967d096715373f4561337df06a7be6e"
+    },
+    {
+      "path": "scripts/produce-pilot-audio.py",
+      "sha256": "9a7566e34b42dd5339fc39b6d7a0e1a119b2340d141398fc4f5b43197cc6f970"
+    },
+    {
+      "path": "scripts/render-app-icon.swift",
+      "sha256": "d3566cc43b4452e8e24d4f1e4cd0cf5c1df51887147a154a16864e323544271b"
+    },
+    {
+      "path": "scripts/verify-phase1-samples.py",
+      "sha256": "46a3cb14387e8f06dbf90ff928513bf9887b32b3e47ace651360dc313e35dd72"
+    },
+    {
+      "path": "tasks/lessons.md",
+      "sha256": "d6807fe3cbbef935b62a6f01df18033a9b796241fe59ebbd8e0dd348795f6067"
+    }
+  ]
+}
