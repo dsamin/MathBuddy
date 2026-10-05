@@ -1,5 +1,5 @@
 {
-  "schema_version": "phase1-and-character-review-v1",
+  "schema_version": "phase1-character-and-world-candidates-v1",
   "status": "direction-b-and-five-character-poses-approved-other-assets-and-rights-pending",
   "planning_inventory_is_not_complete": true,
   "working_concept": "Pip’s Picnic",
@@ -622,6 +622,311 @@
       "selection_scope": "Character identity/art reference only; not final delivery or rights.",
       "selection_record": "metadata/pip-character-selection.json",
       "selected_review_sha256": "416345142993ca62c8dc02e1651c0e768021b54e560dab755911b54524084b31"
+    },
+    {
+      "id": "ENV-01",
+      "version": 1,
+      "kind": "layered-environment",
+      "status": "technical-candidate-human-review-pending",
+      "current_review_take": "take-02",
+      "production_selected": false,
+      "exports": [
+        {
+          "path": "masters/images/ENV-01/take-02/landscape/distant.png",
+          "sha256": "0b35bb7f745d56408b5a55885390d5a4946745e4afb61dbc75013e6af8940c48",
+          "role": "distant",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 0
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/landscape/ground.png",
+          "sha256": "4af33cb8318b07c30a11ffcb3beec26e28b0b72258a029bbf80d150a331f1411",
+          "role": "ground",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 10
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/landscape/foreground.png",
+          "sha256": "5aedbdf0c7074c8f259707f9905aa0227c45c98d387226ae0928e5813a3f6f68",
+          "role": "foreground",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 60
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/portrait/distant.png",
+          "sha256": "61107164f80dcead3bf12c5ce59f4fa4db54404f1064bdcbe99ed84048024783",
+          "role": "distant",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 0
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/portrait/ground.png",
+          "sha256": "8af5d433b46b0ebc3638c662ae67bf6c21112574184246f6c2af3bc205d8d659",
+          "role": "ground",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 10
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/portrait/foreground.png",
+          "sha256": "eed9816b1a6527b88404867c5981faaf86525bf36185922c47ae06f7b1c9b88b",
+          "role": "foreground",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 60
+        }
+      ],
+      "editable_sources": [
+        {
+          "path": "masters/images/ENV-01/take-02/landscape/editable.ora",
+          "sha256": "e3749d9efca3747a38f8e13c85315675cfeb82f51d8f9242e11c501a61d0c494",
+          "kind": "three editable registered raster layers in OpenRaster"
+        },
+        {
+          "path": "masters/images/ENV-01/take-02/portrait/editable.ora",
+          "sha256": "2a04110956371c222c4fa87fcb31092edc7372964ed13b495ada1bfaeeb23c54",
+          "kind": "three editable registered raster layers in OpenRaster"
+        }
+      ],
+      "source_manifest": "metadata/world-provenance.json",
+      "registration": "metadata/world-registration.json",
+      "safe_regions": "metadata/world-safe-regions.json",
+      "technical_validation": "metadata/world-audit.json",
+      "human_art": "pending",
+      "human_composition": "pending",
+      "device_target": "pending",
+      "provider_rights": "pending",
+      "master_verification": "../../../docs/orchestration/2026-10-04-master-verification.json",
+      "phase_packet_commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638"
+    },
+    {
+      "id": "ENV-02",
+      "version": 1,
+      "kind": "layered-environment",
+      "status": "technical-candidate-human-review-pending",
+      "current_review_take": "take-02",
+      "production_selected": false,
+      "exports": [
+        {
+          "path": "masters/images/ENV-02/take-02/landscape/distant.png",
+          "sha256": "4b08407acc349b66c4901351d2dba9e11f76339b98f722650416339d32115eec",
+          "role": "distant",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 0
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/landscape/ground.png",
+          "sha256": "7882ec18ed6c8d83494c533c6df82a4b8cb943dea3aad93647e13a72673c20f7",
+          "role": "ground",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 10
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/landscape/foreground.png",
+          "sha256": "f25f703631d9b76d00c2d4f0601b3eab47d84e0349c0c1a589bd093e1bed2975",
+          "role": "foreground",
+          "orientation": "landscape",
+          "dimensions": [
+            2732,
+            2048
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 60
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/portrait/distant.png",
+          "sha256": "94f5bce1f5a367ad3eccf3f302193b0ead2314cffaa5e67de0604dfa1a8e51dc",
+          "role": "distant",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 0
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/portrait/ground.png",
+          "sha256": "431d80da40b9b20e07fdf4cb41e73cdb898793de87dd345e7533a34a33bfdd00",
+          "role": "ground",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 10
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/portrait/foreground.png",
+          "sha256": "a52d9f153c926ee6704916632e18d0ac99337c7c33b185ceb2a8b7c5738d99ff",
+          "role": "foreground",
+          "orientation": "portrait",
+          "dimensions": [
+            2048,
+            2732
+          ],
+          "origin_px": [
+            0,
+            0
+          ],
+          "z": 60
+        }
+      ],
+      "editable_sources": [
+        {
+          "path": "masters/images/ENV-02/take-02/landscape/editable.ora",
+          "sha256": "a02e2ee8c760d469a540f67eddfd6ad49110c64b3f445cf6d12dc3676bf0ebc9",
+          "kind": "three editable registered raster layers in OpenRaster"
+        },
+        {
+          "path": "masters/images/ENV-02/take-02/portrait/editable.ora",
+          "sha256": "aed42bcee070937f9e97a5057ba30e14fd1e1e1031b3c41d739aebef74ffd9b3",
+          "kind": "three editable registered raster layers in OpenRaster"
+        }
+      ],
+      "source_manifest": "metadata/world-provenance.json",
+      "registration": "metadata/world-registration.json",
+      "safe_regions": "metadata/world-safe-regions.json",
+      "technical_validation": "metadata/world-audit.json",
+      "human_art": "pending",
+      "human_composition": "pending",
+      "device_target": "pending",
+      "provider_rights": "pending",
+      "master_verification": "../../../docs/orchestration/2026-10-04-master-verification.json",
+      "phase_packet_commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638"
+    },
+    {
+      "id": "BRAND-01",
+      "version": 1,
+      "kind": "native-design-definition",
+      "status": "provisional-wordmark-human-name-font-art-review-pending",
+      "production_selected": false,
+      "name": "Pip’s Picnic",
+      "recipe": {
+        "path": "metadata/world-brand-wordmark-recipe.json",
+        "sha256": "c590df1af7afcaa4d6534d480ad2bc79fc26b630747f88184d7c031bafa68b89"
+      },
+      "font": {
+        "family": "Rubik Bold",
+        "version": "1.100",
+        "path": "masters/images/BRAND-01/take-01/source/Rubik-Bold.ttf",
+        "sha256": "b1c36dfcbc5fe5011c552c76725c84d989a71d56440e8bfbfa0cb68b593dbad6",
+        "license": "SIL OFL 1.1",
+        "provenance": "Exact unmodified local bundled font; upstream commit not fetched"
+      },
+      "editable_svg": {
+        "path": "masters/images/BRAND-01/take-01/wordmark-editable.svg",
+        "sha256": "e47f11ebcfe247074112831d63231b5f01973d17ca27fe6d2060178ffe6f0aad",
+        "kind": "editable text plus embedded font; no outlined-path claim"
+      },
+      "technical_validation": "metadata/world-brand-validation.json",
+      "human_name": "pending",
+      "human_font_art": "pending",
+      "rights": "pending",
+      "master_verification": "../../../docs/orchestration/2026-10-04-master-verification.json",
+      "phase_packet_commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638"
+    },
+    {
+      "id": "BRAND-02",
+      "version": 1,
+      "kind": "app-icon-candidate",
+      "status": "technical-candidate-human-icon-review-pending",
+      "current_review_take": "take-01",
+      "production_selected": false,
+      "export": {
+        "path": "masters/images/BRAND-02/take-01/icon-1024.png",
+        "sha256": "1c354f164523c06f87795c6f5ed34db7aedd3b8098a1b46f001171b17627801f",
+        "dimensions": [
+          1024,
+          1024
+        ],
+        "opaque": true,
+        "platform_mask": "none"
+      },
+      "technical_validation": "metadata/world-brand-validation.json",
+      "small_size_review": [
+        16,
+        32,
+        64,
+        128
+      ],
+      "human_icon": "pending",
+      "device_target": "pending",
+      "provider_rights": "pending",
+      "master_verification": "../../../docs/orchestration/2026-10-04-master-verification.json",
+      "phase_packet_commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638"
     }
   ],
   "voice_requests": "requests/voice/request-manifest.json",
@@ -633,5 +938,6 @@
   "visual_direction_selection": "metadata/direction-selection.json",
   "character_review": "metadata/pip-character-review.json",
   "character_alignment": "metadata/pip-alignment-measurements.json",
-  "character_selection": "metadata/pip-character-selection.json"
+  "character_selection": "metadata/pip-character-selection.json",
+  "world_candidate_evidence": "../../../docs/orchestration/phases/2a-world/handoff.md"
 }

@@ -1,0 +1,200 @@
+{
+  "1": {
+    "name": "session-prompt",
+    "rect": [
+      0.23,
+      0.025,
+      0.54,
+      0.07
+    ]
+  },
+  "2": {
+    "name": "given-reference",
+    "rect": [
+      0.23,
+      0.12,
+      0.54,
+      0.17
+    ]
+  },
+  "3": {
+    "name": "home",
+    "rect": [
+      0.065,
+      0.025,
+      0.1,
+      0.075
+    ]
+  },
+  "4": {
+    "name": "listen",
+    "rect": [
+      0.835,
+      0.025,
+      0.1,
+      0.075
+    ]
+  },
+  "5": {
+    "name": "guide",
+    "rect": [
+      0.065,
+      0.56,
+      0.15,
+      0.27
+    ]
+  },
+  "6": {
+    "name": "answer-choices",
+    "rect": [
+      0.26,
+      0.805,
+      0.66,
+      0.055
+    ]
+  },
+  "7": {
+    "name": "persistent-controls",
+    "rect": [
+      0.24,
+      0.885,
+      0.7,
+      0.08
+    ]
+  },
+  "8": {
+    "name": "LAYOUT-COUNT/tray",
+    "rect": [
+      0.26,
+      0.35,
+      0.66,
+      0.2
+    ]
+  },
+  "9": {
+    "name": "LAYOUT-COUNT/basket",
+    "rect": [
+      0.26,
+      0.59,
+      0.66,
+      0.2
+    ]
+  },
+  "10": {
+    "name": "LAYOUT-TAKE/source-mat",
+    "rect": [
+      0.26,
+      0.35,
+      0.66,
+      0.2
+    ]
+  },
+  "11": {
+    "name": "LAYOUT-TAKE/friend-plate",
+    "rect": [
+      0.26,
+      0.59,
+      0.66,
+      0.2
+    ]
+  },
+  "12": {
+    "name": "LAYOUT-JOIN/left-group",
+    "rect": [
+      0.26,
+      0.35,
+      0.31,
+      0.2
+    ]
+  },
+  "13": {
+    "name": "LAYOUT-JOIN/right-group",
+    "rect": [
+      0.61,
+      0.35,
+      0.31,
+      0.2
+    ]
+  },
+  "14": {
+    "name": "LAYOUT-JOIN/shared-mat",
+    "rect": [
+      0.3,
+      0.6,
+      0.59,
+      0.19
+    ]
+  },
+  "15": {
+    "name": "garden/pinwheel-including-full-rotor",
+    "rect": [
+      0.27,
+      0.36,
+      0.27,
+      0.26
+    ]
+  },
+  "16": {
+    "name": "garden/free-flower-states",
+    "rect": [
+      0.65,
+      0.36,
+      0.22,
+      0.25
+    ]
+  },
+  "17": {
+    "name": "garden/decor-01",
+    "rect": [
+      0.27,
+      0.66,
+      0.12,
+      0.15
+    ]
+  },
+  "18": {
+    "name": "garden/decor-02",
+    "rect": [
+      0.41,
+      0.66,
+      0.12,
+      0.15
+    ]
+  },
+  "19": {
+    "name": "garden/decor-03",
+    "rect": [
+      0.55,
+      0.66,
+      0.12,
+      0.15
+    ]
+  },
+  "20": {
+    "name": "garden/decor-04-bunting",
+    "rect": [
+      0.26,
+      0.3,
+      0.65,
+      0.045
+    ]
+  },
+  "21": {
+    "name": "garden/decor-05",
+    "rect": [
+      0.7,
+      0.66,
+      0.2,
+      0.15
+    ]
+  },
+  "22": {
+    "name": "garden/finish",
+    "rect": [
+      0.4,
+      0.885,
+      0.34,
+      0.08
+    ]
+  }
+}

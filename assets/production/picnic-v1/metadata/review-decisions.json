@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "phase": "Phase 1 and authorized Phase 2A character review",
+  "phase": "Phase1, approved Phase2A character, and technically verified world candidates",
   "status": "direction-b-and-five-character-poses-approved-other-reviews-pending",
   "production_selected": false,
   "decisions": [
@@ -85,6 +85,42 @@
       "selected_artifact": "review/contact-sheets/pip-five-poses.png",
       "decision_record": "metadata/pip-character-selection.json",
       "notes": "Five take-01 pose files are pinned by hash in the selection record. Technical limitations remain; final delivery, content and rights are separate."
+    },
+    {
+      "kind": "world-art",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "candidate_evidence": "../../../../docs/orchestration/2026-10-04-review-packet.md",
+      "notes": "ENV-01/02 take-02 in both orientations; technical candidate only."
+    },
+    {
+      "kind": "world-composition",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "candidate_evidence": "../../../../docs/orchestration/2026-10-04-review-packet.md",
+      "notes": "Proposed safe regions reviewed technically; future props/touch/native reflow remain unverified."
+    },
+    {
+      "kind": "branding-icon-font",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "candidate_evidence": "../../../../docs/orchestration/2026-10-04-review-packet.md",
+      "notes": "BRAND-01/02 take-01, Rubik Bold1.100 and rabbit icon; no production selection."
+    },
+    {
+      "kind": "final-name",
+      "status": "pending",
+      "reviewer": null,
+      "date": null,
+      "selected_artifact": null,
+      "candidate_evidence": "../../../../docs/orchestration/2026-10-04-review-packet.md",
+      "notes": "Pip’s Picnic remains provisional; pending explicit name decision."
     }
   ],
   "character_review_evidence": "metadata/pip-character-review.json",

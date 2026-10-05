@@ -30,3 +30,7 @@ Before integration: verify commit ancestry and scope against the worker's starti
 ## Session-start evidence
 
 The requested `~/.Codex/IDEAS.md` was absent. No MathBuddy entry was found in the memory registry. Starting HEAD was `608e5b9`; the six dirty paths were the saved approval and orchestration handoff documents. Their exact content was reviewed before the input checkpoint. Original media and the experimental app remain preserved.
+
+## Current review checkpoint — October 4
+
+Verified Astra master `01a109d6-41e2-7a23-a52b-a17ab5d749bb` exclusively owns shared coordination. World/branding candidates and independent audition preflight have been integrated locally for review; human acceptance is pending. Start with the [concrete review packet](2026-10-04-review-packet.md) and [independent evidence](2026-10-04-master-verification.json). Phase 2B has a prepared brief only. Neither native execution nor physical-iPad readiness is established.

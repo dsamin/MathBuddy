@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "master": {
-    "thread_id": "01a10773-ee35-7f13-ab61-6585fd764a0b",
+    "thread_id": "01a109d6-41e2-7a23-a52b-a17ab5d749bb",
     "requested_model": "gpt-6-astra",
+    "verified_model": "gpt-6-astra",
     "branch": "orchestration/mathbuddy-pilot",
     "worktree": "/Users/devan/Projects/MathBuddy",
-    "owner": "master coordinator",
-    "verified_model": "gpt-6-astra",
-    "model_evidence": "Local session turn_context metadata inspected 2026-10-04; no settings changed."
+    "owner": "exclusive master coordinator; shared tracker/tasks/decisions/catalog/manifests and serialized integration",
+    "model_evidence": "Local rollout-2026-10-04T19-13-18-01a109d6-41e2-7a23-a52b-a17ab5d749bb.jsonl turn_context.model verified gpt-6-astra on 2026-10-04. No settings changes."
   },
   "approved_input_checkpoint": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
   "phase_model": "gpt-6.1-sol",
@@ -22,18 +22,18 @@
       "worktree": "/Users/devan/.codex/worktrees/8899/MathBuddy",
       "branch": "codex/phase-2a-world-wip",
       "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
-      "commit": "35c121edb6515fb486b7cb72eceed7c71d08fb47",
-      "integration_commit": null,
-      "technical_status": "in-progress-after-verified-backup",
+      "commit": "f13fc7ccc467b2b229323e17625cc4ba1be37a24",
+      "integration_commit": "b9f059e",
+      "technical_status": "independently-verified-candidates-integrated-human-review-pending",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": "Three completed generated originals recovered byte-for-byte; 7 prompts and saved icon request preserved. Remaining layers, composition, wordmark and complete review packet are incomplete. Backup commit is not integrated or accepted. Master resumed the existing session after the verified push; later work remains subject to the original acceptance gate.",
+      "notes": "Candidate packet integrated with four canonical candidate records, production_selected=false. Independent original-runtime rebuild86/86,12 layers/4 ORA,383 preserved inputs,215 hashes+one self-inventory,55 links and secret scan pass. Runtime correction f13fc7c is documentation-only; follow-up integration is resolved via Git history. No human art/name/rights or delivery selection.",
       "title": "MathBuddy Phase 2A World and Branding",
-      "session_verified_by": "wait_threads 2026-10-04: resumed turn 01a1092c-3d7c-7d91-9d14-bdac07a64760 inProgress; exact same bounded Sol session.",
+      "session_verified_by": "Existing gpt-6.1-sol task reused; final production and runtime correction commits verified.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -47,9 +47,9 @@
       "worktree": "/Users/devan/.codex/worktrees/4c83/MathBuddy",
       "branch": "codex/phase-1-voice-audition-wip",
       "base_commit": "9ae9b6370a52e0c5dbac0d17e84911bce7213c33",
-      "commit": "63ff8475458ff8666dba26769c14eee9f8a6337e",
-      "integration_commit": null,
-      "technical_status": "preflight-verified-awaiting-decisions",
+      "commit": "4701d25150ac8c7298a4cfe740abec32ab9fdf68",
+      "integration_commit": "cb057cf",
+      "technical_status": "independently-verified-preflight-integrated-human-decisions-pending",
       "human_status": "pending",
       "acceptance_criteria": "Five exact lines x two chosen voices; all ten decoded and individually reviewed",
       "human_gate": "provider/rights then voice/wording/take reuse",
@@ -58,9 +58,9 @@
         "docs/orchestration/phases/1-voice-audition/decision-packet.md",
         "docs/orchestration/phases/1-voice-audition/request-audit.json"
       ],
-      "notes": "Offline verifier passes ten exact request hashes/settings and ten absent masters. Decision packet and handoff checkpointed. Zero provider calls or recordings; provider/model/voice/rights and take reuse remain undecided. Backup commit is not integrated or accepted.",
+      "notes": "Five exact lines/ten request hashes verified in isolated snapshot. Zero recordings/calls. Refreshed official-source decision packet and SDK retry gap integrated; provider/exact-model/voice/rights/spending/credentials/transcription/listening decisions pending.",
       "title": "MathBuddy Independent Voice Audition",
-      "session_verified_by": "read_thread 2026-10-04: idle; latest turn interrupted. Master checkpointed preserved work.",
+      "session_verified_by": "wait_threads completed final and clean named branch verified 2026-10-04.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -78,14 +78,14 @@
       "base_commit": null,
       "commit": null,
       "integration_commit": null,
-      "technical_status": "not-started",
+      "technical_status": "brief-prepared-not-launched",
       "human_status": "pending",
       "acceptance_criteria": "42 requirements; set clarity, native design recipes, controls, silent goals",
       "human_gate": "counting clarity/content/controls/layout",
       "evidence_paths": [
         "docs/orchestration/phases/2b-learning/"
       ],
-      "notes": ""
+      "notes": "Exact42 requirement IDs and source hashes verified. Human world/composition/icon/font review and name disposition pending; no production/session launched."
     },
     {
       "id": "2c-garden",
@@ -400,6 +400,42 @@
     "verified_date": "2026-10-04",
     "default_branch": "main",
     "verified_initial_master_commit": "5b74db15eaaec1b0bb8ca0b86c56ebd5a652d054",
-    "verification": "All four remote branch heads matched local heads; all three worktrees clean at verification. Later Phase 2A continuation is new work beyond this backup."
-  }
+    "verification": "All four remote branch heads matched local heads; all three worktrees clean at verification. Later Phase 2A continuation is new work beyond this backup.",
+    "current_authorization": "Earlier backup completed; latest prompt excludes any new push/publish/deploy without a new explicit request."
+  },
+  "master_history": [
+    {
+      "thread_id": "01a10773-ee35-7f13-ab61-6585fd764a0b",
+      "requested_model": "gpt-6-astra",
+      "branch": "orchestration/mathbuddy-pilot",
+      "worktree": "/Users/devan/Projects/MathBuddy",
+      "owner": "master coordinator",
+      "verified_model": "gpt-6-astra",
+      "model_evidence": "Local session turn_context metadata inspected 2026-10-04; no settings changed."
+    },
+    {
+      "thread_id": "01a109d1-89b4-7521-bf8f-82cca29c03d5",
+      "requested_model": "gpt-6-astra",
+      "branch": "orchestration/mathbuddy-pilot",
+      "worktree": "/Users/devan/Projects/MathBuddy",
+      "owner": "temporary reconciliation relay; transfer exclusively to requested Astra master",
+      "verified_model": null,
+      "model_evidence": "Current replacement task turn_context is gpt-6.1-sol, verified from its local rollout. Requested Astra coordinator must be created; no silent substitution or global settings change.",
+      "actual_reconciliation_model": "gpt-6.1-sol"
+    }
+  ],
+  "replacement_review": "docs/orchestration/2026-10-04-replacement-handoff.md",
+  "next_executable_work": {
+    "authorized_now": [
+      "Record explicit human review decisions when received",
+      "Launch prepared separate Sol2B only after world review gate",
+      "Continue selected audition preflight direction when chosen; no paid calls without named prerequisites"
+    ],
+    "next_dependent_phase": "2b-learning",
+    "required_decision": "Explicit world/composition/icon/branding review; final name remains a distinct open decision. Technical packet is not acceptance.",
+    "native_gate": "Full pack acceptance plus explicit CNT-01 authorization; device/OS and adult-gate decisions per detailed plan."
+  },
+  "master_verification": "docs/orchestration/2026-10-04-master-verification.json",
+  "current_review_packet": "docs/orchestration/2026-10-04-review-packet.md",
+  "contract_review": "docs/orchestration/2026-10-04-contract-review.md"
 }

@@ -9,7 +9,7 @@ This was a read-only engineering audit of source, configuration, saved verificat
 
 | Area | Current evidence | Required before the relevant pilot gate |
 | --- | --- | --- |
-| Reviewed offline content | World/branding work is interrupted; audition has ten prepared requests and no recordings. Later asset phases and Phase 2E are not started. | Complete assets, narration, motion and review packets; verify 24 reviewed content records, 101 voice mappings and the offline delivery package. Obtain human pack acceptance. |
+| Reviewed offline content | World/branding candidates passed independent master verification and await human review; audition preflight is integrated with ten prepared requests and no recordings. Later asset phases and Phase 2E are not started. | Complete assets, narration, motion and review packets; verify 24 reviewed content records, 101 voice mappings and the offline delivery package. Obtain human pack acceptance. |
 | First native slice | The preserved model defaults to mixed practice and begins with five-of-six counting, alongside joining and subtraction. | After explicit authorization, implement CNT-01 only: three berries from five, with help, undo, silence, recovery and resume. Demonstrate it before advancing. |
 | Durable state and recovery | Experimental state uses `MathBuddy/progress-v1.json`; missing narration currently returns silently. | Use the reviewed pilot namespace, validate content/media references, handle damaged or missing state/media visibly, and verify interrupted-session restoration. |
 | Learning, sessions and garden | Existing evidence uses aggregate counts; garden has a pinwheel and accumulating flowers. | Implement reviewed joining/taking-away checkpoints, action-only versus numeral evidence, bounded sessions and six distinct durable grant-once rewards through individually approved native phases. |
@@ -31,3 +31,7 @@ This was a read-only engineering audit of source, configuration, saved verificat
 
 ## Next authorized steps
 Finish the bounded asset sessions and present concrete review packets, including the independent voice/provider decision packet. Native work begins only after full asset-pack acceptance and explicit authorization for CNT-01. Later native phases each require their own demonstration and approval to continue. The iPad/signing choices remain open and must be resolved before device installation; this audit does not select them for the user.
+
+## October 4 continuation
+
+Verified Astra replacement owns shared coordination. World rebuild checks passed with the documented original runtime (70 environment +16 branding files); cross-runtime differences are disclosed. Voice preflight completed, with provider and rights decisions still pending. The current [review packet](2026-10-04-review-packet.md) and [master verification](2026-10-04-master-verification.json) supersede the earlier interrupted-worker status only. No fresh native build, physical install or family observation occurred.

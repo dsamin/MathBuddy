@@ -1,0 +1,47 @@
+{
+  "checked_date": "2026-10-04",
+  "scope": "local presence/inventory only; no credential validation or provider calls",
+  "environment_presence": {
+    "OPENAI_API_KEY": false,
+    "GOOGLE_APPLICATION_CREDENTIALS": false
+  },
+  "workspace_env_files": {
+    ".env": false,
+    ".env.local": false
+  },
+  "tools": {
+    "python3": "/Users/devan/.pyenv/versions/3.11.7/bin/python3",
+    "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+    "ffprobe": "/opt/homebrew/bin/ffprobe",
+    "afplay": "/usr/bin/afplay",
+    "gitleaks": "/opt/homebrew/bin/gitleaks",
+    "uv": "/opt/homebrew/bin/uv"
+  },
+  "modules": {
+    "openai": true,
+    "numpy": true,
+    "matplotlib": false,
+    "soundfile": false,
+    "tiktoken": false,
+    "google.genai": false,
+    "whisper": false
+  },
+  "ffmpeg_filters": {
+    "astats": true,
+    "silencedetect": true,
+    "ebur128": true,
+    "volumedetect": true,
+    "showwavespic": true
+  },
+  "credential_values_printed_or_saved": false,
+  "sibling_credentials_inspected": false,
+  "playback_tested": false,
+  "agent_hearing_demonstrated": false,
+  "actual_audio_inspected": false,
+  "transcription_calls": 0,
+  "synthesis_calls": 0,
+  "reconciled_checkpoint": "63ff8475458ff8666dba26769c14eee9f8a6337e",
+  "sdk_version": "2.24.0",
+  "sdk_default_retries": 2,
+  "strict_no_retry_execution_enforced": false
+}

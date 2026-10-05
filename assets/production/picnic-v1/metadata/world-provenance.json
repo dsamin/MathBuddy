@@ -1,0 +1,254 @@
+{
+  "status": "candidates-preserved-not-selected-delivery",
+  "records": [
+    {
+      "asset_id": "ENV-01",
+      "role": "distant",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/recovered-distant-original.png",
+      "sha256": "41091921546d973c23ee0b80a5bfb41b32be566feb4514cbb07911fdba8c1040",
+      "provider": "built-in imagegen; model not exposed",
+      "request_provenance": "Reconstructed from recorded generation loop and exact prompt file; not a pre-saved per-call request. Completed generation confirmed in phase session.",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-303d2b03-6259-40d1-9f3f-f61054027d03.png",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-01-distant-take-01.json",
+      "request_sha256": "a9671f322f322486afd3e394a58cc1bd9e4eabbdf85175d979f311596645ebd1",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Picnic distant scenery: wide landscape, opaque pale blue sky across entire canvas. A continuous soft desaturated blue-green hill silhouette restricted to bottommost 20 percent, very low contrast, no standalone trees or little bushes, no sun disc, no individual clouds. Top 80 percent a quiet pale sky. This is ONLY distant sky/hills, no ground or foreground.\n",
+      "transparent_background_request": false,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-02",
+      "role": "distant",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/recovered-distant-original.png",
+      "sha256": "df008ce8e79659baea6675902ad92806844777f261776426087618de156da7f6",
+      "provider": "built-in imagegen; model not exposed",
+      "request_provenance": "Reconstructed from recorded generation loop and exact prompt file; not a pre-saved per-call request. Completed generation confirmed in phase session.",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-0c760793-9487-4620-83b1-d3d2d00d3246.png",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-02-distant-take-01.json",
+      "request_sha256": "93aaa71735acd316167bc62eebfe1d14bb4ae17a6c87cf1a6d39198ef7f14f8e",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden distant scenery: wide landscape, opaque pale blue sky across entire canvas. Continuous gentle sage and muted teal rolling distant canopy silhouette restricted to bottommost 20 percent, no individual trees, clouds, sun disc, flowers, fences. Top 80 percent quiet pale sky. This is ONLY distant sky/canopy, no ground or foreground.\n",
+      "transparent_background_request": false,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "BRAND-02",
+      "role": "icon",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/recovered-icon-original.png",
+      "sha256": "1a6ea126084e074f33d1d6c5446ad5d134143e0598d9c55c0050f6a0cdbfb888",
+      "provider": "built-in imagegen; model not exposed",
+      "request_provenance": "Exact saved request; completed generation confirmed in child session.",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10778-8be0-7e22-9837-1ef73ca7cfbe/exec-e93a9bee-7bc2-40f0-a5e3-118cd304c42c.png",
+      "request_path": "assets/production/picnic-v1/requests/world-brand-icon-take-01.json",
+      "request_sha256": "613207b17637f884d90c626b56d2874810f4095403de6a9a500b1351c1e3e759",
+      "exact_prompt": "Use case: logo-brand. Asset type: provisional Pip\u2019s Picnic app icon candidate. Create a fully opaque unmasked square 1024\u00d71024 illustration, no rounded corners or border. Image 1 is the approved Pip identity reference: preserve the cream bunny's face, black oval eyes, tiny orange nose and warm small smile, pink inner ears and cheeks, green triangular scarf, with both ears unbent and matching the approved construction. Image 2 is approved Direction B style reference only; do not reproduce its UI or collage. Draw Pip as a large centered head-and-shoulders portrait occupying most of the square: entire long ears visible with comfortable margin, cheeks and scarf prominent. Warm clean soft-shape storybook illustration with gently textured cream shading. Behind Pip, simple muted sage-green full-bleed backdrop with subtle lighter warm glow; keep silhouette strongly distinct. No text, lettering, numerals, math fruit, props, basket, garden toys, UI controls, gesture, platform mask, shadows outside the square or transparency. Calm welcoming expression. Preserve reference identity rather than inventing a new character.",
+      "transparent_background_request": false,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/PIP-01/take-01/aligned-review.png",
+          "sha256": "7c49413d52e705047f88ca2e847d459458dd22497110de9267f6a0ebaac7e198",
+          "repository_path": "assets/production/picnic-v1/masters/images/PIP-01/take-01/aligned-review.png"
+        },
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-01",
+      "role": "ground",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/ground-original.png",
+      "sha256": "b7484780020f4cfc702c3ba44a9d580591e9fd661ce7dd036d0b570521266549",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-01-ground-take-01.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-5ced304e-46d2-4258-9cc6-10e5dfd4d3e0.png",
+      "request_sha256": "629ddd0b0722d5afab20774aa44e51659c7fa5ed6dde5c4956dd59a33d1cb2a7",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Picnic ground plane: wide horizontal softly painted olive-lime grass meadow surface, entirely opaque and uninterrupted, subtle smooth color modulation only, no blades or dots or patches or path or objects. Flat even soft-shape storybook ground material. Full bleed ground layer, no sky, no horizon, no foreground.\n",
+      "transparent_background_request": false,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-02",
+      "role": "ground",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/ground-original.png",
+      "sha256": "58efe265eae4fcf55aab7249780dc03efcd8b0d877f9a6240ca00da17ff1a089",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-02-ground-take-01.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-2901b849-2397-4c7b-a032-8fde3a8ae594.png",
+      "request_sha256": "b28fe792ed7493ea5c239597c846551d7258f67b354f11ad3c248d7adbe3d4ca",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden ground plane: wide horizontal softly painted soft spring sage-lime grass surface, entirely opaque and uninterrupted, subtle broad smooth color modulation only. No grass blades or dots or path or beds or objects or sky or horizon. Full bleed even ground layer.\n",
+      "transparent_background_request": false,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-01",
+      "role": "foreground",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/foreground-original.png",
+      "sha256": "c841a2bf660ec38fe332da539abe0a3173f3a9f00e0ada49e193493e72e9870b",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-01.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-74519f18-51c0-488c-9911-6b0ada8b0a86.png",
+      "request_sha256": "50d106ee6f50758f2cffbf93bc54e45e70936baa1df416097c9476e00a64fd8b",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Picnic edge foreground strip: one continuous connected rounded olive-green leafy hedge silhouette filling a narrow vertical column in the center of an otherwise fully transparent square canvas. The connected foliage column extends from top to bottom, occupies only central 25 percent width. Leaves merge into broad rounded undulating silhouette without discrete isolated objects or flowers or fruit; gentle flat shading. Outside this single hedge strip alpha transparent. No ground, sky or other scenery. Designed to crop and place only at extreme scene edges.\n",
+      "transparent_background_request": true,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-02",
+      "role": "foreground",
+      "take_id": "take-01",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png",
+      "sha256": "86e30b6eaf8612bc95938a4082d66b1bb22be2a78b47b19a55c3a601d8f39285",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-01.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-1f1bb4f5-c5ac-43a6-9101-59a16f2f596f.png",
+      "request_sha256": "c0a0cc57047dfb6d4c12617e468b87dc84d591710dcf37967ed8e84dcf54cfdb",
+      "exact_prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden edge foreground strip: one continuous connected rounded deep sage-green leafy shrub silhouette filling a narrow vertical column in the center of an otherwise fully transparent square canvas. Connected foliage column extends top to bottom, occupies only central 25 percent width. Broad rounded undulating silhouette, subtle gentle flat shading; no discrete objects, flowers, fruit or dots. Outside this single shrub strip alpha transparent. No ground, sky or other scenery. Designed to crop and place only at extreme scene edges.\n",
+      "transparent_background_request": true,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png",
+          "sha256": "dbeb7e34d4fe3138a2062aa54c8f2c08fb2cec109dec543fb2ea378ac9e3b515",
+          "repository_path": "assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-01",
+      "role": "foreground",
+      "take_id": "take-02",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/foreground-original.png",
+      "sha256": "ea84ac7685faee07849b0e12a490668b8abada370c10fb09e7dedc4c5f131926",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-02.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-30b15357-8936-401e-8641-97b26fc5ec87.png",
+      "request_sha256": "52db8dd5d2af6d850d8f9f2df14d85ea8ab60e5f696ee9ea235e774b869f9427",
+      "exact_prompt": "Use case: precise-object-edit. Edit target: image 1, existing independently generated ENV-01 foreground hedge strip. Preserve the connected rounded sage/olive leaf silhouette, soft storybook rendering and palette. Change only the crop construction: make both the top and bottom of the single central vertical hedge terminate naturally in rounded leafy crowns, fully contained within the canvas with at least 8 percent transparent margin above and below. Keep central hedge width about 25 percent of square canvas, no horizontal flat clipped cut at either end, no leaf touching canvas. Outside silhouette preserve actual transparent alpha. Remove the tiny nearly invisible stray-alpha dust outside silhouette. No ground, sky, other scenery, text, food, blossoms, numerals, characters or countable teaching objects. Keep one connected foliage strip only.",
+      "transparent_background_request": true,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/ENV-01/take-01/foreground-original.png",
+          "sha256": "c841a2bf660ec38fe332da539abe0a3173f3a9f00e0ada49e193493e72e9870b",
+          "repository_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/foreground-original.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    },
+    {
+      "asset_id": "ENV-02",
+      "role": "foreground",
+      "take_id": "take-02",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/foreground-original.png",
+      "sha256": "38ea67e8c48d723e22a02d060dd46567a0e05f51c2f614a7f4a828bc43383947",
+      "provider": "OpenAI built-in imagegen",
+      "request_provenance": "Exact request saved immediately before completed provider call.",
+      "request_path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-02.json",
+      "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-f20e4cc6-908a-41fe-86a0-5c609b06d5ad.png",
+      "request_sha256": "5240f1fe0aed6e6c0c089ef98d8549515ae60bfffec6b5a937fd2974e03a6f7b",
+      "exact_prompt": "Use case: precise-object-edit. Edit target: image 1, existing independently generated ENV-02 foreground hedge strip. Preserve the connected rounded sage/olive leaf silhouette, soft storybook rendering and palette. Change only the crop construction: make both the top and bottom of the single central vertical hedge terminate naturally in rounded leafy crowns, fully contained within the canvas with at least 8 percent transparent margin above and below. Keep central hedge width about 25 percent of square canvas, no horizontal flat clipped cut at either end, no leaf touching canvas. Outside silhouette preserve actual transparent alpha. Remove the tiny nearly invisible stray-alpha dust outside silhouette. No ground, sky, other scenery, text, food, blossoms, numerals, characters or countable teaching objects. Keep one connected foliage strip only.",
+      "transparent_background_request": true,
+      "reference_hashes": [
+        {
+          "path": "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png",
+          "sha256": "86e30b6eaf8612bc95938a4082d66b1bb22be2a78b47b19a55c3a601d8f39285",
+          "repository_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png"
+        }
+      ],
+      "model_version": "not exposed by built-in tool",
+      "seed": "not exposed",
+      "provider_cost": "not exposed by built-in tool",
+      "human_art_review": "pending",
+      "human_provider_rights_decision": "pending",
+      "production_date_local": "2026-10-04"
+    }
+  ],
+  "provider_note": "Authorized built-in imagegen asset production. Provider/model reproducibility is unavailable; exact prompts/requests/references/original bytes are preserved. Raster export reproducibility is separately tested."
+}

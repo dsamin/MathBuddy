@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden distant scenery: wide landscape, opaque pale blue sky across entire canvas. Continuous gentle sage and muted teal rolling distant canopy silhouette restricted to bottommost 20 percent, no individual trees, clouds, sun disc, flowers, fences. Top 80 percent quiet pale sky. This is ONLY distant sky/canopy, no ground or foreground.\n",
+  "referenced_image_paths": [
+    "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+  ],
+  "transparent_background": false
+}

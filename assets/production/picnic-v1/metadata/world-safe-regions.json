@@ -1,0 +1,1209 @@
+{
+  "status": "proposed-phase-2a-composition-coordinates-not-canonical-screen-layout",
+  "coordinates": "Top-left origin, x/y normalized to full orientation canvas. Rectangles [x,y,width,height]; pixel bounds round endpoints. Catalog slots remain region-relative. canvas_anchor=(rect.x+u*rect.width,rect.y+v*rect.height); pixels=(anchor.x*W,anchor.y*H). Same slot and instance IDs survive reproject; no rotation move inferred.",
+  "clearance": "Foreground must have zero alpha in every semantic rectangle enlarged by 0.015 canvas units on each side. Worlds reserve union of all three activity families AND garden/M06/M07. Scene horizon sits above working pieces; reference has quiet sky. Diagnostic outlines are separate from art.",
+  "device_limit": "80\u201388 pt touch-space, physical iPad, larger-text/native reflow and actual object/prop silhouette fit remain unverified until target device and Phase2B/2C assets exist. These pixels do not prove interaction usability.",
+  "orientation_policy": "Distinct registered canvases from common independent source layers, not central crops of a flat board. Full distant source mapped to top 38%; full ground material mapped to canvas with analytic horizon mask; foreground source alpha bounding box reprojected to left/right edge strips. Raster sources resampled, not native-detail 2732 px provider output.",
+  "orientations": {
+    "landscape": {
+      "canvas_px": [
+        2732,
+        2048
+      ],
+      "common": {
+        "session-prompt": [
+          0.23,
+          0.025,
+          0.54,
+          0.07
+        ],
+        "given-reference": [
+          0.23,
+          0.12,
+          0.54,
+          0.17
+        ],
+        "home": [
+          0.065,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "listen": [
+          0.835,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "guide": [
+          0.065,
+          0.56,
+          0.15,
+          0.27
+        ],
+        "answer-choices": [
+          0.26,
+          0.805,
+          0.66,
+          0.055
+        ],
+        "persistent-controls": [
+          0.24,
+          0.885,
+          0.7,
+          0.08
+        ]
+      },
+      "working_regions": {
+        "LAYOUT-COUNT": {
+          "tray": [
+            0.26,
+            0.38,
+            0.31,
+            0.4
+          ],
+          "basket": [
+            0.61,
+            0.38,
+            0.31,
+            0.4
+          ]
+        },
+        "LAYOUT-TAKE": {
+          "source-mat": [
+            0.26,
+            0.38,
+            0.31,
+            0.4
+          ],
+          "friend-plate": [
+            0.61,
+            0.38,
+            0.31,
+            0.4
+          ]
+        },
+        "LAYOUT-JOIN": {
+          "left-group": [
+            0.26,
+            0.36,
+            0.31,
+            0.2
+          ],
+          "right-group": [
+            0.61,
+            0.36,
+            0.31,
+            0.2
+          ],
+          "shared-mat": [
+            0.34,
+            0.6,
+            0.53,
+            0.18
+          ]
+        }
+      },
+      "garden": {
+        "pinwheel-including-full-rotor": [
+          0.27,
+          0.36,
+          0.27,
+          0.26
+        ],
+        "free-flower-states": [
+          0.65,
+          0.36,
+          0.22,
+          0.25
+        ],
+        "decor-01": [
+          0.27,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-02": [
+          0.41,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-03": [
+          0.55,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-04-bunting": [
+          0.26,
+          0.3,
+          0.65,
+          0.045
+        ],
+        "decor-05": [
+          0.7,
+          0.66,
+          0.2,
+          0.15
+        ],
+        "finish": [
+          0.4,
+          0.885,
+          0.34,
+          0.08
+        ]
+      },
+      "union": {
+        "session-prompt": [
+          0.23,
+          0.025,
+          0.54,
+          0.07
+        ],
+        "given-reference": [
+          0.23,
+          0.12,
+          0.54,
+          0.17
+        ],
+        "home": [
+          0.065,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "listen": [
+          0.835,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "guide": [
+          0.065,
+          0.56,
+          0.15,
+          0.27
+        ],
+        "answer-choices": [
+          0.26,
+          0.805,
+          0.66,
+          0.055
+        ],
+        "persistent-controls": [
+          0.24,
+          0.885,
+          0.7,
+          0.08
+        ],
+        "LAYOUT-COUNT/tray": [
+          0.26,
+          0.38,
+          0.31,
+          0.4
+        ],
+        "LAYOUT-COUNT/basket": [
+          0.61,
+          0.38,
+          0.31,
+          0.4
+        ],
+        "LAYOUT-TAKE/source-mat": [
+          0.26,
+          0.38,
+          0.31,
+          0.4
+        ],
+        "LAYOUT-TAKE/friend-plate": [
+          0.61,
+          0.38,
+          0.31,
+          0.4
+        ],
+        "LAYOUT-JOIN/left-group": [
+          0.26,
+          0.36,
+          0.31,
+          0.2
+        ],
+        "LAYOUT-JOIN/right-group": [
+          0.61,
+          0.36,
+          0.31,
+          0.2
+        ],
+        "LAYOUT-JOIN/shared-mat": [
+          0.34,
+          0.6,
+          0.53,
+          0.18
+        ],
+        "garden/pinwheel-including-full-rotor": [
+          0.27,
+          0.36,
+          0.27,
+          0.26
+        ],
+        "garden/free-flower-states": [
+          0.65,
+          0.36,
+          0.22,
+          0.25
+        ],
+        "garden/decor-01": [
+          0.27,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-02": [
+          0.41,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-03": [
+          0.55,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-04-bunting": [
+          0.26,
+          0.3,
+          0.65,
+          0.045
+        ],
+        "garden/decor-05": [
+          0.7,
+          0.66,
+          0.2,
+          0.15
+        ],
+        "garden/finish": [
+          0.4,
+          0.885,
+          0.34,
+          0.08
+        ]
+      },
+      "projected_slots": {
+        "LAYOUT-COUNT": {
+          "tray": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.6599999999999999
+              ]
+            }
+          ],
+          "basket": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.6599999999999999
+              ]
+            }
+          ]
+        },
+        "LAYOUT-JOIN": {
+          "left-group": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.5
+              ]
+            }
+          ],
+          "right-group": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.42
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.5
+              ]
+            }
+          ],
+          "shared-mat": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.44600000000000006,
+                0.654
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.605,
+                0.654
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.764,
+                0.654
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.44600000000000006,
+                0.726
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.605,
+                0.726
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.764,
+                0.726
+              ]
+            }
+          ]
+        },
+        "LAYOUT-TAKE": {
+          "source-mat": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.322,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.41500000000000004,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.508,
+                0.6599999999999999
+              ]
+            }
+          ],
+          "friend-plate": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.5
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.6719999999999999,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.765,
+                0.6599999999999999
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.858,
+                0.6599999999999999
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "portrait": {
+      "canvas_px": [
+        2048,
+        2732
+      ],
+      "common": {
+        "session-prompt": [
+          0.23,
+          0.025,
+          0.54,
+          0.07
+        ],
+        "given-reference": [
+          0.23,
+          0.12,
+          0.54,
+          0.17
+        ],
+        "home": [
+          0.065,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "listen": [
+          0.835,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "guide": [
+          0.065,
+          0.56,
+          0.15,
+          0.27
+        ],
+        "answer-choices": [
+          0.26,
+          0.805,
+          0.66,
+          0.055
+        ],
+        "persistent-controls": [
+          0.24,
+          0.885,
+          0.7,
+          0.08
+        ]
+      },
+      "working_regions": {
+        "LAYOUT-COUNT": {
+          "tray": [
+            0.26,
+            0.35,
+            0.66,
+            0.2
+          ],
+          "basket": [
+            0.26,
+            0.59,
+            0.66,
+            0.2
+          ]
+        },
+        "LAYOUT-TAKE": {
+          "source-mat": [
+            0.26,
+            0.35,
+            0.66,
+            0.2
+          ],
+          "friend-plate": [
+            0.26,
+            0.59,
+            0.66,
+            0.2
+          ]
+        },
+        "LAYOUT-JOIN": {
+          "left-group": [
+            0.26,
+            0.35,
+            0.31,
+            0.2
+          ],
+          "right-group": [
+            0.61,
+            0.35,
+            0.31,
+            0.2
+          ],
+          "shared-mat": [
+            0.3,
+            0.6,
+            0.59,
+            0.19
+          ]
+        }
+      },
+      "garden": {
+        "pinwheel-including-full-rotor": [
+          0.27,
+          0.36,
+          0.27,
+          0.26
+        ],
+        "free-flower-states": [
+          0.65,
+          0.36,
+          0.22,
+          0.25
+        ],
+        "decor-01": [
+          0.27,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-02": [
+          0.41,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-03": [
+          0.55,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "decor-04-bunting": [
+          0.26,
+          0.3,
+          0.65,
+          0.045
+        ],
+        "decor-05": [
+          0.7,
+          0.66,
+          0.2,
+          0.15
+        ],
+        "finish": [
+          0.4,
+          0.885,
+          0.34,
+          0.08
+        ]
+      },
+      "union": {
+        "session-prompt": [
+          0.23,
+          0.025,
+          0.54,
+          0.07
+        ],
+        "given-reference": [
+          0.23,
+          0.12,
+          0.54,
+          0.17
+        ],
+        "home": [
+          0.065,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "listen": [
+          0.835,
+          0.025,
+          0.1,
+          0.075
+        ],
+        "guide": [
+          0.065,
+          0.56,
+          0.15,
+          0.27
+        ],
+        "answer-choices": [
+          0.26,
+          0.805,
+          0.66,
+          0.055
+        ],
+        "persistent-controls": [
+          0.24,
+          0.885,
+          0.7,
+          0.08
+        ],
+        "LAYOUT-COUNT/tray": [
+          0.26,
+          0.35,
+          0.66,
+          0.2
+        ],
+        "LAYOUT-COUNT/basket": [
+          0.26,
+          0.59,
+          0.66,
+          0.2
+        ],
+        "LAYOUT-TAKE/source-mat": [
+          0.26,
+          0.35,
+          0.66,
+          0.2
+        ],
+        "LAYOUT-TAKE/friend-plate": [
+          0.26,
+          0.59,
+          0.66,
+          0.2
+        ],
+        "LAYOUT-JOIN/left-group": [
+          0.26,
+          0.35,
+          0.31,
+          0.2
+        ],
+        "LAYOUT-JOIN/right-group": [
+          0.61,
+          0.35,
+          0.31,
+          0.2
+        ],
+        "LAYOUT-JOIN/shared-mat": [
+          0.3,
+          0.6,
+          0.59,
+          0.19
+        ],
+        "garden/pinwheel-including-full-rotor": [
+          0.27,
+          0.36,
+          0.27,
+          0.26
+        ],
+        "garden/free-flower-states": [
+          0.65,
+          0.36,
+          0.22,
+          0.25
+        ],
+        "garden/decor-01": [
+          0.27,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-02": [
+          0.41,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-03": [
+          0.55,
+          0.66,
+          0.12,
+          0.15
+        ],
+        "garden/decor-04-bunting": [
+          0.26,
+          0.3,
+          0.65,
+          0.045
+        ],
+        "garden/decor-05": [
+          0.7,
+          0.66,
+          0.2,
+          0.15
+        ],
+        "garden/finish": [
+          0.4,
+          0.885,
+          0.34,
+          0.08
+        ]
+      },
+      "projected_slots": {
+        "LAYOUT-COUNT": {
+          "tray": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.51
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.51
+              ]
+            }
+          ],
+          "basket": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.63
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.63
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.69
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.69
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.75
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.75
+              ]
+            }
+          ]
+        },
+        "LAYOUT-JOIN": {
+          "left-group": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.353,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.353,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.353,
+                0.51
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.51
+              ]
+            }
+          ],
+          "right-group": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.703,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.827,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.703,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.827,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.703,
+                0.51
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.827,
+                0.51
+              ]
+            }
+          ],
+          "shared-mat": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.638
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.713,
+                0.638
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.695
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.713,
+                0.695
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.477,
+                0.752
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.713,
+                0.752
+              ]
+            }
+          ]
+        },
+        "LAYOUT-TAKE": {
+          "source-mat": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.39
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.44999999999999996
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.51
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.51
+              ]
+            }
+          ],
+          "friend-plate": [
+            {
+              "slot_id": "slot-01",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.63
+              ]
+            },
+            {
+              "slot_id": "slot-02",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.63
+              ]
+            },
+            {
+              "slot_id": "slot-03",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.69
+              ]
+            },
+            {
+              "slot_id": "slot-04",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.69
+              ]
+            },
+            {
+              "slot_id": "slot-05",
+              "canvas_normalized_anchor": [
+                0.458,
+                0.75
+              ]
+            },
+            {
+              "slot_id": "slot-06",
+              "canvas_normalized_anchor": [
+                0.722,
+                0.75
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
