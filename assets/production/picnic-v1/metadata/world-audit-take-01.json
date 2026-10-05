@@ -1,0 +1,1113 @@
+{
+  "status": "pass",
+  "orientation_records": [
+    {
+      "asset_id": "ENV-01",
+      "orientation": "landscape",
+      "dimensions": [
+        2732,
+        2048
+      ],
+      "reconstruction_different_pixels": 0,
+      "composite_alpha": [
+        255,
+        255
+      ],
+      "layer_alpha_extrema": {
+        "distant": [
+          0,
+          255
+        ],
+        "ground": [
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          255
+        ]
+      },
+      "layer_alpha_bounds_px": {
+        "distant": [
+          0,
+          0,
+          2732,
+          778
+        ],
+        "ground": [
+          0,
+          672,
+          2732,
+          2048
+        ],
+        "foreground": [
+          0,
+          881,
+          2732,
+          2048
+        ]
+      },
+      "removal_changed_pixels": {
+        "distant": 1886081,
+        "ground": 3705585,
+        "foreground": 213438
+      },
+      "safe_region_checks": [
+        {
+          "name": "session-prompt",
+          "expanded_px": [
+            587,
+            20,
+            2145,
+            225
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "given-reference",
+          "expanded_px": [
+            587,
+            215,
+            2145,
+            625
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "home",
+          "expanded_px": [
+            137,
+            20,
+            492,
+            236
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "listen",
+          "expanded_px": [
+            2240,
+            20,
+            2595,
+            236
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "guide",
+          "expanded_px": [
+            137,
+            1116,
+            628,
+            1731
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "answer-choices",
+          "expanded_px": [
+            669,
+            1618,
+            2554,
+            1792
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "persistent-controls",
+          "expanded_px": [
+            615,
+            1782,
+            2609,
+            2007
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/tray",
+          "expanded_px": [
+            669,
+            748,
+            1598,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/basket",
+          "expanded_px": [
+            1626,
+            748,
+            2554,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/source-mat",
+          "expanded_px": [
+            669,
+            748,
+            1598,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/friend-plate",
+          "expanded_px": [
+            1626,
+            748,
+            2554,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/left-group",
+          "expanded_px": [
+            669,
+            707,
+            1598,
+            1178
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/right-group",
+          "expanded_px": [
+            1626,
+            707,
+            2554,
+            1178
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/shared-mat",
+          "expanded_px": [
+            888,
+            1198,
+            2418,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/pinwheel-including-full-rotor",
+          "expanded_px": [
+            697,
+            707,
+            1516,
+            1300
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/free-flower-states",
+          "expanded_px": [
+            1735,
+            707,
+            2418,
+            1280
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-01",
+          "expanded_px": [
+            697,
+            1321,
+            1106,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-02",
+          "expanded_px": [
+            1079,
+            1321,
+            1489,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-03",
+          "expanded_px": [
+            1462,
+            1321,
+            1871,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-04-bunting",
+          "expanded_px": [
+            669,
+            584,
+            2527,
+            737
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-05",
+          "expanded_px": [
+            1871,
+            1321,
+            2500,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/finish",
+          "expanded_px": [
+            1052,
+            1782,
+            2063,
+            2007
+          ],
+          "foreground_nonzero_alpha": 0
+        }
+      ],
+      "editable_reconstruction_different_pixels": 0
+    },
+    {
+      "asset_id": "ENV-01",
+      "orientation": "portrait",
+      "dimensions": [
+        2048,
+        2732
+      ],
+      "reconstruction_different_pixels": 0,
+      "composite_alpha": [
+        255,
+        255
+      ],
+      "layer_alpha_extrema": {
+        "distant": [
+          0,
+          255
+        ],
+        "ground": [
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          255
+        ]
+      },
+      "layer_alpha_bounds_px": {
+        "distant": [
+          0,
+          0,
+          2048,
+          1038
+        ],
+        "ground": [
+          0,
+          896,
+          2048,
+          2732
+        ],
+        "foreground": [
+          0,
+          1175,
+          2048,
+          2732
+        ]
+      },
+      "removal_changed_pixels": {
+        "distant": 1885963,
+        "ground": 3704203,
+        "foreground": 215792
+      },
+      "safe_region_checks": [
+        {
+          "name": "session-prompt",
+          "expanded_px": [
+            440,
+            27,
+            1608,
+            301
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "given-reference",
+          "expanded_px": [
+            440,
+            287,
+            1608,
+            833
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "home",
+          "expanded_px": [
+            102,
+            27,
+            369,
+            314
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "listen",
+          "expanded_px": [
+            1679,
+            27,
+            1946,
+            314
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "guide",
+          "expanded_px": [
+            102,
+            1489,
+            471,
+            2309
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "answer-choices",
+          "expanded_px": [
+            502,
+            2158,
+            1915,
+            2391
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "persistent-controls",
+          "expanded_px": [
+            461,
+            2377,
+            1956,
+            2677
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/tray",
+          "expanded_px": [
+            502,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/basket",
+          "expanded_px": [
+            502,
+            1571,
+            1915,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/source-mat",
+          "expanded_px": [
+            502,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/friend-plate",
+          "expanded_px": [
+            502,
+            1571,
+            1915,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/left-group",
+          "expanded_px": [
+            502,
+            915,
+            1198,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/right-group",
+          "expanded_px": [
+            1219,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/shared-mat",
+          "expanded_px": [
+            584,
+            1598,
+            1853,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/pinwheel-including-full-rotor",
+          "expanded_px": [
+            522,
+            943,
+            1137,
+            1735
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/free-flower-states",
+          "expanded_px": [
+            1300,
+            943,
+            1812,
+            1708
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-01",
+          "expanded_px": [
+            522,
+            1762,
+            829,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-02",
+          "expanded_px": [
+            809,
+            1762,
+            1116,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-03",
+          "expanded_px": [
+            1096,
+            1762,
+            1403,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-04-bunting",
+          "expanded_px": [
+            502,
+            779,
+            1894,
+            984
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-05",
+          "expanded_px": [
+            1403,
+            1762,
+            1874,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/finish",
+          "expanded_px": [
+            788,
+            2377,
+            1546,
+            2677
+          ],
+          "foreground_nonzero_alpha": 0
+        }
+      ],
+      "editable_reconstruction_different_pixels": 0
+    },
+    {
+      "asset_id": "ENV-02",
+      "orientation": "landscape",
+      "dimensions": [
+        2732,
+        2048
+      ],
+      "reconstruction_different_pixels": 0,
+      "composite_alpha": [
+        255,
+        255
+      ],
+      "layer_alpha_extrema": {
+        "distant": [
+          0,
+          255
+        ],
+        "ground": [
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          255
+        ]
+      },
+      "layer_alpha_bounds_px": {
+        "distant": [
+          0,
+          0,
+          2732,
+          778
+        ],
+        "ground": [
+          0,
+          672,
+          2732,
+          2048
+        ],
+        "foreground": [
+          0,
+          881,
+          2732,
+          2048
+        ]
+      },
+      "removal_changed_pixels": {
+        "distant": 1886081,
+        "ground": 3705533,
+        "foreground": 219104
+      },
+      "safe_region_checks": [
+        {
+          "name": "session-prompt",
+          "expanded_px": [
+            587,
+            20,
+            2145,
+            225
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "given-reference",
+          "expanded_px": [
+            587,
+            215,
+            2145,
+            625
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "home",
+          "expanded_px": [
+            137,
+            20,
+            492,
+            236
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "listen",
+          "expanded_px": [
+            2240,
+            20,
+            2595,
+            236
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "guide",
+          "expanded_px": [
+            137,
+            1116,
+            628,
+            1731
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "answer-choices",
+          "expanded_px": [
+            669,
+            1618,
+            2554,
+            1792
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "persistent-controls",
+          "expanded_px": [
+            615,
+            1782,
+            2609,
+            2007
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/tray",
+          "expanded_px": [
+            669,
+            748,
+            1598,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/basket",
+          "expanded_px": [
+            1626,
+            748,
+            2554,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/source-mat",
+          "expanded_px": [
+            669,
+            748,
+            1598,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/friend-plate",
+          "expanded_px": [
+            1626,
+            748,
+            2554,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/left-group",
+          "expanded_px": [
+            669,
+            707,
+            1598,
+            1178
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/right-group",
+          "expanded_px": [
+            1626,
+            707,
+            2554,
+            1178
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/shared-mat",
+          "expanded_px": [
+            888,
+            1198,
+            2418,
+            1628
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/pinwheel-including-full-rotor",
+          "expanded_px": [
+            697,
+            707,
+            1516,
+            1300
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/free-flower-states",
+          "expanded_px": [
+            1735,
+            707,
+            2418,
+            1280
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-01",
+          "expanded_px": [
+            697,
+            1321,
+            1106,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-02",
+          "expanded_px": [
+            1079,
+            1321,
+            1489,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-03",
+          "expanded_px": [
+            1462,
+            1321,
+            1871,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-04-bunting",
+          "expanded_px": [
+            669,
+            584,
+            2527,
+            737
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-05",
+          "expanded_px": [
+            1871,
+            1321,
+            2500,
+            1690
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/finish",
+          "expanded_px": [
+            1052,
+            1782,
+            2063,
+            2007
+          ],
+          "foreground_nonzero_alpha": 0
+        }
+      ],
+      "editable_reconstruction_different_pixels": 0
+    },
+    {
+      "asset_id": "ENV-02",
+      "orientation": "portrait",
+      "dimensions": [
+        2048,
+        2732
+      ],
+      "reconstruction_different_pixels": 0,
+      "composite_alpha": [
+        255,
+        255
+      ],
+      "layer_alpha_extrema": {
+        "distant": [
+          0,
+          255
+        ],
+        "ground": [
+          0,
+          255
+        ],
+        "foreground": [
+          0,
+          255
+        ]
+      },
+      "layer_alpha_bounds_px": {
+        "distant": [
+          0,
+          0,
+          2048,
+          1038
+        ],
+        "ground": [
+          0,
+          896,
+          2048,
+          2732
+        ],
+        "foreground": [
+          0,
+          1175,
+          2048,
+          2732
+        ]
+      },
+      "removal_changed_pixels": {
+        "distant": 1885963,
+        "ground": 3704255,
+        "foreground": 221643
+      },
+      "safe_region_checks": [
+        {
+          "name": "session-prompt",
+          "expanded_px": [
+            440,
+            27,
+            1608,
+            301
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "given-reference",
+          "expanded_px": [
+            440,
+            287,
+            1608,
+            833
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "home",
+          "expanded_px": [
+            102,
+            27,
+            369,
+            314
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "listen",
+          "expanded_px": [
+            1679,
+            27,
+            1946,
+            314
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "guide",
+          "expanded_px": [
+            102,
+            1489,
+            471,
+            2309
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "answer-choices",
+          "expanded_px": [
+            502,
+            2158,
+            1915,
+            2391
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "persistent-controls",
+          "expanded_px": [
+            461,
+            2377,
+            1956,
+            2677
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/tray",
+          "expanded_px": [
+            502,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-COUNT/basket",
+          "expanded_px": [
+            502,
+            1571,
+            1915,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/source-mat",
+          "expanded_px": [
+            502,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-TAKE/friend-plate",
+          "expanded_px": [
+            502,
+            1571,
+            1915,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/left-group",
+          "expanded_px": [
+            502,
+            915,
+            1198,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/right-group",
+          "expanded_px": [
+            1219,
+            915,
+            1915,
+            1544
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "LAYOUT-JOIN/shared-mat",
+          "expanded_px": [
+            584,
+            1598,
+            1853,
+            2199
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/pinwheel-including-full-rotor",
+          "expanded_px": [
+            522,
+            943,
+            1137,
+            1735
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/free-flower-states",
+          "expanded_px": [
+            1300,
+            943,
+            1812,
+            1708
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-01",
+          "expanded_px": [
+            522,
+            1762,
+            829,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-02",
+          "expanded_px": [
+            809,
+            1762,
+            1116,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-03",
+          "expanded_px": [
+            1096,
+            1762,
+            1403,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-04-bunting",
+          "expanded_px": [
+            502,
+            779,
+            1894,
+            984
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/decor-05",
+          "expanded_px": [
+            1403,
+            1762,
+            1874,
+            2254
+          ],
+          "foreground_nonzero_alpha": 0
+        },
+        {
+          "name": "garden/finish",
+          "expanded_px": [
+            788,
+            2377,
+            1546,
+            2677
+          ],
+          "foreground_nonzero_alpha": 0
+        }
+      ],
+      "editable_reconstruction_different_pixels": 0
+    }
+  ],
+  "protected_files_unchanged": 383,
+  "approved_reference_hashes_verified": 11,
+  "recovered_originals_verified": 3,
+  "layer_exports": 12,
+  "editable_masters": 4,
+  "icon": "not yet included; branding audit must be completed before final checkpoint",
+  "visual_exclusions": "Requires actual image inspection; numerical tests cannot recognize baked labels/fruit/toys.",
+  "scope_limit": "Technical candidates only. Human art/composition/name/icon/content/rights and target device remain pending. No native or physical-device validation."
+}

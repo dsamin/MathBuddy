@@ -1,0 +1,91 @@
+{
+  "status": "technical-only-human-acceptance-pending",
+  "runtime": {
+    "python": "3.11.7",
+    "pillow": "12.1.1",
+    "resample": "Pillow Resampling.LANCZOS",
+    "typography": "Pillow FreeType native font rendering; editable SVG embeds same unmodified font but is not outlined"
+  },
+  "files": [
+    {
+      "path": "masters/images/BRAND-01/take-01/branding-sheet.png",
+      "sha256": "48194fd681feb796ec1e0f85cf108a8ba147d5d6b61ef4e423cd3d61232a623f",
+      "bytes": 262500
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/source/OFL-1.1.txt",
+      "sha256": "a1d9cc536b8327829aaaeb6957bb105d6926b0a45766050257c1461ac519b575",
+      "bytes": 4228
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/source/Rubik-Bold.ttf",
+      "sha256": "b1c36dfcbc5fe5011c552c76725c84d989a71d56440e8bfbfa0cb68b593dbad6",
+      "bytes": 140396
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/source/source-license-excerpt.txt",
+      "sha256": "91ad768ed61f5371669e0be2a12b1fcffe84d839d3ba2159d46504843262f544",
+      "bytes": 508
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/wordmark-1100.png",
+      "sha256": "3f0bcddcd5f6e03818cf2fd8f9f0a39f18cf9d7287b3329f3bdd0c0787a158df",
+      "bytes": 9614
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/wordmark-240.png",
+      "sha256": "5c86efb105eddff52d243b3c2273e5e22303008cfe3e9c6a1d29adf166ac2d9b",
+      "bytes": 1885
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/wordmark-360.png",
+      "sha256": "888672f8d07ef608668f41519e7b23fa992d8ba8a401c2b93003783029d8cfe2",
+      "bytes": 2898
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/wordmark-720.png",
+      "sha256": "4b28cbbeff3a8d29be66fb0807445e98c22d67833d4051d7e3efefd0efdc5828",
+      "bytes": 5912
+    },
+    {
+      "path": "masters/images/BRAND-01/take-01/wordmark-editable.svg",
+      "sha256": "e47f11ebcfe247074112831d63231b5f01973d17ca27fe6d2060178ffe6f0aad",
+      "bytes": 187624
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-1024.png",
+      "sha256": "1c354f164523c06f87795c6f5ed34db7aedd3b8098a1b46f001171b17627801f",
+      "bytes": 1225131
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-128.png",
+      "sha256": "983e28994bca237b4ffbe2f7dd8a30bf397e2f5ffb017c7eead02d4f2d745c28",
+      "bytes": 21504
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-16.png",
+      "sha256": "c53b9cf9250f77bf663f8664a207d54892a85e46eddded8730b72c443e95e813",
+      "bytes": 709
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-32.png",
+      "sha256": "e0a8a24ddb194b4361f3f1a803fda2127223296514b56f6aaf5a36e47693e8bc",
+      "bytes": 2122
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-64.png",
+      "sha256": "ca4ffaf57a4ecefcfdcf8b15881b487f1b2b5647043705e68210bb48f65cd4b7",
+      "bytes": 6705
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-small-size-sheet.png",
+      "sha256": "1ffd6422e2749bfab878d146f146775282372f3f56daa90cc0ee72e6728835e7",
+      "bytes": 90980
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/recovered-icon-original.png",
+      "sha256": "1a6ea126084e074f33d1d6c5446ad5d134143e0598d9c55c0050f6a0cdbfb888",
+      "bytes": 1783279
+    }
+  ]
+}

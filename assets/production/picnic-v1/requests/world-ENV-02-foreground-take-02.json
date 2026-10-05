@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: precise-object-edit. Edit target: image 1, existing independently generated ENV-02 foreground hedge strip. Preserve the connected rounded sage/olive leaf silhouette, soft storybook rendering and palette. Change only the crop construction: make both the top and bottom of the single central vertical hedge terminate naturally in rounded leafy crowns, fully contained within the canvas with at least 8 percent transparent margin above and below. Keep central hedge width about 25 percent of square canvas, no horizontal flat clipped cut at either end, no leaf touching canvas. Outside silhouette preserve actual transparent alpha. Remove the tiny nearly invisible stray-alpha dust outside silhouette. No ground, sky, other scenery, text, food, blossoms, numerals, characters or countable teaching objects. Keep one connected foliage strip only.",
+  "referenced_image_paths": [
+    "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png"
+  ],
+  "transparent_background": true
+}

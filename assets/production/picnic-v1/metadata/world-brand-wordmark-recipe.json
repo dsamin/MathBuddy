@@ -1,0 +1,43 @@
+{
+  "asset_id": "BRAND-01",
+  "status": "provisional-pending-human-name-wordmark-font-rights-review",
+  "text": "Pip\u2019s Picnic",
+  "font": {
+    "family": "Rubik",
+    "subfamily": "Bold",
+    "postscript_name": "Rubik-Bold",
+    "version": "Version 1.100",
+    "copyright": "Copyright (c) 2015 by Hubert & Fischer. All rights reserved. Hebrew characters (c) 2016 by Meir Sadan.",
+    "license": "SIL Open Font License 1.1",
+    "license_path": "source/OFL-1.1.txt",
+    "filename": "source/Rubik-Bold.ttf",
+    "sha256": "b1c36dfcbc5fe5011c552c76725c84d989a71d56440e8bfbfa0cb68b593dbad6",
+    "acquired_from": "/Users/devan/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/LibreOfficeDev.app/Contents/Resources/fonts/truetype/Rubik-Bold.ttf",
+    "distribution": "Codex bundled runtime 26.915.20218 / LibreOfficeDev font package",
+    "upstream_family_url": "https://fonts.google.com/specimen/Rubik",
+    "upstream_source_claim": "Exact local binary source is recorded; upstream release commit was not fetched. Name table gives Version 1.100; local license file explicitly covers Rubik. No network file or substituted font is used."
+  },
+  "recipe": {
+    "format": "native typographic recipe plus SVG with embedded font (editable text, not outlined paths)",
+    "font_size_at_master": 140,
+    "weight": 700,
+    "kerning": "font defaults",
+    "tracking": 0,
+    "color": "#365444",
+    "viewBox": [
+      0,
+      0,
+      1100,
+      240
+    ],
+    "baseline": 160,
+    "x": 550,
+    "alignment": "center",
+    "name_accessibility": "Preserve real app-name text in eventual UI; SVG is artwork only.",
+    "allowed_scaling": "uniform only; preserve proportions",
+    "recommended_minimum_width_px": 240,
+    "clear_space": "at least 0.5 cap height on all sides",
+    "background": "transparent; cream/sage only in review sheet"
+  },
+  "capability_note": "Varela Round design-system suggestion not obtained: sandbox DNS blocked download and escalation interrupted; Rubik is an explicit local provisional production choice, pending human font acceptance."
+}

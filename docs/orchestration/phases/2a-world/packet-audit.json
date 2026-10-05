@@ -1,0 +1,30 @@
+{
+  "status": "pass-technical-packet-human-acceptance-pending",
+  "requirements": 4,
+  "current_environment_layer_exports": 12,
+  "editable_OpenRaster_masters": 4,
+  "icon_dimensions": [
+    1024,
+    1024
+  ],
+  "gallery_local_resources_checked": 55,
+  "protected_inputs_unchanged": 383,
+  "changed_paths_within_owned_scope": 216,
+  "actual_visual_inspection": "focused-review.md and technical-review.md; root browser renders include actual embedded SVG, screenshots and layer/disclosure interactions",
+  "reproducibility": {
+    "environment_byte_identical_files": 70,
+    "branding_byte_identical_files": 16
+  },
+  "pending": [
+    "human world/art",
+    "composition",
+    "icon",
+    "name",
+    "font treatment",
+    "device and child usability",
+    "content",
+    "provider and rights"
+  ],
+  "native_build": "not performed; outside authorized scope",
+  "secret_scan": "separate staged command receipt"
+}
