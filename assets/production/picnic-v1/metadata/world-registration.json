@@ -1,0 +1,327 @@
+{
+  "status": "technical-candidate-human-acceptance-pending",
+  "source_kind": "six current separately generated original raster artworks; editable OpenRaster masters with independent registered layers; no claim of vector/editable-object source or articulated scene rig",
+  "reproduce": "python3 docs/orchestration/phases/2a-world/world-build.py (Pillow 12.1.1)",
+  "records": [
+    {
+      "asset_id": "ENV-01",
+      "orientation": "landscape",
+      "take_id": "take-02",
+      "canvas_px": [
+        2732,
+        2048
+      ],
+      "origin_px": [
+        0,
+        0
+      ],
+      "z_order": {
+        "distant": 0,
+        "ground": 10,
+        "foreground": 60
+      },
+      "sources": {
+        "distant": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/recovered-distant-original.png",
+          "sha256": "41091921546d973c23ee0b80a5bfb41b32be566feb4514cbb07911fdba8c1040",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "ground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/ground-original.png",
+          "sha256": "b7484780020f4cfc702c3ba44a9d580591e9fd661ce7dd036d0b570521266549",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "foreground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/foreground-original.png",
+          "sha256": "ea84ac7685faee07849b0e12a490668b8abada370c10fb09e7dedc4c5f131926",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        }
+      },
+      "registration": {
+        "distant": "whole source resized to [0,0,W,round(.38H)]",
+        "ground": "whole independent source resized W,H; alpha horizon y/H=.337+.009*sin(2*pi*x/W+.3)",
+        "foreground": {
+          "source_alpha_crop_px": [
+            483,
+            30,
+            786,
+            1229
+          ],
+          "bounds_threshold": "alpha > 1; faint alpha=1 dust outside silhouette excluded by crop only; retained pixels keep original alpha",
+          "placements_px": [
+            [
+              0,
+              881,
+              109,
+              1167
+            ],
+            [
+              2623,
+              881,
+              109,
+              1167
+            ]
+          ],
+          "right": "mirrored left source, same logical edge layer",
+          "crop": "Artwork intentionally reaches canvas edge; alpha bbox crop removes only transparent padding. No semantic crop."
+        }
+      },
+      "files": {
+        "editable.ora": "e3749d9efca3747a38f8e13c85315675cfeb82f51d8f9242e11c501a61d0c494",
+        "composite.png": "10bbdee46409ccc6eb493e6339329882e4ca4f3c7cc0b93a5ce8caabae3d5b3e",
+        "distant.png": "0b35bb7f745d56408b5a55885390d5a4946745e4afb61dbc75013e6af8940c48",
+        "ground.png": "4af33cb8318b07c30a11ffcb3beec26e28b0b72258a029bbf80d150a331f1411",
+        "foreground.png": "5aedbdf0c7074c8f259707f9905aa0227c45c98d387226ae0928e5813a3f6f68"
+      }
+    },
+    {
+      "asset_id": "ENV-01",
+      "orientation": "portrait",
+      "take_id": "take-02",
+      "canvas_px": [
+        2048,
+        2732
+      ],
+      "origin_px": [
+        0,
+        0
+      ],
+      "z_order": {
+        "distant": 0,
+        "ground": 10,
+        "foreground": 60
+      },
+      "sources": {
+        "distant": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/recovered-distant-original.png",
+          "sha256": "41091921546d973c23ee0b80a5bfb41b32be566feb4514cbb07911fdba8c1040",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "ground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/ground-original.png",
+          "sha256": "b7484780020f4cfc702c3ba44a9d580591e9fd661ce7dd036d0b570521266549",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "foreground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/foreground-original.png",
+          "sha256": "ea84ac7685faee07849b0e12a490668b8abada370c10fb09e7dedc4c5f131926",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        }
+      },
+      "registration": {
+        "distant": "whole source resized to [0,0,W,round(.38H)]",
+        "ground": "whole independent source resized W,H; alpha horizon y/H=.337+.009*sin(2*pi*x/W+.3)",
+        "foreground": {
+          "source_alpha_crop_px": [
+            483,
+            30,
+            786,
+            1229
+          ],
+          "bounds_threshold": "alpha > 1; faint alpha=1 dust outside silhouette excluded by crop only; retained pixels keep original alpha",
+          "placements_px": [
+            [
+              0,
+              1175,
+              82,
+              1557
+            ],
+            [
+              1966,
+              1175,
+              82,
+              1557
+            ]
+          ],
+          "right": "mirrored left source, same logical edge layer",
+          "crop": "Artwork intentionally reaches canvas edge; alpha bbox crop removes only transparent padding. No semantic crop."
+        }
+      },
+      "files": {
+        "editable.ora": "2a04110956371c222c4fa87fcb31092edc7372964ed13b495ada1bfaeeb23c54",
+        "composite.png": "1086bffc0a39cb3895b98b18674b138a6be808e3b3fc41b24cb6e717b6e8a66e",
+        "distant.png": "61107164f80dcead3bf12c5ce59f4fa4db54404f1064bdcbe99ed84048024783",
+        "ground.png": "8af5d433b46b0ebc3638c662ae67bf6c21112574184246f6c2af3bc205d8d659",
+        "foreground.png": "eed9816b1a6527b88404867c5981faaf86525bf36185922c47ae06f7b1c9b88b"
+      }
+    },
+    {
+      "asset_id": "ENV-02",
+      "orientation": "landscape",
+      "take_id": "take-02",
+      "canvas_px": [
+        2732,
+        2048
+      ],
+      "origin_px": [
+        0,
+        0
+      ],
+      "z_order": {
+        "distant": 0,
+        "ground": 10,
+        "foreground": 60
+      },
+      "sources": {
+        "distant": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/recovered-distant-original.png",
+          "sha256": "df008ce8e79659baea6675902ad92806844777f261776426087618de156da7f6",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "ground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/ground-original.png",
+          "sha256": "58efe265eae4fcf55aab7249780dc03efcd8b0d877f9a6240ca00da17ff1a089",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "foreground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/foreground-original.png",
+          "sha256": "38ea67e8c48d723e22a02d060dd46567a0e05f51c2f614a7f4a828bc43383947",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        }
+      },
+      "registration": {
+        "distant": "whole source resized to [0,0,W,round(.38H)]",
+        "ground": "whole independent source resized W,H; alpha horizon y/H=.337+.009*sin(2*pi*x/W+.3)",
+        "foreground": {
+          "source_alpha_crop_px": [
+            489,
+            42,
+            777,
+            1221
+          ],
+          "bounds_threshold": "alpha > 1; faint alpha=1 dust outside silhouette excluded by crop only; retained pixels keep original alpha",
+          "placements_px": [
+            [
+              0,
+              881,
+              109,
+              1167
+            ],
+            [
+              2623,
+              881,
+              109,
+              1167
+            ]
+          ],
+          "right": "mirrored left source, same logical edge layer",
+          "crop": "Artwork intentionally reaches canvas edge; alpha bbox crop removes only transparent padding. No semantic crop."
+        }
+      },
+      "files": {
+        "editable.ora": "a02e2ee8c760d469a540f67eddfd6ad49110c64b3f445cf6d12dc3676bf0ebc9",
+        "composite.png": "7fea1c0cc80fba272dd1543d841b09086c1544d4a29b86976290c17b19771be2",
+        "distant.png": "4b08407acc349b66c4901351d2dba9e11f76339b98f722650416339d32115eec",
+        "ground.png": "7882ec18ed6c8d83494c533c6df82a4b8cb943dea3aad93647e13a72673c20f7",
+        "foreground.png": "f25f703631d9b76d00c2d4f0601b3eab47d84e0349c0c1a589bd093e1bed2975"
+      }
+    },
+    {
+      "asset_id": "ENV-02",
+      "orientation": "portrait",
+      "take_id": "take-02",
+      "canvas_px": [
+        2048,
+        2732
+      ],
+      "origin_px": [
+        0,
+        0
+      ],
+      "z_order": {
+        "distant": 0,
+        "ground": 10,
+        "foreground": 60
+      },
+      "sources": {
+        "distant": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/recovered-distant-original.png",
+          "sha256": "df008ce8e79659baea6675902ad92806844777f261776426087618de156da7f6",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "ground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/ground-original.png",
+          "sha256": "58efe265eae4fcf55aab7249780dc03efcd8b0d877f9a6240ca00da17ff1a089",
+          "dimensions": [
+            1536,
+            1024
+          ]
+        },
+        "foreground": {
+          "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/foreground-original.png",
+          "sha256": "38ea67e8c48d723e22a02d060dd46567a0e05f51c2f614a7f4a828bc43383947",
+          "dimensions": [
+            1254,
+            1254
+          ]
+        }
+      },
+      "registration": {
+        "distant": "whole source resized to [0,0,W,round(.38H)]",
+        "ground": "whole independent source resized W,H; alpha horizon y/H=.337+.009*sin(2*pi*x/W+.3)",
+        "foreground": {
+          "source_alpha_crop_px": [
+            489,
+            42,
+            777,
+            1221
+          ],
+          "bounds_threshold": "alpha > 1; faint alpha=1 dust outside silhouette excluded by crop only; retained pixels keep original alpha",
+          "placements_px": [
+            [
+              0,
+              1175,
+              82,
+              1557
+            ],
+            [
+              1966,
+              1175,
+              82,
+              1557
+            ]
+          ],
+          "right": "mirrored left source, same logical edge layer",
+          "crop": "Artwork intentionally reaches canvas edge; alpha bbox crop removes only transparent padding. No semantic crop."
+        }
+      },
+      "files": {
+        "editable.ora": "aed42bcee070937f9e97a5057ba30e14fd1e1e1031b3c41d739aebef74ffd9b3",
+        "composite.png": "3f1c706e2555e749985831c9c0dc9a1a96d23f889d7b1c886ebd0719e34ac39f",
+        "distant.png": "94f5bce1f5a367ad3eccf3f302193b0ead2314cffaa5e67de0604dfa1a8e51dc",
+        "ground.png": "431d80da40b9b20e07fdf4cb41e73cdb898793de87dd345e7533a34a33bfdd00",
+        "foreground.png": "a52d9f153c926ee6704916632e18d0ac99337c7c33b185ceb2a8b7c5738d99ff"
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "command": "python3 assets/production/picnic-v1/metadata/world-brand-build.py",
+  "compared_files": 16,
+  "changed_files": [],
+  "sha256": {
+    "masters/images/BRAND-01/take-01/branding-sheet.png": "48194fd681feb796ec1e0f85cf108a8ba147d5d6b61ef4e423cd3d61232a623f",
+    "masters/images/BRAND-01/take-01/source/OFL-1.1.txt": "a1d9cc536b8327829aaaeb6957bb105d6926b0a45766050257c1461ac519b575",
+    "masters/images/BRAND-01/take-01/source/Rubik-Bold.ttf": "b1c36dfcbc5fe5011c552c76725c84d989a71d56440e8bfbfa0cb68b593dbad6",
+    "masters/images/BRAND-01/take-01/source/source-license-excerpt.txt": "91ad768ed61f5371669e0be2a12b1fcffe84d839d3ba2159d46504843262f544",
+    "masters/images/BRAND-01/take-01/wordmark-1100.png": "3f0bcddcd5f6e03818cf2fd8f9f0a39f18cf9d7287b3329f3bdd0c0787a158df",
+    "masters/images/BRAND-01/take-01/wordmark-240.png": "5c86efb105eddff52d243b3c2273e5e22303008cfe3e9c6a1d29adf166ac2d9b",
+    "masters/images/BRAND-01/take-01/wordmark-360.png": "888672f8d07ef608668f41519e7b23fa992d8ba8a401c2b93003783029d8cfe2",
+    "masters/images/BRAND-01/take-01/wordmark-720.png": "4b28cbbeff3a8d29be66fb0807445e98c22d67833d4051d7e3efefd0efdc5828",
+    "masters/images/BRAND-01/take-01/wordmark-editable.svg": "e47f11ebcfe247074112831d63231b5f01973d17ca27fe6d2060178ffe6f0aad",
+    "masters/images/BRAND-02/take-01/icon-1024.png": "1c354f164523c06f87795c6f5ed34db7aedd3b8098a1b46f001171b17627801f",
+    "masters/images/BRAND-02/take-01/icon-128.png": "983e28994bca237b4ffbe2f7dd8a30bf397e2f5ffb017c7eead02d4f2d745c28",
+    "masters/images/BRAND-02/take-01/icon-16.png": "c53b9cf9250f77bf663f8664a207d54892a85e46eddded8730b72c443e95e813",
+    "masters/images/BRAND-02/take-01/icon-32.png": "e0a8a24ddb194b4361f3f1a803fda2127223296514b56f6aaf5a36e47693e8bc",
+    "masters/images/BRAND-02/take-01/icon-64.png": "ca4ffaf57a4ecefcfdcf8b15881b487f1b2b5647043705e68210bb48f65cd4b7",
+    "masters/images/BRAND-02/take-01/icon-small-size-sheet.png": "1ffd6422e2749bfab878d146f146775282372f3f56daa90cc0ee72e6728835e7",
+    "masters/images/BRAND-02/take-01/recovered-icon-original.png": "1a6ea126084e074f33d1d6c5446ad5d134143e0598d9c55c0050f6a0cdbfb888"
+  },
+  "technical_repair": "Removed an extra trailing blank line from derived license excerpt; font binary and complete OFL text unchanged."
+}

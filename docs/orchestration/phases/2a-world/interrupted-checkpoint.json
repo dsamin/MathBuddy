@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-04",
+  "status": "interrupted-work-backup",
+  "sources": [
+    {
+      "asset_id": "ENV-01",
+      "role": "distant",
+      "status": "interrupted-unreviewed-source-only",
+      "source_thread": "01a10777-964b-7380-ad50-122d3de368d8",
+      "generation_call": "exec-303d2b03-6259-40d1-9f3f-f61054027d03",
+      "original_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-303d2b03-6259-40d1-9f3f-f61054027d03.png",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/recovered-distant-original.png",
+      "sha256": "41091921546d973c23ee0b80a5bfb41b32be566feb4514cbb07911fdba8c1040",
+      "bytes": 1178630,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_path": "assets/production/picnic-v1/prompts/world-ENV-01-distant-take-01.txt",
+      "prompt_sha256": "77802fe31e8145ebb8c1efa27f0eb0a12f9f099be0c45b284faf0b838da1fef6",
+      "request": {
+        "prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Picnic distant scenery: wide landscape, opaque pale blue sky across entire canvas. A continuous soft desaturated blue-green hill silhouette restricted to bottommost 20 percent, very low contrast, no standalone trees or little bushes, no sun disc, no individual clouds. Top 80 percent a quiet pale sky. This is ONLY distant sky/hills, no ground or foreground.\n",
+        "referenced_image_paths": [
+          "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        ],
+        "transparent_background": false
+      },
+      "request_provenance": "Reconstructed from recorded generation loop and exact prompt file; not a pre-saved per-call request. Completed generation confirmed in phase session.",
+      "provider": "built-in imagegen; model not exposed",
+      "review": "Decode and byte equality only; no art, content, rights or delivery acceptance."
+    },
+    {
+      "asset_id": "ENV-02",
+      "role": "distant",
+      "status": "interrupted-unreviewed-source-only",
+      "source_thread": "01a10777-964b-7380-ad50-122d3de368d8",
+      "generation_call": "exec-0c760793-9487-4620-83b1-d3d2d00d3246",
+      "original_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-0c760793-9487-4620-83b1-d3d2d00d3246.png",
+      "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/recovered-distant-original.png",
+      "sha256": "df008ce8e79659baea6675902ad92806844777f261776426087618de156da7f6",
+      "bytes": 1159707,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "prompt_path": "assets/production/picnic-v1/prompts/world-ENV-02-distant-take-01.txt",
+      "prompt_sha256": "bdebae928a71c8c3684b9163622ba83472fc24b6234915fd3ff01ebc8d9803bf",
+      "request": {
+        "prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden distant scenery: wide landscape, opaque pale blue sky across entire canvas. Continuous gentle sage and muted teal rolling distant canopy silhouette restricted to bottommost 20 percent, no individual trees, clouds, sun disc, flowers, fences. Top 80 percent quiet pale sky. This is ONLY distant sky/canopy, no ground or foreground.\n",
+        "referenced_image_paths": [
+          "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        ],
+        "transparent_background": false
+      },
+      "request_provenance": "Reconstructed from recorded generation loop and exact prompt file; not a pre-saved per-call request. Completed generation confirmed in phase session.",
+      "provider": "built-in imagegen; model not exposed",
+      "review": "Decode and byte equality only; no art, content, rights or delivery acceptance."
+    },
+    {
+      "asset_id": "BRAND-02",
+      "role": "icon",
+      "status": "interrupted-unreviewed-source-only",
+      "source_thread": "01a10778-8be0-7e22-9837-1ef73ca7cfbe",
+      "generation_call": "exec-e93a9bee-7bc2-40f0-a5e3-118cd304c42c",
+      "original_path": "/Users/devan/.codex/generated_images/01a10778-8be0-7e22-9837-1ef73ca7cfbe/exec-e93a9bee-7bc2-40f0-a5e3-118cd304c42c.png",
+      "preserved_path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/recovered-icon-original.png",
+      "sha256": "1a6ea126084e074f33d1d6c5446ad5d134143e0598d9c55c0050f6a0cdbfb888",
+      "bytes": 1783279,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "prompt_path": "assets/production/picnic-v1/prompts/world-brand-icon-take-01.txt",
+      "prompt_sha256": "d1e3f21897dbf0db2f0336d08f94683494ad8667f5311e7a24c3ba3c2099d8f8",
+      "request": {
+        "prompt": "Use case: logo-brand. Asset type: provisional Pip\u2019s Picnic app icon candidate. Create a fully opaque unmasked square 1024\u00d71024 illustration, no rounded corners or border. Image 1 is the approved Pip identity reference: preserve the cream bunny's face, black oval eyes, tiny orange nose and warm small smile, pink inner ears and cheeks, green triangular scarf, with both ears unbent and matching the approved construction. Image 2 is approved Direction B style reference only; do not reproduce its UI or collage. Draw Pip as a large centered head-and-shoulders portrait occupying most of the square: entire long ears visible with comfortable margin, cheeks and scarf prominent. Warm clean soft-shape storybook illustration with gently textured cream shading. Behind Pip, simple muted sage-green full-bleed backdrop with subtle lighter warm glow; keep silhouette strongly distinct. No text, lettering, numerals, math fruit, props, basket, garden toys, UI controls, gesture, platform mask, shadows outside the square or transparency. Calm welcoming expression. Preserve reference identity rather than inventing a new character.",
+        "referenced_image_paths": [
+          "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/PIP-01/take-01/aligned-review.png",
+          "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+        ],
+        "transparent_background": false
+      },
+      "request_provenance": "Exact saved request; completed generation confirmed in child session.",
+      "provider": "built-in imagegen; model not exposed",
+      "review": "Decode and byte equality only; no art, content, rights or delivery acceptance."
+    }
+  ],
+  "missing": [
+    "Remaining environment sources and 12 registered delivery layers",
+    "Editable composition and layer verification",
+    "Wordmark/name decision and final icon exports",
+    "Complete review packet and human acceptance"
+  ]
+}

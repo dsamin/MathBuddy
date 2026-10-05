@@ -1,0 +1,1085 @@
+{
+  "scope_base": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
+  "status": "complete-owned-path-inventory",
+  "paths": [
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/branding-sheet.png",
+      "sha256": "48194fd681feb796ec1e0f85cf108a8ba147d5d6b61ef4e423cd3d61232a623f",
+      "bytes": 262500
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/source/OFL-1.1.txt",
+      "sha256": "a1d9cc536b8327829aaaeb6957bb105d6926b0a45766050257c1461ac519b575",
+      "bytes": 4228
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/source/Rubik-Bold.ttf",
+      "sha256": "b1c36dfcbc5fe5011c552c76725c84d989a71d56440e8bfbfa0cb68b593dbad6",
+      "bytes": 140396
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/source/source-license-excerpt.txt",
+      "sha256": "91ad768ed61f5371669e0be2a12b1fcffe84d839d3ba2159d46504843262f544",
+      "bytes": 508
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/wordmark-1100.png",
+      "sha256": "3f0bcddcd5f6e03818cf2fd8f9f0a39f18cf9d7287b3329f3bdd0c0787a158df",
+      "bytes": 9614
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/wordmark-240.png",
+      "sha256": "5c86efb105eddff52d243b3c2273e5e22303008cfe3e9c6a1d29adf166ac2d9b",
+      "bytes": 1885
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/wordmark-360.png",
+      "sha256": "888672f8d07ef608668f41519e7b23fa992d8ba8a401c2b93003783029d8cfe2",
+      "bytes": 2898
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/wordmark-720.png",
+      "sha256": "4b28cbbeff3a8d29be66fb0807445e98c22d67833d4051d7e3efefd0efdc5828",
+      "bytes": 5912
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-01/take-01/wordmark-editable.svg",
+      "sha256": "e47f11ebcfe247074112831d63231b5f01973d17ca27fe6d2060178ffe6f0aad",
+      "bytes": 187624
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-1024.png",
+      "sha256": "1c354f164523c06f87795c6f5ed34db7aedd3b8098a1b46f001171b17627801f",
+      "bytes": 1225131
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-128.png",
+      "sha256": "983e28994bca237b4ffbe2f7dd8a30bf397e2f5ffb017c7eead02d4f2d745c28",
+      "bytes": 21504
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-16.png",
+      "sha256": "c53b9cf9250f77bf663f8664a207d54892a85e46eddded8730b72c443e95e813",
+      "bytes": 709
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-32.png",
+      "sha256": "e0a8a24ddb194b4361f3f1a803fda2127223296514b56f6aaf5a36e47693e8bc",
+      "bytes": 2122
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-64.png",
+      "sha256": "ca4ffaf57a4ecefcfdcf8b15881b487f1b2b5647043705e68210bb48f65cd4b7",
+      "bytes": 6705
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/icon-small-size-sheet.png",
+      "sha256": "1ffd6422e2749bfab878d146f146775282372f3f56daa90cc0ee72e6728835e7",
+      "bytes": 90980
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/BRAND-02/take-01/recovered-icon-original.png",
+      "sha256": "1a6ea126084e074f33d1d6c5446ad5d134143e0598d9c55c0050f6a0cdbfb888",
+      "bytes": 1783279
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/foreground-original.png",
+      "sha256": "c841a2bf660ec38fe332da539abe0a3173f3a9f00e0ada49e193493e72e9870b",
+      "bytes": 529770
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/ground-original.png",
+      "sha256": "b7484780020f4cfc702c3ba44a9d580591e9fd661ce7dd036d0b570521266549",
+      "bytes": 2003742
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/landscape/composite.png",
+      "sha256": "6f90581e6cfade66c851ab30782421cd94a5e4f56c050053ddf04afabc21ce38",
+      "bytes": 4611754
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/landscape/distant.png",
+      "sha256": "0b35bb7f745d56408b5a55885390d5a4946745e4afb61dbc75013e6af8940c48",
+      "bytes": 1050736
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/landscape/editable.ora",
+      "sha256": "2baaee74d641643b4f2c26fc03f4be1f8cf4e0a9b5d5e59d3bdef4878bf0fb90",
+      "bytes": 11552125
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/landscape/foreground.png",
+      "sha256": "05cf5086e0c67de6836e6e926db5fa71660db4ee1159f439d363fb0b14457bc8",
+      "bytes": 364086
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/landscape/ground.png",
+      "sha256": "4af33cb8318b07c30a11ffcb3beec26e28b0b72258a029bbf80d150a331f1411",
+      "bytes": 5512418
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/portrait/composite.png",
+      "sha256": "19e3c09cd1af13cd4a55eb29468538371d45ac5f6da81f6077a0832ef3e4998a",
+      "bytes": 4372351
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/portrait/distant.png",
+      "sha256": "61107164f80dcead3bf12c5ce59f4fa4db54404f1064bdcbe99ed84048024783",
+      "bytes": 1182143
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/portrait/editable.ora",
+      "sha256": "a7ee606acd8ac8bfc31c47db68e97adc44fefc1cfb4644286aaf2994e03279c6",
+      "bytes": 11018594
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/portrait/foreground.png",
+      "sha256": "83ff54034004b99162417baeb09b4bfc15a7a23c0a6f785713f875d3bd9637c0",
+      "bytes": 332706
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/portrait/ground.png",
+      "sha256": "8af5d433b46b0ebc3638c662ae67bf6c21112574184246f6c2af3bc205d8d659",
+      "bytes": 5072689
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/recovered-distant-original.png",
+      "sha256": "41091921546d973c23ee0b80a5bfb41b32be566feb4514cbb07911fdba8c1040",
+      "bytes": 1178630
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/foreground-original.png",
+      "sha256": "ea84ac7685faee07849b0e12a490668b8abada370c10fb09e7dedc4c5f131926",
+      "bytes": 484575
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/landscape/composite.png",
+      "sha256": "10bbdee46409ccc6eb493e6339329882e4ca4f3c7cc0b93a5ce8caabae3d5b3e",
+      "bytes": 4627087
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/landscape/distant.png",
+      "sha256": "0b35bb7f745d56408b5a55885390d5a4946745e4afb61dbc75013e6af8940c48",
+      "bytes": 1050736
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/landscape/editable.ora",
+      "sha256": "e3749d9efca3747a38f8e13c85315675cfeb82f51d8f9242e11c501a61d0c494",
+      "bytes": 11567698
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/landscape/foreground.png",
+      "sha256": "5aedbdf0c7074c8f259707f9905aa0227c45c98d387226ae0928e5813a3f6f68",
+      "bytes": 368639
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/landscape/ground.png",
+      "sha256": "4af33cb8318b07c30a11ffcb3beec26e28b0b72258a029bbf80d150a331f1411",
+      "bytes": 5512418
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/portrait/composite.png",
+      "sha256": "1086bffc0a39cb3895b98b18674b138a6be808e3b3fc41b24cb6e717b6e8a66e",
+      "bytes": 4380010
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/portrait/distant.png",
+      "sha256": "61107164f80dcead3bf12c5ce59f4fa4db54404f1064bdcbe99ed84048024783",
+      "bytes": 1182143
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/portrait/editable.ora",
+      "sha256": "2a04110956371c222c4fa87fcb31092edc7372964ed13b495ada1bfaeeb23c54",
+      "bytes": 11029989
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/portrait/foreground.png",
+      "sha256": "eed9816b1a6527b88404867c5981faaf86525bf36185922c47ae06f7b1c9b88b",
+      "bytes": 337746
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/portrait/ground.png",
+      "sha256": "8af5d433b46b0ebc3638c662ae67bf6c21112574184246f6c2af3bc205d8d659",
+      "bytes": 5072689
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png",
+      "sha256": "86e30b6eaf8612bc95938a4082d66b1bb22be2a78b47b19a55c3a601d8f39285",
+      "bytes": 597164
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/ground-original.png",
+      "sha256": "58efe265eae4fcf55aab7249780dc03efcd8b0d877f9a6240ca00da17ff1a089",
+      "bytes": 1741807
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/landscape/composite.png",
+      "sha256": "a536442676dbb2b19ddda59a2f74eb9df42be5be8de0054d8ee04c8d44d41bda",
+      "bytes": 3879218
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/landscape/distant.png",
+      "sha256": "4b08407acc349b66c4901351d2dba9e11f76339b98f722650416339d32115eec",
+      "bytes": 1016308
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/landscape/editable.ora",
+      "sha256": "b2016af59a641b65ec3c39bfc453ad2a76161fd16852892dec69fc68e9fe5394",
+      "bytes": 9575187
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/landscape/foreground.png",
+      "sha256": "a88a676bc67d831036f73834be41b0599382915291b0f4bbc8184d3ad4896165",
+      "bytes": 389712
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/landscape/ground.png",
+      "sha256": "7882ec18ed6c8d83494c533c6df82a4b8cb943dea3aad93647e13a72673c20f7",
+      "bytes": 4278605
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/portrait/composite.png",
+      "sha256": "92d7914c85ce9d082166cf84384e76f540a1776a6400dbd5eee98c3199957811",
+      "bytes": 3745260
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/portrait/distant.png",
+      "sha256": "94f5bce1f5a367ad3eccf3f302193b0ead2314cffaa5e67de0604dfa1a8e51dc",
+      "bytes": 1146627
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/portrait/editable.ora",
+      "sha256": "9c1b7f766819537199ff52e2ff557406d617607642f809e2ce64d118c4f6d018",
+      "bytes": 9348496
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/portrait/foreground.png",
+      "sha256": "f825dd3c611950c39d24d7b3854b0eda61aefaa9b04b824ff5e65032e850b6cd",
+      "bytes": 356477
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/portrait/ground.png",
+      "sha256": "431d80da40b9b20e07fdf4cb41e73cdb898793de87dd345e7533a34a33bfdd00",
+      "bytes": 4045187
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/recovered-distant-original.png",
+      "sha256": "df008ce8e79659baea6675902ad92806844777f261776426087618de156da7f6",
+      "bytes": 1159707
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/foreground-original.png",
+      "sha256": "38ea67e8c48d723e22a02d060dd46567a0e05f51c2f614a7f4a828bc43383947",
+      "bytes": 499453
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/landscape/composite.png",
+      "sha256": "7fea1c0cc80fba272dd1543d841b09086c1544d4a29b86976290c17b19771be2",
+      "bytes": 3898864
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/landscape/distant.png",
+      "sha256": "4b08407acc349b66c4901351d2dba9e11f76339b98f722650416339d32115eec",
+      "bytes": 1016308
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/landscape/editable.ora",
+      "sha256": "a02e2ee8c760d469a540f67eddfd6ad49110c64b3f445cf6d12dc3676bf0ebc9",
+      "bytes": 9593990
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/landscape/foreground.png",
+      "sha256": "f25f703631d9b76d00c2d4f0601b3eab47d84e0349c0c1a589bd093e1bed2975",
+      "bytes": 392169
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/landscape/ground.png",
+      "sha256": "7882ec18ed6c8d83494c533c6df82a4b8cb943dea3aad93647e13a72673c20f7",
+      "bytes": 4278605
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/portrait/composite.png",
+      "sha256": "3f1c706e2555e749985831c9c0dc9a1a96d23f889d7b1c886ebd0719e34ac39f",
+      "bytes": 3762334
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/portrait/distant.png",
+      "sha256": "94f5bce1f5a367ad3eccf3f302193b0ead2314cffaa5e67de0604dfa1a8e51dc",
+      "bytes": 1146627
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/portrait/editable.ora",
+      "sha256": "aed42bcee070937f9e97a5057ba30e14fd1e1e1031b3c41d739aebef74ffd9b3",
+      "bytes": 9366341
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/portrait/foreground.png",
+      "sha256": "a52d9f153c926ee6704916632e18d0ac99337c7c33b185ceb2a8b7c5738d99ff",
+      "bytes": 358243
+    },
+    {
+      "path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/portrait/ground.png",
+      "sha256": "431d80da40b9b20e07fdf4cb41e73cdb898793de87dd345e7533a34a33bfdd00",
+      "bytes": 4045187
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-audit-take-01.json",
+      "sha256": "f051e23f89ebe891344849ee4073d71bc3ba33accfac99c23c6faa2dd997354d",
+      "bytes": 22994
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-audit.json",
+      "sha256": "2d46969eb89ffb3890dcc53178e0e5f6710572e23b86d44a8fd66b455d7dba77",
+      "bytes": 23134
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-brand-build.py",
+      "sha256": "dec07d233be6f89cbc999c83344f8a91b5ab62d4a137bcfee76356a3bd1b3e19",
+      "bytes": 5487
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-brand-file-audit.json",
+      "sha256": "aa8fc9beff0b2658b34f06fe31172bc0486f1a01169188ff9d02d18ca915c8d4",
+      "bytes": 3278
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-brand-validation.json",
+      "sha256": "7199a2823bf123d12ae9e4387fac44f81abf8f792fdb39d0a4304144c36828e7",
+      "bytes": 505
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-brand-wordmark-recipe.json",
+      "sha256": "c590df1af7afcaa4d6534d480ad2bc79fc26b630747f88184d7c031bafa68b89",
+      "bytes": 2112
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-foreground-repair-provenance.json",
+      "sha256": "7cb09fbd1e2735ded89bc3edc57f2165a2f41a05728c8ab43d1e3734208063c4",
+      "bytes": 1557
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-new-generation-provenance.json",
+      "sha256": "449df45df602d79e3f96d346b46354c4fa63da925b10a1cacfd0131c75668107",
+      "bytes": 3019
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-provenance.json",
+      "sha256": "ac1c503ff612a4cb85645641fd17cccf2f245dd8f48c3a513ad2495e99a051e4",
+      "bytes": 24121
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-registration-take-01.json",
+      "sha256": "e9d83761cc54a9e431ecaeda66c2f85a6f7492fe5a6f2e15b60bfeffecfe3945",
+      "bytes": 10878
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-registration.json",
+      "sha256": "2a1fceafdbe429250aad3c0149f1b074a81995aae8003be01976cf1a3b2a36c0",
+      "bytes": 11002
+    },
+    {
+      "path": "assets/production/picnic-v1/metadata/world-safe-regions.json",
+      "sha256": "582da03ccdd95429176c445edea31e7dedc705fb62accc4671a9bbdb8977caa0",
+      "bytes": 26602
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-01-distant-take-01.txt",
+      "sha256": "77802fe31e8145ebb8c1efa27f0eb0a12f9f099be0c45b284faf0b838da1fef6",
+      "bytes": 1092
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-01-foreground-take-01.txt",
+      "sha256": "7fa8fb395b93f6e22a5afcbbf8c7c5a5cd8568c5b6b71bd0a1e49af8740ad259",
+      "bytes": 1294
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-01-foreground-take-02.txt",
+      "sha256": "3dce18eae950d9419e3df6c28ebef5bef4929b97b7979dd14436eb44b339e36c",
+      "bytes": 853
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-01-ground-take-01.txt",
+      "sha256": "838462d3f4069312fefd9336074d8b0207086fdd755a448d5a7bf25d961ee0eb",
+      "bytes": 1047
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-02-distant-take-01.txt",
+      "sha256": "bdebae928a71c8c3684b9163622ba83472fc24b6234915fd3ff01ebc8d9803bf",
+      "bytes": 1070
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-02-foreground-take-01.txt",
+      "sha256": "a357ead196d297a3cdadae0ea17dd14f3eab23c5039386a5e53b6a84e522e7ec",
+      "bytes": 1269
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-02-foreground-take-02.txt",
+      "sha256": "11fed1ac95763c96303a2667ffdb683524e73486dc1112d7ec8d8c7e39909260",
+      "bytes": 853
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-ENV-02-ground-take-01.txt",
+      "sha256": "3292726841d1f7c4299f8159f9a9efffc8e663be25377d62c752c3b9fcd5e9b0",
+      "bytes": 1000
+    },
+    {
+      "path": "assets/production/picnic-v1/prompts/world-brand-icon-take-01.txt",
+      "sha256": "d1e3f21897dbf0db2f0336d08f94683494ad8667f5311e7a24c3ba3c2099d8f8",
+      "bytes": 1128
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-01-distant-take-01.json",
+      "sha256": "a9671f322f322486afd3e394a58cc1bd9e4eabbdf85175d979f311596645ebd1",
+      "bytes": 1310
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-01.json",
+      "sha256": "50d106ee6f50758f2cffbf93bc54e45e70936baa1df416097c9476e00a64fd8b",
+      "bytes": 1511
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-02.json",
+      "sha256": "52db8dd5d2af6d850d8f9f2df14d85ea8ab60e5f696ee9ea235e774b869f9427",
+      "bytes": 1073
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-01-ground-take-01.json",
+      "sha256": "629ddd0b0722d5afab20774aa44e51659c7fa5ed6dde5c4956dd59a33d1cb2a7",
+      "bytes": 1265
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-02-distant-take-01.json",
+      "sha256": "93aaa71735acd316167bc62eebfe1d14bb4ae17a6c87cf1a6d39198ef7f14f8e",
+      "bytes": 1288
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-01.json",
+      "sha256": "c0a0cc57047dfb6d4c12617e468b87dc84d591710dcf37967ed8e84dcf54cfdb",
+      "bytes": 1486
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-02.json",
+      "sha256": "5240f1fe0aed6e6c0c089ef98d8549515ae60bfffec6b5a937fd2974e03a6f7b",
+      "bytes": 1073
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-ENV-02-ground-take-01.json",
+      "sha256": "b28fe792ed7493ea5c239597c846551d7258f67b354f11ad3c248d7adbe3d4ca",
+      "bytes": 1218
+    },
+    {
+      "path": "assets/production/picnic-v1/requests/world-brand-icon-take-01.json",
+      "sha256": "613207b17637f884d90c626b56d2874810f4095403de6a9a500b1351c1e3e759",
+      "bytes": 1469
+    },
+    {
+      "path": "assets/production/picnic-v1/review/contact-sheets/world-branding-overview.png",
+      "sha256": "37b4763e654e11dad524b89d90afe26e426660496e8d092b590b261803ecbd85",
+      "bytes": 1034827
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "6488b0e9dec1bb45a8f6e798be1d4b689a4c6861d1a35f459d26929f11c9bfd4",
+      "bytes": 127294
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-COUNT-legend.json",
+      "sha256": "378c04067b4fe8a159e2c2ff078c87a3fa89d8dbcc4eef33b9a389e908abef73",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "e951369724f8ae2f44bdaeca7490d0ed737d59f27831dafdcaf8801c51109936",
+      "bytes": 130780
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-JOIN-legend.json",
+      "sha256": "d066bd655e516d900d28f720cbf76d1c3adf3536b79fe14734aa186b46308718",
+      "bytes": 1087
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "6488b0e9dec1bb45a8f6e798be1d4b689a4c6861d1a35f459d26929f11c9bfd4",
+      "bytes": 127294
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-LAYOUT-TAKE-legend.json",
+      "sha256": "d7412fa99aa69c9141e007016a6f6fc825755a1817829d3677302f3bdf308c00",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-clean.jpg",
+      "sha256": "b6d7263315ef9c97a2566675fcd26e9c417e35cf5387f2f2bfe3b64eb16014c3",
+      "bytes": 108392
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-exploded.png",
+      "sha256": "6684f366fd22ab0f556a136e23874c94ca384f24eba9a44e997a7898c94babb0",
+      "bytes": 254312
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-garden-clearance.jpg",
+      "sha256": "bee3aed46d4e43256e58be0b4a504e8cc9ad23eadf4d0e53101ec7679f6ffc32",
+      "bytes": 139291
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-union-clearance.jpg",
+      "sha256": "0294fb6f6e392e15c6c5b88d77184c7fbd925f443e87ff68c46f095695d6d48e",
+      "bytes": 152470
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-landscape-union-legend.json",
+      "sha256": "85613363d6acb615b1bf94fc9dfe03b37959bc68ba17cc27ed14813715f3d6be",
+      "bytes": 2532
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "ccb5f0cecf50c856fe5b741e311088037896fe3a237fd5cf77acfbf9b5ee8a9b",
+      "bytes": 199973
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-COUNT-legend.json",
+      "sha256": "d7f737ee9d28bf93345a4e30ddce7fd9d3530f3de8f9a4bf3b72f9c6311c26ed",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "02b786b07b09b55c31af1ae3ab65358d6cf7c4c99aaef20683d235044a6c2b3c",
+      "bytes": 200925
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-JOIN-legend.json",
+      "sha256": "55afe9f2eaafde03d18541852f70278573c9895e6c07434c7dac35f8689f16d3",
+      "bytes": 1086
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "ccb5f0cecf50c856fe5b741e311088037896fe3a237fd5cf77acfbf9b5ee8a9b",
+      "bytes": 199973
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-LAYOUT-TAKE-legend.json",
+      "sha256": "e3f1550eaf6f857c199429b1494c0e9c15d1f650bdd7c8e8a25153fc9fb85b9f",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-clean.jpg",
+      "sha256": "8c802bbfc84fdc67994ef783be4a025bc4b98fdf3707cc484d68f6d9f2a5d4a4",
+      "bytes": 184117
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-exploded.png",
+      "sha256": "4495c7874216532af52dc32324d58a09ba30a85bc67820b0b4ab9bb0f270a72a",
+      "bytes": 430683
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-garden-clearance.jpg",
+      "sha256": "fb82fd287e827ce31dbc08c094e959b4fbcb557eae584c1ebabbeea399911d8b",
+      "bytes": 210313
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-union-clearance.jpg",
+      "sha256": "e71df09fecc2560575beab7808aa3560ab69d55b942a4bc813a19ca06cde56f6",
+      "bytes": 227004
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-01-portrait-union-legend.json",
+      "sha256": "d9c83a734bab10edaa9ff54aa77579d2bf6074e4c83a71ce70aff699c6b6d9ef",
+      "bytes": 2531
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "7af77684936c948a848e1a38c083bafda74a363ccbf1c33a7d1a84d360c7e15b",
+      "bytes": 118646
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-COUNT-legend.json",
+      "sha256": "378c04067b4fe8a159e2c2ff078c87a3fa89d8dbcc4eef33b9a389e908abef73",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "c91d2663ef61dfb0c9af81c9f3e95b887be88fdacd195ce47ae3df6c8ff09d1f",
+      "bytes": 122221
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-JOIN-legend.json",
+      "sha256": "d066bd655e516d900d28f720cbf76d1c3adf3536b79fe14734aa186b46308718",
+      "bytes": 1087
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "7af77684936c948a848e1a38c083bafda74a363ccbf1c33a7d1a84d360c7e15b",
+      "bytes": 118646
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-LAYOUT-TAKE-legend.json",
+      "sha256": "d7412fa99aa69c9141e007016a6f6fc825755a1817829d3677302f3bdf308c00",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-clean.jpg",
+      "sha256": "d82c2bb84c070ba7f235a8e789dea38faa75e3d7fcc84da1f0ed4baf86f8cdba",
+      "bytes": 97467
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-exploded.png",
+      "sha256": "8a2a02f080096560bec02494b6e0da145573ee00fddab2565492899603d31ae5",
+      "bytes": 243414
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-garden-clearance.jpg",
+      "sha256": "1a2414d9d82eb0b1904d4068d3781ff2f1d26877b1b1b0f111a8627e8fb5f22a",
+      "bytes": 130800
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-union-clearance.jpg",
+      "sha256": "9ad183bdf98b8d8a9ea2ca8e7450cb83428d8b47dd356a6ebedd47c60c991381",
+      "bytes": 144266
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-landscape-union-legend.json",
+      "sha256": "85613363d6acb615b1bf94fc9dfe03b37959bc68ba17cc27ed14813715f3d6be",
+      "bytes": 2532
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "12d09ca52f0d5310f5a330fd2d1670f686318f27c6a338631d8a7f895fe6fd95",
+      "bytes": 178041
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-COUNT-legend.json",
+      "sha256": "d7f737ee9d28bf93345a4e30ddce7fd9d3530f3de8f9a4bf3b72f9c6311c26ed",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "682058cbe8c2a314f79e07f183d4f9ac2ad59602c55235ab55343025ecceeb14",
+      "bytes": 179028
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-JOIN-legend.json",
+      "sha256": "55afe9f2eaafde03d18541852f70278573c9895e6c07434c7dac35f8689f16d3",
+      "bytes": 1086
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "12d09ca52f0d5310f5a330fd2d1670f686318f27c6a338631d8a7f895fe6fd95",
+      "bytes": 178041
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-LAYOUT-TAKE-legend.json",
+      "sha256": "e3f1550eaf6f857c199429b1494c0e9c15d1f650bdd7c8e8a25153fc9fb85b9f",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-clean.jpg",
+      "sha256": "f361ee81dcc68195ad855302bfd871583eca671cdac50d5d39dbc1d270418696",
+      "bytes": 157923
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-exploded.png",
+      "sha256": "c2a71e06eb0041e3b138f66732e1308e684bc5b76af164de4905d2030eeee152",
+      "bytes": 405712
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-garden-clearance.jpg",
+      "sha256": "a2c194b7b626f6b5cfe0d2008a9f2b4fcf22b720a80ff296d8a768d110ad1d05",
+      "bytes": 188685
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-union-clearance.jpg",
+      "sha256": "2f0684f5ab2bed05d422ce05cd14b999111075aae5ab7324ba6b79be64ffee8e",
+      "bytes": 206053
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/ENV-02-portrait-union-legend.json",
+      "sha256": "d9c83a734bab10edaa9ff54aa77579d2bf6074e4c83a71ce70aff699c6b6d9ef",
+      "bytes": 2531
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/gallery-branding-narrow.png",
+      "sha256": "01b0b7b045321c98c07bbe0a5652d564caee4e1d555f54af6f3a221ab25e5454",
+      "bytes": 52911
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/gallery-desktop.png",
+      "sha256": "be2edb4dd4d6cd46e83a2bde9be44ff82272a85e2488f52ff398f6bcbc7eed03",
+      "bytes": 44297
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/gallery-narrow.png",
+      "sha256": "6ae2297a6ada45e3a6daba142a741d8d0ad43fdea1bfe9dff4f4ba1eac71ea03",
+      "bytes": 40865
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/index.html",
+      "sha256": "85d1686e918c136ea08fd20224b56da707a8aa61ba35f44cf02a78eecf0a6379",
+      "bytes": 25895
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "3d559d8660b88a60d56e0606a80fe32ec5a82839e964f7186d934ebb44827a3d",
+      "bytes": 126686
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-COUNT-legend.json",
+      "sha256": "378c04067b4fe8a159e2c2ff078c87a3fa89d8dbcc4eef33b9a389e908abef73",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "d59c0cd4e579ef74df15be7313ea51a2cc18aa1efd4b70a565f46d88d1dda32c",
+      "bytes": 130208
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-JOIN-legend.json",
+      "sha256": "d066bd655e516d900d28f720cbf76d1c3adf3536b79fe14734aa186b46308718",
+      "bytes": 1087
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "3d559d8660b88a60d56e0606a80fe32ec5a82839e964f7186d934ebb44827a3d",
+      "bytes": 126686
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-LAYOUT-TAKE-legend.json",
+      "sha256": "d7412fa99aa69c9141e007016a6f6fc825755a1817829d3677302f3bdf308c00",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-clean.jpg",
+      "sha256": "c94cac1a5a69d5cab5af0b9477d1b8af1b9d7d15850a52add81a42edc8beb309",
+      "bytes": 107746
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-exploded.png",
+      "sha256": "137559e99d90514a26b3edf6a2d09ea81b7c4637b8e1e82975563a8dace1dfac",
+      "bytes": 253578
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-garden-clearance.jpg",
+      "sha256": "b9f64ec2ffd756050f702c8fbe46f1aebe95c96304d4e35c89fce221ae63dd82",
+      "bytes": 138669
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-union-clearance.jpg",
+      "sha256": "33d1c968eec1693712e576fccd67f4c035723b88f721a61bc5659cb121146411",
+      "bytes": 151865
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-landscape-union-legend.json",
+      "sha256": "85613363d6acb615b1bf94fc9dfe03b37959bc68ba17cc27ed14813715f3d6be",
+      "bytes": 2532
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "7ec465bbb4c08afd4f2f897c527dd8930e103a920ed74d1b33dedf53ee747dec",
+      "bytes": 199203
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-COUNT-legend.json",
+      "sha256": "d7f737ee9d28bf93345a4e30ddce7fd9d3530f3de8f9a4bf3b72f9c6311c26ed",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "672ef42b4583d3defa183108bcca56f5bd71379c750c7aacdfee8901b7fc358e",
+      "bytes": 200112
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-JOIN-legend.json",
+      "sha256": "55afe9f2eaafde03d18541852f70278573c9895e6c07434c7dac35f8689f16d3",
+      "bytes": 1086
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "7ec465bbb4c08afd4f2f897c527dd8930e103a920ed74d1b33dedf53ee747dec",
+      "bytes": 199203
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-LAYOUT-TAKE-legend.json",
+      "sha256": "e3f1550eaf6f857c199429b1494c0e9c15d1f650bdd7c8e8a25153fc9fb85b9f",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-clean.jpg",
+      "sha256": "029242a5388b79d3158b78d535b81d546349b16d6b60392cd5ddc341753265a9",
+      "bytes": 183256
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-exploded.png",
+      "sha256": "34cffb154b561945ab8f79585d1a8fb687002c7447008e1204e46be017a7df59",
+      "bytes": 429781
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-garden-clearance.jpg",
+      "sha256": "6b34aafd84adae584f943107dc743d2d5daec1e2ecd4625c77628ccdb2a8ceb7",
+      "bytes": 209527
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-union-clearance.jpg",
+      "sha256": "1de7a05823f8424d71c43c3462b7beb0b5c0faa30a1e3a9be82f789550a410a3",
+      "bytes": 226260
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-01-portrait-union-legend.json",
+      "sha256": "d9c83a734bab10edaa9ff54aa77579d2bf6074e4c83a71ce70aff699c6b6d9ef",
+      "bytes": 2531
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "6b39bb0139ce1ca90be779038dcc6c95eba8794adec65635f7d32469dafeb427",
+      "bytes": 117923
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-COUNT-legend.json",
+      "sha256": "378c04067b4fe8a159e2c2ff078c87a3fa89d8dbcc4eef33b9a389e908abef73",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "ae89264473b2726ea6ce979353b83d8573666afecd0ab39735f4d1a7ef44668d",
+      "bytes": 121554
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-JOIN-legend.json",
+      "sha256": "d066bd655e516d900d28f720cbf76d1c3adf3536b79fe14734aa186b46308718",
+      "bytes": 1087
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "6b39bb0139ce1ca90be779038dcc6c95eba8794adec65635f7d32469dafeb427",
+      "bytes": 117923
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-LAYOUT-TAKE-legend.json",
+      "sha256": "d7412fa99aa69c9141e007016a6f6fc825755a1817829d3677302f3bdf308c00",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-clean.jpg",
+      "sha256": "b02439f6d38f2923c30d9b6e3379ab08c5a32146237b753465d9bb0a27a81992",
+      "bytes": 96696
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-exploded.png",
+      "sha256": "0b686c9c97b4badb6dc485b10ff4f4a7b524ac9677682057a3f321fbe94f1349",
+      "bytes": 242554
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-garden-clearance.jpg",
+      "sha256": "ea573d0effd66d52c91b539913132ef4afa899793cc73223dd9caf3969e34080",
+      "bytes": 130078
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-union-clearance.jpg",
+      "sha256": "a0cb05784fc44275c186b1bf38aa8cebab4f67015c1391f532d84806493f8c8c",
+      "bytes": 143585
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-landscape-union-legend.json",
+      "sha256": "85613363d6acb615b1bf94fc9dfe03b37959bc68ba17cc27ed14813715f3d6be",
+      "bytes": 2532
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "4263bd53d01309cde53beeb7d6dbfac9662d80e7bdd47b3ee3f0755beef36b33",
+      "bytes": 177320
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-COUNT-legend.json",
+      "sha256": "d7f737ee9d28bf93345a4e30ddce7fd9d3530f3de8f9a4bf3b72f9c6311c26ed",
+      "bytes": 969
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-JOIN-clearance.jpg",
+      "sha256": "08ea4a4d13976a91871f2409ab8718ddf03dcff3c3e9fde968f98ea518cf12dd",
+      "bytes": 178262
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-JOIN-legend.json",
+      "sha256": "55afe9f2eaafde03d18541852f70278573c9895e6c07434c7dac35f8689f16d3",
+      "bytes": 1086
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-TAKE-clearance.jpg",
+      "sha256": "4263bd53d01309cde53beeb7d6dbfac9662d80e7bdd47b3ee3f0755beef36b33",
+      "bytes": 177320
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-LAYOUT-TAKE-legend.json",
+      "sha256": "e3f1550eaf6f857c199429b1494c0e9c15d1f650bdd7c8e8a25153fc9fb85b9f",
+      "bytes": 981
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-clean.jpg",
+      "sha256": "db7e9a7d91484642185f4a7575017a129f7cc7671cc42107859e8c005693e4f5",
+      "bytes": 157120
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-exploded.png",
+      "sha256": "6b9c85aba30aca4d78a0d793cbded9473d175a5aaf63489d8200b0535e292594",
+      "bytes": 403812
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-garden-clearance.jpg",
+      "sha256": "f4e9c60cde453db8aa722591d7e8b4f73adafc928bf12992529a72f9eb76089c",
+      "bytes": 187929
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-garden-legend.json",
+      "sha256": "8b4aa6971041d855c25e711035629251426e327037279c8df5242737916d0054",
+      "bytes": 1648
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-union-clearance.jpg",
+      "sha256": "1383a89bd76e214751bc2e850f6a84c16b09a32388fc11a147d4d49fa278608d",
+      "bytes": 205274
+    },
+    {
+      "path": "assets/production/picnic-v1/review/world-branding/take-01-pre-repair/ENV-02-portrait-union-legend.json",
+      "sha256": "d9c83a734bab10edaa9ff54aa77579d2bf6074e4c83a71ce70aff699c6b6d9ef",
+      "bytes": 2531
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/branding-evidence.md",
+      "sha256": "26b95f253d01949a4abbaa7e65bb53e783f476a5562918534d076e972c2576bf",
+      "bytes": 7196
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/branding-reproducibility.json",
+      "sha256": "7827f7dce4e86a3e5426d6574250f0ca96ef382ed635de8a9149d8fea6a04c99",
+      "bytes": 2321
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/design-system-query.md",
+      "sha256": "1011a60bf573f2ffbe1b9d1113ff9883fd6cfb71edcb8c9b98ca658f00ed8ecd",
+      "bytes": 2292
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/focused-review.md",
+      "sha256": "133c7866dd912ec97cc96e756c24cb61f941f8d27610f4607df853606f16d28f",
+      "bytes": 6738
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/handoff.md",
+      "sha256": "c93187dfb93b6eb87cab2c5d870b66453976163b8a1ee84d6f43fafb5e337fce",
+      "bytes": 10436
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/interrupted-checkpoint.json",
+      "sha256": "c85d786fb16b55406330363cb78ba429048193b03b35be2e9ede3600bf8e6f43",
+      "bytes": 8152
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/interrupted-handoff.md",
+      "sha256": "8089c1bb21bae65afbf1d5c3260b74a3974453455e6d323f7c39cc1fd8868f21",
+      "bytes": 1591
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/packet-audit.json",
+      "sha256": "09adfc363bfb42c41d5f7bd6d45e1610b1dff9f26669db89a7fd8026e9870a58",
+      "bytes": 913
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/packet-audit.py",
+      "sha256": "169461d504ce9723c668dde948112a6f1c892db716196681d562e0fc583d6325",
+      "bytes": 3597
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/packet-files.json",
+      "note": "Inventory lists itself; self-hash excluded to avoid circularity."
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/packet-inventory.py",
+      "sha256": "04e0bb1d3867f98651eafdbf7551c9529f3a4f68173bdc888dd8757833b644aa",
+      "bytes": 1017
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/plan.md",
+      "sha256": "9d2188ea1e133ee28b6296ddf995b2934e428b5fc9578ee5dc4add474e01fbfb",
+      "bytes": 1889
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/preflight.json",
+      "sha256": "41776fa82d5bc6ff093a8581636ea9db68fa0ff436cd6c5d1671eb796449a804",
+      "bytes": 63472
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/proposed-ledger.json",
+      "sha256": "283601720b381802a17e629db8b807ffd8f01575c4bebc7520edebba1759b994",
+      "bytes": 9825
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/reproducibility.json",
+      "sha256": "0f6ae96654731abdd004bb634058575a73cf408231809efe1046611f9096e5a5",
+      "bytes": 11516
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/technical-review.md",
+      "sha256": "435bd4cc30cc0eb617ddff923ddf3cf3ce03196ffc5d6d51ff455458396c7830",
+      "bytes": 5930
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/validation-receipt.json",
+      "sha256": "829a0cdeb053a9f4d182960f770cc6e9972d6319bfd7406bdb00bde1c28dd4ef",
+      "bytes": 871
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/world-audit.py",
+      "sha256": "629732dd23139d3d88c031197340075b4a7e75f7f3c4db23d9ca2d75778150c8",
+      "bytes": 7357
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/world-build-take-01.py",
+      "sha256": "f6f4cca77b27f88de5b7a8e5f91954120dd949e11adf4eb332dea8b7bade8b82",
+      "bytes": 11682
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/world-build.py",
+      "sha256": "64dde101fdc48315b24f9955039facfdc377b460be1f57b6c7348a571f85280f",
+      "bytes": 11774
+    },
+    {
+      "path": "docs/orchestration/phases/2a-world/world-gallery.py",
+      "sha256": "cb36208b35ad0115f03dc2191081b9bcfc56c0083f5765cc5d99d2d7d2c1db82",
+      "bytes": 8751
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "asset_id": "ENV-01",
+    "role": "ground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-5ced304e-46d2-4258-9cc6-10e5dfd4d3e0.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/ground-original.png",
+    "original_sha256": "b7484780020f4cfc702c3ba44a9d580591e9fd661ce7dd036d0b570521266549",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-01-ground-take-01.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original bytes copied unchanged; orientation registration in world-build.py."
+  },
+  {
+    "asset_id": "ENV-02",
+    "role": "ground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-2901b849-2397-4c7b-a032-8fde3a8ae594.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/ground-original.png",
+    "original_sha256": "58efe265eae4fcf55aab7249780dc03efcd8b0d877f9a6240ca00da17ff1a089",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-02-ground-take-01.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original bytes copied unchanged; orientation registration in world-build.py."
+  },
+  {
+    "asset_id": "ENV-01",
+    "role": "foreground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-74519f18-51c0-488c-9911-6b0ada8b0a86.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-01/foreground-original.png",
+    "original_sha256": "c841a2bf660ec38fe332da539abe0a3173f3a9f00e0ada49e193493e72e9870b",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-01.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original bytes copied unchanged; orientation registration in world-build.py."
+  },
+  {
+    "asset_id": "ENV-02",
+    "role": "foreground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-1f1bb4f5-c5ac-43a6-9101-59a16f2f596f.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-01/foreground-original.png",
+    "original_sha256": "86e30b6eaf8612bc95938a4082d66b1bb22be2a78b47b19a55c3a601d8f39285",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-01.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original bytes copied unchanged; orientation registration in world-build.py."
+  }
+]

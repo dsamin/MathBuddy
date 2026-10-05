@@ -1,0 +1,7 @@
+{
+  "prompt": "Use case: illustration-story\nAsset type: independently authored environmental production source layer, not a complete scene or contact sheet.\nReference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.\nConstraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.\nPrimary request: Garden edge foreground strip: one continuous connected rounded deep sage-green leafy shrub silhouette filling a narrow vertical column in the center of an otherwise fully transparent square canvas. Connected foliage column extends top to bottom, occupies only central 25 percent width. Broad rounded undulating silhouette, subtle gentle flat shading; no discrete objects, flowers, fruit or dots. Outside this single shrub strip alpha transparent. No ground, sky or other scenery. Designed to crop and place only at extreme scene edges.\n",
+  "referenced_image_paths": [
+    "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+  ],
+  "transparent_background": true
+}

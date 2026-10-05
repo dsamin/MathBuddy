@@ -1,0 +1,13 @@
+{
+  "status": "pass-technical-only",
+  "checks": [
+    "all manifest hashes match",
+    "original icon preserved",
+    "1024 square icon RGB fully opaque",
+    "four decoded opaque small sizes",
+    "four decoded transparent wordmark sizes with unclipped bounds",
+    "font hash and license bundled"
+  ],
+  "human_acceptance": "pending",
+  "SVG_note": "Native text recipe is acceptance deliverable. SVG is editable text and embeds the same font; no outlined-vector or cross-renderer equivalence claim."
+}

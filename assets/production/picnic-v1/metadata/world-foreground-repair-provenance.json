@@ -1,0 +1,30 @@
+[
+  {
+    "asset_id": "ENV-01",
+    "take_id": "take-02",
+    "role": "foreground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-30b15357-8936-401e-8641-97b26fc5ec87.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-01/take-02/foreground-original.png",
+    "original_sha256": "ea84ac7685faee07849b0e12a490668b8abada370c10fb09e7dedc4c5f131926",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-01-foreground-take-02.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original unchanged; repair rounded crop crown; first take retained."
+  },
+  {
+    "asset_id": "ENV-02",
+    "take_id": "take-02",
+    "role": "foreground",
+    "original_generated_path": "/Users/devan/.codex/generated_images/01a10777-964b-7380-ad50-122d3de368d8/exec-f20e4cc6-908a-41fe-86a0-5c609b06d5ad.png",
+    "preserved_path": "assets/production/picnic-v1/masters/images/ENV-02/take-02/foreground-original.png",
+    "original_sha256": "38ea67e8c48d723e22a02d060dd46567a0e05f51c2f614a7f4a828bc43383947",
+    "request_path": "assets/production/picnic-v1/requests/world-ENV-02-foreground-take-02.json",
+    "provider": "OpenAI built-in imagegen",
+    "model_version": "not exposed",
+    "seed": "not exposed",
+    "human_art_and_rights_review": "pending",
+    "processing": "Original unchanged; repair rounded crop crown; first take retained."
+  }
+]

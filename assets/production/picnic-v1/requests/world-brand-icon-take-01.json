@@ -1,0 +1,8 @@
+{
+  "prompt": "Use case: logo-brand. Asset type: provisional Pip’s Picnic app icon candidate. Create a fully opaque unmasked square 1024×1024 illustration, no rounded corners or border. Image 1 is the approved Pip identity reference: preserve the cream bunny's face, black oval eyes, tiny orange nose and warm small smile, pink inner ears and cheeks, green triangular scarf, with both ears unbent and matching the approved construction. Image 2 is approved Direction B style reference only; do not reproduce its UI or collage. Draw Pip as a large centered head-and-shoulders portrait occupying most of the square: entire long ears visible with comfortable margin, cheeks and scarf prominent. Warm clean soft-shape storybook illustration with gently textured cream shading. Behind Pip, simple muted sage-green full-bleed backdrop with subtle lighter warm glow; keep silhouette strongly distinct. No text, lettering, numerals, math fruit, props, basket, garden toys, UI controls, gesture, platform mask, shadows outside the square or transparency. Calm welcoming expression. Preserve reference identity rather than inventing a new character.",
+  "referenced_image_paths": [
+    "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/PIP-01/take-01/aligned-review.png",
+    "/Users/devan/.codex/worktrees/8899/MathBuddy/assets/production/picnic-v1/masters/images/DIRECTION-B/take-02/board.png"
+  ],
+  "transparent_background": false
+}

@@ -1,0 +1,5 @@
+Use case: illustration-story
+Asset type: independently authored environmental production source layer, not a complete scene or contact sheet.
+Reference image: selected Direction B board, only clean soft-shape storybook rendering, rounded natural silhouettes, calm pastel olive greens and pale powder-blue sky. Never reproduce reference UI, Pip, fruit, baskets, fence pickets, flower blooms, toys or labels.
+Constraints: no text, numerals, characters, food, lesson pieces, discrete berries/apples, toys, earned decorations, flowers, mushrooms, stepping stones, borders, UI or watermark. No decorative objects resembling countable teaching pieces. Calm warm daytime, softly painted clean shapes, no photorealistic 3D.
+Primary request: Garden ground plane: wide horizontal softly painted soft spring sage-lime grass surface, entirely opaque and uninterrupted, subtle broad smooth color modulation only. No grass blades or dots or path or beds or objects or sky or horizon. Full bleed even ground layer.
