@@ -39,5 +39,9 @@
   "agent_hearing_demonstrated": false,
   "actual_audio_inspected": false,
   "transcription_calls": 0,
-  "synthesis_calls": 0
+  "synthesis_calls": 0,
+  "reconciled_checkpoint": "63ff8475458ff8666dba26769c14eee9f8a6337e",
+  "sdk_version": "2.24.0",
+  "sdk_default_retries": 2,
+  "strict_no_retry_execution_enforced": false
 }

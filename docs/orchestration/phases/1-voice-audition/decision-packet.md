@@ -37,7 +37,7 @@ The complete hash list and absent expected output paths are in [request-audit.js
 
 ## Official availability and price evidence
 
-All sources accessed October 4, 2026. These are public documentation checks, **not authenticated account-access or endpoint-success checks**.
+All sources accessed October 4, 2026; model/deprecation/terms pages rechecked on reconciliation with checkpoint `63ff8475458ff8666dba26769c14eee9f8a6337e`. These are public documentation checks, **not authenticated account-access or endpoint-success checks**.
 
 - [Model page](https://developers.openai.com/api/docs/models/gpt-4o-mini-tts): exact dated snapshot listed, marked deprecated; published rates are $0.60 per million input text tokens and $12 per million output audio tokens. Free tier is unsupported.
 - [Deprecations](https://developers.openai.com/api/docs/deprecations): October 1 notice schedules this exact snapshot's shutdown for January 6, 2027. The recommended replacement is `gpt-realtime-2.1-mini`; it is not selected here. A delayed audition must recheck availability. No automatic migration or alias substitution is authorized.
@@ -47,7 +47,7 @@ All sources accessed October 4, 2026. These are public documentation checks, **n
 
 **Estimate, not a quote or spending approval:** ten inputs contain 428 Unicode characters / 88 words, plus ten copies of the 302-character instruction string. At an assumed 100–150 words/minute plus 10–20 seconds of pauses across the ten takes, output might total roughly 45–73 seconds. There is no actual duration or exact token count yet; no tokenizer is installed. Do not price WAV bytes or characters as audio tokens.
 
-Token-based scenario for all ten requests together: assume 1,000 input tokens including instructions and 1,000–5,000 output audio tokens. Cost = `0.60 × input_tokens / 1,000,000 + 12 × audio_tokens / 1,000,000`, or **$0.0126–$0.0606 USD**. This is a deliberately broad planning scenario, not a verified token-duration conversion; output tokens could exceed it. At 45–73 seconds, optional mini transcription adds about **$0.0023–$0.0037**, excluding minimum billing, taxes and retries. Proposed human-selected budget ceiling: **$0.10 for one ten-take pass plus one transcription per take**, no paid reruns. The CLI does not enforce a dollar cap; account controls and no automatic retries are needed if the human accepts this ceiling. Exact charges require provider usage/billing evidence. No cost incurred by audio generation/transcription in this session. Research/session costs are outside this estimate.
+Token-based scenario for all ten requests together: assume 1,000 input tokens including instructions and 1,000–5,000 output audio tokens. Cost = `0.60 × input_tokens / 1,000,000 + 12 × audio_tokens / 1,000,000`, or **$0.0126–$0.0606 USD**. This is a deliberately broad planning scenario, not a verified token-duration conversion; output tokens could exceed it. At 45–73 seconds, optional mini transcription adds about **$0.0023–$0.0037**, excluding minimum billing, taxes and retries. Proposed human-selected budget ceiling: **$0.10 for one ten-take pass plus one transcription per take**, no paid reruns. The CLI does not enforce a dollar cap. Its bundled client uses `OpenAI()` with SDK-default automatic retries (installed SDK 2.24.0: two retries); the CLI also has an attempt loop. `--attempts 1` alone does not disable SDK retries. Therefore a strict one-request/no-retry ceiling is currently an execution capability gap, not an enforced guarantee. Before calls, the master must resolve this through an explicitly approved skill-compatible retry control, or obtain human acceptance of retry exposure and a revised estimate. Do not modify the bundled CLI or create a replacement runner silently. Exact charges require provider usage/billing evidence. No cost incurred by audio generation/transcription in this session. Research/session costs are outside this estimate.
 
 ## Rights facts and separate human acceptance
 
@@ -77,7 +77,7 @@ Python 3.11, NumPy, ffmpeg, ffprobe and afplay are present. ffmpeg's installed f
 
 - Select a provider. If OpenAI is selected, explicitly select the exact deprecated snapshot and Cedar/Marin comparison, or request a separately reviewed replacement packet. Another provider requires new equivalent requests and cost/rights/capability review before calls.
 - Accept or decline the rights/terms basis and required AI disclosure for audition and intended eventual offline bundling, with production reuse still pending.
-- Approve these exact five Unicode lines, shared instructions, speed 1.0, WAV and ten-request scope; select a spend ceiling and retry policy.
+- Approve these exact five Unicode lines, shared instructions, speed 1.0, WAV and ten-request scope; select a spend ceiling and retry policy, including the unresolved SDK retry control noted above.
 - Decide the credential route (no local OpenAI key currently found). Any secure provisioning/local write requires a confirmed destination and explicit authorization; never paste a key in chat.
 - Choose transcript inspection provider/model and permission to submit each generated take; confirm a human will listen to every take or establish actual agent hearing capability. Generation approval alone is not transcription approval.
 
