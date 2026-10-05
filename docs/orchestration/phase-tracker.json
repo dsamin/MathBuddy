@@ -22,18 +22,18 @@
       "worktree": "/Users/devan/.codex/worktrees/8899/MathBuddy",
       "branch": "codex/phase-2a-world-wip",
       "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
-      "commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638",
-      "integration_commit": null,
-      "technical_status": "candidate-packet-checkpointed-final-handoff-awaiting-app-approval",
+      "commit": "f13fc7ccc467b2b229323e17625cc4ba1be37a24",
+      "integration_commit": "b9f059e",
+      "technical_status": "independently-verified-candidates-integrated-human-review-pending",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": "Live production packet contains 12 registered layers, four OpenRaster masters, branding recipe/icon and technical evidence; master packet verification/integration remain pending. Four handoff/evidence paths are dirty. App approval is for git add, whitespace checks, staged gitleaks and local documentation commit. No human acceptance exists. Existing session has received bounded completion follow-up; retain exclusive phase ownership.",
+      "notes": "Candidate packet integrated with four canonical candidate records, production_selected=false. Independent original-runtime rebuild86/86,12 layers/4 ORA,383 preserved inputs,215 hashes+one self-inventory,55 links and secret scan pass. Runtime correction f13fc7c is documentation-only; follow-up integration is resolved via Git history. No human art/name/rights or delivery selection.",
       "title": "MathBuddy Phase 2A World and Branding",
-      "session_verified_by": "read_thread and local rollout inspected during replacement reconciliation; exact gpt-6.1-sol; waitingOnApproval.",
+      "session_verified_by": "Existing gpt-6.1-sol task reused; final production and runtime correction commits verified.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -47,9 +47,9 @@
       "worktree": "/Users/devan/.codex/worktrees/4c83/MathBuddy",
       "branch": "codex/phase-1-voice-audition-wip",
       "base_commit": "9ae9b6370a52e0c5dbac0d17e84911bce7213c33",
-      "commit": "63ff8475458ff8666dba26769c14eee9f8a6337e",
-      "integration_commit": null,
-      "technical_status": "preflight-verified-awaiting-decisions",
+      "commit": "4701d25150ac8c7298a4cfe740abec32ab9fdf68",
+      "integration_commit": "cb057cf",
+      "technical_status": "independently-verified-preflight-integrated-human-decisions-pending",
       "human_status": "pending",
       "acceptance_criteria": "Five exact lines x two chosen voices; all ten decoded and individually reviewed",
       "human_gate": "provider/rights then voice/wording/take reuse",
@@ -58,9 +58,9 @@
         "docs/orchestration/phases/1-voice-audition/decision-packet.md",
         "docs/orchestration/phases/1-voice-audition/request-audit.json"
       ],
-      "notes": "Offline verifier passes ten exact request hashes/settings and ten absent masters. Decision packet and handoff checkpointed. Zero provider calls or recordings; provider/model/voice/rights and take reuse remain undecided. Backup commit is not integrated or accepted.",
+      "notes": "Five exact lines/ten request hashes verified in isolated snapshot. Zero recordings/calls. Refreshed official-source decision packet and SDK retry gap integrated; provider/exact-model/voice/rights/spending/credentials/transcription/listening decisions pending.",
       "title": "MathBuddy Independent Voice Audition",
-      "session_verified_by": "read_thread 2026-10-04: idle; latest turn interrupted. Master checkpointed preserved work.",
+      "session_verified_by": "wait_threads completed final and clean named branch verified 2026-10-04.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -78,14 +78,14 @@
       "base_commit": null,
       "commit": null,
       "integration_commit": null,
-      "technical_status": "not-started",
+      "technical_status": "brief-prepared-not-launched",
       "human_status": "pending",
       "acceptance_criteria": "42 requirements; set clarity, native design recipes, controls, silent goals",
       "human_gate": "counting clarity/content/controls/layout",
       "evidence_paths": [
         "docs/orchestration/phases/2b-learning/"
       ],
-      "notes": ""
+      "notes": "Exact42 requirement IDs and source hashes verified. Human world/composition/icon/font review and name disposition pending; no production/session launched."
     },
     {
       "id": "2c-garden",
@@ -427,13 +427,15 @@
   "replacement_review": "docs/orchestration/2026-10-04-replacement-handoff.md",
   "next_executable_work": {
     "authorized_now": [
-      "Independently verify existing 2A handoff and candidate artifacts",
-      "Verify refreshed independent audition preflight without provider calls",
-      "Integrate technically verified candidates with human decisions pending",
-      "Prepare bounded future phase briefs without dependent production"
+      "Record explicit human review decisions when received",
+      "Launch prepared separate Sol2B only after world review gate",
+      "Continue selected audition preflight direction when chosen; no paid calls without named prerequisites"
     ],
     "next_dependent_phase": "2b-learning",
     "required_decision": "Explicit world/composition/icon/branding review; final name remains a distinct open decision. Technical packet is not acceptance.",
     "native_gate": "Full pack acceptance plus explicit CNT-01 authorization; device/OS and adult-gate decisions per detailed plan."
-  }
+  },
+  "master_verification": "docs/orchestration/2026-10-04-master-verification.json",
+  "current_review_packet": "docs/orchestration/2026-10-04-review-packet.md",
+  "contract_review": "docs/orchestration/2026-10-04-contract-review.md"
 }

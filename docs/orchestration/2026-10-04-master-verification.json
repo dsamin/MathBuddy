@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-04",
+  "master_thread": "01a109d6-41e2-7a23-a52b-a17ab5d749bb",
+  "verified_model": "gpt-6-astra",
+  "world_packet_commit": "b2fd05d6d0cfb62d832f1ff6c6e701ccb7de46c9",
+  "verification_checkout": "/private/tmp/mathbuddy-master-review-01a109d6",
+  "checks": {
+    "base_ancestry": "pass",
+    "inventory_entries": 216,
+    "inventory_sha256_verified": 215,
+    "self_inventory_hash": "excluded to avoid circularity",
+    "packet_audit": "pass",
+    "layer_exports": 12,
+    "editable_masters": 4,
+    "protected_files_unchanged": 383,
+    "gallery_local_resources": 55,
+    "scope_paths": 216,
+    "source_request_reference_hashes": "pass via inspected world-audit.py",
+    "secret_scan": "three commits, 659104 bytes, zero leaks",
+    "world_rebuild_files": 70,
+    "branding_rebuild_files": 16,
+    "rebuild_mismatches_with_original_runtime": []
+  },
+  "runtime": {
+    "executable": "/Users/devan/.pyenv/versions/3.11.7/bin/python3.11",
+    "python": "3.11.7",
+    "pillow": "12.1.1",
+    "freetype": "2.14.1",
+    "zlib": "1.3.1.zlib-ng",
+    "jpeg": "6.2"
+  },
+  "runtime_failure_and_resolution": {
+    "default_python": "3.14 missing PIL; used installed environments without installation",
+    "initial_bundled_python": "3.12.14 / Pillow12.3.0 / FreeType2.14.3",
+    "initial_mismatched_files": 23,
+    "sample_pixel_comparison": {
+      "ENV02_landscape_ground": "zero pixel differences; encoding changed",
+      "wordmark_1100": "11140 pixels differ; font rasterizer changed"
+    },
+    "resolution": "Original installed runtime reproduced all 86 expected files without altering worker candidates; explicit prerequisites requested in worker handoff."
+  },
+  "commands": [
+    "git clone --no-hardlinks --no-checkout /Users/devan/Projects/MathBuddy /private/tmp/mathbuddy-master-review-01a109d6",
+    "git checkout --detach b2fd05d6d0cfb62d832f1ff6c6e701ccb7de46c9",
+    "[bundled Python] docs/orchestration/phases/2a-world/packet-audit.py",
+    "[original Python] docs/orchestration/phases/2a-world/world-build.py",
+    "[original Python] assets/production/picnic-v1/metadata/world-brand-build.py",
+    "SHA-256 compare against both saved reproducibility maps",
+    "gitleaks git --log-opts=e48eb49..b2fd05d --redact --no-banner"
+  ],
+  "actual_visual_samples": [
+    {
+      "path": "review/contact-sheets/world-branding-overview.png",
+      "sha256": "37b4763e654e11dad524b89d90afe26e426660496e8d092b590b261803ecbd85"
+    },
+    {
+      "path": "review/world-branding/ENV-01-portrait-LAYOUT-COUNT-clearance.jpg",
+      "sha256": "ccb5f0cecf50c856fe5b741e311088037896fe3a237fd5cf77acfbf9b5ee8a9b"
+    },
+    {
+      "path": "review/world-branding/ENV-02-landscape-garden-clearance.jpg",
+      "sha256": "1a2414d9d82eb0b1904d4068d3781ff2f1d26877b1b1b0f111a8627e8fb5f22a"
+    },
+    {
+      "path": "review/world-branding/ENV-02-portrait-exploded.png",
+      "sha256": "c2a71e06eb0041e3b138f66732e1308e684bc5b76af164de4905d2030eeee152"
+    },
+    {
+      "path": "masters/images/BRAND-02/take-01/icon-small-size-sheet.png",
+      "sha256": "1ffd6422e2749bfab878d146f146775282372f3f56daa90cc0ee72e6728835e7"
+    }
+  ],
+  "visual_findings": "Four clean worlds viewed in overview; unobstructed central fields, clean sky/ground division, narrow edge vegetation. Portrait count and landscape garden diagnostic spaces viewed; no baked lesson pieces, numerals or UI in clean art. Exploded source sheet shows distinct registered contributions. Icon recognizable at small sizes with expected facial detail loss at16px; wordmark unclipped. Actual prop/native/device fit remains pending.",
+  "browser_limit": "Direct local file URL rejected by browser protocol policy; no workaround attempted. This master inspected raster sheets and links, not fresh browser interactions. Prior worker browser evidence remains separately attributed.",
+  "audition": {
+    "commit": "4701d25150ac8c7298a4cfe740abec32ab9fdf68",
+    "integration_commit": "cb057cf",
+    "scope": "seven owned phase files",
+    "base_ancestry": "pass",
+    "isolated_verifier": "pass: five complete catalog records, ten exact requests/settings, ten absent masters",
+    "recordings": 0,
+    "provider_calls": 0,
+    "secret_scan": "two commits,34955 bytes,zero leaks",
+    "current_official_source_recheck": "Model rates $0.60/1M text input and $12/1M audio output, dated snapshot deprecated with Jan6 2027 shutdown; Services Agreement4.1-4.4 and Service Terms8 read. Account-specific terms/access not verified.",
+    "sources": [
+      "https://developers.openai.com/api/docs/models/gpt-4o-mini-tts",
+      "https://developers.openai.com/api/docs/deprecations",
+      "https://openai.com/policies/services-agreement/",
+      "https://openai.com/policies/service-terms/"
+    ]
+  },
+  "human_status": "pending; no inferred choices",
+  "native_status": "not started; complete pack acceptance and explicit CNT-01 authorization required",
+  "world_candidate_integration_commit": "b9f059e",
+  "world_runtime_correction_commit": "f13fc7ccc467b2b229323e17625cc4ba1be37a24",
+  "runtime_correction_check": "Four phase documentation paths only; seven executable/library/font fingerprints verified; no media change; whitespace and secret scan pass.",
+  "future_brief_check": "42 unique registered IDs and four source hashes verified; narration partition35/23/24/19=101 disjoint IDs."
+}

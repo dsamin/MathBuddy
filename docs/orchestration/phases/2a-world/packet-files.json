@@ -999,8 +999,8 @@
     },
     {
       "path": "docs/orchestration/phases/2a-world/handoff.md",
-      "sha256": "c93187dfb93b6eb87cab2c5d870b66453976163b8a1ee84d6f43fafb5e337fce",
-      "bytes": 10436
+      "sha256": "e3f46616473c5d183e4f49de05e983188b1f5c667d0c4fec6860bddc9f269445",
+      "bytes": 16055
     },
     {
       "path": "docs/orchestration/phases/2a-world/interrupted-checkpoint.json",
@@ -1033,8 +1033,8 @@
     },
     {
       "path": "docs/orchestration/phases/2a-world/plan.md",
-      "sha256": "9d2188ea1e133ee28b6296ddf995b2934e428b5fc9578ee5dc4add474e01fbfb",
-      "bytes": 1889
+      "sha256": "1e09860cbe2c7574a19b197bbc0df0e1fb166f220090d786f9349164fc79ccdd",
+      "bytes": 2425
     },
     {
       "path": "docs/orchestration/phases/2a-world/preflight.json",
@@ -1053,8 +1053,8 @@
     },
     {
       "path": "docs/orchestration/phases/2a-world/technical-review.md",
-      "sha256": "435bd4cc30cc0eb617ddff923ddf3cf3ce03196ffc5d6d51ff455458396c7830",
-      "bytes": 5930
+      "sha256": "1be3f1d5c60ba5d2e7b12109ba02740f51c73b7076fabe106c8cc2b78cfd6f89",
+      "bytes": 6714
     },
     {
       "path": "docs/orchestration/phases/2a-world/validation-receipt.json",

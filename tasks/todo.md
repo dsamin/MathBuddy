@@ -228,9 +228,9 @@ The [character selection record](../assets/production/picnic-v1/metadata/pip-cha
 - [x] Write master plan, ownership, phase tracker and bounded Phase 2A brief.
 - [x] Secret-scan and commit approved inputs before dependent worktree creation (`e48eb49`; zero gitleaks findings).
 - [x] Create the separate GPT-6.1 Sol Phase 2A world/branding task from that checkpoint; direct thread read confirms active session `01a10777-964b-7380-ad50-122d3de368d8`.
-- [ ] Prepare independent voice-audition provider/cost/rights/capability decision packet in its own Sol task.
-- [ ] Verify returned Phase 2A artifacts, scope, hashes and source reproducibility; integrate a local candidate checkpoint.
-- [ ] Present complete world/branding review packet for human acceptance, with precise open decisions.
+- [x] Prepare and independently verify the voice-audition decision packet in the existing Sol task; preflight only, zero recordings.
+- [x] Independently verify Phase 2A artifacts and runtime-specific reproducibility; integrate local candidate b9f059e, human review pending.
+- [x] Present complete world/branding review packet and separate name/voice questions; answers pending.
 - [ ] Advance remaining asset phases only as dependencies and named human gates permit.
 - [ ] Present complete 2E pack; obtain explicit acceptance and CNT-01 Phase 3 authorization.
 - [ ] Coordinate individually demonstrated native phases and physical-device/family evidence through Phase 5.
@@ -272,8 +272,8 @@ Ownership: interim relay owns only this task list, master tracker and replacemen
 - [x] Reconcile stale tracker state; distinguish production checkpoint, unfinished handoff and pending human acceptance.
 - [x] Send bounded completion follow-up to the existing world Sol session without duplicate asset work.
 - [x] Verify and transfer to Astra master 01a109d6-41e2-7a23-a52b-a17ab5d749bb; local turn_context confirms gpt-6-astra. Relay history retained.
-- [ ] Finish/verify final world handoff, actual artifacts, scope, hashes, rebuild receipts and secret scan; integrate review candidates only under the recorded protocol.
-- [ ] Refresh the existing audition decision packet in its existing Sol session; no recordings before provider/model/voice/rights/spending decisions.
+- [x] Verify world handoff, actual samples, original-runtime 86-file rebuild and secret scans; integrate technical candidates only.
+- [x] Refresh and integrate existing audition preflight; live calls remain gated by named human decisions.
 - [ ] Present complete 2A review; obtain its named human acceptance before dependent 2B execution.
 - [ ] Execute bounded Sol sessions 2B → 2C → 2D motion/effects and separately approved narration groups → 2E, retaining each human gate.
 - [ ] Obtain explicit full pack acceptance AND CNT-01 Phase 3 authorization, plus required device/OS/adult-gate choices.
@@ -295,16 +295,16 @@ Exclusive shared-file coordinator: `01a109d6-41e2-7a23-a52b-a17ab5d749bb`, verif
 ### Plan and pre-execution check-in
 
 - [x] Read replacement handoff first, verify model/Git and retain coordinator history.
-- [ ] Review saved contracts and existing phase responses.
-- [ ] Independently verify world scope/ancestry/hashes/protected files/layers/rebuilds and actual samples.
-- [ ] Verify refreshed audition preflight and exact handoff; zero live requests.
-- [ ] Secret-scan and integrate verified candidate checkpoints; no delivery or human acceptance inferred.
-- [ ] Present world/composition/icon/font/name and voice decision packets.
-- [ ] Prepare next bounded phase brief while human gates remain pending.
-- [ ] Record verification, exact commits and next required human decision.
+- [x] Review saved contracts and existing phase responses.
+- [x] Independently verify world scope/ancestry/hashes/protected files/layers/rebuilds and actual samples.
+- [x] Verify refreshed audition preflight and exact handoff; zero live requests.
+- [x] Secret-scan and integrate verified candidate checkpoints; no delivery or human acceptance inferred.
+- [x] Present world/composition/icon/font/name and voice decision packets.
+- [x] Prepare next bounded phase brief while human gates remain pending.
+- [x] Record verification, exact commits and next required human decision.
 
 Authorized technical work proceeds now. Dependent 2B production requires named human world review; native work requires complete pack acceptance and explicit CNT-01 authorization. No new push.
 
 ### Review
 
-In progress.
+World production 99d78ca/handoff b2fd05d integrated at b9f059e; runtime documentation correction f13fc7c carries exact prerequisites. Audition 4701d2 integrated at cb057cf. Independent checks pass 12 layers/4 editable masters, 383 preserved inputs,215 inventory hashes, 55 local links and 86 exact rebuilt outputs with original runtime. Initial newer-runtime mismatch resolved without modifying originals. Source/phase diffs and secret scans pass. Catalog contains pending candidates only; no delivery selected. Concrete world/name/voice questions remain unanswered. Phase 2B 42-item brief prepared; no dependent production, provider call, native build or device claim. See master verification and review packet.
