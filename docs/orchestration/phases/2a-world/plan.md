@@ -15,3 +15,11 @@ Scope checked by master before dispatch. Starting HEAD: e48eb490711d9754b6b6e123
 Production, actual inspection and focused technical review passed. Environment rebuild reproduced 70 files; branding rebuild reproduced 16 files; packet audit validates four records, twelve current exports, four editable masters and 383 protected hashes. One crown clipping finding was repaired through separate tool-generated foreground takes; earlier originals/assemblies retained. Licensed local Rubik Bold 1.100 substituted for an unavailable unapproved font suggestion with provenance and human font decision pending. Human world/composition/name/icon/device/content/rights decisions remain pending. No delivery selection, app build, other phase or publication.
 
 Local production packet checkpoint: `99d78cac3f5cf6397e3479c5013cf3ddf53bb638`. Completed handoff is recorded in a following documentation-only checkpoint. Technical packet ready for master review; all human decisions pending.
+
+### Master reproduction correction
+
+- [x] Preserve candidate assets and original reproduction hash sets.
+- [x] Probe exact original/bundled executables and native libraries; document prerequisites in handoff.
+- [x] Rebuild a separate temporary copy with the exact original executable: 86/86 hashes match.
+- [x] Correct inventory terminology: 215 hashed files + one self-entry = 216 entries.
+- [x] Master independently verified 86/86 hashes with the original executable, resolving the runtime blocker; human acceptance remains pending.

@@ -2,7 +2,7 @@
 
 ## Context
 
-**Ready for master technical review; human acceptance remains pending.** Completed ENV-01, ENV-02, BRAND-01 and BRAND-02 only. Originals, exact requests/references and prior takes are retained. The focused reviewer found crown clipping in the first foreground take; separate tool-authored repairs resolved it. Final packet has no unresolved routine technical findings.
+**Runtime reproduction correction complete; ready for master candidate integration review; human acceptance remains pending.** Completed ENV-01, ENV-02, BRAND-01 and BRAND-02 only. Originals, exact requests/references and prior takes are retained. The focused reviewer found crown clipping in the first foreground take; separate tool-authored repairs resolved it. The original runtime passed focused technical review. The master subsequently found and resolved a cross-runtime byte reproduction mismatch by using the exact original runtime; see Acceptance Criteria below.
 
 - Worktree: `/Users/devan/.codex/worktrees/8899/MathBuddy`.
 - Actual initial HEAD and approved input: `e48eb490711d9754b6b6e123f1e069aebfeae3d7` (initially detached).
@@ -37,7 +37,7 @@ Master should inspect the gallery/clearances, review `proposed-ledger.json`, and
 
 ## File Locations
 
-**Exact touched paths and SHA-256 inventory:** `docs/orchestration/phases/2a-world/packet-files.json`, covering all owned changes relative to the approved input (including recovered backup files). It lists itself without a self-hash. Asset bytes are fixed by the production packet commit above; handoff bookkeeping is refreshed in the following documentation commit.
+**Exact touched paths and SHA-256 inventory:** `docs/orchestration/phases/2a-world/packet-files.json`, covering all owned changes relative to the approved input (including recovered backup files): **215 hashed files plus one unhashed self-inventory entry = 216 entries**. It lists itself without a self-hash. Asset bytes are fixed by the production packet commit above; handoff bookkeeping is refreshed in the following documentation commit.
 
 Primary samples (paths below are relative to the worktree):
 
@@ -76,10 +76,78 @@ git diff --cached --check
 gitleaks git --pre-commit --staged --redact --no-banner
 ```
 
-- Rebuilds pass; repeated environment/branding builds reproduce 70/16 files byte-for-byte, respectively. Runtime is recorded in the branding manifest (final root verification Python 3.11.7, Pillow 12.1.1).
+- On the original runtime, repeated environment/branding builds reproduced 70/16 files byte-for-byte, respectively; cross-runtime byte equality is not established. Runtime is recorded in the branding manifest (final root verification Python 3.11.7, Pillow 12.1.1).
 - Final packet audit passes four records, twelve dimensionally correct current RGBA layers, four exact editable reconstructions, opaque composites/icon, separate visible contributions, zero foreground intersection with all reserved masks, opaque working ground, exact source/request/reference hashes, eleven approved reference image hashes, three recovered originals and all 383 protected files.
 - Actual source/output/composite/exploded/diagnostic/branding inspection and focused independent review pass; no unresolved routine technical findings. Staged whitespace found only an extra trailing empty line in a derived license excerpt; trimmed it while retaining the exact font/full OFL, then rebuilt/re-audited.
 - Before production packet commit, `git diff --check` and `git diff --cached --check` pass; staged gitleaks exits 0, no leaks found, approximately 564055 bytes of staged patch text scanned. The completed handoff/documentation checkpoint is secret-scanned separately.
 - Master integration proposal only: canonical catalog, shared tasks/tracker, decisions, provider-rights ledger, experiments/native code and original approved/recovered media are untouched. No delivery selection exists.
 
-**Remaining decisions/limits:** world/art and composition acceptance; provisional Rubik/wordmark/icon approval; final name and family iPad; content/child/assistive-use review; generated-art provider/rights. Future prop/motion/native/device validation remains with its authorized phase. Background source resolution and raster-editability limits are disclosed above. The packet is review-ready, not human accepted or app-ready.
+**Remaining decisions/limits:** world/art and composition acceptance; provisional Rubik/wordmark/icon approval; final name and family iPad; content/child/assistive-use review; generated-art provider/rights. Future prop/motion/native/device validation remains with its authorized phase. Background source resolution and raster-editability limits are disclosed above. Master may review candidate integration with the documented runtime; the packet is not human accepted or app-ready.
+
+### Runtime correction and independent repeat check
+
+The earlier generic `python3` command was insufficient to specify a reproducible environment. On this worktree it resolves through `/Users/devan/.pyenv/shims/python3` to the exact executable below, using user-site Pillow. No environment installation or global configuration was changed. Preserve user-site loading (do not use `-s`, `-I` or `PYTHONNOUSERSITE`) and verify the imported library path/version before building. Merely pinning Python or Pillow's version alone is not a proof of binary equivalence: native FreeType/compression libraries and the diagnostic Arial font also matter. These are observed local prerequisites and fingerprints, not a portable lockfile or promise that an independently installed wheel matches.
+
+Observed original runtime (read-only probe after master's correction):
+
+```json
+{
+  "executable": "/Users/devan/.pyenv/versions/3.11.7/bin/python3",
+  "python": "3.11.7 (main, Nov 17 2024, 23:47:19) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "architecture": "arm64",
+  "pillow": "12.1.1",
+  "PIL_location": "/Users/devan/.local/lib/python3.11/site-packages/PIL/__init__.py",
+  "FreeType": "2.14.1",
+  "python_zlib_build": "1.2.12",
+  "python_zlib_runtime": "1.2.12",
+  "Pillow_zlib": "1.3.1.zlib-ng",
+  "jpeg": "6.2",
+  "fingerprints": [
+    {
+      "path": "/Users/devan/.pyenv/versions/3.11.7/bin/python3",
+      "sha256": "9663bbbce23869e208a4dc6349ff942e4ce334e28a616b184ef8f331edde7f07"
+    },
+    {
+      "path": "/Users/devan/.local/lib/python3.11/site-packages/PIL/__init__.py",
+      "sha256": "43828e12947b4bf5ec8f7d1fbceb2f47de311295f8294b15794c1a54fd5f53cd"
+    },
+    {
+      "path": "/Users/devan/.local/lib/python3.11/site-packages/PIL/_imaging.cpython-311-darwin.so",
+      "sha256": "0cbcfe94ca3181d011f4da90c46870e48412731d2c3fc26ee070079c7e0d9a4f"
+    },
+    {
+      "path": "/Users/devan/.local/lib/python3.11/site-packages/PIL/_imagingft.cpython-311-darwin.so",
+      "sha256": "148611bdd653915acde3722252504507ef890bad30c938bc7bfa304fd4102ac2"
+    },
+    {
+      "path": "/Users/devan/.local/lib/python3.11/site-packages/PIL/.dylibs/libfreetype.6.dylib",
+      "sha256": "5613ea09621a02368135ec414290d4b2af82bacfabd88404479540b8ecd1c8c8"
+    },
+    {
+      "path": "/Users/devan/.local/lib/python3.11/site-packages/PIL/.dylibs/libz.1.3.1.zlib-ng.dylib",
+      "sha256": "d98508d8cdc78e09ede96dce052544e408a457fe65125ccb53ee58f0d3f53a16"
+    },
+    {
+      "path": "/System/Library/Fonts/Supplemental/Arial.ttf",
+      "sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9"
+    }
+  ]
+}
+```
+
+`otool -L` confirms `_imagingft` loads Pillow's `.dylibs/libfreetype.6.dylib` and `_imaging` loads `.dylibs/libz.1.3.1.zlib-ng.dylib`; Python's own zlib 1.2.12 is distinct from Pillow's PNG codec. Font rendering also uses the bundled unchanged Rubik binary listed above; Arial is used for adult diagnostic labels.
+
+Master reported 23 differing file hashes out of 86 after rebuilding its independent clone with `/Users/devan/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`. A read-only probe confirms that executable currently imports Python 3.12.14 / Pillow 12.3.0 / FreeType 2.14.3, with Pillow zlib 1.3.1.zlib-ng. This differs from the original environment. The dependency differences explain why portable byte equality cannot be assumed; master confirmed ENV-02 ground had encoding-only differences (zero differing decoded pixels), while wordmark glyphs had actual raster differences.
+
+A fresh independent copy was extracted from checkpoint `b2fd05d6d0cfb62d832f1ff6c6e701ccb7de46c9` into `/private/tmp/mathbuddy-phase2a-runtime-check`, separate from both preserved candidates and master's clone. Both rebuilds exited 0 there using the exact original executable:
+
+```sh
+cd /private/tmp/mathbuddy-phase2a-runtime-check
+/Users/devan/.pyenv/versions/3.11.7/bin/python3.11 docs/orchestration/phases/2a-world/world-build.py
+/Users/devan/.pyenv/versions/3.11.7/bin/python3.11 assets/production/picnic-v1/metadata/world-brand-build.py
+```
+
+Compared every retained hash in the original `reproducibility.json` (70) and `branding-reproducibility.json` (16) against that fresh copy: **86 compared, zero mismatches**. Neither receipt's original asset hash set was refreshed, and no candidate output or original was regenerated. This proves same-runtime repeatability in an independent copy, not cross-runtime reproduction. Master independently repeated all 70+16 hashes using `/Users/devan/.pyenv/versions/3.11.7/bin/python3.11` with zero mismatches and cleared the runtime reproduction blocker. That is the resolved executable behind the `python3` path above (`Path(sys.executable).resolve()`). Master may proceed with candidate integration; all human approvals remain pending.
+
+Correction lesson within the owned phase: reproducibility commands must name the exact executable, imported library locations, native codec/font versions and dependency fingerprints; qualify byte-equality claims by runtime. Inventory count must distinguish hashed files from its unhashed self-entry. Shared `tasks/lessons.md` is reserved to master and was not edited.
