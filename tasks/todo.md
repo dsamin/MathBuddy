@@ -1,4 +1,4 @@
-> Active session: full pilot coordination under docs/orchestration/README.md. Five Pip poses approved; remaining Phase 2A starts in a separate Sol session. Native work remains gated. Earlier sections below are historical.
+> Active work: replacement master reconciliation under docs/orchestration/README.md. Existing world and audition Sol sessions must be reused. The world candidate pack awaits final checkpoint and human review; 2B and native work remain gated. Earlier sections below are historical.
 
 # MathBuddy design review — 2026-10-03
 
@@ -257,3 +257,33 @@ The remote is empty. Publish the current coordinated baseline on main and preser
 
 ### Review
 World backup `35c121e` preserves three decoded original source images with matching hashes; audition backup `63ff847` verifies ten exact requests and zero recordings. Both phase diffs pass whitespace and secret checks. The engineering audit finds the reviewed pilot not ready for iPad installation or family testing; see [readiness report](../docs/orchestration/2026-10-04-engineering-readiness.md). Remote synchronization verified: main and orchestration at `5b74db1`, world backup `35c121e`, audition backup `63ff847`; all remote heads matched and all three worktrees were clean. GitHub default branch is main. All 373 protected file hashes remain unchanged. The original bounded Sol world session has resumed; new production work follows this backup. No native implementation/build or device installation was performed.
+
+
+## 2026-10-04 — Replacement master reconciliation and execution
+
+Ownership: interim relay owns only this task list, master tracker and replacement handoff. Existing world/branding and audition sessions retain their phase files. Transfer shared-file ownership exclusively to a verified `gpt-6-astra` coordinator; the relay stops editing shared files after transfer.
+
+### Checkable plan
+
+- [x] Inspect live Git/worktrees, supplied instructions, lessons, existing sessions and authoritative character selection.
+- [x] Verify current local heads without reset: coordination/main `3ff507d`, world `99d78ca`, audition `63ff847`.
+- [x] Verify all 11 pinned character file hashes in each of three worktrees; preserve exact selection and originals.
+- [x] Identify exact world approval: stage phase evidence, whitespace/secret checks, and local final handoff commit.
+- [x] Reconcile stale tracker state; distinguish production checkpoint, unfinished handoff and pending human acceptance.
+- [x] Send bounded completion follow-up to the existing world Sol session without duplicate asset work.
+- [ ] Verify and transfer to a real Astra master task; current relay is verified Sol, not Astra.
+- [ ] Finish/verify final world handoff, actual artifacts, scope, hashes, rebuild receipts and secret scan; integrate review candidates only under the recorded protocol.
+- [ ] Refresh the existing audition decision packet in its existing Sol session; no recordings before provider/model/voice/rights/spending decisions.
+- [ ] Present complete 2A review; obtain its named human acceptance before dependent 2B execution.
+- [ ] Execute bounded Sol sessions 2B → 2C → 2D motion/effects and separately approved narration groups → 2E, retaining each human gate.
+- [ ] Obtain explicit full pack acceptance AND CNT-01 Phase 3 authorization, plus required device/OS/adult-gate choices.
+- [ ] Demonstrate and obtain approval for native 3 → 4A → 4B → 4C → 4D → 5 individually.
+- [ ] Prove signed physical-iPad installation and distinct device/accessibility/listening/family checks; record limitations honestly.
+
+### Pre-execution check-in
+
+Latest user authorization covers phase sessions, isolated worktrees, local checkpoints, accepted integration, verification and routine repairs. Historical planning-only restrictions do not block this execution. Explicit human asset/native gates remain. No new push, publication, deployment, Pebble work or Phase 6. Current task model mismatch requires an actual Astra coordinator, not relabeling this Sol task.
+
+### Review
+
+Startup reconciliation and character integrity checks pass. Existing world session remains approval-blocked on its local documentation commit; its candidate packet is not accepted. Audition remains prepared-only with zero recordings. No native phase or physical-device readiness is credited. Exact follow-up work and ownership transfer are in the replacement handoff.

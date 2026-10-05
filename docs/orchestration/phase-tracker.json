@@ -1,13 +1,14 @@
 {
   "schema_version": 1,
   "master": {
-    "thread_id": "01a10773-ee35-7f13-ab61-6585fd764a0b",
+    "thread_id": "01a109d1-89b4-7521-bf8f-82cca29c03d5",
     "requested_model": "gpt-6-astra",
     "branch": "orchestration/mathbuddy-pilot",
     "worktree": "/Users/devan/Projects/MathBuddy",
-    "owner": "master coordinator",
-    "verified_model": "gpt-6-astra",
-    "model_evidence": "Local session turn_context metadata inspected 2026-10-04; no settings changed."
+    "owner": "temporary reconciliation relay; transfer exclusively to requested Astra master",
+    "verified_model": null,
+    "model_evidence": "Current replacement task turn_context is gpt-6.1-sol, verified from its local rollout. Requested Astra coordinator must be created; no silent substitution or global settings change.",
+    "actual_reconciliation_model": "gpt-6.1-sol"
   },
   "approved_input_checkpoint": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
   "phase_model": "gpt-6.1-sol",
@@ -22,18 +23,18 @@
       "worktree": "/Users/devan/.codex/worktrees/8899/MathBuddy",
       "branch": "codex/phase-2a-world-wip",
       "base_commit": "e48eb490711d9754b6b6e123f1e069aebfeae3d7",
-      "commit": "35c121edb6515fb486b7cb72eceed7c71d08fb47",
+      "commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638",
       "integration_commit": null,
-      "technical_status": "in-progress-after-verified-backup",
+      "technical_status": "candidate-packet-checkpointed-final-handoff-awaiting-app-approval",
       "human_status": "pending",
       "acceptance_criteria": "Four requirements, 12 registered layers, editable source, branding packet",
       "human_gate": "world/composition/icon/name",
       "evidence_paths": [
         "docs/orchestration/phases/2a-world/"
       ],
-      "notes": "Three completed generated originals recovered byte-for-byte; 7 prompts and saved icon request preserved. Remaining layers, composition, wordmark and complete review packet are incomplete. Backup commit is not integrated or accepted. Master resumed the existing session after the verified push; later work remains subject to the original acceptance gate.",
+      "notes": "Live production packet contains 12 registered layers, four OpenRaster masters, branding recipe/icon and technical evidence; master packet verification/integration remain pending. Four handoff/evidence paths are dirty. App approval is for git add, whitespace checks, staged gitleaks and local documentation commit. No human acceptance exists. Existing session has received bounded completion follow-up; retain exclusive phase ownership.",
       "title": "MathBuddy Phase 2A World and Branding",
-      "session_verified_by": "wait_threads 2026-10-04: resumed turn 01a1092c-3d7c-7d91-9d14-bdac07a64760 inProgress; exact same bounded Sol session.",
+      "session_verified_by": "read_thread and local rollout inspected during replacement reconciliation; exact gpt-6.1-sol; waitingOnApproval.",
       "verified_model": "gpt-6.1-sol",
       "model_evidence": "Local session turn_context metadata; exact requested model verified."
     },
@@ -400,6 +401,29 @@
     "verified_date": "2026-10-04",
     "default_branch": "main",
     "verified_initial_master_commit": "5b74db15eaaec1b0bb8ca0b86c56ebd5a652d054",
-    "verification": "All four remote branch heads matched local heads; all three worktrees clean at verification. Later Phase 2A continuation is new work beyond this backup."
+    "verification": "All four remote branch heads matched local heads; all three worktrees clean at verification. Later Phase 2A continuation is new work beyond this backup.",
+    "current_authorization": "Earlier backup completed; latest prompt excludes any new push/publish/deploy without a new explicit request."
+  },
+  "master_history": [
+    {
+      "thread_id": "01a10773-ee35-7f13-ab61-6585fd764a0b",
+      "requested_model": "gpt-6-astra",
+      "branch": "orchestration/mathbuddy-pilot",
+      "worktree": "/Users/devan/Projects/MathBuddy",
+      "owner": "master coordinator",
+      "verified_model": "gpt-6-astra",
+      "model_evidence": "Local session turn_context metadata inspected 2026-10-04; no settings changed."
+    }
+  ],
+  "replacement_review": "docs/orchestration/2026-10-04-replacement-handoff.md",
+  "next_executable_work": {
+    "authorized_now": [
+      "Finish and independently verify existing 2A handoff",
+      "Refresh existing independent audition preflight without provider calls",
+      "Transfer to exact requested Astra coordinator"
+    ],
+    "next_dependent_phase": "2b-learning",
+    "required_decision": "Explicit world/composition/icon/branding review; final name remains a distinct open decision. Technical packet is not acceptance.",
+    "native_gate": "Full pack acceptance plus explicit CNT-01 authorization; device/OS and adult-gate decisions per detailed plan."
   }
 }
