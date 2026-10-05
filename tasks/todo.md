@@ -271,7 +271,7 @@ Ownership: interim relay owns only this task list, master tracker and replacemen
 - [x] Identify exact world approval: stage phase evidence, whitespace/secret checks, and local final handoff commit.
 - [x] Reconcile stale tracker state; distinguish production checkpoint, unfinished handoff and pending human acceptance.
 - [x] Send bounded completion follow-up to the existing world Sol session without duplicate asset work.
-- [ ] Verify and transfer to a real Astra master task; current relay is verified Sol, not Astra.
+- [x] Verify and transfer to Astra master 01a109d6-41e2-7a23-a52b-a17ab5d749bb; local turn_context confirms gpt-6-astra. Relay history retained.
 - [ ] Finish/verify final world handoff, actual artifacts, scope, hashes, rebuild receipts and secret scan; integrate review candidates only under the recorded protocol.
 - [ ] Refresh the existing audition decision packet in its existing Sol session; no recordings before provider/model/voice/rights/spending decisions.
 - [ ] Present complete 2A review; obtain its named human acceptance before dependent 2B execution.
@@ -287,3 +287,24 @@ Latest user authorization covers phase sessions, isolated worktrees, local check
 ### Review
 
 Startup reconciliation and character integrity checks pass. Existing world session remains approval-blocked on its local documentation commit; its candidate packet is not accepted. Audition remains prepared-only with zero recordings. No native phase or physical-device readiness is credited. Exact follow-up work and ownership transfer are in the replacement handoff.
+
+## 2026-10-04 — Verified Astra master execution
+
+Exclusive shared-file coordinator: `01a109d6-41e2-7a23-a52b-a17ab5d749bb`, verified `gpt-6-astra`. Existing Sol phase sessions retain phase ownership.
+
+### Plan and pre-execution check-in
+
+- [x] Read replacement handoff first, verify model/Git and retain coordinator history.
+- [ ] Review saved contracts and existing phase responses.
+- [ ] Independently verify world scope/ancestry/hashes/protected files/layers/rebuilds and actual samples.
+- [ ] Verify refreshed audition preflight and exact handoff; zero live requests.
+- [ ] Secret-scan and integrate verified candidate checkpoints; no delivery or human acceptance inferred.
+- [ ] Present world/composition/icon/font/name and voice decision packets.
+- [ ] Prepare next bounded phase brief while human gates remain pending.
+- [ ] Record verification, exact commits and next required human decision.
+
+Authorized technical work proceeds now. Dependent 2B production requires named human world review; native work requires complete pack acceptance and explicit CNT-01 authorization. No new push.
+
+### Review
+
+In progress.
