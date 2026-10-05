@@ -6,10 +6,12 @@
     "command": "gitleaks git --pre-commit --staged --redact --no-banner",
     "exit_code": 0,
     "result": "no leaks found",
-    "staged_text_bytes_approx": 513532,
+    "staged_text_bytes_approx": 564055,
     "note": "0 commits scanned is expected for staged diff mode; scan covered staged patch text. Binary assets decode/hash audited separately."
   },
   "focused_review": "no unresolved routine technical findings; human decisions pending",
   "scope": "owned phase files only; 383 protected files unchanged",
-  "native_build": "none"
+  "native_build": "none",
+  "production_packet_commit": "99d78cac3f5cf6397e3479c5013cf3ddf53bb638",
+  "completed_handoff": "following documentation-only checkpoint, re-scanned before commit"
 }
