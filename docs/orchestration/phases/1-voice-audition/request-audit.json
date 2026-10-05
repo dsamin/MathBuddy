@@ -1,0 +1,147 @@
+{
+  "checked_date": "2026-10-04",
+  "status": "preflight-only",
+  "source_hashes": {
+    "assets/production/picnic-v1/requests/voice/request-manifest.json": "53c93d751ae263b3f00caf3cbb17b35917a5c83d857d28776c449f4f8453ae5a",
+    "docs/planning/voice-script-catalog.json": "eb7bb074d6356bd19609cd37e33578b1b3f78636f4651cf353e3e9224deb32ee",
+    "assets/production/picnic-v1/requests/voice/catalog-audition-snapshot.json": "f33cbc015cd528f5b1d67f691eeda8aead961d4ae6ddacde04da73489da727ef",
+    "docs/planning/asset-production-plan.md": "1a00e44b9c8b3ac6bd630d4fa2881434af69b6bbf8a45067b7dc2fcd1e5a68c3",
+    "docs/plans/2026-10-03-direction-b-next-steps.md": "56415207579450725873eccb19c9ac8b2d07ca60172be029ae60bad79f418139",
+    "tasks/lessons.md": "d6807fe3cbbef935b62a6f01df18033a9b796241fe59ebbd8e0dd348795f6067",
+    "assets/production/picnic-v1/metadata/voice-capability.json": "427894c9a58beadb872667ca3c60497a3656f8f3925cc57f3c67d65234dd6ea5",
+    "assets/production/picnic-v1/metadata/provider-rights.json": "4e44972f4c4003a9dbbfe9aaafc6cf38b347d45f4eb52d30c0ca4cdd441f0f46",
+    "assets/production/picnic-v1/review/listening/README.md": "70e1bd6a2997d36b646a1a7dff26712a2c52f055fccea6406cb0aba15aeb0b67",
+    "assets/production/picnic-v1/review/listening/adult-listening-worksheet.csv": "5b5a14e879d3d8d2ef68869598da00c45ca030f1858c57713ab414382ec411bb",
+    "assets/production/picnic-v1/review/listening/index.html": "2adb600f8cb4470b926533530f88adbae3df0a3e4fe0b0292d38d4a76ea96c89",
+    "assets/production/picnic-v1/review/listening/playlist.json": "09f10dcff4b53798d5025db545f1a4e6796cad2b458727a1f925ef2c8dc91e83"
+  },
+  "requests": [
+    {
+      "take_id": "p1-cedar-VO-WELCOME-t01",
+      "script_id": "VO-WELCOME",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-WELCOME-t01.request.json",
+      "request_sha256": "bf09e0a3b5178d4bf5f9a7b45363d69239a83970450bc008a4149ee076de4407",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-WELCOME/p1-cedar-VO-WELCOME-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-marin-VO-WELCOME-t01",
+      "script_id": "VO-WELCOME",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-WELCOME-t01.request.json",
+      "request_sha256": "27adec2bdd612d8a33fd8b849731fe9964f86f2f9b07688553d27366b2f6452e",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-WELCOME/p1-marin-VO-WELCOME-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-cedar-VO-COUNT-BERRY-03-t01",
+      "script_id": "VO-COUNT-BERRY-03",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-BERRY-03-t01.request.json",
+      "request_sha256": "2d145744b05ad2224d94ddb72973e0b8f7f6cacd13da9ab04a0f61af52fe3e1a",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-BERRY-03/p1-cedar-VO-COUNT-BERRY-03-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-marin-VO-COUNT-BERRY-03-t01",
+      "script_id": "VO-COUNT-BERRY-03",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-BERRY-03-t01.request.json",
+      "request_sha256": "972597070ebba86e1a82743591c2a918e0d196c6867206ff37930dafa20da34d",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-BERRY-03/p1-marin-VO-COUNT-BERRY-03-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-cedar-VO-COUNT-TOO-MANY-t01",
+      "script_id": "VO-COUNT-TOO-MANY",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-COUNT-TOO-MANY-t01.request.json",
+      "request_sha256": "178c598a35bd5fabfd539b1401bf4a12c2b7acc16db07254a5bfd9625b6b7cb3",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-TOO-MANY/p1-cedar-VO-COUNT-TOO-MANY-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-marin-VO-COUNT-TOO-MANY-t01",
+      "script_id": "VO-COUNT-TOO-MANY",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-COUNT-TOO-MANY-t01.request.json",
+      "request_sha256": "0e4a50c61bf69debb9c1f46ecc3da485845b1ba9e6cc541e66f60b3932c55d40",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-COUNT-TOO-MANY/p1-marin-VO-COUNT-TOO-MANY-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-cedar-VO-JOIN-TOTAL-t01",
+      "script_id": "VO-JOIN-TOTAL",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-JOIN-TOTAL-t01.request.json",
+      "request_sha256": "de4c98a582d606a3220dfb7be2b744c8679e36fff464a4b431714bcf0497104c",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-JOIN-TOTAL/p1-cedar-VO-JOIN-TOTAL-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-marin-VO-JOIN-TOTAL-t01",
+      "script_id": "VO-JOIN-TOTAL",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-JOIN-TOTAL-t01.request.json",
+      "request_sha256": "43da20798781edee47e64fd9fb803f52503f6d2649b8164145de0672858dcf3a",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-JOIN-TOTAL/p1-marin-VO-JOIN-TOTAL-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-cedar-VO-BYE-t01",
+      "script_id": "VO-BYE",
+      "voice": "cedar",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-cedar-VO-BYE-t01.request.json",
+      "request_sha256": "48e25c592466e52f0987b34ede7958289845f223c1ae64162a04ced42b6f5b4e",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-BYE/p1-cedar-VO-BYE-t01.wav",
+      "output_exists": false
+    },
+    {
+      "take_id": "p1-marin-VO-BYE-t01",
+      "script_id": "VO-BYE",
+      "voice": "marin",
+      "request_path": "assets/production/picnic-v1/requests/voice/p1-marin-VO-BYE-t01.request.json",
+      "request_sha256": "c36229796e579aaf0440c8546780c4151b517e39b4b399b6647665f98b2ca123",
+      "verified": true,
+      "expected_master_path": "assets/production/picnic-v1/masters/audio/en-US/VO-BYE/p1-marin-VO-BYE-t01.wav",
+      "output_exists": false
+    }
+  ],
+  "exact_lines": [
+    {
+      "id": "VO-WELCOME",
+      "text": "Hello! Let’s get our picnic ready."
+    },
+    {
+      "id": "VO-COUNT-BERRY-03",
+      "text": "Put three berries in the basket."
+    },
+    {
+      "id": "VO-COUNT-TOO-MANY",
+      "text": "There are too many. Tap a piece in the basket to give it back."
+    },
+    {
+      "id": "VO-JOIN-TOTAL",
+      "text": "How many are on the shared mat? Choose a number."
+    },
+    {
+      "id": "VO-BYE",
+      "text": "Bye for now. Your garden will be here."
+    }
+  ],
+  "total_input_characters_excluding_instructions": 428,
+  "total_words_excluding_instructions": 88,
+  "recordings": 0,
+  "provider_calls": 0,
+  "checks": "all assertions passed"
+}
